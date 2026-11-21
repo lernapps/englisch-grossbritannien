@@ -1,10 +1,14 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
-# The strand of the learning map the app stays in, <subject>/<strand> (e.g. mathematik/stochastik); then each page
-# names its competencies. none: the app is on no strand, and no page names competencies. A unit app across the strands
-# of a subject whose map allows it names subject: <subject> (e.g. franzoesisch) instead of strand.
-strand: none
-title: Platzhalter
-intro: Dieses Kapitel hält den Platz frei, bis der geplante Inhalt da ist.
+subject: englisch
+title: "Großbritannien: Stadt, Inseln, London"
+intro: Sophie (11, aus Deutschland) wohnt bei der Familie Parker in Millbrook. Mit Ellie (11), Peter (9), Amir (11), Mr Hill und Mrs Parker findet sie sich erst in der Stadt zurecht, dann entdeckt sie die Britischen Inseln und zuletzt London. Du lernst nach dem Weg zu fragen und ihn zu beschreiben, einzukaufen, Schilder zu lesen, und du stellst Großbritannien, eine Region und London mit seinen Römern und den Menschen dort vor.
 languages: [de]
-chapters: [thema]
+scope:
+  text: Die App erklärt Kindern im ersten und zweiten Lernjahr Englisch, wie sie sich in einer britischen Stadt zurechtfinden und Großbritannien vorstellen. Eine Karte zoomt heraus. Zuerst kommt der Plan von Millbrook mit Wegen, Läden und Schildern. Dann folgt die Karte der Britischen Inseln mit England, Schottland, Wales und Nordirland, mit einer Region (Cornwall) und dem Vergleich von Stadt und Land. Zuletzt steht London mit den Römern (Londinium, Hadrian's Wall, Bath), den Sehenswürdigkeiten und der Vielfalt der Menschen. Beispiele stammen aus dem Alltag von Sophie, Ellie, Peter und Amir. Die Karten sind Schemakarten und nicht maßstabsgerecht.
+  out:
+    - Die Klassenfahrt nach London mit Reisen, Fahrkarten und Klischees (Stufe 7-8, später)
+    - Normannen 1066, Tudors und das politische System (Stufe 7-8, später)
+    - USA, Kanada und Australien (steht im Explainer „Gesellschaft und Politik“)
+    - Politik als Thema für Diskussionen
+chapters: [wege-laeden-schilder]

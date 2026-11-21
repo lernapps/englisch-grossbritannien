@@ -1,0 +1,244 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Den Weg beschreiben: Millbrook auf dem Plan"
+description: Sophie und Ellie gehen mit dem Plan von Millbrook durch die Stadt. Du lernst, Orte zu benennen und einen einfachen Weg zu beschreiben.
+competencies: [stadt-wegbeschreibung]
+scope: Die Seite führt den Plan von Millbrook ein (library, bakery, post office, park, school, clothes shop, supermarket, station an High Street, Church Road und Mill Lane). Ein Weg ist eine Folge von Befehlen (Turn left. Go straight on. Cross the road.). Das Ziel wird mit on the left, on the right, next to und opposite beschrieben. Typische Fehler sind turn to left, You turn right und links und rechts verwechselt. Nicht hier, weil es spätere Seiten sind. Schilder und Fahrpläne und das Einkaufen.
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie und Ellie mit dem Plan
+    blocks:
+      - type: figure
+        image: images/szene-stadtplan.svg
+        alt: Zwei Mädchen stehen unter einem Schild mit dem Wort Millbrook und halten einen Stadtplan.
+        caption: "Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: Es ist Samstag. Mrs Parker setzt Sophie und Ellie vor der Millbrook School ab. Heute gehen die beiden zu Fuß durch die Stadt. Sie haben einen Plan von Millbrook dabei, einen **Schemaplan**. Er ist nicht maßstabsgerecht, aber er zeigt alle Straßen und Orte.
+      - type: figure
+        image: images/stadtplan-millbrook.svg
+        alt: Plan von Millbrook. Eine lange Straße, die High Street, geht von West nach Ost. Zwei Straßen, Church Road und Mill Lane, kreuzen sie. Nördlich der High Street liegen library, bakery, post office und park, südlich school, clothes shop, supermarket und station. Ein grüner Punkt markiert den Start vor der school. Schemaplan, nicht maßstabsgerecht.
+        caption: Der Plan von Millbrook (Schemaplan, nicht maßstabsgerecht). Norden ist oben, der grüne Punkt ist der Start.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: single-choice
+        id: wege-start
+        text: "Sophie steht vor der school und fragt nach der library. Ellie zeigt auf den Plan und sagt: „The library is opposite the school.“ Wo ist die library?"
+        options:
+          - text: gegenüber der school
+            correct: true
+            info: opposite heißt gegenüber. Die library liegt auf der anderen Seite der High Street.
+          - text: neben der school
+            correct: false
+            info: neben heißt next to. Zwischen der library und der school liegt aber die ganze Straße.
+          - text: hinter der school
+            correct: false
+            info: hinter heißt behind. Auf dem Plan liegt die library nicht hinter der school.
+        explanation: Auf dem Plan liegen die school und die library an der High Street auf zwei Seiten, sie liegen sich gegenüber.
+        links:
+          - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
+      - type: text
+        text: "**Das kannst du danach:** Du nennst Orte auf dem Plan und beschreibst einen einfachen Weg: abbiegen, geradeaus gehen und sagen, wo das Ziel liegt. Du kennst die Präpositionen des Ortes und den Imperativ schon von den Seiten davor."
+  - type: section
+    id: neu
+    title: Ein Weg besteht aus Pfeilen
+    blocks:
+      - type: text
+        text: Ein Weg besteht aus einzelnen Schritten, die du dir als **Pfeile** auf dem Plan vorstellen kannst. Für jeden Pfeil gibt es einen Befehl, den **Imperativ**. Am Ziel sagst du, wo es liegt.
+      - type: figure
+        image: images/stadtplan-beispielweg.svg
+        alt: Plan von Millbrook mit einem orangefarbenen Weg. Er beginnt an der school, geht nach oben bis zur High Street, biegt ab und führt nach Osten bis hinter die Church Road. Drei Stellen sind mit 1, 2 und 3 markiert. Schemaplan, nicht maßstabsgerecht.
+        caption: Ein Weg von der school zur bakery, in drei Schritten (Schemaplan, nicht maßstabsgerecht).
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Pfeile und Sätze
+        header: [Schritt, Satz]
+        rows:
+          - [1 abbiegen, Turn right.]
+          - [2 geradeaus, Go straight on. Cross Church Road.]
+          - [3 ankommen, The bakery is on the left.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Nach **turn** steht direkt **left** oder **right**: Turn left. Nie „turn to left“. Der Befehl hat kein „you“: Go straight on. Am Ziel sagst du **on the left** oder **on the right**. Mit **next to** sagst du, was daneben liegt, mit **opposite**, was gegenüber liegt. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [bakery, Bäckerei]
+          - [post office, Post]
+          - [turn left / turn right, links / rechts abbiegen]
+          - [go straight on, geradeaus weitergehen]
+          - [cross, überqueren]
+          - [opposite, gegenüber]
+          - [next to, neben]
+          - [on the left / on the right, links / rechts]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: wege-zuordnen
+        text: Welcher englische Ausdruck passt? Ordne zu.
+        pairs:
+          - left: links abbiegen
+            right: turn left
+          - left: geradeaus weitergehen
+            right: go straight on
+          - left: gegenüber der Post
+            right: opposite the post office
+          - left: neben der Bäckerei
+            right: next to the bakery
+        explanation: turn left ist links abbiegen, go straight on ist geradeaus weitergehen, opposite ist gegenüber und next to ist neben.
+        hint: Achte auf die kleinen Wörter. opposite und next to sagen, wo etwas liegt.
+        links:
+          - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
+      - type: language-task
+        id: wege-plan
+        languages: { source: de, target: en }
+        mode: choice
+        task: Du stehst vor der school und willst zur station. Schau auf den Plan und wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        material:
+          - type: figure
+            image: images/stadtplan-millbrook.svg
+            alt: Plan von Millbrook mit High Street, Church Road und Mill Lane. Der grüne Punkt vor der school ist der Start. Schemaplan, nicht maßstabsgerecht.
+            caption: Der Plan von Millbrook. Du gehst selbst und schaust in Gehrichtung.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - cue: Von der school aus gehst du nach Osten in die High Street.
+            target: Turn [right] into High Street.
+            distractors: [[left]]
+            mistakes:
+              - answer: Turn left into High Street.
+                message: Du stehst vor der school und schaust zur Straße, nach Norden. Osten ist dann rechts.
+          - cue: Du gehst bis zur Mill Lane. Dort willst du nach Süden gehen.
+            target: Turn [right] into Mill Lane.
+            distractors: [[left]]
+            mistakes:
+              - answer: Turn left into Mill Lane.
+                message: Du schaust nach Osten. Süden liegt dann rechts von dir.
+          - cue: Du gehst in der Mill Lane nach Süden. Die station liegt im Osten.
+            target: The station is on the [left].
+            distractors: [[right]]
+            mistakes:
+              - answer: The station is on the right.
+                message: Du schaust nach Süden. Osten liegt dann links von dir.
+        hint: Drehe den Plan in Gedanken, so dass du in Gehrichtung schaust. Dann siehst du, was links und rechts ist.
+      - type: ordering
+        id: wege-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [The, supermarket, is, opposite, the, post, office]
+        explanation: Zuerst steht das Ding, dann is, dann opposite und zuletzt der Ort, auf den sich der Satz bezieht.
+        hint: Der Satz beginnt mit the und dem Ort, den du beschreibst. opposite steht direkt vor dem anderen Ort.
+        links:
+          - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
+      - type: true-false
+        id: wege-gegenueber
+        text: "Peter sagt: „The supermarket is opposite the bakery.“ Stimmt der Satz für den Plan von Millbrook?"
+        answer: false
+        hint: Suche zuerst die bakery auf dem Plan und schau, was auf der anderen Seite der High Street liegt.
+        explanation: Genau gegenüber der bakery liegt der Kleidungsladen (clothes shop). Der supermarket liegt weiter rechts, nur schräg gegenüber.
+        links:
+          - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
+      - type: language-task
+        id: wege-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Biege links ab.
+            target: Turn left.
+            mistakes:
+              - answer: Turn to left.
+                message: Nach turn steht direkt left, ohne „to“.
+              - answer: You turn left.
+                message: Ein Befehl hat kein you. Er beginnt mit dem Verb.
+          - source: Gehe geradeaus weiter.
+            target: Go straight( on|).
+            mistakes:
+              - answer: You go straight on.
+                message: Ein Befehl hat kein you. Er beginnt mit dem Verb.
+              - answer: Go on straight.
+                message: Die Reihenfolge ist go straight on.
+          - source: Die Post ist neben der Bäckerei.
+            target: The post office is next to the bakery.
+            mistakes:
+              - answer: The post office is near of the bakery.
+                message: Neben heißt next to. near of gibt es nicht.
+              - answer: The post office is on the bakery.
+                message: on heißt auf. Neben heißt next to.
+        hint: Ein Befehl beginnt mit dem Verb. Für „neben“ brauchst du zwei Wörter.
+      - type: language-task
+        id: wege-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Turn to right.
+            target: Turn right.
+            mistakes:
+              - answer: Turn to right.
+                message: Nach turn steht direkt right, ohne „to“.
+          - cue: You go straight on.
+            target: Go straight on.
+            mistakes:
+              - answer: You go straight on.
+                message: Ein Befehl hat kein you.
+        hint: Prüfe das Wort nach turn und den Anfang des Befehls.
+      - type: language-task
+        id: wege-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: cross-the-road-and-turn-left.mp3
+            target: Cross the road and turn left.
+          - audio: the-park-is-opposite-the-station.mp3
+            target: The park is opposite the station.
+          - audio: ellie-is-next-to-the-library.mp3
+            target: Ellie is next to the library.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: wege-nachsprechen
+        language: en
+        items:
+          - audio: turn-left-at-the-post-office.mp3
+            text: Turn left at the post office.
+          - audio: go-straight-on-to-the-park.mp3
+            text: Go straight on to the park.
+          - audio: the-supermarket-is-next-to-the-clothes-shop.mp3
+            text: The supermarket is next to the clothes shop.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf left, straight und opposite.
+      - type: open-task
+        id: wege-park
+        task: "Ein Gast fragt Sophie: „Where is the park?“ Beschreibe den Weg von der school zum park in zwei bis vier Sätzen."
+        points:
+          - text: Die Sätze sind Befehle ohne you (zum Beispiel Turn right.).
+            source: /wege-laeden-schilder/stadt-wegbeschreibung/#neu
+          - text: Der Weg geht in die High Street und bis zur Mill Lane.
+            source: /wege-laeden-schilder/stadt-wegbeschreibung/#neu
+          - text: Am Ziel steht, auf welcher Seite der park liegt (on the left oder on the right).
+            source: /wege-laeden-schilder/stadt-wegbeschreibung/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Turn right. Go straight on to Mill Lane. Turn left. The park is on the right.
+  - type: section
+    id: weiter
+    title: Weiter durch Millbrook
+    blocks:
+      - type: text
+        text: Sophie und Ellie sind jetzt auf der High Street unterwegs. An der Tür der Bäckerei hängt ein Schild, und Sophie versteht es nicht. Was steht darauf? Das erfährst du auf der nächsten Seite.

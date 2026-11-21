@@ -197,12 +197,12 @@ page, which a link. -->
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Musterseite Kapitel 1 `stadt-wegbeschreibung` komplett: App-Rahmen (app.yaml, Kapitel wege-laeden-schilder), Bilder `stadtplan-millbrook` und Szene (make_images.py), alle Abschnitte, Übungen, 6 Audiosätze, Inhaltsführer
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
