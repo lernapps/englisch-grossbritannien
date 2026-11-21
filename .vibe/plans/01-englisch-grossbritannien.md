@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -108,9 +108,10 @@ Von außen braucht die Karte: `praepositionen-ort` (#475), `imperativ` (#473), `
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Du darfst es ausführen!
 
 ### Answers
 
@@ -136,15 +137,15 @@ Von außen braucht die Karte: `praepositionen-ort` (#475), `imperativ` (#473), `
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
@@ -158,6 +159,26 @@ checks and what it cannot; how a later agent adds a chapter. It becomes the cont
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+**Wörter:** Quelle ist der Grundwortschatz Englisch (`https://lernapps.net/apps/map/englisch/grundwortschatz/`, A1/A2). Übungen fragen A1/A2-Wörter ab; Wörter außerhalb (Landeskunde: Roman, wall, castle, tower, bridge, museum, palace, island, capital, region; Läden: jumper, trousers, size) stehen vorher in genau einer kurzen Wörter-Tabelle je Seite mit Bedeutung und sind im Inhaltsführer gelistet. Eigennamen (Hadrian's Wall, Londinium) stehen im Text und in der Bildunterschrift.
+**Hören und Sprechen:** ja, Stimme `bf_emma`, Skill `lernapps-audio`; je Seite 3 Diktat- und 3 Nachsprechsätze, jeweils neue Sätze (nie im Text, Poster, Merke, Bild oder in einer Aufgabe derselben Seite; Skript prüft das), `regen_audio.py` aus #470, Namen am Satzende zweisilbig.
+**Übungsarten wechseln von Seite zu Seite:** Plan oder Karte lesen und zuordnen (`matching`, `single-choice`, `true-false` mit Begründung), Weg und Reihenfolge (`ordering`), Lücke (`language-task` choice/gap), Form mit englischem Cue (`write`), Tabelle füllen (`table`), Text entnehmen, Übersetzen, Korrigieren, Diktat, Nachsprechen, `open-task`. Je Übung `mistakes` mit eigener Meldung, Distraktoren nur echte Lernerfehler; höchstens eine kurze Wörtertabelle je Seite; `(a|b)` für gleichwertige Antworten; `punctuation: ok`.
+**Aufbau der Seiten:** Abschnitte `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` wie #476. Wiederholungsseiten: nur `einstieg` mit Text und höchstens einer Tabelle, ohne Übung und ohne `competencies`.
+**Bilder (alle eigene Zeichnungen, `CC-BY-4.0`, Quelle „eigene Zeichnung“), Lernhandlung je Bild (`explainer-representation-explained`):** Erzeugt von `.agents/skills/app-content/scripts/make_images.py` (SVG aus Koordinaten; Figuren als `<g id>` aus `millbrook-klassenzimmer.svg` von #470). `stadtplan-millbrook`: Raster mit Straßen und Orten; die Kinder folgen mit dem Finger einem Pfeilweg und lesen daraus Sätze. `schilder-fahrplan-karte`: Schild, Fahrplan, Speisekarte und Flyer als gezeichnete Kärtchen; die Kinder suchen gezielt eine Information. `laden-preisschilder`: Regal mit Preisschildern und Größen. `karte-inseln`: vereinfachte, selbst gezeichnete Umrisse von Great Britain und Ireland, vier Teile eingefärbt, Hauptstädte als Punkte; die Kinder lesen Teile und Hauptstädte ab und trennen UK, Great Britain und Ireland (keine Vorlage aus Atlas oder Wikipedia kopiert). `karte-cornwall`: Skizze der Südwestspitze mit drei Orten. `zeitstrahl-roemer`: Strahl mit AD 43, um 47 bis 50, 122 (nach Prüfung der Quelle). `karte-london`: Themse und die Halte des Rundgangs; die Kinder legen die Reihenfolge fest. `familie-amir`: Szene mit Amirs Familie. Schrift mindestens 16 im 480er viewBox, `alt` nennt nie die Lösung, die Bildunterschrift nennt, wer wer ist. Keine Fotos und Videos (Lizenz und Quelle nicht geprüft).
+**Keine Komponente, keine Datendatei** (`prefer-built-in-block`): Karten sind Bilder, die Aufgaben darunter prüfen das Lesen. Grenze: nichts prüft ein Klicken auf der Karte; ein Ziehen-Puzzle England/Schottland/Wales/Nordirland wäre ein Wunsch für die Vorlage, hier `matching` und Auswahl am Bild. Zeitstrahl als Bild; der Block `timeline` erst ab Kapitel 5 mit Datendatei.
+**Voraussetzungen, die die App nicht übt:** Kapitel 1 `praepositionen-ort`, `imperativ`, `zahlen` (eine Sammel-Wiederholungsseite); Kapitel 2 `vergleiche` (eine Wiederholungsseite); Kapitel 3 keine.
+**Seiten, eine Zeile je Seite (Einstieg · Wechsel · Belohnung · Geschichte):**
+- `das-brauchst-du` (K1, ohne Übung): Sophie und Mrs Parker gehen am Samstag in die Stadt; Text, je Baustein ein Link zur Karte, Tabelle „Klassenzimmer-Poster · Das brauchst du für den Stadtplan“.
+- `stadt-wegbeschreibung` (Musterseite): Sophie sucht die Bibliothek (Frage am Plan) · Plan lesen, Weg ordnen, Weg schreiben · Sophie kommt an · weiter: Schilder an der Straße.
+- `alltagstexte`: Schild „Closed“ an der Tür der Bäckerei, welche Textsorte? · Merkmale erkennen, Fahrplan und Speisekarte gezielt lesen · Sophie findet die Abfahrt und das Essen · weiter: Laden.
+- `kleidung-einkaufen`: Preisschild lesen (£, Zahlen) · Kleidung benennen, nach Größe und Preis fragen, Dialog im Laden · Sophie kauft eine Mütze für Peter (guess) · weiter: Wochenende, Ausflug.
+- `britische-inseln` (K2): Mr Hill hängt eine Karte auf, Millbrook liegt in England · Karte lesen, zuordnen, wahr oder falsch · Kinder sortieren UK, Great Britain, Ireland · weiter: Ausflug der Parkers.
+- `region-uk`: Peter fragt, wo Cornwall liegt · Steckbrief lesen, Region vorstellen · eigene Vorstellung · weiter: Vergleich Stadt und Land.
+- `stadt-land-uk`: Ellie sagt „London is bigger than Millbrook“ · Vergleiche mit than und as … as auf Stadt und Land · eigener Vergleichstext · weiter: London.
+- `roemer-in-britannien` (K3): Mr Hill: London ist fast 2000 Jahre alt, Londinium · Zeitstrahl lesen, zuordnen, Hinterlassenschaften · Kinder erzählen, was die Römer hinterlassen haben · weiter: Rundgang.
+- `london-sehenswuerdigkeiten`: Karte von London mit den Halten · Orte zuordnen und beschreiben, Rundgang ordnen · eigene Karte für Peter · weiter: Menschen in London.
+- `vielfalt-gb`: Amir stellt seine Familie vor · lesen, entscheiden, schreiben · Rückblick auf die drei Kapitel (Schulkalender · Rückblick Kapitel 1 bis 3).
+**Ein Kapitel später ergänzen:** Kapitel 4 und 5 sind eigene Seiten (Stufe 7-8: Chat-Form, Reisen, Klischees, 1066, Tudors, Politik); Karte und Zeitstrahl in `make_images.py` erweitern, Poster um Zeilen ergänzen; für Kapitel 5 eine Datendatei `src/data/` und der Block `timeline`.
 
 ## Code
 
@@ -182,11 +203,22 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Musterseite Kapitel 1 `stadt-wegbeschreibung` komplett: App-Rahmen (app.yaml, Kapitel wege-laeden-schilder), Bilder `stadtplan-millbrook` und Szene (make_images.py), alle Abschnitte, Übungen, 6 Audiosätze, Inhaltsführer
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Wiederholungsseite `das-brauchst-du` Kapitel 1 (praepositionen-ort, imperativ, zahlen), ohne Übung
+- [ ] Seite `alltagstexte` mit Bild der Schilder, Fahrplan und Speisekarte, Übungen und 6 Audiosätzen
+- [ ] Seite `kleidung-einkaufen` mit Laden-Bild, Übungen, 6 Audiosätzen und Selbsteinschätzung Kapitel 1
+- [ ] Kapitel 2: Wiederholungsseite `das-brauchst-du` (vergleiche) und Seite `britische-inseln` mit Karte der Inseln, Übungen, Audio
+- [ ] Seite `region-uk` (Cornwall) mit Kartenskizze, Übungen, Audio
+- [ ] Seite `stadt-land-uk` mit Vergleichen, Übungen, Audio, Selbsteinschätzung Kapitel 2
+- [ ] Kapitel 3: Seite `roemer-in-britannien` mit Zeitstrahl (Römer-Fakten gegen Wikipedia prüfen), Übungen, Audio
+- [ ] Seite `london-sehenswuerdigkeiten` mit Karte von London, Übungen, Audio
+- [ ] Seite `vielfalt-gb` mit Amirs Familie, Rückblick Kapitel 1 bis 3, Selbsteinschätzung Kapitel 3, Audio
+- [ ] Skript-Prüfung über alle Seiten: Hörsätze neu, Wörter vorher eingeführt, Distraktoren, mistakes je Item, Länge; Wiederholungsseiten und Karten-Verweise
+<!-- tasks: pages (10 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
