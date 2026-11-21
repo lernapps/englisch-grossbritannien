@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Wege, Läden und Schilder
 summary: Sophie und Ellie sind am Samstag mit dem Plan von Millbrook unterwegs. Du lernst den Weg zu beschreiben, Schilder, Fahrpläne und Speisekarten zu lesen und im Laden nach Größe und Preis zu fragen.
-pages: [das-brauchst-du, stadt-wegbeschreibung]
+pages: [das-brauchst-du, stadt-wegbeschreibung, alltagstexte, kleidung-einkaufen]

@@ -1,0 +1,251 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Schilder, Fahrpläne und Speisekarten lesen"
+description: Sophie und Ellie stehen vor der Bäckerei und lesen Schilder, Fahrpläne, Speisekarten und Flyer. Du lernst, die Textsorte zu erkennen und die eine Information zu finden, die du brauchst.
+competencies: [alltagstexte]
+scope: "Die Seite zeigt vier Alltagstexte der High Street: Schild, Fahrplan, Speisekarte und Flyer. Du erkennst die Textsorte an ihren Merkmalen (kurz und ein Hinweis, Tabelle mit Uhrzeiten, Gerichte mit Preisen, Ort mit Tag und Uhrzeit) und suchst gezielt eine Information, ohne jedes Wort zu verstehen. Typische Fehler sind Uhrzeit und Preis verwechseln, Abfahrt und Ankunft verwechseln und closed als Schließzeit lesen. Nicht hier, weil sie auf anderen Seiten folgen: Kleidung und Einkaufen, Wegbeschreibungen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ein Schild an der Tür
+    blocks:
+      - type: figure
+        image: images/szene-baeckerei-schild.svg
+        alt: Zwei Mädchen stehen vor einer Bäckerei. An der Tür hängt ein Blatt Papier. Über einem der Mädchen steht ein Fragezeichen.
+        caption: "Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz) vor der bakery."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie und Ellie sind auf der High Street. An der Tür der bakery hängt ein kleiner Zettel mit drei Wörtern: **Please come in.** Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“"
+      - type: single-choice
+        id: alltag-einstieg
+        text: Woran erkennt Ellie, dass der Zettel ein Schild ist?
+        options:
+          - text: Er ist kurz und sagt, was man tun soll.
+            correct: true
+            info: Ein Schild hat nur wenige Wörter. Es sagt dir, was du tun sollst oder wie es ist.
+          - text: Er hat eine Tabelle mit vielen Uhrzeiten.
+            correct: false
+            info: Eine Tabelle mit Uhrzeiten ist ein Fahrplan. Der Zettel an der Tür hat nur drei Wörter.
+          - text: Er hat eine Liste mit Gerichten und Preisen.
+            correct: false
+            info: Eine Liste mit Gerichten und Preisen ist eine Speisekarte. Der Zettel hat keine Preise.
+        explanation: Ellie erkennt das Schild an seiner Länge und an seinem Inhalt. Drei Wörter, die sagen, was man tun soll, sind typisch für ein Schild.
+        links:
+          - title: Lernlandkarte Englisch · Alltagstexte verstehen
+            url: https://lernapps.net/apps/map/englisch/c/alltagstexte/
+      - type: text
+        text: "**Das kannst du danach:** Ich kann Alltagstexte wie Fahrpläne, Speisekarten, Flyer und Schilder erkennen und ihnen gezielt Informationen entnehmen. Die Zahlen und Preise brauchst du dafür schon."
+  - type: section
+    id: neu
+    title: Erst die Textsorte, dann die Information
+    blocks:
+      - type: text
+        text: "Auf der High Street gibt es viele kurze Texte. Du erkennst sie am Aussehen. Danach suchst du **eine** Information, zum Beispiel eine Uhrzeit oder einen Preis. Das gelingt auch, wenn du viele Wörter nicht kennst."
+      - type: figure
+        image: images/alltagstexte-vier.svg
+        alt: Vier Kärtchen mit englischen Texten. Das erste ist ein Schild mit zwei Zeilen, das zweite ein Fahrplan mit einer Tabelle, das dritte eine Speisekarte mit drei Zeilen und das vierte ein Flyer mit einer Überschrift.
+        caption: Vier Textsorten auf der High Street (eigene Zeichnung).
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Ein **Schild** ist kurz und sagt, was man tun soll oder wie es ist. Ein **Fahrplan** ist eine Tabelle mit Uhrzeiten und Zielen. Eine **Speisekarte** zeigt Gerichte mit Preisen. Ein **Flyer** nennt einen Ort, einen Tag und eine Uhrzeit. Eine Uhrzeit hat einen Doppelpunkt (9:30, half past nine), ein Preis hat das Zeichen £. Im Fahrplan ist **leaves** die Abfahrt und **arrives** die Ankunft.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [sign, Schild]
+          - [timetable, Fahrplan]
+          - [menu, Speisekarte]
+          - [flyer, Flyer (ein Blatt mit Werbung)]
+          - [closed, geschlossen (das Gegenteil von open)]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: alltag-zuordnen
+        text: Welche Textsorte ist das? Ordne zu.
+        pairs:
+          - left: No dogs, please.
+            right: Schild
+          - left: Bus 4 · 8:05 · 8:35 · 9:05
+            right: Fahrplan
+          - left: Pizza £7 · Coffee £2
+            right: Speisekarte
+          - left: Party at the park · Friday · 6:00
+            right: Flyer
+        explanation: Das kurze „No dogs, please.“ ist ein Schild. Die Uhrzeiten gehören zu einem Fahrplan, die Preise zu einer Speisekarte. Der Ort mit Tag und Uhrzeit steht auf einem Flyer.
+        hint: Suche bei jedem Text das Merkmal, zum Beispiel Preise, Uhrzeiten oder einen Ort mit Tag.
+        links:
+          - title: Lernlandkarte Englisch · Alltagstexte verstehen
+            url: https://lernapps.net/apps/map/englisch/c/alltagstexte/
+      - type: single-choice
+        id: alltag-preis
+        text: Peter hat Hunger. Schau auf die Speisekarte. Wie viel kostet die Suppe (soup)?
+        material:
+          - type: figure
+            image: images/alltagstexte-material.svg
+            alt: Vier Kärtchen mit englischen Texten, darunter ein Schild, ein Fahrplan, eine Speisekarte und ein Flyer.
+            caption: Vier Texte von der High Street. Du brauchst nur einen davon.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        options:
+          - text: £4.50
+            correct: true
+            info: Das ist der Preis der Suppe. Ein Preis hat das Zeichen £.
+          - text: £3.50
+            correct: false
+            info: £3.50 ist der Preis vom Sandwich, nicht von der Suppe.
+          - text: "4:50"
+            correct: false
+            info: 4:50 ist eine Uhrzeit, kein Preis. Ein Preis hat das Zeichen £.
+        explanation: Auf der Speisekarte steht die Suppe mit £4.50. Du musst die anderen Zeilen nicht lesen.
+        hint: Suche zuerst das Wort soup und lies die Zahl daneben.
+        links:
+          - title: Lernlandkarte Englisch · Alltagstexte verstehen
+            url: https://lernapps.net/apps/map/englisch/c/alltagstexte/
+      - type: language-task
+        id: alltag-fahrplan
+        languages: { source: de, target: en }
+        mode: gap
+        task: Schau auf den Fahrplan und schreibe die Uhrzeit in die Lücke.
+        form: { case: hint, punctuation: ok }
+        material:
+          - type: figure
+            image: images/alltagstexte-material.svg
+            alt: Vier Kärtchen mit englischen Texten, darunter ein Schild, ein Fahrplan, eine Speisekarte und ein Flyer.
+            caption: Vier Texte von der High Street. Du brauchst nur einen davon.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - cue: Du willst wissen, wann der erste Zug in Fairfield ankommt.
+            target: "The first train arrives at [9:50|nine fifty]."
+            mistakes:
+              - answer: The first train arrives at 9:15.
+                message: 9:15 ist die Abfahrtszeit (leaves). Gesucht ist die Ankunft (arrives).
+          - cue: Du willst wissen, wann der letzte Zug abfährt.
+            target: "The last train leaves at [11:20|eleven twenty]."
+            mistakes:
+              - answer: The last train leaves at 11:55.
+                message: 11:55 ist die Ankunftszeit (arrives). Gesucht ist die Abfahrt (leaves).
+        hint: Suche die Überschrift leaves oder arrives und lies die Zeile des Zuges.
+      - type: single-choice
+        id: alltag-flyer
+        text: "Peter fragt: „Where is the Music Club?“ Welche Information auf dem Flyer beantwortet das?"
+        material:
+          - type: figure
+            image: images/alltagstexte-material.svg
+            alt: Vier Kärtchen mit englischen Texten, darunter ein Schild, ein Fahrplan, eine Speisekarte und ein Flyer.
+            caption: Vier Texte von der High Street. Du brauchst nur einen davon.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        options:
+          - text: Room 5
+            correct: true
+            info: Das ist der Ort. where fragt nach dem Ort.
+          - text: Friday
+            correct: false
+            info: Friday ist der Tag. Danach fragt when oder on which day.
+          - text: "4:30"
+            correct: false
+            info: 4:30 ist die Uhrzeit. Danach fragt what time.
+        explanation: Ein Flyer nennt Ort, Tag und Uhrzeit. where fragt nach dem Ort, hier Room 5.
+        hint: Ein Flyer hat drei Informationen. Eine davon ist ein Ort.
+        links:
+          - title: Lernlandkarte Englisch · Alltagstexte verstehen
+            url: https://lernapps.net/apps/map/englisch/c/alltagstexte/
+      - type: true-false
+        id: alltag-closed
+        text: "Schau auf das Schild. Peter sagt: „The shop closes at half past two.“ Stimmt der Satz?"
+        material:
+          - type: figure
+            image: images/alltagstexte-material.svg
+            alt: Vier Kärtchen mit englischen Texten, darunter ein Schild, ein Fahrplan, eine Speisekarte und ein Flyer.
+            caption: Vier Texte von der High Street. Du brauchst nur einen davon.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        answer: false
+        hint: Back heißt zurück. Überlege, ob der Laden jetzt offen oder zu ist.
+        explanation: Closed heißt, dass der Laden jetzt zu ist, und nicht, dass er gleich schließt. Back at 2:30 sagt, dass er um 2:30 wieder da ist. Peter hat closed als Schließzeit gelesen.
+        links:
+          - title: Lernlandkarte Englisch · Alltagstexte verstehen
+            url: https://lernapps.net/apps/map/englisch/c/alltagstexte/
+      - type: language-task
+        id: alltag-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe jede Information als englischen Satz auf.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Der Zug fährt um 8:45 ab.
+            target: "The train leaves at (8:45|quarter to nine)."
+            mistakes:
+              - answer: The train arrives at 8:45.
+                message: arrives heißt kommt an. Die Abfahrt heißt leaves.
+          - source: Die Milch kostet ein Pfund fünfzig.
+            target: "The milk (is|costs) (£1.50|one pound fifty)."
+            mistakes:
+              - answer: The milk is one pounds fifty.
+                message: Bei einem Pfund heißt es one pound ohne s.
+              - answer: The milk is half past one.
+                message: half past one ist eine Uhrzeit. Für einen Preis brauchst du pound.
+          - source: Der Club ist am Freitag.
+            target: "The club is on Friday."
+            mistakes:
+              - answer: The club is at Friday.
+                message: Vor einem Tag steht on, nicht at.
+              - answer: The club is in Friday.
+                message: Vor einem Tag steht on, nicht in.
+        hint: Lies die Zahl genau. Eine Uhrzeit ist keine Preisangabe, und ein Tag braucht on.
+      - type: language-task
+        id: alltag-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-shop-opens-at-nine-on-saturday.mp3
+            target: The shop opens at nine on Saturday.
+          - audio: the-cake-is-five-pounds-fifty-today.mp3
+            target: The cake is five pounds fifty today.
+          - audio: the-last-bus-leaves-at-ten-to-nine-tonight.mp3
+            target: The last bus leaves at ten to nine tonight.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: alltag-nachsprechen
+        language: en
+        items:
+          - audio: when-does-the-next-bus-leave-for-fairfield.mp3
+            text: When does the next bus leave for Fairfield?
+          - audio: how-much-is-the-apple-juice-today.mp3
+            text: How much is the apple juice today?
+          - audio: the-club-starts-at-four-on-friday-afternoon.mp3
+            text: The club starts at four on Friday afternoon.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Zahlen.
+      - type: open-task
+        id: alltag-schild
+        task: "Mr Hill möchte ein Schild für eure Klassentür. Schreibe das Schild auf Englisch: zwei bis vier kurze Zeilen mit einem Hinweis und einer Uhrzeit oder einem Tag."
+        points:
+          - text: Das Schild ist kurz und sagt, was man tun soll oder wie es ist.
+            source: /wege-laeden-schilder/alltagstexte/#neu
+          - text: Eine Uhrzeit hat einen Doppelpunkt (zum Beispiel 8:30), ein Tag steht nach on.
+            source: /wege-laeden-schilder/alltagstexte/#neu
+          - text: Wenn du closed schreibst, meinst du, dass es jetzt zu ist.
+            source: /wege-laeden-schilder/alltagstexte/#neu
+          - text: Jede Zeile beginnt mit einem Großbuchstaben.
+            kind: form
+        solution: |
+          Please wait here.
+          Open: Monday to Friday, 8:30 to 1:00.
+          Closed on Saturday.
+  - type: section
+    id: weiter
+    title: Weiter durch Millbrook
+    blocks:
+      - type: text
+        text: "Die bakery ist offen. Sophie und Ellie gehen weiter die High Street entlang. Im Fenster des clothes shop sieht Sophie eine Mütze. Peters Mütze ist alt. Wie fragt man im Laden nach Größe und Preis? Das erfährst du auf der nächsten Seite."

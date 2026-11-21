@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Die Britischen Inseln
+summary: Mr Hill hängt eine große Karte auf, und der Plan von Millbrook zoomt heraus. Du lernst die Teile des Vereinigten Königreichs und ihre Hauptstädte kennen, stellst eine Region wie Cornwall vor und vergleichst das Leben in der Stadt und auf dem Land.
+pages: [das-brauchst-du, britische-inseln, region-uk, stadt-land-uk]

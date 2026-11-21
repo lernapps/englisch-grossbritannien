@@ -101,8 +101,8 @@ def szene_london_rundgang():
     b = _floor()
     b += '  <rect y="236" width="640" height="26" fill="#9cc3e6"/>\n'
     b += rect(60, 130, 80, 106, "#d9d0bb", sw=2) + rect(150, 100, 70, 136, "#cdbfa6", sw=2) + rect(440, 120, 90, 116, "#d9d0bb", sw=2) + rect(540, 150, 70, 86, "#cdbfa6", sw=2)
-    b += kid("hill", 250, 110, .85) + kid("peter", 340, 120, .8) + kid("sophie", 420, 110, .85)
-    return svg(640, 340, "Mr Hill, Peter und Sophie gehen an einem Fluss entlang, hinter ihnen stehen Häuser", b)
+    b += kid("hill", 250, 110, .85) + kid("amir", 340, 110, .85) + kid("sophie", 420, 110, .85)
+    return svg(640, 340, "Mr Hill, Amir und Sophie gehen an einem Fluss entlang, hinter ihnen stehen Häuser", b)
 
 @image
 def szene_familien():

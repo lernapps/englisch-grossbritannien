@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: London
+summary: Mr Hills Klasse verbringt einen Tag in London. Du lernst, was die Römer in Britannien hinterlassen haben, wichtige Sehenswürdigkeiten Londons zu beschreiben und von den vielen verschiedenen Menschen in Großbritannien zu erzählen.
+pages: [roemer-in-britannien, london-sehenswuerdigkeiten, vielfalt-gb]
