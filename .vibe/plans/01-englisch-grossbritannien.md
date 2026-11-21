@@ -217,19 +217,19 @@ page, which a link. -->
       change: change the pattern first.
       Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Die anderen Seiten dürfen folgen, sobald die Auflagen auf der Musterseite umgesetzt sind
 - [x] Wiederholungsseite `das-brauchst-du` Kapitel 1 (praepositionen-ort, imperativ, zahlen), ohne Übung
-- [ ] Seite `alltagstexte` mit Bild der Schilder, Fahrplan und Speisekarte, Übungen und 6 Audiosätzen
-- [ ] Seite `kleidung-einkaufen` mit Laden-Bild, Übungen, 6 Audiosätzen und Selbsteinschätzung Kapitel 1
-- [ ] Kapitel 2: Wiederholungsseite `das-brauchst-du` (vergleiche) und Seite `britische-inseln` mit Karte der Inseln, Übungen, Audio
-- [ ] Seite `region-uk` (Cornwall) mit Kartenskizze, Übungen, Audio
-- [ ] Seite `stadt-land-uk` mit Vergleichen, Übungen, Audio, Selbsteinschätzung Kapitel 2
-- [ ] Kapitel 3: Seite `roemer-in-britannien` mit Zeitstrahl (Römer-Fakten gegen Wikipedia prüfen), Übungen, Audio
-- [ ] Seite `london-sehenswuerdigkeiten` mit Karte von London, Übungen, Audio
-- [ ] Seite `vielfalt-gb` mit Amirs Familie, Rückblick Kapitel 1 bis 3, Selbsteinschätzung Kapitel 3, Audio
-- [ ] Skript-Prüfung über alle Seiten: Hörsätze neu, Wörter vorher eingeführt, Distraktoren, mistakes je Item, Länge; Wiederholungsseiten und Karten-Verweise
+- [x] Seite `alltagstexte` mit Bild der Schilder, Fahrplan und Speisekarte, Übungen und 6 Audiosätzen
+- [x] Seite `kleidung-einkaufen` mit Laden-Bild, Übungen, 6 Audiosätzen und Selbsteinschätzung Kapitel 1
+- [x] Kapitel 2: Wiederholungsseite `das-brauchst-du` (vergleiche) und Seite `britische-inseln` mit Karte der Inseln, Übungen, Audio
+- [x] Seite `region-uk` (Cornwall) mit Kartenskizze, Übungen, Audio
+- [x] Seite `stadt-land-uk` mit Vergleichen, Übungen, Audio, Selbsteinschätzung Kapitel 2
+- [x] Kapitel 3: Seite `roemer-in-britannien` mit Zeitstrahl (Römer-Fakten gegen Wikipedia prüfen), Übungen, Audio
+- [x] Seite `london-sehenswuerdigkeiten` mit Karte von London, Übungen, Audio
+- [x] Seite `vielfalt-gb` mit Amirs Familie, Rückblick Kapitel 1 bis 3, Selbsteinschätzung Kapitel 3, Audio
+- [x] Skript-Prüfung über alle Seiten: Hörsätze neu, Wörter vorher eingeführt, Distraktoren, mistakes je Item, Länge; Wiederholungsseiten und Karten-Verweise
 <!-- tasks: pages (10 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
 - [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
