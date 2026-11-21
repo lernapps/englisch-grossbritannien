@@ -71,6 +71,10 @@ def szene_stadtplan():
     b += rect(240, 200, 160, 80, "#fff", sw=2) + '  <path d="M250 240 H390 M320 210 V270" stroke="#999" stroke-width="8"/>\n'
     return svg(640, 340, "Sophie und Ellie stehen mit einem Plan unter dem Ortsschild von Millbrook", b)
 
+import glob
+for _f in sorted(glob.glob(os.path.join(HERE, "bilder_*.py"))):  # further figures, one file per chapter, same helpers
+    exec(compile(open(_f, encoding="utf-8").read(), _f, "exec"))
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     for name, f in IMAGES.items():

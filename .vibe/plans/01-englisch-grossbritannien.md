@@ -212,10 +212,11 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Musterseite Kapitel 1 `stadt-wegbeschreibung` komplett: App-Rahmen (app.yaml, Kapitel wege-laeden-schilder), Bilder `stadtplan-millbrook` und Szene (make_images.py), alle Abschnitte, Übungen, 6 Audiosätze, Inhaltsführer
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-- [ ] Wiederholungsseite `das-brauchst-du` Kapitel 1 (praepositionen-ort, imperativ, zahlen), ohne Übung
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Die anderen Seiten dürfen folgen, sobald die Auflagen auf der Musterseite umgesetzt sind
+- [x] Wiederholungsseite `das-brauchst-du` Kapitel 1 (praepositionen-ort, imperativ, zahlen), ohne Übung
 - [ ] Seite `alltagstexte` mit Bild der Schilder, Fahrplan und Speisekarte, Übungen und 6 Audiosätzen
 - [ ] Seite `kleidung-einkaufen` mit Laden-Bild, Übungen, 6 Audiosätzen und Selbsteinschätzung Kapitel 1
 - [ ] Kapitel 2: Wiederholungsseite `das-brauchst-du` (vergleiche) und Seite `britische-inseln` mit Karte der Inseln, Übungen, Audio
