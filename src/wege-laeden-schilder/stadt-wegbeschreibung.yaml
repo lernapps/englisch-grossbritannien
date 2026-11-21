@@ -105,7 +105,7 @@ blocks:
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
-          - cue: Der Kleidungsladen liegt zwischen der Church Road und dem Supermarkt.
+          - cue: Der Kleidungsladen liegt zwischen der Church Road und …
             target: The clothes shop is between Church Road and the [supermarket].
             distractors: [[station, library]]
             mistakes:
@@ -113,7 +113,7 @@ blocks:
                 message: Die station liegt hinter der Mill Lane. Zwischen der Church Road und der Mill Lane liegen zwei Orte nebeneinander.
               - answer: The clothes shop is between Church Road and the library.
                 message: Die library liegt auf der anderen Seite der Church Road und der High Street.
-          - cue: Der Park liegt gegenüber vom Bahnhof.
+          - cue: Der Park liegt gegenüber von …
             target: The park is opposite the [station].
             distractors: [[school, library]]
             mistakes:
@@ -146,7 +146,7 @@ blocks:
             mistakes:
               - answer: Turn left into Mill Lane.
                 message: Du schaust nach Osten. Süden liegt dann rechts von dir.
-          - cue: Du gehst in der Mill Lane nach Süden. Die station liegt im Osten, auf dem Plan rechts.
+          - cue: Du gehst in der Mill Lane nach Süden. Die station liegt im Osten.
             target: The station is on the [left].
             distractors: [[right]]
             mistakes:
