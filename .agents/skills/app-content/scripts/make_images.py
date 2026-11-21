@@ -25,8 +25,11 @@ PLACES = {  # name: (x, y, w, h, colour); the label is the name
     "school": (20, 210, 110, 100, "#f3d9d9"), "clothes shop": (168, 210, 100, 100, "#fbe9a6"),
     "supermarket": (274, 210, 100, 100, "#d9f0ee"), "station": (408, 210, 102, 100, "#e0e0e0"),
 }
+def compass():
+    return ('  <g stroke="#333" stroke-width="2" fill="#333"><path d="M490 40 V12" fill="none"/><path d="M484 20 L490 8 L496 20 Z"/></g>\n'
+            + text(472, 30, "N", 16, weight="bold") + text(512, 190, "O", 14, fill="#555") * 0)
 def street_names():
-    return text(460, 186, "High Street", 16, fill="#222") + text(150, 32, "Church Road", 16, fill="#222") + text(390, 345, "Mill Lane", 16, fill="#222")
+    return compass() + text(460, 186, "High Street", 16, fill="#222") + text(150, 32, "Church Road", 16, fill="#222") + text(390, 345, "Mill Lane", 16, fill="#222")
 def plan_base(show=True):
     b = ""
     b += '  <g fill="#cfcfcf" stroke="#999" stroke-width="2"><rect x="0" y="170" width="520" height="20"/><rect x="140" y="0" width="20" height="360"/><rect x="380" y="0" width="20" height="360"/></g>\n'
@@ -53,7 +56,8 @@ def stadtplan_beispielweg():
     b = plan_base() + street_names()
     b += f'  <path d="M75 200 V180 H218" fill="none" stroke="{ORANGE}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>\n'
     b += f'  <path d="M206 172 L222 180 L206 188 Z" fill="{ORANGE}"/>\n'
-    b += text(75, 168, "1", 18, fill=ORANGE, weight="bold") + text(215, 166, "3", 18, fill=ORANGE, weight="bold") + text(150, 205, "2", 18, fill=ORANGE, weight="bold")
+    b += text(75, 166, "1", 18, fill=ORANGE, weight="bold") + text(218, 166, "3", 18, fill=ORANGE, weight="bold") + text(150, 166, "2", 18, fill=ORANGE, weight="bold")
+    b += '  <circle cx="75" cy="200" r="7" fill="#138d75" stroke="#333" stroke-width="2"/>\n'
     return svg(520, 360, "Plan von Millbrook mit einem Weg (Schemaplan)", b)
 
 @image

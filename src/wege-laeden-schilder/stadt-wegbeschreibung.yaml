@@ -19,7 +19,7 @@ blocks:
       - type: figure
         image: images/stadtplan-millbrook.svg
         alt: Plan von Millbrook. Eine lange Straße, die High Street, geht von West nach Ost. Zwei Straßen, Church Road und Mill Lane, kreuzen sie. Nördlich der High Street liegen library, bakery, post office und park, südlich school, clothes shop, supermarket und station. Ein grüner Punkt markiert den Start vor der school. Schemaplan, nicht maßstabsgerecht.
-        caption: Der Plan von Millbrook (Schemaplan, nicht maßstabsgerecht). Norden ist oben, der grüne Punkt ist der Start.
+        caption: Der Plan von Millbrook (Schemaplan, nicht maßstabsgerecht). Norden (N) ist oben, Osten rechts, Süden unten und Westen links. Der grüne Punkt ist der Start.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: single-choice
@@ -46,11 +46,11 @@ blocks:
     title: Ein Weg besteht aus Pfeilen
     blocks:
       - type: text
-        text: Ein Weg besteht aus einzelnen Schritten, die du dir als **Pfeile** auf dem Plan vorstellen kannst. Für jeden Pfeil gibt es einen Befehl, den **Imperativ**. Am Ziel sagst du, wo es liegt.
+        text: Ein Weg besteht aus einzelnen Schritten, die du dir als **Pfeile** auf dem Plan vorstellen kannst. Du kommst aus der school auf die High Street. Für jeden Pfeil gibt es einen Befehl, den **Imperativ**. Am Ziel sagst du, wo es liegt.
       - type: figure
         image: images/stadtplan-beispielweg.svg
         alt: Plan von Millbrook mit einem orangefarbenen Weg. Er beginnt an der school, geht nach oben bis zur High Street, biegt ab und führt nach Osten bis hinter die Church Road. Drei Stellen sind mit 1, 2 und 3 markiert. Schemaplan, nicht maßstabsgerecht.
-        caption: Ein Weg von der school zur bakery, in drei Schritten (Schemaplan, nicht maßstabsgerecht).
+        caption: Ein Weg von der school zur bakery, in drei Schritten (Schemaplan, nicht maßstabsgerecht). Der grüne Punkt ist der Start, bei 1 biegst du ab.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -65,7 +65,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Nach **turn** steht direkt **left** oder **right**: Turn left. Nicht „turn to left“. Der Befehl hat kein „you“: Go straight on. Am Ziel sagst du **on the left** oder **on the right**. Mit **next to** sagst du, was daneben liegt, mit **opposite**, was gegenüber liegt. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust.
+              Nach **turn** steht direkt **left** oder **right** (nicht „turn to left“). Ein Befehl hat kein „you“: Go straight on. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -74,7 +74,7 @@ blocks:
           - [post office, Post]
           - [turn left / turn right, links / rechts abbiegen]
           - [go straight on, geradeaus weitergehen]
-          - [cross, überqueren]
+          - [cross the road, die Straße überqueren]
           - [opposite, gegenüber]
           - [next to, neben]
           - [on the left / on the right, links / rechts]
@@ -103,29 +103,29 @@ blocks:
         id: wege-plan
         languages: { source: de, target: en }
         mode: choice
-        task: Du stehst vor der school und willst zur station. Schau auf den Plan und wähle das richtige Wort.
+        task: Du stehst vor der school und willst zur station. Du gehst selbst, Norden ist oben auf dem Plan. Schau auf den Plan und wähle das richtige Wort.
         form: { case: hint, punctuation: ok }
         material:
           - type: figure
             image: images/stadtplan-millbrook.svg
             alt: Plan von Millbrook mit High Street, Church Road und Mill Lane. Der grüne Punkt vor der school ist der Start. Schemaplan, nicht maßstabsgerecht.
-            caption: Der Plan von Millbrook. Du gehst selbst und schaust in Gehrichtung.
+            caption: Der Plan von Millbrook. Norden ist oben, Osten rechts. Du gehst selbst und schaust in Gehrichtung.
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
-          - cue: Von der school aus gehst du nach Osten in die High Street.
+          - cue: Du schaust von der school zur High Street, also nach Norden. Du willst nach Osten gehen.
             target: Turn [right] into High Street.
             distractors: [[left]]
             mistakes:
               - answer: Turn left into High Street.
                 message: Du stehst vor der school und schaust zur Straße, nach Norden. Osten ist dann rechts.
-          - cue: Du gehst bis zur Mill Lane. Dort willst du nach Süden gehen.
+          - cue: Du gehst nach Osten bis zur Mill Lane. Dort willst du nach Süden gehen.
             target: Turn [right] into Mill Lane.
             distractors: [[left]]
             mistakes:
               - answer: Turn left into Mill Lane.
                 message: Du schaust nach Osten. Süden liegt dann rechts von dir.
-          - cue: Du gehst in der Mill Lane nach Süden. Die station liegt im Osten.
+          - cue: Du gehst in der Mill Lane nach Süden. Die station liegt im Osten, auf dem Plan rechts.
             target: The station is on the [left].
             distractors: [[right]]
             mistakes:

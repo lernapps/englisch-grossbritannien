@@ -68,13 +68,16 @@
   <text x="324.0" y="265.0" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">supermarket</text>
   <rect x="408" y="210" width="102" height="100" rx="6" fill="#e0e0e0" stroke="#333" stroke-width="2"/>
   <text x="459.0" y="265.0" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">station</text>
+  <g stroke="#333" stroke-width="2" fill="#333"><path d="M490 40 V12" fill="none"/><path d="M484 20 L490 8 L496 20 Z"/></g>
+  <text x="472" y="30" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#333">N</text>
   <text x="460" y="186" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#222">High Street</text>
   <text x="150" y="32" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#222">Church Road</text>
   <text x="390" y="345" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#222">Mill Lane</text>
   <path d="M75 200 V180 H218" fill="none" stroke="#d35400" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M206 172 L222 180 L206 188 Z" fill="#d35400"/>
-  <text x="75" y="168" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d35400">1</text>
-  <text x="215" y="166" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d35400">3</text>
-  <text x="150" y="205" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d35400">2</text>
+  <text x="75" y="166" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d35400">1</text>
+  <text x="218" y="166" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d35400">3</text>
+  <text x="150" y="166" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#d35400">2</text>
+  <circle cx="75" cy="200" r="7" fill="#138d75" stroke="#333" stroke-width="2"/>
 
 </svg>
