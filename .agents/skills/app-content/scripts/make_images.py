@@ -53,11 +53,13 @@ def stadtplan_millbrook():
 
 @image
 def stadtplan_beispielweg():
+    """Example route park -> supermarket: out of the park onto Mill Lane, south, over the High Street."""
     b = plan_base() + street_names()
-    b += f'  <path d="M75 200 V180 H218" fill="none" stroke="{ORANGE}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>\n'
-    b += f'  <path d="M206 172 L222 180 L206 188 Z" fill="{ORANGE}"/>\n'
-    b += text(75, 166, "1", 18, fill=ORANGE, weight="bold") + text(218, 166, "3", 18, fill=ORANGE, weight="bold") + text(150, 166, "2", 18, fill=ORANGE, weight="bold")
-    b += '  <circle cx="75" cy="200" r="7" fill="#138d75" stroke="#333" stroke-width="2"/>\n'
+    b += f'  <path d="M390 100 V262" fill="none" stroke="{ORANGE}" stroke-width="5" stroke-linecap="round"/>\n'
+    b += f'  <path d="M380 256 L390 276 L400 256 Z" fill="{ORANGE}"/>\n'
+    b += '  <circle cx="390" cy="100" r="8" fill="#138d75" stroke="#333" stroke-width="2"/>\n'
+    for y, n in ((130, "1"), (180, "2"), (238, "3")):
+        b += f'  <circle cx="390" cy="{y}" r="11" fill="#fff" stroke="{ORANGE}" stroke-width="3"/>\n' + text(390, y + 6, n, 16, fill=ORANGE, weight="bold")
     return svg(520, 360, "Plan von Millbrook mit einem Weg (Schemaplan)", b)
 
 @image

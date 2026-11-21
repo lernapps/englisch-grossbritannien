@@ -35,6 +35,8 @@ Kinder im ersten und zweiten Lernjahr Englisch (Stufe 5-6) finden sich auf dem S
 - Kapitelreihenfolge innerhalb der Kapitel nach Geschichte, nicht nur nach Schritt: Kapitel 1 Stadt → Schilder → Laden; Kapitel 3 Römer (Londinium) → Sehenswürdigkeiten → Vielfalt (Issue: „am Anfang steht Londinium“). Alle `requires` stehen vorher oder auf der Wiederholungsseite. (guess)
 - Wiederholungsseiten (`recap`, ohne Übung): Kapitel 1 `praepositionen-ort` (#475), `imperativ` (#473), `zahlen` (#470); Kapitel 2 `vergleiche` (#476). Kapitel 3 braucht von außen nichts. (aus den `requires` der Karte)
 - Neue Orte: Stadtplan von Millbrook (Hauptstraße, Bibliothek, Bäckerei, Bahnhof, Park, Kleidungsladen usw.), Ausflug der Parkers (Cornwall), Stadtrundgang in London. (guess)
+- `scope` in `src/app.yaml` und auf jeder Seite (guess): die App hat `open-task`-Aufgaben, der Tutor beurteilt freie Antworten nur nach dem `scope` (`references/structure.md`); darum alle Seiten mit `scope`.
+- Straßennamen: „the High Street“ mit Artikel, „Church Road“ und „Mill Lane“ ohne (britisch üblich), überall gleich. (guess)
 - Bilder: nur eigene Zeichnungen (CC-BY-4.0); keine Fotos oder Videos, solange Lizenz und Quelle nicht geprüft sind. (guess)
 
 ## Notes
