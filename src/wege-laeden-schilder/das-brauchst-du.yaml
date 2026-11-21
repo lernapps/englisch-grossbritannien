@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Orte, Befehle und Zahlen noch einmal kurz, bevor Sophie und Ellie durch Millbrook gehen.
+recap: [englisch/praepositionen-ort, englisch/imperativ, englisch/zahlen]
+scope: "Die Seite wiederholt nur drei Bausteine aus früheren Apps: Präpositionen des Ortes, den Imperativ und Zahlen mit Preisen. Neue Inhalte und Übungen gibt es nicht."
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Sophie (11) kommt aus Deutschland und wohnt bei der Familie Parker in Millbrook. **Ellie Parker** (11) ist ihre Gastschwester. Am Samstag gehen die beiden mit einem Stadtplan durch die Stadt. Dafür brauchst du drei Dinge, die du schon kennst. Prüfe in Gedanken, ob du sie kannst."
+      - type: text
+        text: "**Ich kann mit Präpositionen wie in, on, under, next to und behind sagen, wo etwas ist.** Das ist der Baustein „Präpositionen des Ortes“. **Ich kann Aufforderungen und Verbote mit dem Imperativ formulieren (Open the door. Don’t run.).** Das ist der Baustein „Imperativ“. **Ich kann Grund- und Ordnungszahlen sagen und schreiben, auch große Zahlen und Preise.** Das ist der Baustein „Zahlen und Preise“."
+      - type: table
+        caption: Klassenzimmer-Poster · Das brauchst du für den Plan
+        header: [Das willst du sagen, Beispiel]
+        rows:
+          - [wo etwas ist, The ball is under the table.]
+          - [jemanden auffordern, Open the window.]
+          - [jemanden warnen, Don’t run.]
+          - [eine Zahl nennen, twenty-five]
+      - type: text
+        text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Präpositionen des Ortes](https://lernapps.net/apps/map/englisch/c/praepositionen-ort/), [Imperativ](https://lernapps.net/apps/map/englisch/c/imperativ/) und [Zahlen und Preise](https://lernapps.net/apps/map/englisch/c/zahlen/)."
