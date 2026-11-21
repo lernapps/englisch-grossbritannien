@@ -24,18 +24,18 @@ blocks:
         licence: CC-BY-4.0
       - type: single-choice
         id: wege-start
-        text: "Sophie steht vor der school und fragt nach der library. Ellie zeigt auf den Plan und sagt: „The library is opposite the school.“ Wo ist die library?"
+        text: Sophie steht vor der school und sucht die library. Welcher Ort liegt der school auf der anderen Seite der High Street genau gegenüber?
         options:
-          - text: gegenüber der school
+          - text: die library
             correct: true
-            info: opposite heißt gegenüber. Die library liegt auf der anderen Seite der High Street.
-          - text: neben der school
+            info: Die library liegt auf der anderen Seite der High Street, genau auf der Höhe der school.
+          - text: die bakery
             correct: false
-            info: neben heißt next to. Zwischen der library und der school liegt aber die ganze Straße.
-          - text: hinter der school
+            info: Die bakery liegt auf derselben Seite wie die library, aber hinter der Church Road. Sie ist nicht auf der Höhe der school.
+          - text: die station
             correct: false
-            info: hinter heißt behind. Auf dem Plan liegt die library nicht hinter der school.
-        explanation: Auf dem Plan liegen die school und die library an der High Street auf zwei Seiten, sie liegen sich gegenüber.
+            info: Die station liegt im Osten an der Mill Lane. Sie ist weit von der school entfernt.
+        explanation: Auf dem Plan liegen die school und die library an der High Street auf zwei Seiten, genau einander gegenüber.
         links:
           - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
             url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
@@ -50,7 +50,7 @@ blocks:
       - type: figure
         image: images/stadtplan-beispielweg.svg
         alt: Plan von Millbrook mit einem orangefarbenen Weg. Er beginnt an einem grünen Punkt bei der Mill Lane, führt auf der Mill Lane nach unten über die High Street und endet mit einem Pfeil neben einem Ort südlich der High Street. Drei Stellen sind mit 1, 2 und 3 markiert. Schemaplan, nicht maßstabsgerecht.
-        caption: Ein Weg in drei Schritten (Schemaplan, nicht maßstabsgerecht). Du kommst aus dem park und stehst auf der Mill Lane. Der grüne Punkt ist der Start.
+        caption: Ein Weg in drei Schritten (Schemaplan, nicht maßstabsgerecht). Du verlässt den park nach Westen und stehst auf der Mill Lane. Der grüne Punkt ist der Start.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -60,7 +60,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Nach **turn** steht direkt **left** oder **right**. Mit **to the** geht es auch (turn to the left), aber nicht „turn to left“. Ein Befehl hat kein „you“. Am Ziel sagst du **on the left** oder **on the right**. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust. Eine Straße nennst du mit **into**: Turn into the High Street.
+              Nach **turn** steht direkt **left** oder **right**. Mit **to the** geht es auch (turn to the left), aber nicht „turn to left“. Ein Befehl hat kein „you“. Am Ziel sagst du **on the left** oder **on the right**. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust. Eine Straße nennst du mit **into**.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -105,14 +105,14 @@ blocks:
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
-          - cue: Der Kleidungsladen liegt zwischen der Church Road und …
-            target: The clothes shop is between Church Road and the [supermarket].
-            distractors: [[station, library]]
+          - cue: Der Supermarkt liegt zwischen … und der Mill Lane.
+            target: The supermarket is between the [clothes shop] and Mill Lane.
+            distractors: [[post office, school]]
             mistakes:
-              - answer: The clothes shop is between Church Road and the station.
-                message: Die station liegt hinter der Mill Lane. Zwischen der Church Road und der Mill Lane liegen zwei Orte nebeneinander.
-              - answer: The clothes shop is between Church Road and the library.
-                message: Die library liegt auf der anderen Seite der Church Road und der High Street.
+              - answer: The supermarket is between the post office and Mill Lane.
+                message: Die post office liegt auf der anderen Seite der High Street. Der supermarket und der gesuchte Ort liegen beide im Süden.
+              - answer: The supermarket is between the school and Mill Lane.
+                message: Die school liegt ganz im Westen, hinter der Church Road. Zwischen dem supermarket und der Church Road liegt ein anderer Ort.
           - cue: Der Park liegt gegenüber von …
             target: The park is opposite the [station].
             distractors: [[school, library]]
@@ -236,8 +236,8 @@ blocks:
         items:
           - audio: turn-left-at-the-post-office.mp3
             text: Turn left at the post office.
-          - audio: go-straight-on-to-the-park.mp3
-            text: Go straight on to the park.
+          - audio: turn-right-at-the-supermarket.mp3
+            text: Turn right at the supermarket.
           - audio: the-supermarket-is-next-to-the-clothes-shop.mp3
             text: The supermarket is next to the clothes shop.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf left, straight und next to.

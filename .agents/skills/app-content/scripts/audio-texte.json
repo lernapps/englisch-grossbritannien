@@ -1,8 +1,8 @@
 {
   "src/audio/ellie-is-next-to-the-library.mp3": "Ellie is next to the library.",
   "src/audio/turn-left-at-the-post-office.mp3": "Turn left at the post office.",
-  "src/audio/go-straight-on-to-the-park.mp3": "Go straight on to the park.",
   "src/audio/the-supermarket-is-next-to-the-clothes-shop.mp3": "The supermarket is next to the clothes shop.",
   "src/audio/peter-waits-at-the-station.mp3": "Peter waits at the station.",
-  "src/audio/amir-is-in-the-park.mp3": "Amir is in the park."
+  "src/audio/amir-is-in-the-park.mp3": "Amir is in the park.",
+  "src/audio/turn-right-at-the-supermarket.mp3": "Turn right at the supermarket."
 }
