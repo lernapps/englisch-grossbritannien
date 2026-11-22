@@ -40,7 +40,7 @@ blocks:
     title: Kleidung, Preise und Größen
     blocks:
       - type: text
-        text: "Im Laden brauchst du drei Dinge: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Ein Preis hängt als Preisschild an der Kleidung."
+        text: "Im Laden brauchst du drei Dinge: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild."
       - type: figure
         image: images/kleidung-regal.svg
         alt: Zwei Regalbretter. Auf dem oberen liegen ein Hemd, eine Jeans und ein Hut, jeweils mit einem Preisschild und dem englischen Wort. Auf dem unteren liegen drei blaue Hemden in drei Größen mit den Wörtern small, medium und large.
@@ -61,7 +61,7 @@ blocks:
           - [jumper, Pullover]
           - [shoes, Schuhe (immer Mehrzahl)]
           - [medium, mittelgroß]
-          - [a pair of, ein Paar / eine]
+          - [a pair of, ein Paar (a pair of jeans heißt eine Jeans)]
   - type: section
     id: uebung
     title: Übung
@@ -190,7 +190,7 @@ blocks:
               - answer: How much are the trainer?
                 message: Schuhe kommen als Paar. Es heißt trainers, mit s.
           - cue: It's five pound.
-            target: It's five pounds.
+            target: (It's|It is) five pounds.
             mistakes:
               - answer: It's five pound.
                 message: Bei allen Zahlen außer eins heißt es pounds mit s.
@@ -212,14 +212,14 @@ blocks:
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
           - source: Wie viel kostet der Mantel?
-            target: How much is the coat?
+            target: How much (is the coat|does the coat cost)?
             mistakes:
               - answer: How much costs the coat?
                 message: Im Englischen brauchst du is. How much is the coat? ist die feste Frage.
               - answer: How many is the coat?
                 message: How many fragt nach Dingen, die man zählt. Nach dem Preis fragst du mit How much.
           - source: Haben Sie diese Hose in Größe medium?
-            target: Have you got these trousers in (size |)medium?
+            target: (Have you got|Do you have) these trousers in (size |)medium?
             mistakes:
               - answer: Have you got this trousers in medium?
                 message: trousers ist die Mehrzahl, also these und nicht this.
@@ -242,7 +242,7 @@ blocks:
           - audio: sophie-buys-a-cap-for-peter.mp3
             target: Sophie buys a cap for Peter.
           - audio: i-would-like-a-pair-of-trousers.mp3
-            target: I would like a pair of trousers.
+            target: (I would|I'd) like a pair of trousers.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben

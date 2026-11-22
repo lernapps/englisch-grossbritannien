@@ -123,12 +123,12 @@ blocks:
             licence: CC-BY-4.0
         items:
           - cue: Du willst wissen, wann der erste Zug in Fairfield ankommt.
-            target: "The first train arrives at [9:50|nine fifty]."
+            target: "The first train arrives at [9:50|9.50|nine fifty|ten to ten]."
             mistakes:
               - answer: The first train arrives at 9:15.
                 message: 9:15 ist die Abfahrtszeit (leaves). Gesucht ist die Ankunft (arrives).
           - cue: Du willst wissen, wann der letzte Zug abfährt.
-            target: "The last train leaves at [11:20|eleven twenty]."
+            target: "The last train leaves at [11:20|11.20|eleven twenty|twenty past eleven]."
             mistakes:
               - answer: The last train leaves at 11:55.
                 message: 11:55 ist die Ankunftszeit (arrives). Gesucht ist die Abfahrt (leaves).
@@ -149,7 +149,7 @@ blocks:
             info: Das ist der Ort. where fragt nach dem Ort.
           - text: Friday
             correct: false
-            info: Friday ist der Tag. Danach fragt when oder on which day.
+            info: Friday ist der Tag. Danach fragt when oder what day.
           - text: "4:30"
             correct: false
             info: 4:30 ist die Uhrzeit. Danach fragt what time.
@@ -181,12 +181,12 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Der Zug fährt um 8:45 ab.
-            target: "The train leaves at (8:45|quarter to nine)."
+            target: "The train leaves at (8:45|8.45|quarter to nine|a quarter to nine|eight forty-five)."
             mistakes:
               - answer: The train arrives at 8:45.
                 message: arrives heißt kommt an. Die Abfahrt heißt leaves.
           - source: Die Milch kostet ein Pfund fünfzig.
-            target: "The milk (is|costs) (£1.50|one pound fifty)."
+            target: "The milk (is|costs) (£1.50|one pound fifty|a pound fifty|one pound and fifty pence)."
             mistakes:
               - answer: The milk is one pounds fifty.
                 message: Bei einem Pfund heißt es one pound ohne s.
@@ -207,11 +207,11 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - audio: the-shop-opens-at-nine-on-saturday.mp3
-            target: The shop opens at nine on Saturday.
+            target: The shop opens at (nine|9:00|nine o'clock|9) on Saturday.
           - audio: the-cake-is-five-pounds-fifty-today.mp3
-            target: The cake is five pounds fifty today.
+            target: The cake is (five pounds fifty|£5.50) today.
           - audio: the-last-bus-leaves-at-ten-to-nine-tonight.mp3
-            target: The last bus leaves at ten to nine tonight.
+            target: The last bus leaves at (ten to nine|8:50|eight fifty) tonight.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
