@@ -9,7 +9,7 @@ blocks:
     title: Peters Frage aus Millbrook
     blocks:
       - type: text
-        text: "Am letzten Tag in London steht Mr Hills Klasse in Westminster. Sophie (13) schickt Peter, der in Millbrook geblieben ist, ein Foto. Peter schreibt zurück: „Mr Hill said the UK has a monarch. What is that?“"
+        text: "Am letzten Tag in London steht Mr Hills Klasse in Westminster. Sophie schickt Peter, der in Millbrook geblieben ist, ein Foto. Peter schreibt zurück: „Mr Hill said the UK has a monarch. What is that?“"
       - type: single-choice
         id: politik-start
         text: Was ist ein monarch?
@@ -22,7 +22,7 @@ blocks:
             info: Der Regierungschef heißt Prime Minister. Das ist eine andere Aufgabe.
           - text: ein Mitglied des Parlaments
             correct: false
-            info: Ein Mitglied des Parlaments heißt Member of Parliament. Ein monarch ist ein König oder eine Königin.
+            info: Ein Mitglied des Parlaments ist eine Abgeordnete oder ein Abgeordneter. Ein monarch ist ein König oder eine Königin.
         explanation: Monarch bezeichnet einen König oder eine Königin.
         links:
           - title: Lernlandkarte Englisch · Politik im Vereinigten Königreich
@@ -37,39 +37,35 @@ blocks:
         caption: "Randglossar"
         languages: { source: de, target: en }
         entries:
-          - target: "monarch"
-            source: "König oder Königin"
-          - target: "head of state"
-            source: "Staatsoberhaupt"
+          - target: "monarch, head of state"
+            source: "König oder Königin, Staatsoberhaupt"
           - target: "constitutional monarchy"
             source: "Monarchie, in der der Monarch nach einer Verfassung handelt"
-          - target: "parliament"
+          - target: "Parliament"
             source: "Parlament"
-          - target: "law"
-            source: "Gesetz"
-          - target: "government"
-            source: "Regierung"
           - target: "Cabinet"
             source: "die wichtigsten Ministerinnen und Minister der Regierung"
-          - target: "symbol"
-            source: "Zeichen"
-          - target: "unity"
-            source: "Einheit"
+          - target: "Member of Parliament (MP)"
+            source: "Abgeordnete, Abgeordneter"
+          - target: "assembly"
+            source: "Versammlung, hier ein gewähltes Gremium wie ein Parlament"
           - target: "trust"
             source: "Vertrauen; vertrauen"
+          - target: "symbol of unity"
+            source: "Zeichen der Einheit"
       - type: text
         text: |
           1. Westminster is a part of London. The Palace of Westminster stands there, and the Elizabeth Tower belongs to it. A big bell in the tower is called Big Ben.
           2. The United Kingdom is a constitutional monarchy. The monarch is the head of state, but does not decide alone.
-          3. Since 8 September 2022 the monarch is King Charles III. He follows his mother, Queen Elizabeth II. The monarch is often seen as a symbol of unity.
-          4. The Parliament makes the laws of the UK. It meets in the Palace of Westminster and has two parts: the House of Commons and the House of Lords. Together with the monarch they are called the King-in-Parliament.
-          5. Some laws for Scotland, Wales and Northern Ireland are made by their own parliaments and assemblies.
-          6. The Prime Minister is the head of the government. He or she advises the monarch, leads the Cabinet and chooses its ministers.
-          7. A Prime Minister stays in office as long as the House of Commons trusts him or her. So the Prime Minister is also a Member of Parliament.
+          3. Since 8 September 2022 the monarch has been King Charles III. He became monarch after his mother, Queen Elizabeth II. The monarch is often seen as a symbol of unity.
+          4. Parliament makes the laws of the UK. It meets in Westminster, in a famous palace. It has two parts: the House of Commons and the House of Lords.
+          5. Scotland, Wales and Northern Ireland have their own parliament or assembly. They make some of the laws there.
+          6. The Prime Minister is the head of the government. He or she gives advice to the monarch, leads the Cabinet and chooses its ministers.
+          7. A Prime Minister stays Prime Minister as long as the House of Commons trusts him or her. In practice, the Prime Minister is also a Member of Parliament (MP).
           8. People see all this in different ways.
       - type: figure
         image: images/politik-schaubild.svg
-        alt: Schaubild mit drei Kästen, King, Parliament mit zwei Teilen und Prime Minister, daneben je eine kurze englische Zeile.
+        alt: Schaubild mit drei Kästen, Monarch, Parliament mit zwei Teilen und Prime Minister, daneben je eine kurze englische Zeile.
         caption: Wer in Westminster und im Land welche Aufgabe hat, als Schaubild (eigene Zeichnung).
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -103,8 +99,8 @@ blocks:
           - left: the Prime Minister
             right: leitet das Cabinet und wählt die Minister aus
           - left: the House of Commons
-            right: Sein Vertrauen braucht der Premierminister, um im Amt zu bleiben
-        explanation: Der Monarch ist Staatsoberhaupt, der Prime Minister leitet das Cabinet, und das House of Commons muss dem Prime Minister vertrauen.
+            right: kann dem Premierminister das Vertrauen entziehen
+        explanation: Der Monarch ist Staatsoberhaupt, der Prime Minister leitet das Cabinet, und das House of Commons muss dem Prime Minister vertrauen, sonst kann er nicht im Amt bleiben.
         hint: Die Aufgaben stehen im Text ab Zeile 2.
         links:
           - title: Lernlandkarte Englisch · Politik im Vereinigten Königreich
@@ -131,7 +127,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/politik-uk/
       - type: single-choice
         id: politik-sitz
-        text: Welcher Kasten zeigt den Ort, an dem das Parlament tagt?
+        text: Welcher Kasten zeigt das Gebäude, in dem das Parlament tagt?
         material:
           - type: figure
             image: images/politik-orte.svg
@@ -183,22 +179,24 @@ blocks:
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: ok }
         items:
-          - source: Der Monarch entscheidet nicht allein.
-            target: "The (monarch|King) (does not|doesn't) decide alone."
+          - source: Das Parlament tagt in London.
+            target: "Parliament meets in London."
             mistakes:
-              - answer: The monarch not decides alone.
-                message: Die Verneinung braucht does not und danach das Verb in der Grundform.
-              - answer: The monarch does not decides alone.
-                message: Nach does not steht das Verb ohne -s, also decide.
-              - answer: The monarch don't decide alone.
-                message: Bei he, she und it heißt es does not oder doesn't, nicht don't.
-          - source: Der Premierminister berät den Monarchen.
-            target: "The Prime Minister advises the (monarch|King)."
+              - answer: The Parliament meets in London.
+                message: Im britischen Englisch sagt man hier Parliament ohne the.
+              - answer: Parliament meet in London.
+                message: Bei it bekommt das Verb ein -s, also meets.
+              - answer: Parliament meets at London.
+                message: Bei Städten sagt man in, nicht at.
+          - source: Der Premierminister ist auch Abgeordneter.
+            target: "The (Prime Minister|PM) is also (an MP|a Member of Parliament)."
             mistakes:
-              - answer: The Prime Minister advise the monarch.
-                message: Bei he, she und it bekommt das Verb ein -s, also advises.
-              - answer: The Prime Minister advises to the monarch.
-                message: advise braucht kein to. Nach dem Verb steht gleich der Monarch.
+              - answer: The Prime Minister is also a MP.
+                message: MP beginnt mit dem Laut em, darum heißt es an MP.
+              - answer: The Prime Minister is also Member of Parliament.
+                message: Vor Member of Parliament fehlt der Artikel a.
+              - answer: The Prime Minister also is an MP.
+                message: Das Wort also steht hinter is, nicht davor.
         hint: Bei he, she und it bekommt das Verb ein -s.
   - type: section
     id: anwenden
@@ -212,12 +210,12 @@ blocks:
             text: Sophie sends a photo of the tower to Peter.
           - audio: the-ministers-work-with-the-prime-minister.mp3
             text: The ministers work with the Prime Minister.
-          - audio: the-parliament-meets-in-a-famous-building-in-london.mp3
-            text: The Parliament meets in a famous building in London.
+          - audio: peter-asks-a-lot-of-questions-about-london.mp3
+            text: Peter asks a lot of questions about London.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung bei Parliament und Minister.
       - type: open-task
         id: politik-meinung
-        task: "Der Monarch hat keine eigene Entscheidungsmacht, ist aber Staatsoberhaupt. Was kann der Vorteil eines Staatsoberhaupts ohne eigene Entscheidungsmacht sein? Schreibe drei bis fünf Sätze auf Englisch und nenne zwei Sichtweisen. Es gibt hier kein Richtig oder Falsch."
+        task: "Der Monarch ist Staatsoberhaupt, entscheidet aber nicht allein. Welche Argumente gibt es dafür und dagegen? Schreibe drei bis fünf Sätze auf Englisch und nenne zwei Sichtweisen. Es gibt hier kein Richtig oder Falsch."
         points:
           - text: Du nennst eine Sichtweise, die im Text steht, zum Beispiel das Symbol der Einheit.
             source: /von-1066-bis-westminster/politik-uk/#lesen
@@ -228,7 +226,7 @@ blocks:
           - text: Es sind drei bis fünf ganze Sätze.
             kind: form
         solution: |
-          Some people say that a monarch can be a symbol of unity. A head of state without his or her own power does not decide alone, so the government and the Parliament do the political work. Other people ask what a monarch is for if he or she does not decide alone. People see this in different ways.
+          Some people say that a monarch can be a symbol of unity. A monarch does not decide alone, so the government and Parliament do the political work. Other people ask what a monarch is for if he or she does not decide alone. People see this in different ways.
   - type: section
     id: weiter
     title: Zurück in Millbrook
@@ -239,8 +237,8 @@ blocks:
         caption: Schulkalender · Rückblick Kapitel 4 und 5
         header: [Thema, Beispiel]
         rows:
-          - [Verkehrsmittel, Amir goes to the museum by bike.]
-          - [London heute, "Stereotype: eine verallgemeinernde Annahme über eine Gruppe von Menschen"]
-          - ["1066", "William the Conqueror: erster normannischer König von England"]
-          - [Tudors, "Elizabeth I: Königin von England und Irland von 1558 bis 1603"]
-          - [Parlament, "Das Parlament besteht aus dem House of Commons und dem House of Lords."]
+          - [Verkehrsmittel, Mr Hill travels to the airport by taxi.]
+          - [Klischees, Stereotypes are often wrong.]
+          - ["1066", William the Conqueror was the first Norman king of England.]
+          - [Tudors, Henry VIII had six marriages.]
+          - [Parlament, The House of Commons and the House of Lords are two parts of Parliament.]

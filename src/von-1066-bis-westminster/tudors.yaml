@@ -2,14 +2,14 @@
 title: Henry VIII und Elizabeth I
 description: Sophie fragt im Museum nach zwei bekannten Herrschern. Du liest das Gespräch, erfährst, was sich unter Henry VIII und Elizabeth I änderte, und lernst, Jahreszahlen und Daten zu sagen.
 competencies: [tudors]
-scope: "Die Seite hat ein Lesestück (Sophies Gespräch mit einer Museumsführung). Gelernt werden Henry VIII (König von 1509 bis 1547, sechs Ehen, Bruch mit der römisch-katholischen Kirche, Church of England), Elizabeth I (Königin von England und Irland von 1558 bis 1603, die letzte Tudor, Elizabethan era) sowie Jahreszahlen und Daten auf Englisch (fifteen oh nine, the seventeenth of November). Typische Fehler sind Zahlen als Kardinalzahl statt ordinal, Henry und Elizabeth verwechselt und Ordinalzahl ohne the. Nicht hier, weil sie auf späteren Seiten folgen: die heutige Regierung und das Parlament. Weitere Tudor-Themen sind nicht belegt und fehlen."
+scope: "Die Seite hat ein Lesestück (Sophies Gespräch mit einer Museumsführung). Gelernt werden Henry VIII (König von 1509 bis 1547, sechs Ehen, Bruch mit der römisch-katholischen Kirche, Church of England), Elizabeth I (Königin von England und Irland von 1558 bis 1603, die letzte Tudor-Monarchin, Elizabethan era) sowie Jahreszahlen und Daten auf Englisch (fifteen oh nine, the seventeenth of November). Typische Fehler sind Zahlen als Kardinalzahl statt ordinal, Henry und Elizabeth verwechselt und Ordinalzahl ohne the. Nicht hier, weil sie auf späteren Seiten folgen: die heutige Regierung und das Parlament. Weitere Tudor-Themen sind nicht belegt und fehlen."
 blocks:
   - type: section
     id: einstieg
     title: Sophie im Museum
     blocks:
       - type: text
-        text: Sophie ist 13. Nach dem Tower of London besucht die Klasse ein kleines Museum. Dort liest Sophie auf einem Schild zwei Namen mit römischen Zahlen, Henry VIII und Elizabeth I, und möchte sie richtig sagen.
+        text: Nach dem Tower of London besucht die Klasse ein kleines Museum. Dort liest Sophie auf einem Schild zwei Namen mit römischen Zahlen, Henry VIII und Elizabeth I, und möchte sie richtig sagen.
       - type: single-choice
         id: tud-start
         text: Wie spricht Sophie den Namen Henry VIII aus?
@@ -37,24 +37,22 @@ blocks:
         caption: "Randglossar"
         languages: { source: de, target: en }
         entries:
+          - target: "Tudor, House of Tudor"
+            source: "Tudor, das Haus Tudor (eine Herrscherfamilie)"
           - target: "marriage"
             source: "Ehe"
           - target: "the Roman Catholic Church"
             source: "die römisch-katholische Kirche"
-          - target: "the Church of England"
-            source: "die Kirche von England"
           - target: "monarch"
             source: "Monarch, Monarchin"
-          - target: "longest-ruling"
-            source: "am längsten regierend"
           - target: "era"
             source: "Zeitalter"
-          - target: "queen"
-            source: "Königin"
           - target: "broke (break)"
             source: "brach (brechen)"
           - target: "founded (found)"
             source: "gründete"
+          - target: "sixteen oh three"
+            source: "1603 (die 0 in 03 spricht man „oh“)"
       - type: text
         text: |
           **Im Museum · ein Gespräch**
@@ -64,11 +62,11 @@ blocks:
           3. **Sophie:** Henry VIII and Elizabeth I. Who was Henry VIII?
           4. **Guide:** He was king of England from 22 April 1509 until his death in 1547.
           5. **Sophie:** Why is he so famous?
-          6. **Guide:** People know him for his six marriages. But he also broke with the Roman Catholic Church. He founded the Church of England, and so the church in England changed.
+          6. **Guide:** People know him for his six marriages. He also broke with the Roman Catholic Church. He founded the Church of England, and so the church in England changed.
           7. **Sophie:** And who was Elizabeth I?
           8. **Guide:** She was queen of England and Ireland from 17 November 1558 until 1603.
           9. **Sophie:** Was she a Tudor?
-          10. **Guide:** Yes. She was the last Tudor monarch, and the longest-ruling one of the House of Tudor.
+          10. **Guide:** Yes, she was from the House of Tudor. She was the last Tudor monarch, and no other Tudor monarch was monarch for longer.
           11. **Sophie:** Is there a time named after her?
           12. **Guide:** Yes, the Elizabethan era. It has her name.
           13. **Sophie:** Thank you very much! That helps me a lot.
@@ -94,11 +92,11 @@ blocks:
           - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
             url: https://lernapps.net/apps/map/englisch/c/tudors/
       - type: true-false
-        id: tud-irland
-        text: Elizabeth I war nur Königin von England, nicht von Irland. Stimmt das?
-        answer: false
-        hint: Lies noch einmal, was die Führung über ihr Land sagt.
-        explanation: Elizabeth I war Königin von England und Irland.
+        id: tud-vorher
+        text: Henry VIII wurde König, bevor Elizabeth I Königin wurde. Stimmt das?
+        answer: true
+        hint: Vergleiche die Jahre in Zeile 4 und Zeile 8.
+        explanation: Henry VIII wurde 1509 König, Elizabeth I erst 1558 Königin.
         links:
           - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
             url: https://lernapps.net/apps/map/englisch/c/tudors/
@@ -119,21 +117,6 @@ blocks:
         links:
           - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
             url: https://lernapps.net/apps/map/englisch/c/tudors/
-      - type: matching
-        id: tud-zuordnen
-        text: Was gehört zu wem? Ordne zu.
-        pairs:
-          - left: Henry VIII
-            right: gründete die Church of England
-          - left: Elizabeth I
-            right: war die letzte Tudor-Monarchin
-          - left: the Elizabethan era
-            right: ist nach Elizabeth I benannt
-        explanation: Henry VIII gründete die Church of England. Elizabeth I war die letzte Tudor-Monarchin, und die Elizabethan era trägt ihren Namen.
-        hint: Zeile 6 spricht über Henry, Zeile 10 und 12 über Elizabeth.
-        links:
-          - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
-            url: https://lernapps.net/apps/map/englisch/c/tudors/
       - type: language-task
         id: tud-luecke
         languages: { source: de, target: en }
@@ -141,11 +124,13 @@ blocks:
         task: Schreibe das fehlende Wort. Es steht im Gespräch.
         form: { case: hint, punctuation: ok }
         items:
-          - cue: Elizabeth I war die letzte Tudor-Monarchin.
-            target: Elizabeth I was the [last] Tudor monarch.
+          - cue: Elizabeth I war die Letzte aus dem Haus Tudor.
+            target: Elizabeth I was the [last] ruler of the House of Tudor.
             mistakes:
-              - answer: Elizabeth I was the latest Tudor monarch.
+              - answer: Elizabeth I was the latest ruler of the House of Tudor.
                 message: latest heißt „neueste“. Für „letzte“ am Ende einer Reihe steht last.
+              - answer: Elizabeth I was the final ruler of the House of Tudor.
+                message: final ist ein anderes Wort. Im Gespräch steht last, und das sollst du hier schreiben.
           - cue: Elizabeth I war Königin von England und Irland.
             target: Elizabeth I was queen of England and [Ireland].
             mistakes:
@@ -185,7 +170,7 @@ blocks:
           - Henry VIII became king.
           - Henry VIII died.
           - Elizabeth I became queen.
-          - Elizabeth's reign ended.
+          - Elizabeth's time as queen ended.
         explanation: Henry VIII wurde 1509 König und starb 1547. Elizabeth I wurde 1558 Königin, ihre Regierungszeit endete 1603.
         hint: Beide Herrscher haben ein Anfangsjahr und ein Endjahr. Henry kommt zuerst.
         links:
@@ -217,10 +202,12 @@ blocks:
           - text: Du sagst mit I think, was du wichtig findest.
             kind: form
         solution: |
-          Henry VIII broke with the Roman Catholic Church and founded the Church of England. Elizabeth I was queen from fifteen fifty-eight until sixteen oh three. I think they were important because the church and the crown changed in their time.
+          Henry VIII broke with the Roman Catholic Church and founded the Church of England. Elizabeth I was queen from fifteen fifty-eight until sixteen oh three. I think they were important because the church and the country changed in their time.
   - type: section
     id: weiter
     title: Und jetzt Westminster
     blocks:
       - type: text
-        text: Sophie schreibt die beiden Namen und die Jahre in ihr Heft. Auf der Zeitleiste steht nach den Tudors nur noch ein Ereignis, der 8. September 2022. Wer heute in England regiert, erfährst du auf der nächsten Seite.
+        text: Sophie schreibt die beiden Namen und die Jahre in ihr Heft. Hier ist **die Zeitleiste** noch einmal. Nach den Tudors zeigt sie nur noch ein Ereignis, den 8. September 2022. Wer heute im Vereinigten Königreich regiert, erfährst du auf der nächsten Seite.
+      - type: timeline
+        data: ereignisse
