@@ -216,7 +216,7 @@ In der Mittagspause setzen sich die Kinder in einen Park. Dort erzählen sie von
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Big Ben is a famous bell in London.
-2. Audio → Many visitors take photos of the tower.
+2. Audio → Many visitors take photos of the bridges.
 3. Audio → Amir likes the British Museum.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf famous, Bridge und museum.
 - Link: [../?via=tutor#lon-nachsprechen](../?via=tutor#lon-nachsprechen)
