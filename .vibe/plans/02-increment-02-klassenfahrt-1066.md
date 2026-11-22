@@ -140,15 +140,15 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Gemeinsame Teile (nur ich): src/data/ereignisse.yaml (Zeitleiste), Kapitel klassenfahrt-london und von-1066-bis-westminster in src/app.yaml und chapter.yaml, Wiederholungsseite `uhrzeit` (Kapitel 4, `das-brauchst-du`)
 - [ ] Scheibe reisen-verkehr (Kapitel 4, Lesestück Chat der Klassenfahrt und Dialog am Schalter): Sub-Agent A, nur src/klassenfahrt-london/reisen-verkehr.yaml, bilder_k4.py, audio-texte-k4.json

@@ -1,0 +1,257 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Zug und U-Bahn: Fahrkarten und Gleise"
+description: Die Klasse fährt nach London. Du liest den Klassenchat und ein Gespräch am Schalter und lernst, Verkehrsmittel zu nennen und eine Fahrkarte zu kaufen.
+competencies: [reisen-verkehr]
+scope: "Die Seite hat ein Lesestück (Klassenchat und Gespräch am Schalter). Gelernt werden Verkehrsmittel mit by (by train, by bus), die Wörter platform, journey, single und return ticket, day pass und die Fragen nach Gleis, Uhrzeit und Fahrkarte. Typische Fehler sind with the train statt by train, single und return verwechselt und die Frage ohne does. Nicht hier, weil sie auf späteren Seiten folgen: London heute und Klischees."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie schreibt an Peter
+    blocks:
+      - type: text
+        text: "Sophie ist jetzt 13. Morgen fährt Mr Hills Klasse für zwei Tage nach London. Peter (9) bleibt zu Hause, aber Sophie schreibt ihm schon heute eine Nachricht: „We go to London … train.“"
+      - type: single-choice
+        id: reisen-start
+        text: Welches Wort fehlt, wenn Sophie „mit dem Zug“ sagen will?
+        options:
+          - text: by
+            correct: true
+            info: Mit Verkehrsmitteln steht by und danach kein Artikel (by train, by bus).
+          - text: with
+            correct: false
+            info: with bedeutet „mit“ bei Personen und Dingen, die man hält (with a friend). Für Verkehrsmittel gilt by.
+          - text: on
+            correct: false
+            info: on train ist ohne Artikel nicht richtig. Wer im Zug sitzt, sagt on the train. Für „mit dem Zug“ brauchst du by.
+        explanation: Für Verkehrsmittel steht by und das Verkehrsmittel ohne Artikel.
+        links:
+          - title: Lernlandkarte Englisch · Reisen und Verkehr
+            url: https://lernapps.net/apps/map/englisch/c/reisen-verkehr/
+      - type: text
+        text: "**Das kannst du danach:** Du liest einen Chat und ein Gespräch am Schalter, nennst Verkehrsmittel und kaufst auf Englisch eine Fahrkarte. Die Uhrzeit kennst du von der Seite davor."
+  - type: section
+    id: lesen
+    title: Der Klassenchat und das Gespräch am Schalter
+    blocks:
+      - type: text
+        text: |
+          **Der Klassenchat**
+
+          1. **Mr Hill:** Good morning, everyone! Please meet at Millbrook station at half past seven. Our train leaves from platform 2 at ten past eight.
+          2. **Amir:** Do we need tickets?
+          3. **Mr Hill:** I have the group ticket for the train. In London we use the Tube, the Underground. Each of you needs a day pass, and we buy them at the station there.
+          4. **Ellie:** How long is the journey?
+          5. **Mr Hill:** About two hours. We arrive in London at ten past ten.
+          6. **Sophie:** Can I sit by the window?
+          7. **Mr Hill:** Of course. But please don't be late. The train doesn't wait!
+          8. **Peter:** Take a photo of the Tube for me, Sophie!
+      - type: figure
+        image: images/fahrkarte-beispiel.svg
+        alt: Eine Fahrkarte mit den Feldern von, nach, Art, Gleis und Abfahrt.
+        caption: Eine Fahrkarte der Klasse (erfunden). So sehen die Angaben aus.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          **Am Schalter in London**
+
+          9. **Sophie:** Excuse me, I'd like two return tickets to Millbrook for tomorrow, please.
+          10. **Clerk:** Return tickets for tomorrow? Which train?
+          11. **Sophie:** The one at a quarter to six, please.
+          12. **Clerk:** That's thirty pounds, please. It leaves from platform 4.
+          13. **Sophie:** Thank you!
+      - type: table
+        caption: Randglossar
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [platform, Gleis]
+          - [journey, "Reise, Fahrt"]
+          - [the Tube, die Londoner U-Bahn]
+          - [day pass, Tageskarte]
+          - [single ticket, einfache Fahrt]
+          - [return ticket, Hin- und Rückfahrkarte]
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, anwenden
+    blocks:
+      - type: single-choice
+        id: reisen-ankunft
+        text: Um wie viel Uhr kommt die Klasse in London an?
+        options:
+          - text: ten past ten
+            correct: true
+            info: Der Zug fährt um ten past eight ab und braucht etwa zwei Stunden.
+          - text: ten past eight
+            correct: false
+            info: Das ist die Abfahrt. Danach fragt „When does the train leave?“.
+          - text: half past seven
+            correct: false
+            info: Das ist die Zeit, zu der sich die Klasse am Bahnhof trifft.
+        explanation: Abfahrt um ten past eight, Ankunft zwei Stunden später um ten past ten.
+        links:
+          - title: Lernlandkarte Englisch · Reisen und Verkehr
+            url: https://lernapps.net/apps/map/englisch/c/reisen-verkehr/
+      - type: true-false
+        id: reisen-tickets
+        text: "Die Klasse kauft die Tageskarten für die Tube schon in Millbrook. Stimmt das?"
+        answer: false
+        hint: Lies noch einmal, was Mr Hill über die Tickets sagt.
+        explanation: Mr Hill hat nur die Gruppenfahrkarte für den Zug. Die Tageskarten kauft die Klasse in London.
+        links:
+          - title: Lernlandkarte Englisch · Reisen und Verkehr
+            url: https://lernapps.net/apps/map/englisch/c/reisen-verkehr/
+      - type: matching
+        id: reisen-fragen
+        text: Was will die Person wissen? Ordne zu.
+        pairs:
+          - left: Do we need tickets?
+            right: ob man Fahrkarten braucht
+          - left: How long is the journey?
+            right: wie lange die Fahrt dauert
+          - left: Can I sit by the window?
+            right: ob man am Fenster sitzen darf
+        explanation: Die Fragen stehen im Chat. Do we need fragt nach der Notwendigkeit, How long nach der Dauer und Can I nach der Erlaubnis.
+        hint: Achte auf das erste Wort der Frage.
+        links:
+          - title: Lernlandkarte Englisch · Reisen und Verkehr
+            url: https://lernapps.net/apps/map/englisch/c/reisen-verkehr/
+      - type: single-choice
+        id: reisen-zeile
+        text: In welcher Zeile des Chats steht, dass die Fahrt etwa zwei Stunden dauert?
+        options:
+          - text: Zeile 2
+            correct: false
+            info: In Zeile 2 fragt Amir nach den Tickets.
+          - text: Zeile 3
+            correct: false
+            info: In Zeile 3 geht es um die Tickets für den Zug und die Tube.
+          - text: Zeile 5
+            correct: true
+            info: Mr Hill antwortet in Zeile 5 „About two hours“ und nennt die Ankunftszeit.
+          - text: Zeile 7
+            correct: false
+            info: In Zeile 7 sagt Mr Hill, dass die Klasse nicht zu spät kommen soll.
+        explanation: Die Antwort auf Ellies Frage nach der Dauer steht in Zeile 5.
+        links:
+          - title: Lernlandkarte Englisch · Reisen und Verkehr
+            url: https://lernapps.net/apps/map/englisch/c/reisen-verkehr/
+      - type: language-task
+        id: reisen-by
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Wir fahren mit dem Bus zur Schule.
+            target: We go to school [by] bus.
+            distractors: [[with, on]]
+            mistakes:
+              - answer: We go to school with bus.
+                message: Für Verkehrsmittel steht by, nicht with.
+              - answer: We go to school on bus.
+                message: on gibt es nur mit Artikel, zum Beispiel on the bus. Für „mit dem Bus“ steht by bus.
+          - cue: Ellie fliegt mit dem Flugzeug nach Dublin.
+            target: Ellie goes to Dublin [by] plane.
+            distractors: [[with, in]]
+            mistakes:
+              - answer: Ellie goes to Dublin with plane.
+                message: Für Verkehrsmittel steht by, nicht with.
+              - answer: Ellie goes to Dublin in plane.
+                message: in plane ist ohne Artikel nicht richtig. Für „mit dem Flugzeug“ steht by plane.
+        hint: Nach dem Verkehrsmittel steht kein Artikel.
+      - type: single-choice
+        id: reisen-karte
+        text: Welche Aussage passt zur Fahrkarte?
+        material:
+          - type: figure
+            image: images/fahrkarte-material.svg
+            alt: Eine Fahrkarte mit Ort, Ziel, Art, Gleis und Abfahrtszeit.
+            caption: Eine andere Fahrkarte aus dem Chat der Klasse (erfunden).
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        options:
+          - text: Die Fahrt geht von Fairfield nach Millbrook, nur in eine Richtung.
+            correct: true
+            info: Auf der Karte steht Single, das ist eine einfache Fahrt. Von steht vor Fairfield.
+          - text: Die Fahrkarte gilt für Hin- und Rückfahrt.
+            correct: false
+            info: Hin- und Rückfahrt heißt return. Hier steht Single.
+          - text: Der Zug fährt von Gleis 2 ab.
+            correct: false
+            info: Auf der Karte steht Platform 6, nicht 2.
+        explanation: Die Karte nennt Fairfield als Start, Millbrook als Ziel und Single als Art.
+        links:
+          - title: Lernlandkarte Englisch · Reisen und Verkehr
+            url: https://lernapps.net/apps/map/englisch/c/reisen-verkehr/
+      - type: language-task
+        id: reisen-schalter
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Eine einfache Fahrt nach London, bitte.
+            target: "A single (ticket |)to London, please."
+            mistakes:
+              - answer: A simple ticket to London, please.
+                message: simple heißt „einfach“ im Sinn von „leicht“. Eine einfache Fahrt ist ein single ticket.
+              - answer: A return ticket to London, please.
+                message: return ist Hin- und Rückfahrt. Für nur eine Richtung steht single.
+          - source: Von welchem Gleis fährt der Zug nach London ab?
+            target: "(Which platform does the train to London leave from|From which platform does the train to London leave)?"
+            mistakes:
+              - answer: Which platform leaves the train to London?
+                message: Die Frage braucht does vor the train. Das Verb leave steht danach in der Grundform.
+              - answer: Which platform does the train to London leaves from?
+                message: "Nach does steht das Verb ohne s, also leave."
+        hint: Bei Fragen mit Which platform steht does vor dem Zug.
+  - type: section
+    id: anwenden
+    title: Selbst hören, sprechen und schreiben
+    blocks:
+      - type: language-task
+        id: reisen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: the-last-train-home-leaves-at-eleven.mp3
+            target: The last train home leaves at eleven.
+          - audio: excuse-me-where-is-the-ticket-machine.mp3
+            target: Excuse me, where is the ticket machine?
+          - audio: a-single-ticket-to-the-airport-please.mp3
+            target: A single ticket to the airport, please.
+      - type: speaking-task
+        id: reisen-nachsprechen
+        language: en
+        items:
+          - audio: i-would-like-two-tickets-for-the-next-train.mp3
+            text: I would like two tickets for the next train.
+          - audio: could-you-help-me-with-the-machine-please.mp3
+            text: Could you help me with the machine, please?
+          - audio: sophie-takes-the-underground-to-the-hotel.mp3
+            text: Sophie takes the Underground to the hotel.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung bei ticket und Underground.
+      - type: open-task
+        id: reisen-dialog
+        task: "Du bist am Bahnhof in Millbrook und willst mit dem Zug nach Oxford. Schreibe ein kurzes Gespräch mit dem Schalter, vier bis sechs Zeilen: Fahrkarte, Gleis und Uhrzeit."
+        points:
+          - text: Du bittest höflich um eine Fahrkarte und sagst, ob sie single oder return sein soll.
+            source: /klassenfahrt-london/reisen-verkehr/#lesen
+          - text: Du fragst nach dem Gleis oder nach der Abfahrt mit einer richtigen Frage.
+            source: /klassenfahrt-london/reisen-verkehr/#lesen
+          - text: Eine Uhrzeit steht auf Englisch im Gespräch.
+            source: /klassenfahrt-london/reisen-verkehr/#lesen
+          - text: Es sind ganze Sätze, abwechselnd Sprecher und Schalter.
+            kind: form
+        solution: |
+          You: Excuse me, a return ticket to Oxford, please.
+          Clerk: That's twenty pounds. The train leaves at a quarter past nine.
+          You: Which platform does it leave from?
+          Clerk: Platform 3.
+          You: Thank you very much!
+  - type: section
+    id: weiter
+    title: Und jetzt London
+    blocks:
+      - type: text
+        text: Am nächsten Morgen sitzt die Klasse im Zug. Sophie hat ihre Fahrkarte, ein Fensterplatz ist frei, und Peters Wunsch steht auf ihrer Liste. In London will sie aufschreiben, was sie sieht. Das erfährst du auf der nächsten Seite.
