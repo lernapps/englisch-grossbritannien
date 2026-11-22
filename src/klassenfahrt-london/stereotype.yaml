@@ -1,0 +1,220 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Klischees prüfen
+description: Die Klasse sammelt Klischees über Briten und Deutsche und prüft sie an dem, was sie in London sehen. Du liest den Chat und lernst some, many, most, all, always, sometimes und never richtig zu benutzen.
+competencies: [stereotype]
+scope: "Die Seite hat ein Lesestück (Chat der Klasse in London). Gelernt wird, Beobachtung, Verallgemeinerung und Vorurteil zu unterscheiden und Mengen- und Häufigkeitswörter genau zu benutzen (some, many, most, all, always, often, sometimes, never). Typische Fehler sind all statt some und always statt often. Nicht hier: Politik, Religion und Herkunft einzelner Gruppen; die Geschichte folgt auf der nächsten Seite."
+blocks:
+  - type: section
+    id: einstieg
+    title: Eine Liste für Mr Hill
+    blocks:
+      - type: text
+        text: "Sophie hat auf der letzten Seite über London geschrieben. Heute ist der zweite Tag der Klassenfahrt, und es regnet. Mr Hill hat eine Aufgabe für die Klasse: Alle sammeln Ideen, die man über Länder und Menschen hört."
+      - type: single-choice
+        id: stereo-start
+        text: Welcher Satz ist eine Verallgemeinerung über viele Menschen?
+        options:
+          - text: All people in London take the Tube.
+            correct: true
+            info: all macht aus einer Beobachtung eine Aussage über jeden Menschen einer Gruppe. Das lässt sich kaum prüfen.
+          - text: It is raining in London today.
+            correct: false
+            info: Das ist eine Beobachtung von heute. Man kann sie am Fenster prüfen.
+          - text: I saw five red buses on the bridge.
+            correct: false
+            info: Das ist eine Beobachtung. I saw sagt, was jemand selbst gesehen hat.
+        explanation: Wörter wie all oder always stehen oft in Verallgemeinerungen. Eine Beobachtung sagt, was du selbst gesehen hast.
+        links:
+          - title: Lernlandkarte Englisch · Klischees und Vorurteile
+            url: https://lernapps.net/apps/map/englisch/c/stereotype/
+      - type: text
+        text: "**Das kannst du danach:** Du liest den Chat der Klasse, trennst Beobachtung, Verallgemeinerung und Vorurteil und sagst genauer, wie viele Menschen etwas tun und wie oft."
+  - type: section
+    id: lesen
+    title: Der Chat der Klasse
+    blocks:
+      - type: table
+        caption: Randglossar
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [stereotype, "Klischee: eine verallgemeinernde Annahme über eine Gruppe von Menschen, oft falsch"]
+          - [prejudice, "Vorurteil: ein Urteil ohne Prüfung"]
+          - [on time, pünktlich]
+          - ["I saw …", "Ich habe … gesehen"]
+          - [collect, sammeln]
+          - [wrong, falsch]
+      - type: text
+        text: |
+          **Der Chat in London**
+
+          1. **Sophie:** Mr Hill wants a list. We collect ideas about the British and about Germans. I start: "British people drink a lot of tea."
+          2. **Amir:** Mine is "It always rains in England."
+          3. **Ellie:** And one from my cousin: "Germans are always on time." Is that true, Sophie?
+          4. **Sophie:** Not really. My uncle is often late for dinner!
+          5. **Mr Hill:** How do you know that these ideas are true?
+          6. **Amir:** I only heard them. Today it rains, but yesterday I saw the sun all afternoon.
+          7. **Ellie:** In the café this morning I saw people with tea. But I also saw three people with coffee.
+          8. **Peter:** So is the idea about tea wrong?
+          9. **Mr Hill:** What can you say after your look at the café, Ellie?
+          10. **Ellie:** Many British people like tea, but not all.
+          11. **Sophie:** And I can't say "All Germans are on time." Some are on time, and some are sometimes late. Amir was five minutes late today!
+          12. **Amir:** Very funny. It was only five minutes.
+          13. **Mr Hill:** What will you ask the next time you hear such an idea?
+          14. **Peter:** "How do you know?"
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, anwenden
+    blocks:
+      - type: single-choice
+        id: stereo-cafe
+        text: Was zeigt Ellies Blick ins Café?
+        options:
+          - text: Nicht alle Menschen im Café trinken Tee.
+            correct: true
+            info: Ellie sieht Menschen mit Tee und drei Menschen mit Kaffee. Das spricht gegen „alle trinken Tee“.
+          - text: Alle Menschen im Café trinken Kaffee.
+            correct: false
+            info: Ellie sieht auch Menschen mit Tee. Eine neue Verallgemeinerung wäre genauso ungenau.
+          - text: Briten trinken nie Tee.
+            correct: false
+            info: Ellie sieht Menschen mit Tee. nie ist wieder eine Verallgemeinerung und stimmt hier nicht.
+        explanation: Eine Beobachtung wie „I saw people with tea and people with coffee“ zeigt, dass die Gruppe nicht gleich ist.
+        links:
+          - title: Lernlandkarte Englisch · Klischees und Vorurteile
+            url: https://lernapps.net/apps/map/englisch/c/stereotype/
+      - type: single-choice
+        id: stereo-zeile
+        text: In welcher Zeile sagt jemand, dass er selbst die Sonne gesehen hat?
+        options:
+          - text: Zeile 2
+            correct: false
+            info: In Zeile 2 steht ein Klischee über Regen in England, keine Beobachtung.
+          - text: Zeile 6
+            correct: true
+            info: Amir sagt „yesterday I saw the sun all afternoon“. Das ist eine Beobachtung.
+          - text: Zeile 10
+            correct: false
+            info: In Zeile 10 geht es um Tee, nicht um die Sonne.
+          - text: Zeile 14
+            correct: false
+            info: Zeile 14 ist Peters Frage „How do you know?“.
+        explanation: Amir belegt in Zeile 6 mit „I saw“, dass es nicht immer regnet.
+        links:
+          - title: Lernlandkarte Englisch · Klischees und Vorurteile
+            url: https://lernapps.net/apps/map/englisch/c/stereotype/
+      - type: matching
+        id: stereo-arten
+        text: Ordne zu, was für eine Aussage es ist.
+        pairs:
+          - left: I saw three umbrellas at the bus stop.
+            right: Beobachtung
+          - left: Everybody in a big city is always in a hurry.
+            right: Verallgemeinerung
+          - left: I have never tried that café, but I know the cake is bad.
+            right: Vorurteil
+        explanation: Eine Beobachtung sagt, was du gesehen hast. Eine Verallgemeinerung nennt alle oder immer. Ein Vorurteil urteilt, ohne zu prüfen.
+        hint: Frage dich, ob die Person selbst etwas gesehen oder geprüft hat.
+        links:
+          - title: Lernlandkarte Englisch · Klischees und Vorurteile
+            url: https://lernapps.net/apps/map/englisch/c/stereotype/
+      - type: language-task
+        id: stereo-mengen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Manche Kinder in meiner Klasse lesen gern Comics.
+            target: "[Some] children in my class like reading comics."
+            distractors: [[All, Always]]
+            mistakes:
+              - answer: All children in my class like reading comics.
+                message: all heißt „alle“. Für „manche“ steht some.
+              - answer: Always children in my class like reading comics.
+                message: always heißt „immer“ und steht bei Verben, nicht vor Nomen. Für „manche“ steht some.
+          - cue: Ich fahre oft mit dem Bus zur Schule.
+            target: "I [often] go to school by bus."
+            distractors: [[always, sometimes]]
+            mistakes:
+              - answer: I always go to school by bus.
+                message: always heißt „immer“. Für „oft“ steht often.
+              - answer: I sometimes go to school by bus.
+                message: sometimes heißt „manchmal“, das ist weniger als „oft“.
+        hint: Überlege, ob es um alle, manche oder viele geht und wie oft etwas passiert.
+      - type: language-task
+        id: stereo-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Schreibe das fehlende Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Viele Menschen in Großbritannien mögen Tee, aber nicht alle.
+            target: "Many British people like tea, but not [all]."
+            mistakes:
+              - answer: some
+                message: some heißt „manche“. Der Satz sagt „nicht alle“, dafür steht all.
+          - source: Wie weißt du das?
+            target: "How do you [know]?"
+            mistakes:
+              - answer: knew
+                message: Nach do steht das Verb in der Grundform, also know.
+        hint: Die Wörter stehen im Chat.
+      - type: language-task
+        id: stereo-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz genauer auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Viele Kinder in meiner Klasse mögen Fußball.
+            target: "(Many|A lot of|Lots of) children in my class like football."
+            mistakes:
+              - answer: All children in my class like football.
+                message: all heißt „alle“. Für „viele“ steht many.
+              - answer: Much children in my class like football.
+                message: much steht nur bei Dingen, die man nicht zählt. Bei Kindern steht many.
+          - source: Manchmal regnet es im Sommer.
+            target: "(Sometimes it rains|It sometimes rains|It rains sometimes) in (the |)summer."
+            mistakes:
+              - answer: It always rains in summer.
+                message: always heißt „immer“. Für „manchmal“ steht sometimes.
+              - answer: It never rains in summer.
+                message: never heißt „nie“. Für „manchmal“ steht sometimes.
+        hint: Frage dich, ob etwas immer, oft, manchmal oder nie passiert.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: stereo-nachsprechen
+        language: en
+        items:
+          - audio: most-of-my-friends-walk-to-school.mp3
+            text: Most of my friends walk to school.
+          - audio: it-rains-sometimes-but-not-every-day.mp3
+            text: It rains sometimes, but not every day.
+          - audio: we-should-look-carefully-before-we-decide.mp3
+            text: We should look carefully before we decide.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung bei most, sometimes und carefully.
+      - type: open-task
+        id: stereo-meinung
+        task: "Schreibe drei bis fünf Sätze auf Englisch. Nenne ein Klischee, das du kennst, und ein Gegenbeispiel aus deinem Alltag."
+        points:
+          - text: Du nennst ein Klischee, zum Beispiel mit all oder always.
+            source: /klassenfahrt-london/stereotype/#lesen
+          - text: Du schreibst, was du selbst gesehen oder erlebt hast, zum Beispiel mit I saw.
+            source: /klassenfahrt-london/stereotype/#lesen
+          - text: Du sagst es genauer, zum Beispiel mit some, many oder sometimes.
+            source: /klassenfahrt-london/stereotype/#verstehen
+          - text: Es sind ganze Sätze und die Meinung ist freundlich.
+            kind: form
+        solution: |
+          Some people say that all teenagers are always on their phones.
+          But I saw a group of friends in the park last Saturday. They played football and talked.
+          Some teenagers are often on their phones, and some are not.
+          I think we should ask "How do you know?" before we believe an idea.
+  - type: section
+    id: weiter
+    title: Und jetzt die Geschichte
+    blocks:
+      - type: text
+        text: Am letzten Tag steht der Tower of London auf dem Plan, eine Burg am Nordufer der Themse. Mr Hill fragt die Klasse, wer sie gebaut hat und warum. Die Antwort beginnt im Jahr 1066. Das erfährst du auf der nächsten Seite.

@@ -1,0 +1,236 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "König, Parlament und Premierminister"
+description: Die Klasse steht in Westminster. Du liest einen kurzen Sachtext über die konstitutionelle Monarchie und lernst, wer im Vereinigten Königreich welche Aufgabe hat.
+competencies: [politik-uk]
+scope: "Die Seite hat ein Lesestück (Sachtext über Westminster, den König, das Parlament und den Premierminister). Gelernt werden die Wörter monarch, parliament, House of Commons, House of Lords, Prime Minister, government und constitutional monarchy sowie Fragen mit Who und What. Typische Fehler sind Who und What verwechselt und das Verb ohne -s nach he, she, it. Nicht hier: Parteien, Namen von Premierministern und Wahlen. Die Seite beschreibt nur, wie das System aufgebaut ist, und wertet nicht."
+blocks:
+  - type: section
+    id: einstieg
+    title: Peters Frage aus Millbrook
+    blocks:
+      - type: text
+        text: "Am letzten Tag in London steht Mr Hills Klasse in Westminster. Sophie (13) schickt Peter, der in Millbrook geblieben ist, ein Foto. Peter schreibt zurück: „Mr Hill said the UK has a monarch. What is that?“"
+      - type: single-choice
+        id: politik-start
+        text: Was ist ein monarch?
+        options:
+          - text: ein König oder eine Königin
+            correct: true
+            info: Ein monarch ist ein König oder eine Königin.
+          - text: der Regierungschef
+            correct: false
+            info: Der Regierungschef heißt Prime Minister. Das ist eine andere Aufgabe.
+          - text: ein Mitglied des Parlaments
+            correct: false
+            info: Ein Mitglied des Parlaments heißt Member of Parliament. Ein monarch ist ein König oder eine Königin.
+        explanation: Monarch bezeichnet einen König oder eine Königin.
+        links:
+          - title: Lernlandkarte Englisch · Politik im Vereinigten Königreich
+            url: https://lernapps.net/apps/map/englisch/c/politik-uk/
+      - type: text
+        text: "**Das kannst du danach:** Du liest einen Sachtext über Westminster, beschreibst die Aufgaben von König, Parlament und Premierminister auf Englisch und erklärst, was eine konstitutionelle Monarchie ist."
+  - type: section
+    id: lesen
+    title: Westminster, der König und das Parlament
+    blocks:
+      - type: table
+        caption: Randglossar
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [monarch, König oder Königin]
+          - [head of state, Staatsoberhaupt]
+          - [constitutional monarchy, "Monarchie, in der der Monarch nach einer Verfassung handelt"]
+          - [parliament, Parlament]
+          - [law, Gesetz]
+          - [government, Regierung]
+          - [Cabinet, "die wichtigsten Ministerinnen und Minister der Regierung"]
+          - [symbol, Zeichen]
+          - [unity, Einheit]
+          - [trust, "Vertrauen; vertrauen"]
+      - type: text
+        text: |
+          1. Westminster is a part of London. The Palace of Westminster stands there, and the Elizabeth Tower belongs to it. A big bell in the tower is called Big Ben.
+          2. The United Kingdom is a constitutional monarchy. The monarch is the head of state, but does not decide alone.
+          3. Since 8 September 2022 the monarch is King Charles III. He follows his mother, Queen Elizabeth II. The monarch is often seen as a symbol of unity.
+          4. The Parliament makes the laws of the UK. It meets in the Palace of Westminster and has two parts: the House of Commons and the House of Lords. Together with the monarch they are called the King-in-Parliament.
+          5. Some laws for Scotland, Wales and Northern Ireland are made by their own parliaments and assemblies.
+          6. The Prime Minister is the head of the government. He or she advises the monarch, leads the Cabinet and chooses its ministers.
+          7. A Prime Minister stays in office as long as the House of Commons trusts him or her. So the Prime Minister is also a Member of Parliament.
+          8. People see all this in different ways.
+      - type: figure
+        image: images/politik-schaubild.svg
+        alt: Schaubild mit drei Kästen, King, Parliament mit zwei Teilen und Prime Minister, daneben je eine kurze englische Zeile.
+        caption: Wer in Westminster und im Land welche Aufgabe hat, als Schaubild (eigene Zeichnung).
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, anwenden
+    blocks:
+      - type: single-choice
+        id: politik-monarchie
+        text: Was bedeutet es, dass das UK eine constitutional monarchy ist?
+        options:
+          - text: Der Monarch entscheidet nicht allein.
+            correct: true
+            info: So steht es im Text. Der Monarch ist Staatsoberhaupt, entscheidet aber nicht allein.
+          - text: Der Monarch entscheidet alles allein.
+            correct: false
+            info: Genau das sagt der Text nicht. Er sagt, dass der Monarch nicht allein entscheidet.
+          - text: Es gibt keinen Monarchen mehr.
+            correct: false
+            info: Im UK gibt es einen Monarchen. Seit dem 8. September 2022 ist es King Charles III.
+        explanation: Bei einer constitutional monarchy entscheidet der Monarch nicht allein.
+        links:
+          - title: Lernlandkarte Englisch · Politik im Vereinigten Königreich
+            url: https://lernapps.net/apps/map/englisch/c/politik-uk/
+      - type: matching
+        id: politik-rollen
+        text: Wer hat welche Aufgabe? Ordne zu.
+        pairs:
+          - left: the monarch
+            right: ist Staatsoberhaupt und entscheidet nicht allein
+          - left: the Prime Minister
+            right: leitet das Cabinet und wählt die Minister aus
+          - left: the House of Commons
+            right: Sein Vertrauen braucht der Premierminister, um im Amt zu bleiben
+        explanation: Der Monarch ist Staatsoberhaupt, der Prime Minister leitet das Cabinet, und das House of Commons muss dem Prime Minister vertrauen.
+        hint: Die Aufgaben stehen im Text ab Zeile 2.
+        links:
+          - title: Lernlandkarte Englisch · Politik im Vereinigten Königreich
+            url: https://lernapps.net/apps/map/englisch/c/politik-uk/
+      - type: single-choice
+        id: politik-zeile
+        text: In welcher Zeile steht, wie lange ein Premierminister im Amt bleibt?
+        options:
+          - text: Zeile 3
+            correct: false
+            info: In Zeile 3 geht es um den Monarchen seit dem 8. September 2022.
+          - text: Zeile 5
+            correct: false
+            info: In Zeile 5 geht es um Gesetze für Schottland, Wales und Nordirland.
+          - text: Zeile 6
+            correct: false
+            info: In Zeile 6 stehen die Aufgaben des Prime Minister, aber nicht, wie lange er im Amt bleibt.
+          - text: Zeile 7
+            correct: true
+            info: In Zeile 7 steht, dass der Prime Minister im Amt bleibt, solange das House of Commons ihm vertraut.
+        explanation: Die Antwort steht in Zeile 7.
+        links:
+          - title: Lernlandkarte Englisch · Politik im Vereinigten Königreich
+            url: https://lernapps.net/apps/map/englisch/c/politik-uk/
+      - type: single-choice
+        id: politik-sitz
+        text: Welcher Kasten zeigt den Ort, an dem das Parlament tagt?
+        material:
+          - type: figure
+            image: images/politik-orte.svg
+            alt: Drei Kästen mit den Buchstaben A, B und C, in jedem steht der Name eines Gebäudes in London.
+            caption: Drei Gebäude in London (eigene Zeichnung).
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        options:
+          - text: Kasten A
+            correct: false
+            info: Buckingham Palace ist der offizielle Wohnsitz des Monarchen in London, nicht der Sitz des Parlaments.
+          - text: Kasten B
+            correct: true
+            info: Das Parlament tagt im Palace of Westminster.
+          - text: Kasten C
+            correct: false
+            info: Der Elizabeth Tower gehört zum Palace of Westminster. Er ist ein Turm mit der Glocke Big Ben, nicht der Sitz des Parlaments.
+        explanation: Der Palace of Westminster ist der Sitz des Parlaments.
+        links:
+          - title: Lernlandkarte Englisch · Politik im Vereinigten Königreich
+            url: https://lernapps.net/apps/map/englisch/c/politik-uk/
+      - type: language-task
+        id: politik-fragen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Fragewort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Wer ist das Staatsoberhaupt?
+            target: "[Who] is the head of state?"
+            distractors: [[What, Where]]
+            mistakes:
+              - answer: What is the head of state?
+                message: What fragt nach Sachen. Das Staatsoberhaupt ist eine Person, also Who.
+              - answer: Where is the head of state?
+                message: Where fragt nach dem Ort. Nach einer Person fragst du mit Who.
+          - cue: Was ist Big Ben?
+            target: "[What] is Big Ben?"
+            distractors: [[Who, Where]]
+            mistakes:
+              - answer: Who is Big Ben?
+                message: Who fragt nach Personen. Big Ben ist eine Glocke, also What.
+              - answer: Where is Big Ben?
+                message: Where fragt nach dem Ort. Nach einer Sache fragst du mit What.
+        hint: Who fragt nach Personen, What nach Sachen.
+      - type: language-task
+        id: politik-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Der Monarch entscheidet nicht allein.
+            target: "The (monarch|King) (does not|doesn't) decide alone."
+            mistakes:
+              - answer: The monarch not decides alone.
+                message: Die Verneinung braucht does not und danach das Verb in der Grundform.
+              - answer: The monarch does not decides alone.
+                message: Nach does not steht das Verb ohne -s, also decide.
+              - answer: The monarch don't decide alone.
+                message: Bei he, she und it heißt es does not oder doesn't, nicht don't.
+          - source: Der Premierminister berät den Monarchen.
+            target: "The Prime Minister advises the (monarch|King)."
+            mistakes:
+              - answer: The Prime Minister advise the monarch.
+                message: Bei he, she und it bekommt das Verb ein -s, also advises.
+              - answer: The Prime Minister advises to the monarch.
+                message: advise braucht kein to. Nach dem Verb steht gleich der Monarch.
+        hint: Bei he, she und it bekommt das Verb ein -s.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: politik-nachsprechen
+        language: en
+        items:
+          - audio: sophie-sends-a-photo-of-the-tower-to-peter.mp3
+            text: Sophie sends a photo of the tower to Peter.
+          - audio: the-ministers-work-with-the-prime-minister.mp3
+            text: The ministers work with the Prime Minister.
+          - audio: the-parliament-meets-in-a-famous-building-in-london.mp3
+            text: The Parliament meets in a famous building in London.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung bei Parliament und Minister.
+      - type: open-task
+        id: politik-meinung
+        task: "Der Monarch hat keine eigene Entscheidungsmacht, ist aber Staatsoberhaupt. Was kann der Vorteil eines Staatsoberhaupts ohne eigene Entscheidungsmacht sein? Schreibe drei bis fünf Sätze auf Englisch und nenne zwei Sichtweisen. Es gibt hier kein Richtig oder Falsch."
+        points:
+          - text: Du nennst eine Sichtweise, die im Text steht, zum Beispiel das Symbol der Einheit.
+            source: /von-1066-bis-westminster/politik-uk/#lesen
+          - text: Du nennst eine zweite Sichtweise, zum Beispiel einen anderen Vorteil oder eine Frage, die Menschen stellen.
+            source: /von-1066-bis-westminster/politik-uk/#lesen
+          - text: Du schreibst neutral und bewertest keine der beiden Sichtweisen als richtig oder falsch.
+            kind: form
+          - text: Es sind drei bis fünf ganze Sätze.
+            kind: form
+        solution: |
+          Some people say that a monarch can be a symbol of unity. A head of state without his or her own power does not decide alone, so the government and the Parliament do the political work. Other people ask what a monarch is for if he or she does not decide alone. People see this in different ways.
+  - type: section
+    id: weiter
+    title: Zurück in Millbrook
+    blocks:
+      - type: text
+        text: Das war die letzte Seite. Sophie sitzt im Zug nach Millbrook, und Peter wartet schon am Bahnhof. Im Gepäck hat sie viel zu erzählen. Hier ist der Schulkalender mit neuen Beispielen aus den Kapiteln 4 und 5.
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 4 und 5
+        header: [Thema, Beispiel]
+        rows:
+          - [Verkehrsmittel, Amir goes to the museum by bike.]
+          - [London heute, "Stereotype: eine verallgemeinernde Annahme über eine Gruppe von Menschen"]
+          - ["1066", "William the Conqueror: erster normannischer König von England"]
+          - [Tudors, "Elizabeth I: Königin von England und Irland von 1558 bis 1603"]
+          - [Parlament, "Das Parlament besteht aus dem House of Commons und dem House of Lords."]

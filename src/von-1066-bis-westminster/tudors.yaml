@@ -1,0 +1,217 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Henry VIII und Elizabeth I
+description: Sophie fragt im Museum nach zwei bekannten Herrschern. Du liest das Gespräch, erfährst, was sich unter Henry VIII und Elizabeth I änderte, und lernst, Jahreszahlen und Daten zu sagen.
+competencies: [tudors]
+scope: "Die Seite hat ein Lesestück (Sophies Gespräch mit einer Museumsführung). Gelernt werden Henry VIII (König von 1509 bis 1547, sechs Ehen, Bruch mit der römisch-katholischen Kirche, Church of England), Elizabeth I (Königin von England und Irland von 1558 bis 1603, die letzte Tudor, Elizabethan era) sowie Jahreszahlen und Daten auf Englisch (fifteen oh nine, the seventeenth of November). Typische Fehler sind Zahlen als Kardinalzahl statt ordinal, Henry und Elizabeth verwechselt und Ordinalzahl ohne the. Nicht hier, weil sie auf späteren Seiten folgen: die heutige Regierung und das Parlament. Weitere Tudor-Themen sind nicht belegt und fehlen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie im Museum
+    blocks:
+      - type: text
+        text: Sophie ist 13. Nach dem Tower of London besucht die Klasse ein kleines Museum. Dort liest Sophie auf einem Schild zwei Namen mit römischen Zahlen, Henry VIII und Elizabeth I, und möchte sie richtig sagen.
+      - type: single-choice
+        id: tud-start
+        text: Wie spricht Sophie den Namen Henry VIII aus?
+        options:
+          - text: Henry the Eighth
+            correct: true
+            info: Bei Königen sagt man the und die Ordnungszahl, also the Eighth.
+          - text: Henry eight
+            correct: false
+            info: eight ist die Grundzahl (acht). Bei Namen von Herrschern braucht man die Ordnungszahl eighth mit the.
+          - text: Henry the eight
+            correct: false
+            info: The ist richtig, aber die Zahl braucht die Endung -th, also eighth.
+        explanation: Bei Königen und Königinnen sagt man the und die Ordnungszahl, zum Beispiel Henry the Eighth.
+        links:
+          - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
+            url: https://lernapps.net/apps/map/englisch/c/tudors/
+      - type: text
+        text: "**Das kannst du danach:** Du liest ein Gespräch über zwei Herrscher, beschreibst, was sich in England änderte und wie lange sie regierten, und sagst Jahreszahlen und Daten auf Englisch."
+  - type: section
+    id: lesen
+    title: Sophie fragt die Museumsführung
+    blocks:
+      - type: table
+        caption: Randglossar
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [marriage, Ehe]
+          - [the Roman Catholic Church, die römisch-katholische Kirche]
+          - [the Church of England, die Kirche von England]
+          - [monarch, "Monarch, Monarchin"]
+          - [longest-ruling, am längsten regierend]
+          - [era, Zeitalter]
+          - [queen, Königin]
+          - [broke (break), brach (brechen)]
+          - [founded (found), gründete]
+      - type: text
+        text: |
+          **Im Museum · ein Gespräch**
+
+          1. **Sophie:** Excuse me, I have some questions about two famous people from English history.
+          2. **Guide:** Of course! Which two?
+          3. **Sophie:** Henry VIII and Elizabeth I. Who was Henry VIII?
+          4. **Guide:** He was king of England from 22 April 1509 until his death in 1547.
+          5. **Sophie:** Why is he so famous?
+          6. **Guide:** People know him for his six marriages. But he also broke with the Roman Catholic Church. He founded the Church of England, and so the church in England changed.
+          7. **Sophie:** And who was Elizabeth I?
+          8. **Guide:** She was queen of England and Ireland from 17 November 1558 until 1603.
+          9. **Sophie:** Was she a Tudor?
+          10. **Guide:** Yes. She was the last Tudor monarch, and the longest-ruling one of the House of Tudor.
+          11. **Sophie:** Is there a time named after her?
+          12. **Guide:** Yes, the Elizabethan era. It has her name.
+          13. **Sophie:** Thank you very much! That helps me a lot.
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, anwenden
+    blocks:
+      - type: single-choice
+        id: tud-henry
+        text: Wofür ist Henry VIII bekannt?
+        options:
+          - text: für sechs Ehen und den Bruch mit der römisch-katholischen Kirche
+            correct: true
+            info: Beides sagt die Führung in Zeile 6.
+          - text: dafür, dass er der letzte Tudor war
+            correct: false
+            info: Der letzte Tudor war Elizabeth I.
+          - text: dafür, dass er der erste normannische König war
+            correct: false
+            info: Der erste normannische König war William der Eroberer, schon 1066.
+        explanation: Henry VIII ist für seine sechs Ehen bekannt und dafür, dass er mit der römisch-katholischen Kirche brach.
+        links:
+          - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
+            url: https://lernapps.net/apps/map/englisch/c/tudors/
+      - type: true-false
+        id: tud-irland
+        text: Elizabeth I war nur Königin von England, nicht von Irland. Stimmt das?
+        answer: false
+        hint: Lies noch einmal, was die Führung über ihr Land sagt.
+        explanation: Elizabeth I war Königin von England und Irland.
+        links:
+          - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
+            url: https://lernapps.net/apps/map/englisch/c/tudors/
+      - type: single-choice
+        id: tud-zeile
+        text: In welcher Zeile steht der Name der Zeit, die nach Elizabeth I benannt ist?
+        options:
+          - text: Zeile 4
+            correct: false
+            info: In Zeile 4 steht, wann Henry VIII König war.
+          - text: Zeile 10
+            correct: false
+            info: In Zeile 10 steht, dass Elizabeth die letzte Tudor-Monarchin war.
+          - text: Zeile 12
+            correct: true
+            info: In Zeile 12 nennt die Führung die Elizabethan era.
+        explanation: Die Antwort auf Sophies Frage nach einer Zeit, die nach Elizabeth benannt ist, steht in Zeile 12.
+        links:
+          - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
+            url: https://lernapps.net/apps/map/englisch/c/tudors/
+      - type: matching
+        id: tud-zuordnen
+        text: Was gehört zu wem? Ordne zu.
+        pairs:
+          - left: Henry VIII
+            right: gründete die Church of England
+          - left: Elizabeth I
+            right: war die letzte Tudor-Monarchin
+          - left: the Elizabethan era
+            right: ist nach Elizabeth I benannt
+        explanation: Henry VIII gründete die Church of England. Elizabeth I war die letzte Tudor-Monarchin, und die Elizabethan era trägt ihren Namen.
+        hint: Zeile 6 spricht über Henry, Zeile 10 und 12 über Elizabeth.
+        links:
+          - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
+            url: https://lernapps.net/apps/map/englisch/c/tudors/
+      - type: language-task
+        id: tud-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Schreibe das fehlende Wort. Es steht im Gespräch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Elizabeth I war die letzte Tudor-Monarchin.
+            target: Elizabeth I was the [last] Tudor monarch.
+            mistakes:
+              - answer: Elizabeth I was the latest Tudor monarch.
+                message: latest heißt „neueste“. Für „letzte“ am Ende einer Reihe steht last.
+          - cue: Elizabeth I war Königin von England und Irland.
+            target: Elizabeth I was queen of England and [Ireland].
+            mistakes:
+              - answer: Elizabeth I was queen of England and Scotland.
+                message: Im Gespräch steht Ireland, nicht Scotland.
+              - answer: Elizabeth I was queen of England and Irish.
+                message: Irish ist das Adjektiv (irisch). Das Land heißt Ireland.
+        hint: Die Wörter stehen in Zeile 8 und Zeile 10.
+      - type: language-task
+        id: tud-jahre
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form. So sagt man ein Jahr oder ein Datum.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Henry VIII wurde 1509 König.
+            target: Henry VIII became king in [fifteen oh nine].
+            distractors: [[one thousand five hundred and nine, fifteen nine]]
+            mistakes:
+              - answer: Henry VIII became king in one thousand five hundred and nine.
+                message: So liest man eine Zahl, aber kein Jahr. Bei Jahren teilt man in zwei Zahlen, hier fifteen und oh nine.
+              - answer: Henry VIII became king in fifteen nine.
+                message: Die Null in 09 spricht man als oh, also fifteen oh nine.
+          - cue: Elizabeth I wurde am 17. November 1558 Königin.
+            target: Elizabeth I became queen on the [seventeenth] of November fifteen fifty-eight.
+            distractors: [[seventeen, seventh]]
+            mistakes:
+              - answer: Elizabeth I became queen on the seventeen of November fifteen fifty-eight.
+                message: Bei Daten braucht man die Ordnungszahl seventeenth, nicht die Grundzahl.
+              - answer: Elizabeth I became queen on the seventh of November fifteen fifty-eight.
+                message: seventh ist der Siebte. Der 17. heißt seventeenth.
+        hint: Bei Daten sagt man the und die Ordnungszahl, bei Jahren zwei Zahlen.
+      - type: ordering
+        id: tud-reihenfolge
+        text: Bringe die Ereignisse in die richtige zeitliche Reihenfolge, das früheste zuerst.
+        items:
+          - Henry VIII became king.
+          - Henry VIII died.
+          - Elizabeth I became queen.
+          - Elizabeth's reign ended.
+        explanation: Henry VIII wurde 1509 König und starb 1547. Elizabeth I wurde 1558 Königin, ihre Regierungszeit endete 1603.
+        hint: Beide Herrscher haben ein Anfangsjahr und ein Endjahr. Henry kommt zuerst.
+        links:
+          - title: Lernlandkarte Englisch · Henry VIII und Elizabeth I
+            url: https://lernapps.net/apps/map/englisch/c/tudors/
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: tud-nachsprechen
+        language: en
+        items:
+          - audio: the-museum-has-a-room-about-the-tudors.mp3
+            text: The museum has a room about the Tudors.
+          - audio: sophie-writes-the-dates-in-her-notebook.mp3
+            text: Sophie writes the dates in her notebook.
+          - audio: the-guide-answers-every-question-from-sophie.mp3
+            text: The guide answers every question from Sophie.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung bei museum und notebook.
+      - type: open-task
+        id: tud-bedeutung
+        task: "Schreibe drei bis vier Sätze auf Englisch: Why were Henry VIII and Elizabeth I important for England? Meinungen sind erlaubt."
+        points:
+          - text: Du nennst eine Veränderung unter Henry VIII, zum Beispiel bei der Kirche.
+            source: /von-1066-bis-westminster/tudors/#lesen
+          - text: Du sagst, wie lange einer der beiden regierte, mit Jahreszahlen.
+            source: /von-1066-bis-westminster/tudors/#lesen
+          - text: Du sagst mit I think, was du wichtig findest.
+            kind: form
+        solution: |
+          Henry VIII broke with the Roman Catholic Church and founded the Church of England. Elizabeth I was queen from fifteen fifty-eight until sixteen oh three. I think they were important because the church and the crown changed in their time.
+  - type: section
+    id: weiter
+    title: Und jetzt Westminster
+    blocks:
+      - type: text
+        text: Sophie schreibt die beiden Namen und die Jahre in ihr Heft. Auf der Zeitleiste steht nach den Tudors nur noch ein Ereignis, der 8. September 2022. Wer heute in England regiert, erfährst du auf der nächsten Seite.

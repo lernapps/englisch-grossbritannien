@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Klassenfahrt nach London
 summary: Sophie ist 13. Die Klasse fährt mit dem Zug und der U-Bahn nach London. Du liest Chats und Berichte, kaufst Fahrkarten, beschreibst London als Großstadt und prüfst Klischees über Länder und Menschen.
-pages: [das-brauchst-du, reisen-verkehr]
+pages: [das-brauchst-du, reisen-verkehr, london-heute, stereotype]
