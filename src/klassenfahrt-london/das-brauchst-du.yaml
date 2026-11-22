@@ -19,6 +19,6 @@ blocks:
           - [Viertel nach, It's a quarter past two.]
           - [Viertel vor, It's a quarter to six.]
           - [zehn nach, It's ten past four.]
-          - [nach der Uhrzeit fragen, What time is it?]
+          - [nach der Uhrzeit fragen, "What time is it?"]
       - type: text
         text: "Nicht sicher? Wiederhole es auf der [Seite zur Uhrzeit](https://lernapps.net/apps/map/englisch/c/uhrzeit/) der Lernlandkarte."

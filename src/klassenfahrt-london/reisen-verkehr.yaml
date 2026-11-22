@@ -33,6 +33,19 @@ blocks:
     id: lesen
     title: Der Klassenchat und das Gespräch am Schalter
     blocks:
+      - type: table
+        caption: Randglossar
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [platform, Gleis]
+          - [journey, "Reise, Fahrt"]
+          - [the Tube, die Londoner U-Bahn]
+          - [day pass, Tageskarte]
+          - [single ticket, einfache Fahrt]
+          - [return ticket, Hin- und Rückfahrkarte]
+          - [clerk, Angestellter am Schalter]
+          - [group ticket, Gruppenfahrkarte]
+          - [arrive, ankommen]
       - type: text
         text: |
           **Der Klassenchat**
@@ -42,7 +55,7 @@ blocks:
           3. **Mr Hill:** I have the group ticket for the way to London. In London we use the Tube, the Underground. Each of you needs a day pass, and we buy them at the station there.
           4. **Ellie:** How long is the journey?
           5. **Mr Hill:** About two hours. We arrive in London at ten past ten.
-          6. **Sophie:** Can I sit by the window?
+          6. **Sophie:** Can I sit next to the window?
           7. **Mr Hill:** Of course. But please don't be late. The train doesn't wait!
           8. **Peter:** Take a photo of the Tube for me, Sophie!
       - type: figure
@@ -60,17 +73,6 @@ blocks:
           11. **Sophie:** Single, please. The one at a quarter to six.
           12. **Clerk:** That's fifteen pounds, please. It leaves from platform 4.
           13. **Sophie:** Thank you!
-      - type: table
-        caption: Randglossar
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [platform, Gleis]
-          - [journey, "Reise, Fahrt"]
-          - [the Tube, die Londoner U-Bahn]
-          - [day pass, Tageskarte]
-          - [single ticket, einfache Fahrt]
-          - [return ticket, Hin- und Rückfahrkarte]
-          - [clerk, Angestellter am Schalter]
   - type: section
     id: verstehen
     title: Verstehen, belegen, anwenden
@@ -109,7 +111,7 @@ blocks:
             right: ob man Fahrkarten braucht
           - left: How long is the journey?
             right: wie lange die Fahrt dauert
-          - left: Can I sit by the window?
+          - left: Can I sit next to the window?
             right: ob man am Fenster sitzen darf
         explanation: Die Fragen stehen im Chat. Do we need fragt nach der Notwendigkeit, How long nach der Dauer und Can I nach der Erlaubnis.
         hint: Achte auf das erste Wort der Frage.
@@ -207,20 +209,8 @@ blocks:
         hint: Bei Fragen mit Which platform steht does vor dem Zug.
   - type: section
     id: anwenden
-    title: Selbst hören, sprechen und schreiben
+    title: Selbst sprechen und schreiben
     blocks:
-      - type: language-task
-        id: reisen-hoeren
-        languages: { source: de, target: en }
-        task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: ok }
-        items:
-          - audio: the-last-train-home-leaves-at-eleven.mp3
-            target: The last train home leaves at eleven.
-          - audio: excuse-me-where-is-the-ticket-machine.mp3
-            target: Excuse me, where is the ticket machine?
-          - audio: a-single-ticket-to-the-airport-please.mp3
-            target: A single ticket to the airport, please.
       - type: speaking-task
         id: reisen-nachsprechen
         language: en
