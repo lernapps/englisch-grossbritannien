@@ -224,8 +224,8 @@ blocks:
         items:
           - audio: peter-waits-at-the-station.mp3
             target: Peter waits at the station.
-          - audio: amir-is-in-the-park-today.mp3
-            target: Amir is in the park today.
+          - audio: amir-is-in-the-park.mp3
+            target: Amir is in the park.
           - audio: ellie-is-next-to-the-library.mp3
             target: Ellie is next to the library.
   - type: section

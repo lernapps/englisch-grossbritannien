@@ -203,8 +203,8 @@ blocks:
         items:
           - audio: we-can-see-the-sea-from-the-hotel.mp3
             target: We can see the sea from the hotel.
-          - audio: ellie-wants-to-walk-on-the-beach-today.mp3
-            target: Ellie wants to walk on the beach today.
+          - audio: ellie-wants-to-walk-on-the-beach.mp3
+            target: Ellie wants to walk on the beach.
           - audio: cornwall-is-a-good-place-for-a-holiday.mp3
             target: Cornwall is a good place for a holiday.
   - type: section

@@ -98,7 +98,11 @@ Aus den Konventionen Abschnitt 7 und den Vorgängern (#470 bis #476):
 - Distraktoren nur echte Lernerfehler, keine Unwörter; jeder Distraktor und jedes Fehlerbild hat eine eigene Meldung. Ein Einstiegs-`single-choice` hat mindestens drei Optionen.
 - Höchstens eine kurze Wörtertabelle je Seite; Seiten mit mehr als etwa 25 Items oder 10 Übungen kürzen.
 - Englische Aufgaben enthalten kein deutsches Wort; der Cue ist englisch. Mit `(a|b)` gleichwertige Antworten zulassen; `punctuation: ok`.
-- Audio: Jeder Hörsatz endet auf ein zweisilbiges Wort, am besten einen zweisilbigen Namen (Sophie, Peter, Ellie, Amir); einsilbige Schlusswörter (map, town, park, class) hatten einen Fehllaut. „Ding“ nur für Gegenstände, nie für Menschen oder Beziehungen. Ausklingen abschneiden; Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Audio: Hörsätze bleiben natürlich: kein Name und kein Wort nur wegen des Klangs anhängen. Das Ausklingen am Ende schneidet `regen_audio.py` ab; Sätze, die auf ein einsilbiges Wort enden, stehen in der Hörliste unten, damit die Ersteller:in gezielt hört. „Ding“ nur für Gegenstände, nie für Menschen oder Beziehungen. Ausklingen abschneiden; Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
 - Bilder: Beschriftungen im `viewBox`; `alt` verrät nie die Lösung; Bildwörter ≠ Aufgabenwörter.
 - Vorlage: `ordering` zeigt Auswahlfelder, `accepted` einer Sprach-Aufgabe wirkt nicht (Gruppen `(a|b)`), im Modus `choice` zeigt die App `mistakes` nicht, `punctuation: hint` meldet bei richtiger Antwort „Achte auf die Satzzeichen“.
 - Kinder in Kapitel 3, besonders `vielfalt-gb`: respektvoll, keine Klischees, keine erfundenen Angaben über Religion oder Herkunft ohne Beleg; Beispiele nennen Sprachen und Feste nur allgemein.
+
+## Hörliste
+
+Sätze, die auf ein einsilbiges (oder unsicher ein- bis zweisilbiges) Wort enden und gezielt angehört werden sollen: „Amir is in the park.“ (`wege-hoeren`), „Ellie wants to walk on the beach.“ (`region-nachsprechen`), „The Roman Baths are in Bath.“ (`roemer-hoeren`), „Hadrian’s Wall has forts and towers.“ (`roemer-nachsprechen`). Alle 54 Sätze hat bisher niemand angehört.

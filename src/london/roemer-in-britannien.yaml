@@ -208,8 +208,8 @@ blocks:
         items:
           - audio: hadrians-wall-has-forts-and-towers.mp3
             text: Hadrian’s Wall has forts and towers.
-          - audio: people-visit-the-roman-baths-today.mp3
-            text: People visit the Roman Baths today.
+          - audio: the-roman-baths-are-in-bath.mp3
+            text: The Roman Baths are in Bath.
           - audio: londinium-is-the-old-name-of-london.mp3
             text: Londinium is the old name of London.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Hadrian’s, forts und Londinium.
