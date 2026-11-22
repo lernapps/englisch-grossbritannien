@@ -39,12 +39,22 @@ blocks:
         entries:
           - target: "pavement"
             source: "Bürgersteig"
-          - target: "bridge"
-            source: "Brücke"
           - target: "bench"
             source: "Sitzbank"
-          - target: "the Tube"
-            source: "die Londoner U-Bahn"
+          - target: "wide"
+            source: "breit"
+          - target: "crowded"
+            source: "überfüllt, voll"
+          - target: "noisy"
+            source: "laut"
+          - target: "offices"
+            source: "Büros"
+          - target: "suits"
+            source: "Anzüge"
+          - target: "culture"
+            source: "Kultur"
+          - target: "plays, theatres"
+            source: "Theaterstücke, Theater"
           - target: "poster"
             source: "Plakat"
           - target: "Welsh"
@@ -59,7 +69,7 @@ blocks:
 
           1. Day one in London! Our train arrived at ten past ten, and now I am sitting on a bench by the River Thames.
           2. The river is wide and brown, and it is much wider than I thought.
-          3. From the bridge I can see Tower Bridge and the Tower of London. On the other side of the river there is the London Eye.
+          3. From my bench I can see Tower Bridge. In the distance there is the Tower of London. On the other side of the river there is the London Eye.
           4. The streets are busy and noisy. Red buses and taxis are everywhere, and the pavements are crowded.
           5. We took the Tube, the Underground, to get here. It was louder than the train and full of people with bags.
           6. I hear many languages around me. Mr Hill says that people in the UK speak English, Welsh, Scottish Gaelic, Irish and many more languages. I like that.
@@ -79,7 +89,7 @@ blocks:
             info: Sie nennt den Fluss, die Straßen, die Sprachen, Kultur und Büros und schließt mit einem positiven Satz.
           - text: Sophie erklärt, wie viele Menschen in London arbeiten.
             correct: false
-            info: In Zeile 7 schreibt sie das Gegenteil. Sie weiß es nicht und schreibt nur auf, was sie sieht.
+            info: In Zeile 7 weiß sie das nicht und schreibt nur auf, was sie sieht.
           - text: Sophie sagt, dass London ihr zu laut ist und sie nach Hause will.
             correct: false
             info: Die Straßen sind laut, aber Sophie schreibt in Zeile 9, dass London ein toller Ort für die Klassenfahrt ist.
@@ -145,7 +155,7 @@ blocks:
               - answer: The Tube is crowded than the bus.
                 message: Vor than steht die Vergleichsform. Bei einem langen Adjektiv wie crowded gehört more davor.
               - answer: The Tube is most crowded than the bus.
-                message: most nutzt du für den Höchsten, nicht für den Vergleich zweier Dinge. Hier passt more.
+                message: most nutzt du für den höchsten Grad (the most …), nicht für den Vergleich zweier Dinge. Hier passt more.
           - cue: Der Bahnhof ist belebter als die Bibliothek.
             target: The station is [busier] than the library.
             distractors: [[more busy, busy]]
@@ -162,15 +172,17 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Der Markt ist lauter als das Museum.
-            target: The market is noisier than the museum.
+            target: The market is (noisier|louder) than the museum.
             mistakes:
               - answer: The market is more noisy than the museum.
-                message: Bei noisy wird y zu i und es kommt -er dazu, also noisier.
+                message: Bei noisy wird y zu i und es kommt -er dazu, also noisier (oder louder).
+              - answer: The market is more loud than the museum.
+                message: loud ist kurz und bekommt -er, also louder.
               - answer: The market is noisy than the museum.
-                message: Vor than steht die Vergleichsform noisier.
+                message: Vor than steht die Vergleichsform, also noisier oder louder.
               - answer: The market is noisier as the museum.
                 message: Nach der Vergleichsform steht than, nicht as.
-        hint: Das Adjektiv endet auf -y, die Vergleichsform auf -ier.
+        hint: Vor than steht die Vergleichsform des Adjektivs, nicht das Adjektiv selbst.
   - type: section
     id: anwenden
     title: Selbst sprechen und schreiben
@@ -202,10 +214,10 @@ blocks:
           I am in a big city today. The streets are busy and the buses are crowded.
           The station is noisier than the park.
           I see a bridge and a lot of shops.
-          I hear people with different languages, and I like that.
+          I hear people speaking different languages, and I like that.
   - type: section
     id: weiter
     title: Und was ist mit Klischees
     blocks:
       - type: text
-        text: Sophie hat aufgeschrieben, was sie in London sieht. Am Abend sagt jemand aus der Klasse, in London seien „alle“ gleich. Sophie schaut auf ihren Eintrag und fragt sich, ob so ein Satz stimmen kann. Das ist das Thema der nächsten Seite.
+        text: Sophie hat aufgeschrieben, was sie in London sieht. Am zweiten Tag regnet es, und Mr Hill bittet die Klasse, Ideen über Länder und Menschen zu sammeln, die man so hört. Sophie schaut auf ihren Eintrag und fragt sich, ob solche Sätze stimmen können. Das ist das Thema der nächsten Seite.

@@ -37,6 +37,10 @@ blocks:
         caption: "Randglossar"
         languages: { source: de, target: en }
         entries:
+          - target: "meet"
+            source: "sich treffen"
+          - target: "leave"
+            source: "abfahren, losfahren"
           - target: "platform"
             source: "Gleis"
           - target: "journey"
@@ -55,13 +59,21 @@ blocks:
             source: "Gruppenfahrkarte"
           - target: "arrive"
             source: "ankommen"
+          - target: "window"
+            source: "Fenster"
+          - target: "late"
+            source: "spät, zu spät"
+          - target: "wait"
+            source: "warten"
+          - target: "Single or return?"
+            source: "Einfache Fahrt oder Hin- und Rückfahrt?"
       - type: text
         text: |
-          **Der Klassenchat**
+          **Der Klassenchat** (Peter liest und schreibt von zu Hause mit)
 
           1. **Mr Hill:** Good morning, everyone! Please meet at Millbrook station at half past seven. Our train leaves from platform 2 at ten past eight.
           2. **Amir:** Do we need tickets?
-          3. **Mr Hill:** I have the group ticket for the way to London. In London we use the Tube, the Underground. Each of you needs a day pass, and we buy them at the station there.
+          3. **Mr Hill:** I have the group ticket for the journey to London. It is only for the way there. For the way home, everybody buys a ticket in London. In London we use the Tube, the Underground. Each of you needs a day pass, and we buy them at the station there.
           4. **Ellie:** How long is the journey?
           5. **Mr Hill:** About two hours. We arrive in London at ten past ten.
           6. **Sophie:** Can I sit next to the window?
@@ -69,8 +81,8 @@ blocks:
           8. **Peter:** Take a photo of the Tube for me, Sophie!
       - type: figure
         image: images/fahrkarte-beispiel.svg
-        alt: Eine Fahrkarte mit den Feldern von, nach, Art, Gleis und Abfahrt.
-        caption: Eine Fahrkarte der Klasse (erfunden). So sehen die Angaben aus.
+        alt: Eine Gruppenfahrkarte mit den Feldern von, nach, Art, Gleis und Abfahrt.
+        caption: Die Gruppenfahrkarte der Klasse (erfunden). So sehen die Angaben aus.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -108,7 +120,7 @@ blocks:
         text: "Die Klasse kauft die Tageskarten für die Tube schon in Millbrook. Stimmt das?"
         answer: false
         hint: Lies noch einmal, was Mr Hill über die Tickets sagt.
-        explanation: Mr Hill hat nur die Gruppenfahrkarte für die Fahrt nach London. Die Tageskarten kauft die Klasse in London.
+        explanation: Mr Hill hat nur die Gruppenfahrkarte für die Fahrt nach London. Die Karte für die Heimfahrt und die Tageskarten kauft die Klasse in London.
         links:
           - title: Lernlandkarte Englisch · Reisen und Verkehr
             url: https://lernapps.net/apps/map/englisch/c/reisen-verkehr/
@@ -178,7 +190,7 @@ blocks:
           - type: figure
             image: images/fahrkarte-material.svg
             alt: Eine Fahrkarte mit Ort, Ziel, Art, Gleis und Abfahrtszeit.
-            caption: Eine andere Fahrkarte aus dem Chat der Klasse (erfunden).
+            caption: Eine andere Fahrkarte (erfunden).
             source: eigene Zeichnung
             licence: CC-BY-4.0
         options:
@@ -202,14 +214,14 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Eine einfache Fahrt nach London, bitte.
-            target: "(A|One|I'd like a|Can I have a) single (ticket |)to London(, please|)."
+            target: "(A|One|I'd like a|I would like a|Could I have a|Can I have a) (single|one-way) (ticket |)to London(, please|)."
             mistakes:
               - answer: A simple ticket to London, please.
                 message: simple heißt „einfach“ im Sinn von „leicht“. Eine einfache Fahrt ist ein single ticket.
               - answer: A return ticket to London, please.
                 message: return ist Hin- und Rückfahrt. Für nur eine Richtung steht single.
           - source: Von welchem Gleis fährt der Zug nach London ab?
-            target: "(Which|What) platform does the (train to|train for|London train) (London |)(leave|go) from?"
+            target: "(Which platform does the train to London leave from|Which platform does the train to London go from|What platform does the train to London leave from|What platform does the train to London go from|From which platform does the train to London leave|From what platform does the train to London leave|Which platform does the London train leave from|Which platform does the London train go from|What platform does the London train leave from|What platform does the train for London leave from)?"
             mistakes:
               - answer: Which platform leaves the train to London?
                 message: Die Frage braucht does vor the train. Das Verb leave steht danach in der Grundform.

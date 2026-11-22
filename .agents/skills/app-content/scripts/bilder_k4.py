@@ -10,8 +10,8 @@ def _ticket(rows, title):
 
 @image
 def fahrkarte_beispiel():
-    b = _ticket([("FROM", "Millbrook"), ("TO", "London"), ("TYPE", "Return"), ("PLATFORM", "2"), ("DEPARTS", "08:10")], "TRAIN TICKET")
-    return svg(480, 310, "Fahrkarte mit Abfahrtsort, Ziel, Art, Gleis und Abfahrtszeit", b)
+    b = _ticket([("FROM", "Millbrook"), ("TO", "London"), ("TYPE", "Group"), ("PLATFORM", "2"), ("DEPARTS", "08:10")], "TRAIN TICKET")
+    return svg(480, 310, "Gruppenfahrkarte mit Abfahrtsort, Ziel, Art, Gleis und Abfahrtszeit", b)
 
 @image
 def fahrkarte_material():
