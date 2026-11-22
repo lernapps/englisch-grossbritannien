@@ -202,12 +202,17 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Phase Commit erreicht: Vorschau-Pull-Request #2 offen und grün (app und preview success), nicht veröffentlicht, kein Katalogeintrag. Checkpoints bestanden: Recherche (Ja), Plan und Inhaltsmethode (Ja), Musterseite (Ja). Der Checkpoint „Veröffentlichen“ steht aus.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Ersteller:in: keine Nachricht im Inkrement. Orchestrator-Session (in der Rolle der Ersteller:in) nach der Bestätigung des Plans: (1) Musterseite zuerst bauen, die anderen Scheiben danach; (2) die anderen Scheiben dürfen folgen, 7 bis 10 Aufgaben je Seite; (3) Auftrag der Ersteller:in: neue Templates, alle Vokabel-Tabellen als `vocabulary`-Block ersetzen.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+- Interview: kein Gespräch mit einer menschlichen Ersteller:in; Ziel, Umfang und Form stammen aus Issue 478, den Konventionen (Abschnitt 7 und 8) und den Nachrichten der Orchestrator-Session; „(guess)“: Zeitleiste mit Datendatei, `scope` auf allen Seiten, Peter bleibt zu Hause.
+- Quellen: Wikipedia „Tudor period“, „Anglo-Norman language“, „History of the English language“ blieben wegen HTTP 429 ungelesen; die Seiten stützen sich nur auf geöffnete Fakten, ohne cow/beef, ohne Zahlen zu London. Fahrkarten-Ausdrücke (single, return, platform, day pass) sind Sprachgebrauch, nicht aus einer Quelle belegt (Sprachprüfung bestätigt).
+- Die fünf Seiten schrieben Sub-Agenten nach der Musterseite `reisen-verkehr` (die ich selbst baute), danach Gesamtcheck (zwei Sub-Agenten, Kind Klasse 8), Sprachprüfung und zwei Fix-Agenten; jede Datei prüfte ich per Build, Skript und `lernapps check`.
+- Audio: Ich kann die Dateien nicht hören, kein Mensch hat sie angehört; Hörliste im Inhaltsführer.
+- Vorlagenfehler, die ich nur umgehen konnte: Rückmeldung bei Zuordnung und Auswahl-Lücke ohne Grund, `explainer-text-load` als Hinweis, `plan skip` scheitert am pre-commit-Hook (früher gemeldet).
+- Plan-Aufgaben: Ich habe am Ende zwei Aufgaben (Inhaltsführer, Bildschirme ansehen) abgehakt, nachdem ich sie erledigt hatte, die Bildschirme aber nur stichprobenartig angesehen (Schaubild, Fahrkarte).
