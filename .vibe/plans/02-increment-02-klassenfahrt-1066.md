@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -86,8 +86,9 @@ Von außen braucht die Karte nur `uhrzeit` (#470) für Kapitel 4.
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Orchestrator-Session (in der Rolle der Ersteller:in): Ja, so planen
 
 ### Answers
 
@@ -103,12 +104,12 @@ Von außen braucht die Karte nur `uhrzeit` (#470) für Kapitel 4.
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
@@ -116,8 +117,13 @@ Von außen braucht die Karte nur `uhrzeit` (#470) für Kapitel 4.
 
 ### Content method
 
-<!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
-cannot. Something new goes into the guide in the slice that adds it. -->
+**Neu gegenüber der ersten Version:** Die Seiten der Stufe 7-8 tragen ein **Lesestück** (150 bis 300 Wörter, eigener Text nach Fakten). Seitenaufbau, abweichend von `einstieg, neu, uebung, anwenden, weiter`: `einstieg` (Vorwissen-Frage mit mindestens drei Optionen, „Das kannst du danach“), `lesen` (Lesestück in 2 bis 4 Abschnitten als Textblöcke oder `quote`, Randglossar als Tabelle „Randglossar“ mit höchstens 8 Zeilen direkt dabei), `verstehen` (3 bis 5 Aufgaben in drei Stufen: Verstehen, Belegen mit Zeile (`single-choice` oder `language-task` mit Zeilenangabe im Text), Meinung (`open-task`)), `anwenden` (`speaking-task` mit 3 Hörsätzen und ein Schreibauftrag `open-task`), `weiter`. Höchstens etwa 25 Items, höchstens ein Lesestück, kein Hörtext länger als ein Satz. Das Lesestück zählt nicht zu den 350 Wörtern Erklärtext; Hinweise von `lernapps check` zu `explainer-text-load` bleiben Hinweise (Lesestück in `text`- oder `quote`-Blöcken, Meldungen kurz halten). Der Inhaltsführer bekommt dafür einen Abschnitt „Stufe 7-8: Lesestücke“ in der ersten Scheibe.
+**Figuren (Stufe 7-8):** Sophie 13 bis 14, Ellie, Amir, Peter (9, bleibt zu Hause und schreibt in Chats mit), Mr Hill, Mrs Parker nach Konventionen; Chats als Textblöcke („Sophie: …“); ein Bild nur wo es etwas zeigt: Kapitel 4 Plan der London-Reise (Karte von London aus Kapitel 3, mit U-Bahn-Linie als Schema und Bahnhof als Halt), Kapitel 5 Zeitleiste (Block `timeline`) und das Schaubild König – Parlament – Premierminister (eigene Zeichnung, `bilder_k5b.py`). Alle Zeichnungen CC-BY-4.0, Lernhandlung: Das Schaubild lesen die Jugendlichen von oben nach unten und ordnen Aufgaben zu; die Zeitleiste ordnen sie nach Jahren.
+**Datendatei:** `src/data/ereignisse.yaml` (Felder `date`, `title`, `text`: 43 Römer, 1066 Hastings, 1509 Henry VIII, 1558 Elizabeth I, heute Westminster; nur belegte Jahre). Genutzt vom Block `timeline` auf der Seite `normannen-1066`.
+**Übungsarten:** Verstehen: `single-choice`, `true-false` mit Zeile, `matching` (Aussage ↔ Absatz); Belegen: Frage mit Zeilenangabe; Meinung: `open-task` mit Punkten (neutral, mehrere Sichtweisen); Sprache: `language-task` choice/gap/write für Wortschatz aus dem Lesestück, Diktat und Nachsprechen in kurzen Sätzen (Hörliste im Inhaltsführer).
+**Heikle Themen:** Politik, Klischees, Herkunft: neutral, keine Parteien, kein Belehren, keine erfundenen Angaben zu Religion oder Herkunft realer Gruppen; Klischees als Aussagen, die die Jugendlichen prüfen, nicht als Wahrheiten.
+**Prüfung wie bisher:** Skript `pruefe_seiten.py` (Hörsätze), Gesamtcheck mit Sub-Agenten je Kapitel (Kind der Stufe 7-8), Sprachprüfung Englisch/Deutsch, `lernapps check`.
+
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
@@ -143,7 +149,14 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Gemeinsame Teile (nur ich): src/data/ereignisse.yaml (Zeitleiste), Kapitel klassenfahrt-london und von-1066-bis-westminster in src/app.yaml und chapter.yaml, Wiederholungsseite `uhrzeit` (Kapitel 4, `das-brauchst-du`)
+- [ ] Scheibe reisen-verkehr (Kapitel 4, Lesestück Chat der Klassenfahrt und Dialog am Schalter): Sub-Agent A, nur src/klassenfahrt-london/reisen-verkehr.yaml, bilder_k4.py, audio-texte-k4.json
+- [ ] Scheibe london-heute (Kapitel 4, Lesestück Blogeintrag): Sub-Agent B, nur src/klassenfahrt-london/london-heute.yaml, bilder_k4b.py, audio-texte-k4b.json
+- [ ] Scheibe stereotype (Kapitel 4, Lesestück Chat zu Klischees, neutral): Sub-Agent C, nur src/klassenfahrt-london/stereotype.yaml, bilder_k4c.py, audio-texte-k4c.json
+- [ ] Scheibe normannen-1066 und tudors (Kapitel 5, Sachtexte mit Zeitleiste): Sub-Agent D, nur src/von-1066-bis-westminster/normannen-1066.yaml und tudors.yaml, bilder_k5.py, audio-texte-k5.json
+- [ ] Scheibe politik-uk (Kapitel 5, Sachtext und Schaubild König, Parlament, Premierminister, neutral): Sub-Agent E, nur src/von-1066-bis-westminster/politik-uk.yaml, bilder_k5b.py, audio-texte-k5b.json
+- [ ] Selbsteinschätzung der Kapitel 4 und 5, Hörlisten und Audio zusammenführen, Skript-Prüfung über alle Seiten (nur ich)
+<!-- tasks: slices (7 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
