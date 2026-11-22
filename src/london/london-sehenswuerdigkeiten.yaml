@@ -233,8 +233,8 @@ blocks:
         items:
           - audio: big-ben-is-a-famous-bell-in-london.mp3
             text: Big Ben is a famous bell in London.
-          - audio: many-visitors-take-photos-of-the-tower.mp3
-            text: Many visitors take photos of the tower.
+          - audio: many-visitors-take-photos-of-the-bridges.mp3
+            text: Many visitors take photos of the bridges.
           - audio: amir-likes-the-british-museum.mp3
             text: Amir likes the British Museum.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf famous, Bridge und museum.
