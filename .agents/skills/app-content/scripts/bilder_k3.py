@@ -35,14 +35,14 @@ def zeitstrahl_roemer():
     b += text(225, 160, "um 50", 20, weight="bold") + text(225, 182, "Londinium", 16)
     b += f'  <circle cx="420" cy="110" r="11" fill="{GREEN}" stroke="#333" stroke-width="2"/>\n'
     b += text(420, 70, "122", 20, weight="bold") + text(420, 52, "Hadrian’s Wall", 16)
-    b += text(260, 214, "Jahre nach Christi Geburt (nicht maßstabsgerecht)", 16, fill="#555")
+    b += text(260, 214, "Jahre nach Christi Geburt (nicht genau nach Maßstab)", 16, fill="#555")
     return svg(520, 230, "Zeitstrahl mit drei Marken: 43, um 50 und 122", b)
 
 def _gb_base():
     b = rect(40, 10, 400, 70, "#e8e2d2", stroke="#aaa", sw=2, rx=14) * 0
     # Scotland (north), Wales (west), England (own rough outline)
     b += '  <path d="M150 10 L330 10 L330 98 L150 98 Z" fill="#e6e0cf" stroke="#999" stroke-width="2" stroke-dasharray="6 5"/>\n'
-    b += text(240, 60, "Schottland", 16, fill="#555")
+    b += text(240, 60, "Scotland", 16, fill="#555")
     b += '  <path d="M120 215 L150 200 L160 255 L150 300 L110 305 L80 285 L95 250 Z" fill="#e6e0cf" stroke="#999" stroke-width="2" stroke-dasharray="6 5"/>\n'
     b += text(70, 250, "Wales", 16, fill="#555", anchor="middle")
     b += ('  <path d="M150 98 L330 98 L322 150 L345 200 L352 250 L400 275 L390 320 L330 340 L250 352 L170 350 L120 335 L110 305 '

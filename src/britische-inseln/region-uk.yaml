@@ -15,10 +15,10 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) fragt seine Mutter: „Where is Cornwall?“ Mrs Parker holt die Karte."
+        text: "Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) hat eine Frage an seine Mutter. Mrs Parker holt die Karte."
       - type: single-choice
         id: region-start
-        text: "Was will Peter wissen?"
+        text: "Peter fragt: „Where is Cornwall?“ Was will er wissen?"
         options:
           - text: Wo liegt Cornwall?
             correct: true
@@ -107,13 +107,13 @@ blocks:
         text: Was kann man dort tun? Ordne zu.
         pairs:
           - left: Cornwall
-            right: You can swim at the beach.
+            right: You can see the English Channel.
           - left: the Lake District
-            right: You can climb a mountain.
+            right: You can see many lakes.
           - left: Wales
             right: You can hear Welsh.
-        explanation: In Cornwall kann man am Strand schwimmen. Im Lake District gibt es Berge. In Wales hört man neben Englisch auch Welsh.
-        hint: Denke an das, was zu jeder Region gehört, ein Meer, Berge und eine zweite Sprache.
+        explanation: "In Cornwall liegt im Süden der English Channel. Der Lake District ist bekannt für Seen. In Wales hört man neben Englisch auch Welsh."
+        hint: Denke an das, was nur zu einer Region passt, ein bestimmtes Meer, Seen und eine zweite Sprache.
         links:
           - title: Lernlandkarte Englisch · Eine Region vorstellen
             url: https://lernapps.net/apps/map/englisch/c/region-uk/

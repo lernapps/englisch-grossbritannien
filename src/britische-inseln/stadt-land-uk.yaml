@@ -15,10 +15,10 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Auf der Seite davor hat Peter nach Cornwall gefragt. Beim Abendessen erzählt Ellie von London: „London is bigger than Millbrook.“ Sophie denkt nach. Sie kennt den Ort Millbrook und hat von London und von Cornwall gehört. Wo ist mehr los, und wo ist es ruhiger? Sophie vergleicht."
+        text: "Auf der Seite davor hat Peter nach Cornwall gefragt. Beim Abendessen erzählt Ellie von London und von Millbrook. Sophie denkt nach. Sie kennt den Ort Millbrook und hat von London und von Cornwall gehört. Wo ist mehr los, und wo ist es ruhiger? Sophie vergleicht."
       - type: single-choice
         id: stadt-start
-        text: Was sagt Ellie?
+        text: "Ellie sagt: „London is bigger than Millbrook.“ Was heißt das?"
         options:
           - text: London ist größer als Millbrook.
             correct: true
@@ -193,8 +193,8 @@ blocks:
         items:
           - audio: a-taxi-is-more-expensive-than-a-bicycle.mp3
             target: A taxi is more expensive than a bicycle.
-          - audio: amir-is-not-as-tall-as-ellie.mp3
-            target: Amir is not as tall as Ellie.
+          - audio: my-bike-is-not-as-fast-as-ellie.mp3
+            target: My bike is not as fast as Ellie.
           - audio: a-big-city-is-busier-than-a-small-village.mp3
             target: A big city is busier than a small village.
   - type: section
@@ -207,8 +207,8 @@ blocks:
         items:
           - audio: my-town-is-smaller-than-your-city.mp3
             text: My town is smaller than your city.
-          - audio: the-city-is-not-as-quiet-as-the-countryside.mp3
-            text: The city is not as quiet as the countryside.
+          - audio: our-village-is-quieter-than-the-city.mp3
+            text: Our village is quieter than the city.
           - audio: sophie-likes-the-quiet-countryside.mp3
             text: Sophie likes the quiet countryside.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf than und as … as.

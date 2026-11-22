@@ -44,15 +44,15 @@ blocks:
       - type: figure
         image: images/zeitstrahl-roemer.svg
         alt: Zeitstrahl von links nach rechts mit drei Marken. Bei jeder Marke stehen eine Zahl und ein kurzes Wort.
-        caption: "Zeitstrahl: Die Römer in Britannien (nicht maßstabsgerecht, die Abstände stimmen nicht mit den Jahren überein)."
+        caption: "Zeitstrahl: Die Römer in Britannien (nicht genau nach Maßstab, die Abstände stimmen nicht mit den Jahren überein)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: "Drei Orte zeigen, dass die Römer da waren: **Londinium** an der Themse, **Hadrian’s Wall** mit Forts und Türmen und die **Roman Baths** im Südwesten Englands. Die Römer nannten den Ort der Bäder **Aquae Sulis**. Die Karte zeigt, wo die drei Orte liegen."
       - type: figure
         image: images/roemer-orte.svg
-        alt: "Schemakarte von England mit Schottland im Norden und Wales im Westen. Eine Linie und zwei Punkte sind beschriftet. Schemakarte, nicht maßstabsgerecht."
-        caption: "Schemakarte, nicht maßstabsgerecht: Orte der Römer in England. Norden ist oben."
+        alt: "Schemakarte von England mit Scotland im Norden und Wales im Westen. Eine Linie und zwei Punkte sind beschriftet. Schemakarte, nicht genau nach Maßstab."
+        caption: "Schemakarte, nicht genau nach Maßstab: Orte der Römer in England. Norden ist oben."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note

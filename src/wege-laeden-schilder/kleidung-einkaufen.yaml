@@ -40,7 +40,7 @@ blocks:
     title: Kleidung, Preise und Größen
     blocks:
       - type: text
-        text: "Im Laden brauchst du drei Teile: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild. Die Verkäuferin fragt dich oft **Can I help you?** (Kann ich dir helfen?). Wenn etwas nicht passt, sagst du zum Beispiel **too small** (zu klein)."
+        text: "Im Laden brauchst du drei Teile: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild. Die Verkäuferin fragt dich oft **Can I help you?** (Kann ich dir helfen?). Wenn etwas nicht passt, sagst du zum Beispiel **too small** (zu klein). Weitere Kleidungswörter: **trainers** (Turnschuhe), **jacket** (Jacke), **scarf** (Schal). Eine Tasche heißt **bag**."
       - type: figure
         image: images/kleidung-regal.svg
         alt: Zwei Regalbretter. Auf dem oberen liegen ein Hemd, eine Jeans und eine Mütze, jeweils mit einem Preisschild und dem englischen Wort. Auf dem unteren liegen drei blaue Hemden in drei Größen mit den Wörtern small, medium und large.
@@ -61,10 +61,6 @@ blocks:
           - [jumper, Pullover]
           - [shoes, Schuhe (immer Mehrzahl)]
           - [medium, mittelgroß]
-          - [trainers, Turnschuhe]
-          - [jacket, Jacke]
-          - [scarf, Schal]
-          - [bag, Tasche]
           - [a pair of, ein Paar (a pair of jeans heißt eine Jeans)]
   - type: section
     id: uebung
@@ -198,7 +194,7 @@ blocks:
             mistakes:
               - answer: It's five pound.
                 message: Bei allen Zahlen außer eins heißt es pounds mit s.
-          - cue: My size is big. (Gemeint ist die größte der drei Größen.)
+          - cue: My size is big.
             target: My size is large.
             mistakes:
               - answer: My size is big.
@@ -208,7 +204,7 @@ blocks:
             mistakes:
               - answer: Peter wants a trousers.
                 message: trousers gibt es nur in der Mehrzahl. Du sagst a pair of trousers oder nimmst some oder the.
-        hint: Prüfe bei jedem Satz die Mehrzahl, das s bei pounds und das Wort für die Größe.
+        hint: Prüfe bei jedem Satz die Mehrzahl, das s bei pounds und das Wort für die Größe. Bei My size is big ist die größte der drei Größen gemeint.
       - type: language-task
         id: kleid-uebersetzen
         languages: { source: de, target: en }
@@ -230,9 +226,9 @@ blocks:
           - source: Der Pullover ist dreißig Pfund.
             target: The jumper (is|costs) (£30|thirty pounds).
             mistakes:
-              - answer: The skirt is thirty pound.
+              - answer: The jumper is thirty pound.
                 message: Bei allen Zahlen außer eins heißt es pounds mit s.
-              - answer: The skirt is thirteen pounds.
+              - answer: The jumper is thirteen pounds.
                 message: thirteen ist 13. Dreißig heißt thirty.
         hint: Für den Preis brauchst du How much. Beim Preis passt pounds mit s, bei der Hose these.
       - type: language-task

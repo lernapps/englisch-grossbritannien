@@ -15,10 +15,10 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "In der Millbrook School hängt Mr Hill eine große Karte an die Wand. Auf der Seite davor hast du Vergleiche wiederholt. Bisher kennst du nur den Plan von Millbrook, mit Straßen und Läden. Jetzt zoomt der Plan heraus: Millbrook ist nur noch ein kleiner Punkt auf einer **Karte** mit ganzen Ländern und Inseln. Eine Schemakarte zeigt nur das Wichtigste und ist nicht genau nach Maßstab. Mr Hill zeigt darauf und sagt: „Millbrook is in England.“"
+        text: "In der Millbrook School hängt Mr Hill eine große Karte an die Wand. Auf der Seite davor hast du Vergleiche wiederholt. Bisher kennst du nur den Plan von Millbrook, mit Straßen und Läden. Jetzt zoomt der Plan heraus: Millbrook ist nur noch ein kleiner Punkt auf einer **Karte** mit ganzen Ländern und Inseln. Eine Schemakarte zeigt nur das Wichtigste und ist nicht genau nach Maßstab. Mr Hill zeigt auf den Punkt und erklärt, wo er liegt."
       - type: single-choice
         id: inseln-start
-        text: "Was sagt Mr Hill über Millbrook?"
+        text: "Mr Hill sagt: „Millbrook is in England.“ Was bedeutet das?"
         options:
           - text: Millbrook liegt in England.
             correct: true
@@ -53,9 +53,9 @@ blocks:
           - type: text
             text: |
               - **UK**: der Staat mit den vier Teilen.
-              - **Great Britain**: nur die große Insel im Osten.
-              - **Ireland**: die Insel im Westen und auch der Staat dort. Der Staat heißt auch Republic of Ireland und gehört nicht zum UK.
-              - **Northern Ireland**: der Nordosten der Insel Ireland. Er gehört zum UK.
+              - **Great Britain**: eine Insel, auf der drei Teile des UK liegen.
+              - **Ireland**: die Insel im Westen und auch der Staat dort. Der Staat heißt auch Republic of Ireland und ist ein eigenes Land.
+              - **Northern Ireland**: der Nordosten der Insel Ireland. Er ist ein Teil des UK.
               - **British Isles**: alle Inseln zusammen.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
@@ -141,7 +141,7 @@ blocks:
         id: inseln-uk-gb
         text: "Peter (9) sagt: „Great Britain and the UK are the same.“ Stimmt das?"
         options:
-          - text: Nein. Great Britain ist nur die große Insel. Zum UK gehört auch Northern Ireland.
+          - text: Nein. Great Britain ist eine Insel, das UK ein Staat. Der Staat hat einen Teil mehr als die Insel.
             correct: true
             info: Great Britain ist die Insel mit England, Scotland und Wales. Northern Ireland liegt auf der Nachbarinsel Ireland und gehört trotzdem zum UK.
           - text: Ja. Great Britain ist ein anderer Name für das UK.

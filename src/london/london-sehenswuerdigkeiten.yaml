@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Heute macht die Klasse einen Stadtrundgang. Mr Hill hat eine **Schemakarte** von London dabei: eine einfache Karte, die nicht maßstabsgerecht ist. Sechs Halte sind nummeriert. Peter ist heute nicht dabei, deshalb schreibt Sophie ihm später eine Postkarte. Mr Hill sagt: „We walk along the River Thames.“"
+        text: "Heute macht die Klasse einen Stadtrundgang. Mr Hill hat eine **Schemakarte** von London dabei: eine einfache Karte, die nicht genau nach Maßstab ist. Sechs Halte sind nummeriert. Peter ist heute nicht dabei, deshalb schreibt Sophie ihm später eine Postkarte. Mr Hill sagt: „We walk along the River Thames.“"
       - type: single-choice
         id: lon-start
         text: "Was ist die Themse (the River Thames)?"
@@ -41,8 +41,8 @@ blocks:
     blocks:
       - type: figure
         image: images/london-karte.svg
-        alt: Schemakarte von London. Die Themse verläuft als breites blaues Band von links nach rechts. Sechs nummerierte Halte mit ihren Namen liegen nördlich, südlich und an dem Fluss. Schemakarte, nicht maßstabsgerecht.
-        caption: Schemakarte, nicht maßstabsgerecht. Norden ist oben, Osten rechts. Die Themse fließt von West nach Ost.
+        alt: Schemakarte von London. Die Themse verläuft als breites blaues Band von links nach rechts. Sechs nummerierte Halte mit ihren Namen liegen nördlich, südlich und an dem Fluss. Schemakarte, nicht genau nach Maßstab.
+        caption: Schemakarte, nicht genau nach Maßstab. Norden ist oben, Osten rechts. Die Themse fließt von West nach Ost.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -93,8 +93,8 @@ blocks:
         material:
           - type: figure
             image: images/london-karte-nummern.svg
-            alt: Schemakarte von London mit der Themse und sechs nummerierten Halten ohne Namen. Schemakarte, nicht maßstabsgerecht.
-            caption: Schemakarte, nicht maßstabsgerecht. Norden ist oben, Osten rechts.
+            alt: Schemakarte von London mit der Themse und sechs nummerierten Halten ohne Namen. Schemakarte, nicht genau nach Maßstab.
+            caption: Schemakarte, nicht genau nach Maßstab. Norden ist oben, Osten rechts.
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
@@ -176,7 +176,7 @@ blocks:
                 message: on heißt auf oder direkt an. In der Nähe heißt near.
               - answer: The bridge is in the castle.
                 message: in heißt in. In der Nähe heißt near.
-          - cue: Das Schloss liegt direkt am Fluss.
+          - cue: Die Burg liegt direkt am Fluss.
             target: The castle is [on] the River Thames.
             distractors: [[in, at]]
             mistakes:
@@ -233,8 +233,8 @@ blocks:
         items:
           - audio: big-ben-is-a-famous-bell-in-london.mp3
             text: Big Ben is a famous bell in London.
-          - audio: tower-bridge-is-near-the-tower-of-london.mp3
-            text: Tower Bridge is near the Tower of London.
+          - audio: many-visitors-take-photos-of-the-tower.mp3
+            text: Many visitors take photos of the tower.
           - audio: amir-likes-the-british-museum.mp3
             text: Amir likes the British Museum.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf famous, Bridge und museum.

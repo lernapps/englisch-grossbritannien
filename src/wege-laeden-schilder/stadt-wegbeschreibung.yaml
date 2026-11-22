@@ -119,6 +119,8 @@ blocks:
             mistakes:
               - answer: The park is opposite the school.
                 message: Die school liegt ganz im Westen. Gegenüber vom park liegt ein Ort an der Mill Lane.
+              - answer: The park is opposite the library.
+                message: Die library liegt ganz im Westen, gegenüber der school. Gegenüber vom park liegt ein Ort an der Mill Lane.
         hint: Suche zuerst die Orte, die im Satz schon genannt sind, und schau, was zwischen oder gegenüber liegt.
       - type: language-task
         id: wege-plan

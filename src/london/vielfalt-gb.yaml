@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Mittagspause in London. Die Kinder sitzen im Park, Peter ist nicht dabei. Mr Hill fragt nach ihren Familien. Ellie hat Familie in Cornwall, Sophie wohnt bei den Parkers, und Amir erzählt, dass bei ihm zu Hause zwei Sprachen gesprochen werden. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders. Niemand muss etwas erzählen, was er nicht erzählen möchte."
+        text: "Mittagspause in London. Die Kinder sitzen im Park, Peter ist nicht dabei. Mr Hill fragt nach ihren Familien. Ellie hat Familie in Cornwall, Sophie wohnt bei den Parkers, und Amir erzählt, dass bei ihm zu Hause zwei Sprachen gesprochen werden. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders."
       - type: single-choice
         id: viel-start
         text: "Was bedeutet Mr Hills Satz „The grandparents of many children in our class moved to a new town many years ago“?"
@@ -46,7 +46,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Mit **live in** sagst du, wo jemand wohnt: My cousin lives in a flat. Mit **come from** sagst du, woher jemand oder die Familie kommt: Her family comes from a village. Nach **many different** und nach **two, three …** steht der Plural: many different animals, three books (nicht: three book). In Fragen mit **does** steht das Verb ohne -s: What does your sister play? Sprich respektvoll: **people from many places**, nicht „foreigners“. Jeder erzählt nur, was er erzählen möchte.
+              Mit **live in** sagst du, wo jemand wohnt: My cousin lives in a flat. Mit **come from** sagst du, woher jemand oder die Familie kommt: Her family comes from a village. Nach **many different** und nach **two, three …** steht der Plural: many different animals, three books (nicht: three book). In Fragen mit **does** steht das Verb ohne -s: What does your sister play? Sag **people from many places**.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -172,8 +172,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: many-children-in-my-class-speak-two-languages.mp3
-            target: Many children in my class speak two languages.
+          - audio: her-cousins-learn-another-language.mp3
+            target: Her cousins learn another language.
           - audio: sophie-and-ellie-live-in-millbrook.mp3
             target: Sophie and Ellie live in Millbrook.
           - audio: mr-hill-asks-amir-about-his-family.mp3
