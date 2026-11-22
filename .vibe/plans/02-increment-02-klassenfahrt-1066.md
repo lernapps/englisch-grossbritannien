@@ -150,8 +150,8 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Gemeinsame Teile (nur ich): src/data/ereignisse.yaml (Zeitleiste), Kapitel klassenfahrt-london und von-1066-bis-westminster in src/app.yaml und chapter.yaml, Wiederholungsseite `uhrzeit` (Kapitel 4, `das-brauchst-du`)
-- [ ] Scheibe reisen-verkehr (Kapitel 4, Lesestück Chat der Klassenfahrt und Dialog am Schalter): Sub-Agent A, nur src/klassenfahrt-london/reisen-verkehr.yaml, bilder_k4.py, audio-texte-k4.json
+- [x] Gemeinsame Teile (nur ich): src/data/ereignisse.yaml (Zeitleiste), Kapitel klassenfahrt-london und von-1066-bis-westminster in src/app.yaml und chapter.yaml, Wiederholungsseite `uhrzeit` (Kapitel 4, `das-brauchst-du`)
+- [x] Scheibe reisen-verkehr (Kapitel 4, Lesestück Chat der Klassenfahrt und Dialog am Schalter): Sub-Agent A, nur src/klassenfahrt-london/reisen-verkehr.yaml, bilder_k4.py, audio-texte-k4.json
 - [ ] Scheibe london-heute (Kapitel 4, Lesestück Blogeintrag): Sub-Agent B, nur src/klassenfahrt-london/london-heute.yaml, bilder_k4b.py, audio-texte-k4b.json
 - [ ] Scheibe stereotype (Kapitel 4, Lesestück Chat zu Klischees, neutral): Sub-Agent C, nur src/klassenfahrt-london/stereotype.yaml, bilder_k4c.py, audio-texte-k4c.json
 - [ ] Scheibe normannen-1066 und tudors (Kapitel 5, Sachtexte mit Zeitleiste): Sub-Agent D, nur src/von-1066-bis-westminster/normannen-1066.yaml und tudors.yaml, bilder_k5.py, audio-texte-k5.json
