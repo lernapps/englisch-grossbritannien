@@ -269,6 +269,26 @@ page, which a link. -->
 <!-- YAML valid against the entry schema the listing skill names. Only known values, never invented. -->
 
 ```yaml
+# yaml-language-server: $schema=https://lernapps.net/apps/schemas/entry.v1.schema.json
+title: "Großbritannien: Stadt, Inseln, London"
+subject: englisch
+grades: [5, 6]
+summary: >-
+  Sophie und ihre Gastfamilie zeigen dir Großbritannien: erst der Plan der Stadt Millbrook mit Wegen, Läden und Schildern,
+  dann die Karte der Britischen Inseln und zuletzt London mit den Römern und den Menschen dort.
+  Du übst Wege beschreiben, Schilder lesen, einkaufen, Regionen vorstellen und vergleichen, mit Hörsätzen und Rückmeldung.
+url: https://lernapps.net/englisch-grossbritannien/
+keywords: [Großbritannien, London, Stadtplan, Weg beschreiben, Landeskunde, Englisch]
+creator: { name: lernapps, url: "https://github.com/lernapps" }
+source: https://github.com/lernapps/englisch-grossbritannien
+# commit: die volle Id nach dem Veröffentlichen (git rev-parse HEAD auf main); erst dann gilt der Eintrag
+fitness:
+  account: false
+  install: false
+  storage: device
+  thirdParty: none
+  thirdPartyNote: ""
+  checked: false
 ```
 
 ## Retrospective
@@ -277,12 +297,20 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Phase Commit erreicht: Vorschau-Pull-Request #1 offen und grün (app und preview success), nicht veröffentlicht, kein Katalogeintrag. Checkpoints bestanden: Recherche (Ja), Plan und Inhaltsmethode (Ja), Musterseite (Ja mit elf Auflagen, danach sieben Reste, umgesetzt). Der Checkpoint „Veröffentlichen“ ist nicht bestanden: Der unabhängige Gesamtcheck der Orchestrator-Session läuft noch.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Ersteller:in: zwei Nachrichten, beide vor der Bestätigung des Plans: Freigabe der `npx`-Befehle für `init` und „Du darfst es ausführen!“ nach dem Recherche-Checkpoint; keine Rückmeldung zu Inhalt oder Plan. Orchestrator-Session (in der Rolle der Ersteller:in) nach der Bestätigung des Plans: (1) Musterseite: Ja mit elf Auflagen (Lösungen über Übungen, Beispielweg gleich Lösung, höchstens eine Wörter-Tabelle, Inhaltsführer füllen, Wörter vor der Abfrage, Alt-Texte, mehr Orte benennen, Zweitcheck); (2) Nachprüfung mit sieben Resten (opposite vor der Einführung, Lösung im Einstieg, Merke gleich Übung, Mehrdeutigkeit in `wege-lage`, Bildunterschrift, Wortliste, Nachsprechen); (3) Rückmeldung der Ersteller:in zu #471 (Hörsatz endet zweisilbig, „Ding“ nur für Gegenstände); (4) Bitte, Retrospektive und Entry draft zu füllen.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Interview: kein Gespräch mit einer menschlichen Ersteller:in. Ziel, Lernende, Hürden, Umfang, Sprache, Begriffe stammen aus dem Auftrag (#478) und den Konventionen (#489); wo beide schweigen, steht „(guess)“ (Suchbegriffe, Straßennamen, Kapitelreihenfolge).
+- Neue Orte und Figurenzüge: Plan von Millbrook mit acht Orten, Cornwall-Ausflug der Parkers, London-Tag mit Mr Hill ohne Peter, erfundene Ortsnamen Fairfield, Oakley, Music Club nur im Bild von `alltagstexte`: eigene Entscheidung, von der Orchestrator-Session bestätigt.
+- Keine Komponente, keine Datendatei, keine Fotos und Videos (keine Lizenz geprüft); Karten als eigene Schemakarten.
+- Die Seiten der Kapitel 1 bis 3 außer der Musterseite haben drei Sub-Agenten nach dem Muster geschrieben (je ein Kapitel, mit Brief und Auflagenliste), der Gesamtcheck ebenfalls Sub-Agenten, danach drei Fix-Agenten; ich habe jede Datei per Build, `lernapps check` und Skript geprüft.
+- Audio: Ich kann die Dateien nicht hören, kein Mensch hat sie angehört; die Ersteller:in hört sie vor der Veröffentlichung.
+- Fakten: „Roman Britain“ und „Demography of London“ waren wegen HTTP 429 nicht lesbar; die Römer-Seite nutzt nur geprüfte Fakten, keine Bevölkerungszahlen.
+- Pages: Die Einstellung (gh-pages, Root) konnte ich wegen des Proxys nicht lesen; `gh-pages` existiert, die Vorschau läuft.
+- Vorlagenfehler, die ich nur umgehen konnte: Standardmeldung „Deine Fassung kann trotzdem richtig sein“, `choice`-Rückmeldung ohne Grund, `ordering` mit „Platz …“-Feldern, Selbsteinschätzung wiederholt Seitenaufgaben; `explainer-text-load` bleibt als Hinweis (350 bis 600 Wörter in Aufgaben und Meldungen).
+- Plan-Aufgaben: Ich habe `plan done` mehrmals zu früh ausgeführt (die Archetyp-Skills, die Inhaltsmethode, mehrere Seiten-Aufgaben) und die Arbeit danach nachgeholt oder geprüft.
