@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Beim Abendessen erzählt Ellie von London: „London is bigger than Millbrook.“ Sophie denkt nach. Sie kennt jetzt die große Stadt London, den kleineren Ort Millbrook und das Land in Cornwall. Wo ist mehr los, und wo ist es ruhiger? Sophie vergleicht."
+        text: "Auf der Seite davor hat Peter nach Cornwall gefragt. Beim Abendessen erzählt Ellie von London: „London is bigger than Millbrook.“ Sophie denkt nach. Sie kennt den Ort Millbrook und hat von London und von Cornwall gehört. Wo ist mehr los, und wo ist es ruhiger? Sophie vergleicht."
       - type: single-choice
         id: stadt-start
         text: Was sagt Ellie?
@@ -40,7 +40,7 @@ blocks:
     title: Stadt und Land
     blocks:
       - type: text
-        text: "Eine **city** ist eine Großstadt, das **countryside** ist das Land mit Feldern und Hügeln. Beides ist oft verschieden. Du vergleichst mit **-er … than**, **more … than** und **as … as**."
+        text: "Eine **city** ist eine Großstadt, das **countryside** ist das Land mit Feldern und Hügeln. Beides ist oft verschieden. Vier Wörter helfen dir beim Vergleichen: **noisy** (laut), **crowded** (voll, überfüllt), **expensive** (teuer) und **cheap** (billig). Du vergleichst mit **-er … than**, **more … than** und **as … as**."
       - type: table
         caption: Klassenzimmer-Poster · Stadt und Land (meistens, nicht immer)
         header: [In der Stadt, Auf dem Land]
@@ -63,18 +63,18 @@ blocks:
     blocks:
       - type: matching
         id: stadt-woerter
-        text: Welches Wort passt? Ordne zu.
+        text: Welches Wort passt zur Situation? Ordne zu.
         pairs:
-          - left: noisy
-            right: laut
-          - left: crowded
-            right: voll, überfüllt
-          - left: expensive
-            right: teuer
-          - left: cheap
-            right: billig
-        explanation: noisy heißt laut, crowded voll oder überfüllt, expensive teuer und cheap billig.
-        hint: Denke an eine Stadt am Samstag. Welche Wörter passen dazu?
+          - left: Der Bus ist am Samstag ganz voll.
+            right: crowded
+          - left: Die Autos hupen, und die Straße ist sehr laut.
+            right: noisy
+          - left: Ein Mantel kostet sehr viel Geld.
+            right: expensive
+          - left: Ein Eis kostet nur wenig Geld.
+            right: cheap
+        explanation: Ein voller Bus ist crowded, eine laute Straße ist noisy, ein Mantel für viel Geld ist expensive und ein Eis für wenig Geld ist cheap.
+        hint: Überlege bei jedem Satz, ob es um Menschen, Lärm oder Geld geht.
         links:
           - title: Lernlandkarte Englisch · Stadt und Land vergleichen
             url: https://lernapps.net/apps/map/englisch/c/stadt-land-uk/
@@ -158,8 +158,6 @@ blocks:
             mistakes:
               - answer: Millbrook is not as more crowded as London.
                 message: Zwischen as und as steht das Adjektiv ohne more.
-              - answer: Millbrook is not so crowded as London.
-                message: Im Englischen heißt es not as … as.
           - source: Das Buch ist billiger als das Spiel.
             target: The book is cheaper than the game.
             mistakes:
@@ -179,14 +177,14 @@ blocks:
             mistakes:
               - answer: Millbrook is more smaller than London.
                 message: Entweder more oder -er, nie beides. small ist kurz, also smaller.
-          - cue: The countryside is more quiet then the city.
-            target: The countryside is quieter than the city.
+          - cue: The countryside is quieter then the city.
+            target: The countryside is (quieter|more quiet) than the city.
             mistakes:
               - answer: The countryside is more quieter than the city.
-                message: Entweder more oder -er, nie beides. quiet ist kurz, also quieter.
+                message: Entweder more oder -er, nie beides. Es heißt quieter oder more quiet.
               - answer: The countryside is quieter then the city.
                 message: Nach dem Vergleich steht than, nicht then.
-        hint: Prüfe zwei Dinge, die Steigerung des Adjektivs und das Wort vor dem zweiten Ort.
+        hint: Prüfe die Steigerung des Adjektivs und das Wort vor dem zweiten Ort. Ein Wort ist falsch.
       - type: language-task
         id: stadt-hoeren
         languages: { source: de, target: en }
@@ -238,6 +236,6 @@ blocks:
         caption: Schulkalender · Rückblick Kapitel 2
         header: [Seite, Das kannst du, Beispiel]
         rows:
-          - [Die Karte, Teile des UK und Hauptstädte zeigen, Scotland is in the north of Great Britain.]
-          - [Eine Region, eine Region vorstellen, The Lake District has big mountains.]
-          - [Stadt und Land, Orte vergleichen, A village is smaller than a city.]
+          - [Die Karte, Teile des UK und Hauptstädte zeigen, The UK has four parts.]
+          - [Eine Region, eine Region vorstellen, The park is in the north of Millbrook.]
+          - [Stadt und Land, Orte vergleichen, Peter is as tall as Amir.]

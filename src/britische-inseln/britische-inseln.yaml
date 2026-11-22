@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-karte-klasse.svg
-        alt: Ein Mann mit grauen Haaren steht neben einer großen Karte an der Klassenzimmerwand. Rechts davon stehen drei Kinder. Auf der Karte sind Inseln in verschiedenen Farben, aber ohne Namen. Schemakarte, nicht maßstabsgerecht.
-        caption: "Von links: Mr Hill (graue Haare), Amir (Brille), Sophie (blonde Zöpfe), Ellie (roter Pferdeschwanz). Die Karte an der Wand ist eine Schemakarte, nicht maßstabsgerecht."
+        alt: Ein Mann mit grauen Haaren steht neben einer großen Karte an der Klassenzimmerwand. Rechts davon stehen drei Kinder. Auf der Karte sind Inseln in verschiedenen Farben, aber ohne Namen. Schemakarte, nicht genau nach Maßstab.
+        caption: "Von links: Mr Hill (graue Haare), Amir (Brille), Sophie (blonde Zöpfe), Ellie (roter Pferdeschwanz). Die Karte an der Wand ist eine Schemakarte, nicht genau nach Maßstab."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "In der Millbrook School hängt Mr Hill eine große Karte an die Wand. Bisher kennst du nur den Plan von Millbrook, mit Straßen und Läden. Jetzt zoomt der Plan heraus: Millbrook ist nur noch ein kleiner Punkt auf einer **Karte** mit ganzen Ländern und Inseln. Mr Hill zeigt darauf und sagt: „Millbrook is in England.“"
+        text: "In der Millbrook School hängt Mr Hill eine große Karte an die Wand. Auf der Seite davor hast du Vergleiche wiederholt. Bisher kennst du nur den Plan von Millbrook, mit Straßen und Läden. Jetzt zoomt der Plan heraus: Millbrook ist nur noch ein kleiner Punkt auf einer **Karte** mit ganzen Ländern und Inseln. Eine Schemakarte zeigt nur das Wichtigste und ist nicht genau nach Maßstab. Mr Hill zeigt darauf und sagt: „Millbrook is in England.“"
       - type: single-choice
         id: inseln-start
         text: "Was sagt Mr Hill über Millbrook?"
@@ -43,8 +43,8 @@ blocks:
         text: "Das **UK** (United Kingdom, Vereinigtes Königreich) hat vier Teile: **England, Scotland, Wales** und **Northern Ireland**. Jeder Teil hat eine **capital**, eine Hauptstadt. Auf der Karte sind die Hauptstädte Punkte."
       - type: figure
         image: images/inseln-karte-namen.svg
-        alt: Schemakarte der Britischen Inseln. Im Osten liegt eine große Insel mit drei Gebieten, im Westen eine kleinere Insel mit zwei Gebieten. Alle Gebiete haben Namen, fünf Städte sind als Punkte mit Namen markiert. Schemakarte, nicht maßstabsgerecht.
-        caption: Die Britischen Inseln (Schemakarte, nicht maßstabsgerecht). Norden (N) ist oben. Jedes Gebiet hat eine eigene Farbe.
+        alt: Schemakarte der Britischen Inseln. Im Osten liegt eine große Insel mit drei Gebieten, im Westen eine kleinere Insel mit zwei Gebieten. Alle Gebiete haben Namen, fünf Städte sind als Punkte mit Namen markiert. Schemakarte, nicht genau nach Maßstab.
+        caption: Die Britischen Inseln (Schemakarte, nicht genau nach Maßstab). Norden (N) ist oben. Jedes Gebiet hat eine eigene Farbe.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -53,9 +53,9 @@ blocks:
           - type: text
             text: |
               - **UK**: der Staat mit den vier Teilen.
-              - **Great Britain**: nur die große Insel. Northern Ireland liegt nicht auf ihr.
-              - **Ireland**: die Insel im Westen. Auf ihr liegen Northern Ireland und die Republic of Ireland.
-              - Die Republic of Ireland ist ein eigener Staat und gehört nicht zum UK.
+              - **Great Britain**: nur die große Insel im Osten.
+              - **Ireland**: die Insel im Westen und auch der Staat dort. Der Staat heißt auch Republic of Ireland und gehört nicht zum UK.
+              - **Northern Ireland**: der Nordosten der Insel Ireland. Er gehört zum UK.
               - **British Isles**: alle Inseln zusammen.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
@@ -64,8 +64,9 @@ blocks:
           - [capital, Hauptstadt]
           - [United Kingdom (UK), Vereinigtes Königreich]
           - [Great Britain, die große Insel]
-          - [Ireland, Irland (Insel und Staat)]
-          - [Republic of Ireland, Republik Irland]
+          - [island, Insel]
+          - [Ireland, Irland (die Insel und der Staat)]
+          - [Republic of Ireland, Republik Irland (der Staat)]
           - [British Isles, Britische Inseln]
   - type: section
     id: uebung
@@ -84,7 +85,7 @@ blocks:
           - left: Northern Ireland
             right: Belfast
         distractors: [Dublin]
-        explanation: London ist die Hauptstadt von England, Edinburgh von Scotland, Cardiff von Wales und Belfast von Northern Ireland. Dublin gehört zur Republic of Ireland und liegt nicht im UK.
+        explanation: London ist die Hauptstadt von England, Edinburgh von Scotland, Cardiff von Wales und Belfast von Northern Ireland. Dublin ist die Hauptstadt des Staates Ireland (Republic of Ireland) und liegt nicht im UK.
         hint: Die Hauptstädte stehen als Punkte auf der Karte. Eine Stadt passt zu keinem Teil des UK.
         links:
           - title: Lernlandkarte Englisch · Die Teile des UK
@@ -98,8 +99,8 @@ blocks:
         material:
           - type: figure
             image: images/inseln-karte-buchstaben.svg
-            alt: Schemakarte der Britischen Inseln ohne Namen. Fünf Gebiete sind mit den Buchstaben A bis E markiert, fünf Städte als Punkte. Norden ist oben. Schemakarte, nicht maßstabsgerecht.
-            caption: Die Britischen Inseln mit Buchstaben (Schemakarte, nicht maßstabsgerecht). Norden ist oben.
+            alt: Schemakarte der Britischen Inseln ohne Namen. Fünf Gebiete sind mit den Buchstaben A bis E markiert, fünf Städte als Punkte. Norden ist oben. Schemakarte, nicht genau nach Maßstab.
+            caption: Die Britischen Inseln mit Buchstaben (Schemakarte, nicht genau nach Maßstab). Norden ist oben.
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
@@ -124,7 +125,7 @@ blocks:
             distractors: [[Dublin, Edinburgh]]
             mistakes:
               - answer: The capital of B is Dublin.
-                message: Dublin ist die Hauptstadt der Republic of Ireland. Das ist das größere Gebiet auf der Insel im Westen.
+                message: Dublin ist die Hauptstadt des Staates Ireland. Das ist das größere Gebiet auf der Insel im Westen.
               - answer: The capital of B is Edinburgh.
                 message: Edinburgh liegt auf der großen Insel im Osten. B liegt auf der Insel im Westen.
           - cue: Die Hauptstadt des Gebiets E
@@ -138,7 +139,7 @@ blocks:
         hint: Suche zuerst die Insel im Westen und die Insel im Osten. Die Punkte sind die Hauptstädte.
       - type: single-choice
         id: inseln-uk-gb
-        text: "Peter sagt: „Great Britain and the UK are the same.“ Stimmt das?"
+        text: "Peter (9) sagt: „Great Britain and the UK are the same.“ Stimmt das?"
         options:
           - text: Nein. Great Britain ist nur die große Insel. Zum UK gehört auch Northern Ireland.
             correct: true
@@ -162,7 +163,7 @@ blocks:
         text: "Ellie sagt: „Dublin is the capital of Northern Ireland.“ Stimmt der Satz?"
         answer: false
         hint: Überlege, auf welcher Insel Dublin liegt und zu welchem Gebiet es gehört.
-        explanation: Dublin ist die Hauptstadt der Republic of Ireland. Die Hauptstadt von Northern Ireland ist Belfast.
+        explanation: Dublin ist die Hauptstadt des Staates Ireland. Die Hauptstadt von Northern Ireland ist Belfast.
         links:
           - title: Lernlandkarte Englisch · Die Teile des UK
             url: https://lernapps.net/apps/map/englisch/c/britische-inseln/
@@ -187,7 +188,7 @@ blocks:
               - answer: Belfast is in the Northern Ireland.
                 message: Vor Northern Ireland steht kein the.
               - answer: Belfast is in Ireland.
-                message: Belfast liegt auf der Insel Ireland. Der Teil des UK heißt aber Northern Ireland.
+                message: Belfast liegt zwar auf der Insel Ireland. Gemeint ist aber der Teil des UK, und der heißt Northern Ireland.
           - source: Cardiff ist die Hauptstadt von Wales.
             target: Cardiff is the capital of Wales.
             mistakes:
@@ -199,7 +200,7 @@ blocks:
             target: Dublin is the capital of( the Republic of|) Ireland.
             mistakes:
               - answer: Dublin is the capital of Northern Ireland.
-                message: Northern Ireland gehört zum UK, und seine Hauptstadt ist Belfast. Dublin liegt in der Republic of Ireland.
+                message: Northern Ireland gehört zum UK, und seine Hauptstadt ist Belfast. Dublin liegt im Staat Ireland.
         hint: Für „liegt in“ brauchst du is in. Für „Hauptstadt von“ brauchst du the capital of.
       - type: language-task
         id: inseln-hoeren
@@ -225,9 +226,9 @@ blocks:
             text: Great Britain is a big island.
           - audio: london-is-the-capital-of-the-united-kingdom.mp3
             text: London is the capital of the United Kingdom.
-          - audio: mr-hill-shows-the-class-a-picture.mp3
-            text: Mr Hill shows the class a picture.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Great Britain und capital.
+          - audio: mr-hill-hangs-a-big-map-in-the-classroom.mp3
+            text: Mr Hill hangs a big map in the classroom.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Great Britain, capital und classroom.
       - type: open-task
         id: inseln-erklaeren
         task: "Ein Gast aus Deutschland schaut auf die Karte und fragt: „What is the UK?“ Erkläre ihm die Karte in zwei bis vier Sätzen auf Englisch."

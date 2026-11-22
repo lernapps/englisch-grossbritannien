@@ -15,11 +15,11 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Es ist Samstag. Mrs Parker setzt Sophie und Ellie vor der Millbrook School ab. Heute gehen die beiden zu Fuß durch die Stadt. Sie haben einen Plan von Millbrook dabei, einen **Schemaplan**: Das ist ein einfacher Plan, der nicht alles genau zeigt (nicht maßstabsgerecht). Er zeigt aber alle Straßen und Orte."
+        text: "Es ist Samstag. Mrs Parker setzt Sophie und Ellie vor der Millbrook School ab. Heute gehen die beiden zu Fuß durch die Stadt. Sie haben einen Plan von Millbrook dabei, einen **Schemaplan**: Das ist ein einfacher Plan, der nicht alles genau zeigt und nicht genau nach Maßstab gezeichnet ist. Er zeigt aber alle Straßen und Orte."
       - type: figure
         image: images/stadtplan-millbrook.svg
-        alt: Plan von Millbrook mit drei Straßen. Die High Street verläuft von West nach Ost, die Church Road und die Mill Lane verlaufen von Nord nach Süd. Nördlich der High Street liegen vier Orte, südlich vier weitere, mit ihren Namen im Bild. Ein grüner Punkt markiert den Start. Schemaplan, nicht maßstabsgerecht.
-        caption: Der Plan von Millbrook (Schemaplan, nicht maßstabsgerecht). Norden (N) ist oben, Osten rechts, Süden unten und Westen links. Der grüne Punkt ist der Start.
+        alt: Plan von Millbrook mit drei Straßen. Die High Street verläuft von West nach Ost, die Church Road und die Mill Lane verlaufen von Nord nach Süd. Nördlich der High Street liegen vier Orte, südlich vier weitere, mit ihren Namen im Bild. Ein grüner Punkt markiert den Start. Schemaplan, nicht genau nach Maßstab.
+        caption: Der Plan von Millbrook (Schemaplan, nicht genau nach Maßstab). Norden (N) ist oben, Osten rechts, Süden unten und Westen links. Der grüne Punkt ist der Start.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: single-choice
@@ -40,17 +40,17 @@ blocks:
           - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
             url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
       - type: text
-        text: "**Das kannst du danach:** Du nennst Orte auf dem Plan und beschreibst einen einfachen Weg: abbiegen, geradeaus gehen und sagen, wo das Ziel liegt. Du kennst die Präpositionen des Ortes und den Imperativ schon von den Seiten davor."
+        text: "**Das kannst du danach:** Du nennst Orte auf dem Plan und beschreibst einen einfachen Weg: abbiegen, geradeaus gehen und sagen, wo das Ziel liegt. Du kennst die Präpositionen des Ortes und den Imperativ schon aus früheren Kapiteln."
   - type: section
     id: neu
     title: Ein Weg besteht aus Pfeilen
     blocks:
       - type: text
-        text: "Ein Weg besteht aus einzelnen Schritten, die du dir als **Pfeile** auf dem Plan vorstellen kannst. Für jeden Pfeil gibt es einen Befehl, den **Imperativ**: **turn left** oder **turn right** (abbiegen), **go straight on** (geradeaus weitergehen) und **cross** (überqueren). Am Ziel sagst du, wo es liegt."
+        text: "Ein Weg besteht aus einzelnen Schritten, die du dir als **Pfeile** auf dem Plan vorstellen kannst. Für jeden Pfeil gibt es einen Befehl, den **Imperativ**: **turn left** oder **turn right** (abbiegen), **go straight on** (geradeaus weitergehen) und **cross** (überqueren). Am Ziel sagst du, wo es liegt. Auf dem Plan stehen die Namen der Orte auf Englisch, zum Beispiel school und park."
       - type: figure
         image: images/stadtplan-beispielweg.svg
-        alt: Plan von Millbrook mit einem orangefarbenen Weg. Er beginnt an einem grünen Punkt bei der Mill Lane, führt auf der Mill Lane nach unten über die High Street und endet mit einem Pfeil neben einem Ort südlich der High Street. Drei Stellen sind mit 1, 2 und 3 markiert. Schemaplan, nicht maßstabsgerecht.
-        caption: Ein Weg in drei Schritten (Schemaplan, nicht maßstabsgerecht). Du verlässt den park nach Westen und stehst auf der Mill Lane. Der grüne Punkt ist der Start.
+        alt: Plan von Millbrook mit einem orangefarbenen Weg. Er beginnt an einem grünen Punkt bei der Mill Lane, führt auf der Mill Lane nach unten über die High Street und endet mit einem Pfeil neben einem Ort südlich der High Street. Drei Stellen sind mit 1, 2 und 3 markiert. Schemaplan, nicht genau nach Maßstab.
+        caption: Ein Weg in drei Schritten (Schemaplan, nicht genau nach Maßstab). Du verlässt den park nach Westen und stehst auf der Mill Lane. Der grüne Punkt ist der Start.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -60,7 +60,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Nach **turn** steht direkt **left** oder **right**. Mit **to the** geht es auch (turn to the left), aber nicht „turn to left“. Ein Befehl hat kein „you“. Am Ziel sagst du **on the left** oder **on the right**. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust. Eine Straße nennst du mit **into**.
+              Nach **turn** steht direkt **left** oder **right**. Mit **to the** geht es auch (turn to the left), aber nicht „turn to left“. Ein Befehl beginnt mit dem Verb und hat kein „you“. Am Ziel sagst du **on the left** oder **on the right**. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust. Wenn du in eine Straße abbiegst, sagst du **into** vor dem Namen der Straße.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -100,7 +100,7 @@ blocks:
         material:
           - type: figure
             image: images/stadtplan-millbrook.svg
-            alt: Plan von Millbrook mit High Street, Church Road und Mill Lane. Schemaplan, nicht maßstabsgerecht.
+            alt: Plan von Millbrook mit High Street, Church Road und Mill Lane. Schemaplan, nicht genau nach Maßstab.
             caption: Der Plan von Millbrook. Norden ist oben, Osten rechts.
             source: eigene Zeichnung
             licence: CC-BY-4.0
@@ -129,7 +129,7 @@ blocks:
         material:
           - type: figure
             image: images/stadtplan-millbrook.svg
-            alt: Plan von Millbrook mit High Street, Church Road und Mill Lane. Der grüne Punkt vor der school ist der Start. Schemaplan, nicht maßstabsgerecht.
+            alt: Plan von Millbrook mit High Street, Church Road und Mill Lane. Der grüne Punkt vor der school ist der Start. Schemaplan, nicht genau nach Maßstab.
             caption: Der Plan von Millbrook. Norden ist oben, Osten rechts. Du gehst selbst und schaust in Gehrichtung.
             source: eigene Zeichnung
             licence: CC-BY-4.0
@@ -238,9 +238,9 @@ blocks:
             text: Turn left at the post office.
           - audio: turn-right-at-the-supermarket.mp3
             text: Turn right at the supermarket.
-          - audio: peter-is-next-to-the-supermarket.mp3
-            text: Peter is next to the supermarket.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf left, straight und next to.
+          - audio: ellie-walks-to-the-supermarket-with-sophie.mp3
+            text: Ellie walks to the supermarket with Sophie.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf left, right und die Namen der Orte.
       - type: open-task
         id: wege-park
         task: "Ein Gast fragt Sophie: „Where is the park?“ Beschreibe den Weg von der school zum park in zwei bis vier Sätzen."

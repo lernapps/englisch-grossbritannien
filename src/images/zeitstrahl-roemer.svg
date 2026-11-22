@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 230" role="img">
-  <title>Zeitstrahl mit drei Marken: 43, 47 bis 50 und 122</title>
+  <title>Zeitstrahl mit drei Marken: 43, um 50 und 122</title>
   <defs>
     <g id="sophie" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
       <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a9a5b"/>
@@ -54,8 +54,8 @@
   <circle cx="70" cy="110" r="11" fill="#2c6fd8" stroke="#333" stroke-width="2"/>
   <text x="70" y="70" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#333">43</text>
   <text x="70" y="52" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">Invasion</text>
-  <rect x="190" y="99" width="70" height="22" rx="11" fill="#d35400" stroke="#333" stroke-width="2"/>
-  <text x="225" y="160" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#333">47 bis 50</text>
+  <circle cx="225" cy="110" r="11" fill="#d35400" stroke="#333" stroke-width="2"/>
+  <text x="225" y="160" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#333">um 50</text>
   <text x="225" y="182" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#333">Londinium</text>
   <circle cx="420" cy="110" r="11" fill="#138d75" stroke="#333" stroke-width="2"/>
   <text x="420" y="70" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#333">122</text>

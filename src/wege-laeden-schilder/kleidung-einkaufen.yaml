@@ -2,7 +2,7 @@
 title: "Kleidung kaufen: nach Größe und Preis fragen"
 description: Sophie kauft im clothes shop eine Mütze für Peter. Du lernst Kleidung zu benennen und nach Größe und Preis zu fragen.
 competencies: [kleidung-einkaufen]
-scope: "Die Seite führt Kleidungswörter ein (cap, jumper, trousers, shoes, shirt, jeans, hat), die Größen small, medium und large und die Fragen nach Preis und Größe (How much is this …? How much are these …? Have you got this in …?). Die Antworten heißen It's … und They're … pounds. Typische Fehler sind a trousers, How much is the shoes, one pounds, five pound und big statt large bei Größen. Nicht hier, weil sie auf anderen Seiten folgen: Schilder und Fahrpläne, Wegbeschreibungen."
+scope: "Die Seite führt Kleidungswörter ein (cap, jumper, trousers, shoes, shirt, jeans), die Größen small, medium und large und die Fragen nach Preis und Größe (How much is this …? How much are these …? Have you got this in …?). Die Antworten heißen It's … und They're … pounds. Typische Fehler sind a trousers, How much is the shoes, one pounds, five pound und big statt large bei Größen. Nicht hier, weil sie auf anderen Seiten folgen: Schilder und Fahrpläne, Wegbeschreibungen."
 blocks:
   - type: section
     id: einstieg
@@ -15,21 +15,21 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Peters Mütze ist alt. Sophie möchte ihm eine neue kaufen. Im clothes shop an der High Street gibt es viel Kleidung. Sophie nimmt eine Mütze und fragt die Verkäuferin: „How much is this cap?“"
+        text: "Peters Mütze ist alt. Sophie möchte ihm eine neue kaufen. Im clothes shop an der High Street gibt es viel Kleidung. Sophie nimmt eine Mütze (cap) und geht zur Verkäuferin, die im Laden arbeitet. **How much** heißt „wie viel“."
       - type: single-choice
         id: kleid-einstieg
-        text: Was möchte Sophie von der Verkäuferin wissen?
+        text: Sophie möchte wissen, was die Mütze kostet. Welche Frage stellt sie der Verkäuferin?
         options:
-          - text: den Preis
+          - text: How much is this cap?
             correct: true
             info: How much heißt wie viel. Mit How much is this …? fragst du nach dem Preis.
-          - text: die Größe
+          - text: What colour is this cap?
             correct: false
-            info: Nach der Größe fragst du mit size, zum Beispiel Have you got this in a different size?
-          - text: die Farbe
+            info: colour heißt Farbe. Diese Frage fragt nach der Farbe, nicht nach dem Preis.
+          - text: Where is this cap?
             correct: false
-            info: Nach der Farbe fragst du mit colour. How much fragt nach dem Preis.
-        explanation: How much is this cap? heißt Wie viel kostet diese Mütze? Sophie fragt nach dem Preis.
+            info: where heißt wo. Diese Frage fragt nach dem Ort, nicht nach dem Preis.
+        explanation: How much is this cap? heißt Wie viel kostet diese Mütze? So fragst du nach dem Preis.
         links:
           - title: Lernlandkarte Englisch · Kleidung und Einkaufen
             url: https://lernapps.net/apps/map/englisch/c/kleidung-einkaufen/
@@ -40,10 +40,10 @@ blocks:
     title: Kleidung, Preise und Größen
     blocks:
       - type: text
-        text: "Im Laden brauchst du drei Dinge: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild."
+        text: "Im Laden brauchst du drei Dinge: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild. Die Verkäuferin fragt dich oft **Can I help you?** (Kann ich dir helfen?). Wenn etwas nicht passt, sagst du zum Beispiel **too small** (zu klein)."
       - type: figure
         image: images/kleidung-regal.svg
-        alt: Zwei Regalbretter. Auf dem oberen liegen ein Hemd, eine Jeans und ein Hut, jeweils mit einem Preisschild und dem englischen Wort. Auf dem unteren liegen drei blaue Hemden in drei Größen mit den Wörtern small, medium und large.
+        alt: Zwei Regalbretter. Auf dem oberen liegen ein Hemd, eine Jeans und eine Mütze, jeweils mit einem Preisschild und dem englischen Wort. Auf dem unteren liegen drei blaue Hemden in drei Größen mit den Wörtern small, medium und large.
         caption: Kleidung, Preisschilder und Größen im Laden (eigene Zeichnung).
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -52,7 +52,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Bei einer Sache fragst du **How much is this shirt?** und hörst **It's nine pounds.** Bei mehreren Sachen fragst du **How much are these jeans?** und hörst **They're twenty pounds.** **Jeans**, **trousers** und **shoes** gibt es nur in der Mehrzahl, also these und are. Du kannst auch **a pair of** sagen (a pair of jeans). Ein Preis mit £ heißt pounds, nur bei eins heißt er **one pound**. Die Größen heißen **small**, **medium** und **large**, nicht „big“. Nach einer anderen Farbe fragst du so: **Have you got this in blue?**
+              Bei einer Sache fragst du **How much is this shirt?** und hörst **It's nine pounds.** Bei mehreren Sachen fragst du **How much are these jeans?** und hörst **They're twenty pounds.** **Jeans**, **trousers** und **shoes** gibt es nur in der Mehrzahl, also these und are. Du kannst auch **a pair of** sagen (a pair of jeans). Ein Preis mit £ heißt pounds, nur bei eins heißt er **one pound**. Die Größen heißen **small**, **medium** und **large**, nicht „big“. Nach einer anderen Farbe fragst du so: **Have you got this in blue?** (Have you got heißt „Hast du“ oder „Haben Sie“.)
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Ausdruck, Bedeutung]
@@ -61,6 +61,10 @@ blocks:
           - [jumper, Pullover]
           - [shoes, Schuhe (immer Mehrzahl)]
           - [medium, mittelgroß]
+          - [trainers, Turnschuhe]
+          - [jacket, Jacke]
+          - [scarf, Schal]
+          - [bag, Tasche]
           - [a pair of, ein Paar (a pair of jeans heißt eine Jeans)]
   - type: section
     id: uebung
@@ -194,13 +198,13 @@ blocks:
             mistakes:
               - answer: It's five pound.
                 message: Bei allen Zahlen außer eins heißt es pounds mit s.
-          - cue: My size is big.
+          - cue: My size is big. (Gemeint ist die größte der drei Größen.)
             target: My size is large.
             mistakes:
               - answer: My size is big.
                 message: Bei Größen sagst du small, medium oder large. Das Wort big benutzt du nicht.
           - cue: Peter wants a trousers.
-            target: Peter wants (a pair of|some|the|new) trousers.
+            target: Peter wants (a pair of |some |)trousers.
             mistakes:
               - answer: Peter wants a trousers.
                 message: trousers gibt es nur in der Mehrzahl. Du sagst a pair of trousers oder nimmst some oder the.
@@ -211,20 +215,20 @@ blocks:
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: ok, apostrophe: ok }
         items:
-          - source: Wie viel kostet der Mantel?
-            target: How much (is the coat|does the coat cost)?
+          - source: Wie viel kostet die Mütze?
+            target: How much (is the cap|does the cap cost)?
             mistakes:
-              - answer: How much costs the coat?
+              - answer: How much costs the cap?
                 message: Im Englischen brauchst du is. How much is the coat? ist die feste Frage.
-              - answer: How many is the coat?
+              - answer: How many is the cap?
                 message: How many fragt nach Dingen, die man zählt. Nach dem Preis fragst du mit How much.
           - source: Haben Sie diese Hose in Größe medium?
             target: (Have you got|Do you have) these trousers in (size |)medium?
             mistakes:
               - answer: Have you got this trousers in medium?
                 message: trousers ist die Mehrzahl, also these und nicht this.
-          - source: Der Rock ist dreißig Pfund.
-            target: The skirt (is|costs) (£30|thirty pounds).
+          - source: Der Pullover ist dreißig Pfund.
+            target: The jumper (is|costs) (£30|thirty pounds).
             mistakes:
               - answer: The skirt is thirty pound.
                 message: Bei allen Zahlen außer eins heißt es pounds mit s.
@@ -274,14 +278,14 @@ blocks:
           Can I help you? – Yes, please. How much are these shoes? – They're twenty pounds. – Have you got them in a larger size? – Yes, here you are. – Thank you.
   - type: section
     id: weiter
-    title: Weiter in den Herbstferien
+    title: Weiter in die Ferien
     blocks:
       - type: text
-        text: "Sophie bezahlt die Mütze. Peter wird sich freuen. Damit ist der Samstag in Millbrook vorbei. Am Wochenende in den Herbstferien fahren die Parkers weg. Wohin? Das erfährst du im nächsten Kapitel."
+        text: "Sophie bezahlt die Mütze. Peter wird sich freuen. In den Herbstferien fahren die Parkers an die Küste. Wohin? Das erfährst du im nächsten Kapitel."
       - type: table
         caption: Schulkalender · Rückblick Kapitel 1
         header: [Du kannst, Beispiel]
         rows:
-          - [einen Weg beschreiben, "Go past the library, then turn right."]
+          - [einen Weg beschreiben, "Cross the High Street."]
           - [ein Schild lesen, "Open: Tuesday to Sunday, 9:00 to 4:00."]
-          - [beim Einkaufen fragen, "How much is this scarf? – It's eleven pounds."]
+          - [beim Einkaufen fragen, "How much are these jeans? – They're twenty pounds."]

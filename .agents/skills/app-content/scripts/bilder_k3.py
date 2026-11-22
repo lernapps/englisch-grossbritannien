@@ -28,15 +28,15 @@ def szene_london_roemer():
 def zeitstrahl_roemer():
     b = '  <path d="M30 110 H490" stroke="#333" stroke-width="5" stroke-linecap="round"/>\n'
     b += '  <path d="M484 98 L500 110 L484 122 Z" fill="#333"/>\n'
-    # 43 | 47-50 | 122, spaced for reading (not to scale)
+    # 43 | around 50 | 122, spaced for reading (not to scale)
     b += f'  <circle cx="70" cy="110" r="11" fill="{BLUE}" stroke="#333" stroke-width="2"/>\n'
     b += text(70, 70, "43", 20, weight="bold") + text(70, 52, "Invasion", 16)
-    b += f'  <rect x="190" y="99" width="70" height="22" rx="11" fill="{ORANGE}" stroke="#333" stroke-width="2"/>\n'
-    b += text(225, 160, "47 bis 50", 20, weight="bold") + text(225, 182, "Londinium", 16)
+    b += f'  <circle cx="225" cy="110" r="11" fill="{ORANGE}" stroke="#333" stroke-width="2"/>\n'
+    b += text(225, 160, "um 50", 20, weight="bold") + text(225, 182, "Londinium", 16)
     b += f'  <circle cx="420" cy="110" r="11" fill="{GREEN}" stroke="#333" stroke-width="2"/>\n'
     b += text(420, 70, "122", 20, weight="bold") + text(420, 52, "Hadrian’s Wall", 16)
     b += text(260, 214, "Jahre nach Christi Geburt (nicht maßstabsgerecht)", 16, fill="#555")
-    return svg(520, 230, "Zeitstrahl mit drei Marken: 43, 47 bis 50 und 122", b)
+    return svg(520, 230, "Zeitstrahl mit drei Marken: 43, um 50 und 122", b)
 
 def _gb_base():
     b = rect(40, 10, 400, 70, "#e8e2d2", stroke="#aaa", sw=2, rx=14) * 0
@@ -58,7 +58,7 @@ def roemer_orte():
     b += text(245, 148, "Hadrian’s Wall", 16, weight="bold")
     for (x, y, t, dx) in ((190, 292, "Bath", -14), (345, 292, "London", 0)):
         b += f'  <circle cx="{x}" cy="{y}" r="9" fill="{BLUE}" stroke="#333" stroke-width="2"/>\n'
-    b += text(182, 322, "Bath", 16, anchor="end", weight="bold") + text(364, 292, "London", 16, anchor="start", weight="bold")
+    b += text(182, 322, "Bath", 16, anchor="end", weight="bold") + text(332, 298, "London", 16, anchor="end", weight="bold")
     b += compass2()
     return svg(480, 370, "Schemakarte von England mit drei Orten der Römer", b)
 

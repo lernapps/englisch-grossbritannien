@@ -88,10 +88,9 @@ def szene_baeckerei_schild():
     b += rect(200, 30, 240, 232, "#f7e0c8", sw=3, rx=4)
     b += rect(240, 42, 160, 42, "#fff", sw=3) + text(320, 72, "bakery", 26)
     b += rect(270, 100, 100, 162, "#b98a5a", sw=3, rx=4)
-    b += rect(298, 126, 44, 58, "#fff", sw=2, rx=2)
-    for yy in (142, 154, 166):
-        b += f'  <path d="M304 {yy} H336" stroke="#888" stroke-width="3"/>\n'
-    b += '  <circle cx="356" cy="190" r="4" fill="#333"/>\n'
+    b += rect(277, 112, 86, 62, "#fff", sw=2, rx=2)
+    b += text(320, 138, "Please", 18, weight="bold") + text(320, 162, "come in", 18, weight="bold")
+    b += '  <circle cx="356" cy="210" r="4" fill="#333"/>\n'
     b += kid("sophie", 70, 110, .85) + kid("ellie", 480, 110, .85)
     b += text(120, 90, "?", 40, fill="#c0392b", weight="bold")
     return svg(640, 340, "Sophie und Ellie stehen vor der Tür einer Bäckerei, an der ein Schild hängt", b)
@@ -114,7 +113,7 @@ def szene_clothes_shop():
 @image
 def kleidung_regal():
     b = '  <rect x="20" y="130" width="480" height="10" rx="3" fill="#7a5a35"/>\n  <rect x="20" y="300" width="480" height="10" rx="3" fill="#7a5a35"/>\n'
-    items = [(_shirt, 60, 128, "#d33", "shirt", "£9"), (_trousers, 215, 128, "#2c6fd8", "jeans", "£20"), (_hat, 370, 128, "#e0b020", "hat", "£6")]
+    items = [(_shirt, 60, 128, "#d33", "shirt", "£9"), (_trousers, 215, 128, "#2c6fd8", "jeans", "£20"), (_cap, 370, 128, "#e0b020", "cap", "£6")]
     for f, x, y, c, name, price in items:
         b += f(x, y, 1.5, c)
         cx = x + 45

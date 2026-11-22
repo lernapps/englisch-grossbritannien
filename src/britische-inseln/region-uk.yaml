@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Peter (9) fragt seine Mutter: „Where is Cornwall?“ Mrs Parker holt die Karte."
+        text: "Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) fragt seine Mutter: „Where is Cornwall?“ Mrs Parker holt die Karte."
       - type: single-choice
         id: region-start
         text: "Was will Peter wissen?"
@@ -43,8 +43,8 @@ blocks:
         text: "Eine **region** ist ein Gebiet in einem Land. **Cornwall** ist eine Region im **south-west** (Südwesten) von England. Im Norden und im Westen liegt der **Atlantic Ocean** (Atlantik), im Süden der **English Channel** (Ärmelkanal). Cornwall ist eine Region an der Küste, mit Meer und Stränden."
       - type: figure
         image: images/cornwall-karte.svg
-        alt: Schemakarte der Südwestspitze Englands. Eine lange Landspitze zeigt nach Südwesten. Sie hat eine andere Farbe und einen eigenen Namen. Das Land dahinter ist als England beschriftet. Das Meer ist auf zwei Seiten mit Namen beschriftet. Schemakarte, nicht maßstabsgerecht.
-        caption: Der Südwesten Englands (Schemakarte, nicht maßstabsgerecht). Norden (N) ist oben.
+        alt: Schemakarte der Südwestspitze Englands. Eine lange Landspitze zeigt nach Südwesten. Sie hat eine andere Farbe und einen eigenen Namen. Das Land dahinter ist als England beschriftet. Das Meer ist auf zwei Seiten mit Namen beschriftet. Schemakarte, nicht genau nach Maßstab.
+        caption: Der Südwesten Englands (Schemakarte, nicht genau nach Maßstab). Norden (N) ist oben.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: note
@@ -73,6 +73,7 @@ blocks:
           - [region, Gebiet]
           - [south-west, Südwesten]
           - [north-west, Nordwesten]
+          - [north / south / east / west, Norden / Süden / Osten / Westen]
           - [Atlantic Ocean, Atlantik]
           - [English Channel, Ärmelkanal]
           - [Welsh, Walisisch]
@@ -85,34 +86,34 @@ blocks:
         text: Lies den Steckbrief. Welche Region ist gemeint?
         material:
           - type: text
-            text: "**Steckbrief:** This region is in the south-west of England. The Atlantic Ocean is in the north and in the west. The English Channel is in the south. The coast is long."
+            text: "**Steckbrief:** Many families come here for a holiday. They swim and play on the beach. The region is in the south-west."
         options:
           - text: Cornwall
             correct: true
-            info: Cornwall liegt im Südwesten Englands, mit dem Atlantik im Norden und Westen und dem Ärmelkanal im Süden.
+            info: Cornwall liegt im Südwesten Englands und hat Küste, Meer und Strände.
           - text: der Lake District
             correct: false
-            info: Der Lake District liegt im Nordwesten Englands. Er hat Berge und Seen, aber keinen Atlantik im Norden.
+            info: Der Lake District liegt im Nordwesten, nicht im Südwesten. Dort gibt es Berge und Seen.
           - text: Wales
             correct: false
-            info: Wales liegt im Westen von Great Britain, nicht im Südwesten von England.
-        explanation: Südwesten von England, Atlantik im Norden und Westen und Ärmelkanal im Süden passen zu Cornwall.
-        hint: Achte auf die Richtung (south-west) und auf die beiden Meere.
+            info: Wales ist ein eigener Teil des UK im Westen von Great Britain und kein Gebiet im Südwesten von England.
+        explanation: Südwesten, Meer und Strand passen zu Cornwall.
+        hint: Achte auf die Richtung und darauf, was die Familien dort machen.
         links:
           - title: Lernlandkarte Englisch · Eine Region vorstellen
             url: https://lernapps.net/apps/map/englisch/c/region-uk/
       - type: matching
         id: region-bekannt
-        text: Wofür ist die Region bekannt? Ordne zu.
+        text: Was kann man dort tun? Ordne zu.
         pairs:
           - left: Cornwall
-            right: the sea and the beaches
+            right: You can swim at the beach.
           - left: the Lake District
-            right: lakes and mountains
+            right: You can climb a mountain.
           - left: Wales
-            right: a second language, Welsh
-        explanation: Cornwall ist bekannt für Meer und Strände, der Lake District für Seen und Berge. In Wales spricht man neben Englisch auch Welsh.
-        hint: Denke an die Steckbriefe. Eine Region hat ein Meer, eine hat Seen, eine hat eine zweite Sprache.
+            right: You can hear Welsh.
+        explanation: In Cornwall kann man am Strand schwimmen. Im Lake District gibt es Berge. In Wales hört man neben Englisch auch Welsh.
+        hint: Denke an das, was zu jeder Region gehört, ein Meer, Berge und eine zweite Sprache.
         links:
           - title: Lernlandkarte Englisch · Eine Region vorstellen
             url: https://lernapps.net/apps/map/englisch/c/region-uk/
@@ -125,27 +126,27 @@ blocks:
         material:
           - type: figure
             image: images/region-karte-buchstaben.svg
-            alt: Schemakarte der Insel Great Britain mit drei markierten Gebieten A, B und C. Im Westen liegt die kleinere Insel Ireland ohne Markierung. Norden ist oben. Schemakarte, nicht maßstabsgerecht.
-            caption: Great Britain mit drei Gebieten (Schemakarte, nicht maßstabsgerecht). Norden ist oben.
+            alt: Schemakarte der Insel Great Britain mit drei markierten Gebieten A, B und C. Im Westen liegt die kleinere Insel Ireland ohne Markierung. Norden ist oben. Schemakarte, nicht genau nach Maßstab.
+            caption: Great Britain mit drei Gebieten (Schemakarte, nicht genau nach Maßstab). Norden ist oben.
             source: eigene Zeichnung
             licence: CC-BY-4.0
         items:
           - cue: Gebiet A ist Cornwall. Wo liegt es in England?
-            target: A is in the [south-west] of England.
-            distractors: [[north-west, south-east]]
+            target: A is in the [south] of England.
+            distractors: [[north, east]]
             mistakes:
-              - answer: A is in the north-west of England.
-                message: Im Nordwesten liegt der Lake District. A liegt ganz im Süden, an der Spitze.
-              - answer: A is in the south-east of England.
-                message: Im Südosten liegt London. A liegt an der Südwestspitze.
+              - answer: A is in the north of England.
+                message: Im Norden liegt der Lake District. A liegt ganz unten, an der Spitze.
+              - answer: A is in the east of England.
+                message: Der Osten liegt auf der rechten Seite der Insel. A liegt unten links.
           - cue: Gebiet B ist der Lake District. Wo liegt er in England?
-            target: B is in the [north-west] of England.
-            distractors: [[south-west, north-east]]
+            target: B is in the [north] of England.
+            distractors: [[south, east]]
             mistakes:
-              - answer: B is in the south-west of England.
-                message: Im Südwesten liegt Cornwall. Der Lake District liegt weiter im Norden.
-              - answer: B is in the north-east of England.
-                message: B liegt auf der Westseite von England, nicht im Osten.
+              - answer: B is in the south of England.
+                message: Im Süden liegt Cornwall. Der Lake District liegt weiter oben.
+              - answer: B is in the east of England.
+                message: B liegt nicht rechts, im Osten, sondern im oberen Teil von England.
           - cue: Gebiet C ist Wales. Wo liegt es auf Great Britain?
             target: C is in the [west] of Great Britain.
             distractors: [[east, north]]
@@ -154,7 +155,7 @@ blocks:
                 message: C liegt auf der Westseite der Insel. Im Osten liegt England.
               - answer: C is in the north of Great Britain.
                 message: Im Norden liegt Scotland. C liegt im Westen, neben England.
-        hint: Schau, wo das Gebiet auf der Insel liegt, im Norden, Süden, Osten oder Westen. Für England brauchst du die zwei Richtungen.
+        hint: Schau, wo das Gebiet auf der Insel liegt, im Norden, Süden, Osten oder Westen. Norden ist oben.
       - type: ordering
         id: region-reihenfolge
         text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
@@ -220,7 +221,7 @@ blocks:
             text: Mrs Parker has a big map of England.
           - audio: you-can-visit-a-lovely-village.mp3
             text: You can visit a lovely village.
-        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf where und village.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Cornwall und village.
       - type: open-task
         id: region-vorstellen
         task: "Ein Gast fragt: „Tell me about Cornwall, the Lake District or Wales.“ Stelle eine der drei Regionen in drei Sätzen auf Englisch vor."

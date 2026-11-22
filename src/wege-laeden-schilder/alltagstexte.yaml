@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-baeckerei-schild.svg
-        alt: Zwei Mädchen stehen vor einer Bäckerei. An der Tür hängt ein Blatt Papier. Über einem der Mädchen steht ein Fragezeichen.
+        alt: Zwei Mädchen stehen vor einer Bäckerei. An der Tür hängt ein Zettel mit englischem Text. Über einem der Mädchen steht ein Fragezeichen.
         caption: "Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz) vor der bakery."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie und Ellie sind auf der High Street. An der Tür der bakery hängt ein kleiner Zettel mit drei Wörtern: **Please come in.** Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“"
+        text: "Sophie und Ellie sind auf der High Street. An der Tür der bakery hängt ein kleiner Zettel. Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“"
       - type: single-choice
         id: alltag-einstieg
         text: Woran erkennt Ellie, dass der Zettel ein Schild ist?
@@ -25,7 +25,7 @@ blocks:
             info: Ein Schild hat nur wenige Wörter. Es sagt dir, was du tun sollst oder wie es ist.
           - text: Er hat eine Tabelle mit vielen Uhrzeiten.
             correct: false
-            info: Eine Tabelle mit Uhrzeiten ist ein Fahrplan. Der Zettel an der Tür hat nur drei Wörter.
+            info: Eine Tabelle mit Uhrzeiten ist ein Fahrplan. Der Zettel an der Tür hat nur wenige Wörter und keine Uhrzeiten.
           - text: Er hat eine Liste mit Gerichten und Preisen.
             correct: false
             info: Eine Liste mit Gerichten und Preisen ist eine Speisekarte. Der Zettel hat keine Preise.
@@ -62,6 +62,8 @@ blocks:
           - [menu, Speisekarte]
           - [flyer, Flyer (ein Blatt mit Werbung)]
           - [closed, geschlossen (das Gegenteil von open)]
+          - [half past, halb (half past two = 2:30)]
+          - [back at, zurück um]
   - type: section
     id: uebung
     title: Übung

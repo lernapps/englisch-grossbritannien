@@ -61,11 +61,11 @@
   <rect x="230" y="150" width="60" height="28" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
   <text x="260" y="171" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#333">£20</text>
   <text x="260" y="205" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="normal" fill="#333">jeans</text>
-  <g transform="translate(370,38.0) scale(1.5)" stroke="#333" stroke-width="2" stroke-linejoin="round"><ellipse cx="30" cy="52" rx="30" ry="8" fill="#e0b020"/><path d="M14 50 Q14 16 30 16 Q46 16 46 50 Z" fill="#e0b020"/><path d="M14 42 H46" fill="none" stroke="#fff" stroke-width="5"/></g>
+  <g transform="translate(370,38.0) scale(1.5)" stroke="#333" stroke-width="2" stroke-linejoin="round"><path d="M6 54 Q6 20 32 20 Q56 20 56 54 Z" fill="#e0b020"/><path d="M48 54 Q72 52 74 60 Q62 62 44 58 Z" fill="#e0b020"/></g>
   <path d="M415 144 V150" stroke="#333" stroke-width="2"/>
   <rect x="385" y="150" width="60" height="28" rx="4" fill="#fff" stroke="#333" stroke-width="2"/>
   <text x="415" y="171" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#333">£6</text>
-  <text x="415" y="205" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="normal" fill="#333">hat</text>
+  <text x="415" y="205" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="normal" fill="#333">cap</text>
   <g transform="translate(80,250.0) scale(0.8)" stroke="#333" stroke-width="2" stroke-linejoin="round"><path d="M10 12 L24 4 Q30 12 36 4 L50 12 L60 30 L49 34 L45 24 L45 60 L15 60 L15 24 L11 34 L0 30 Z" fill="#2c6fd8"/></g>
   <text x="104.0" y="332" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="normal" fill="#333">small</text>
   <g transform="translate(225,232.0) scale(1.1)" stroke="#333" stroke-width="2" stroke-linejoin="round"><path d="M10 12 L24 4 Q30 12 36 4 L50 12 L60 30 L49 34 L45 24 L45 60 L15 60 L15 24 L11 34 L0 30 Z" fill="#2c6fd8"/></g>

@@ -46,7 +46,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Der **Tower of London** ist eine Burg am Nordufer der Themse. Die **Tower Bridge** ist eine Brücke über die Themse, gleich beim Tower. Sie wurde von 1886 bis 1894 gebaut. Das **London Eye** ist ein Riesenrad am Südufer. **Big Ben** ist der Spitzname der großen Glocke und im weiteren Sinn auch des Uhrturms am Parlament, nicht der Name des Turms. Im **Buckingham Palace** wohnt der König oder die Königin. Das **British Museum** liegt im Stadtteil Bloomsbury und ist seit 1753 ein Museum für alle."
+        text: "Der **Tower of London** ist eine Burg am Nordufer der Themse. Die **Tower Bridge** ist eine Brücke über die Themse, gleich beim Tower. Sie wurde von 1886 bis 1894 gebaut. Das **London Eye** ist ein Riesenrad am Südufer. **Big Ben** gehört zum Parlament: eine große Glocke (bell) mit einer Uhr (clock). Der **Buckingham Palace** ist der Amtssitz des Königs oder der Königin in London. Das **British Museum** liegt im Stadtteil Bloomsbury und wurde 1753 gegründet."
       - type: note
         title: Merke
         blocks:
@@ -60,6 +60,7 @@ blocks:
           - [bridge, Brücke]
           - [big wheel, Riesenrad]
           - [tower, Turm]
+          - [castle, Burg]
           - [palace, Palast]
           - [Thames, Themse (Fluss in London)]
   - type: section
@@ -70,15 +71,15 @@ blocks:
         id: lon-beschreibung
         text: Welcher Satz beschreibt welchen Ort? Ordne zu.
         pairs:
-          - left: It is a bridge near a castle.
+          - left: It is a bridge with two towers.
             right: Tower Bridge
-          - left: It is a big wheel by the river.
+          - left: It is a big wheel on the river.
             right: London Eye
           - left: It is a museum in Bloomsbury.
             right: British Museum
           - left: It has a very big bell.
             right: Big Ben
-        explanation: Die Brücke beim Tower ist die Tower Bridge. Das Riesenrad ist das London Eye. Das Museum in Bloomsbury ist das British Museum. Die große Glocke gehört zu Big Ben.
+        explanation: Die Brücke mit den zwei Türmen ist die Tower Bridge. Das Riesenrad ist das London Eye. Das Museum in Bloomsbury ist das British Museum. Die große Glocke gehört zu Big Ben.
         hint: Denke an die Karte. Ein Wort in jedem Satz verrät den Ort (bridge, wheel, museum, bell).
         links:
           - title: Lernlandkarte Englisch · Sehenswürdigkeiten in London
@@ -124,7 +125,7 @@ blocks:
         hint: Schau, ob der Halt nördlich oder südlich der Themse liegt und ob er im Osten oder Westen ist.
       - type: single-choice
         id: lon-bigben
-        text: "Peter fragt nach einem Foto vom Parlament: „Is Big Ben the name of the tower?“ Was stimmt?"
+        text: "Amir fragt nach einem Foto vom Parlament: „Is Big Ben the name of the tower?“ Was stimmt?"
         options:
           - text: Big Ben ist der Spitzname der großen Glocke, im weiteren Sinn auch des Uhrturms.
             correct: true
@@ -191,14 +192,14 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Das ist ein Museum in London.
-            target: It is a museum in London.
+            target: (It|This) is a museum in London.
             mistakes:
               - answer: It is a museum on London.
                 message: Eine Stadt ist ein Ort, in dem du bist. Dafür brauchst du in.
               - answer: Is a museum in London.
                 message: Ein englischer Satz braucht ein Subjekt. Schreibe It is.
           - source: Es hat eine große Uhr.
-            target: It has a big clock.
+            target: It (has|has got) a big clock.
             mistakes:
               - answer: It have a big clock.
                 message: Bei it heißt es has, nicht have.
@@ -234,8 +235,8 @@ blocks:
             text: Big Ben is a famous bell in London.
           - audio: tower-bridge-is-near-the-tower-of-london.mp3
             text: Tower Bridge is near the Tower of London.
-          - audio: peter-likes-the-british-museum.mp3
-            text: Peter likes the British Museum.
+          - audio: amir-likes-the-british-museum.mp3
+            text: Amir likes the British Museum.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf famous, Bridge und museum.
       - type: open-task
         id: lon-postkarte
@@ -256,4 +257,4 @@ blocks:
     title: Weiter durch London
     blocks:
       - type: text
-        text: In der Mittagspause setzen sich die Kinder in einen Park. Dort erzählen sie von ihren Familien, und Amir fängt an. Wie du von den Menschen in Großbritannien erzählst, erfährst du auf der nächsten Seite.
+        text: In der Mittagspause setzen sich die Kinder in einen Park. Dort erzählen sie von ihren Familien, und Mr Hill fragt die Kinder danach. Wie du von den Menschen in Großbritannien erzählst, erfährst du auf der nächsten Seite.
