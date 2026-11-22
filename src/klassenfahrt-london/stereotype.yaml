@@ -33,17 +33,24 @@ blocks:
     id: lesen
     title: Der Chat der Klasse
     blocks:
-      - type: table
-        caption: Randglossar
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [stereotype, "Klischee: eine verallgemeinernde Annahme über eine Gruppe von Menschen, oft falsch"]
-          - [prejudice, "Vorurteil: ein Urteil ohne Prüfung"]
-          - [on time, pünktlich]
-          - ["I saw …", "Ich habe … gesehen"]
-          - [collect, sammeln]
-          - [heard, "gehört (von hear)"]
-          - [wrong, falsch]
+      - type: vocabulary
+        caption: "Randglossar"
+        languages: { source: de, target: en }
+        entries:
+          - target: "stereotype"
+            source: "Klischee: eine verallgemeinernde Annahme über eine Gruppe von Menschen, oft falsch"
+          - target: "prejudice"
+            source: "Vorurteil: ein Urteil ohne Prüfung"
+          - target: "on time"
+            source: "pünktlich"
+          - target: "I saw …"
+            source: "Ich habe … gesehen"
+          - target: "collect"
+            source: "sammeln"
+          - target: "heard"
+            source: "gehört (von hear)"
+          - target: "wrong"
+            source: "falsch"
       - type: text
         text: |
           **Der Chat in London**

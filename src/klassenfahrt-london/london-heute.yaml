@@ -33,18 +33,26 @@ blocks:
     id: lesen
     title: Sophies Blog, erster Tag
     blocks:
-      - type: table
-        caption: Randglossar
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [pavement, Bürgersteig]
-          - [bridge, Brücke]
-          - [bench, Sitzbank]
-          - [the Tube, die Londoner U-Bahn]
-          - [poster, Plakat]
-          - [Welsh, Walisisch]
-          - [Scottish Gaelic, Schottisch-Gälisch]
-          - [Irish, Irisch]
+      - type: vocabulary
+        caption: "Randglossar"
+        languages: { source: de, target: en }
+        entries:
+          - target: "pavement"
+            source: "Bürgersteig"
+          - target: "bridge"
+            source: "Brücke"
+          - target: "bench"
+            source: "Sitzbank"
+          - target: "the Tube"
+            source: "die Londoner U-Bahn"
+          - target: "poster"
+            source: "Plakat"
+          - target: "Welsh"
+            source: "Walisisch"
+          - target: "Scottish Gaelic"
+            source: "Schottisch-Gälisch"
+          - target: "Irish"
+            source: "Irisch"
       - type: text
         text: |
           **A day in London**

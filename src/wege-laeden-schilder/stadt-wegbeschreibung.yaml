@@ -61,15 +61,20 @@ blocks:
           - type: text
             text: |
               Nach **turn** steht direkt **left** oder **right**. Mit **to the** geht es auch (turn to the left), aber nicht „turn to left“. Ein Befehl beginnt mit dem Verb und hat kein „you“. Am Ziel sagst du **on the left** oder **on the right**. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust. Wenn du in eine Straße abbiegst, sagst du **into** vor dem Namen der Straße.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [bakery, Bäckerei]
-          - [post office, Post]
-          - [opposite, gegenüber]
-          - [between, zwischen]
-          - [into, in … hinein]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "bakery"
+            source: "Bäckerei"
+          - target: "post office"
+            source: "Post"
+          - target: "opposite"
+            source: "gegenüber"
+          - target: "between"
+            source: "zwischen"
+          - target: "into"
+            source: "in … hinein"
   - type: section
     id: uebung
     title: Übung

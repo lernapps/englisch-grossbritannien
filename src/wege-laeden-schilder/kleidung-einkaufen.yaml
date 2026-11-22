@@ -53,15 +53,20 @@ blocks:
           - type: text
             text: |
               Bei einer Sache fragst du **How much is this shirt?** und hörst **It's nine pounds.** Bei mehreren Sachen fragst du **How much are these jeans?** und hörst **They're twenty pounds.** **Jeans**, **trousers** und **shoes** gibt es nur in der Mehrzahl, also these und are. Du kannst auch **a pair of** sagen (a pair of jeans). Ein Preis mit £ heißt pounds, nur bei eins heißt er **one pound**. Die Größen heißen **small**, **medium** und **large**, nicht „big“. Nach einer anderen Farbe fragst du so: **Have you got this in blue?** (Have you got heißt „Hast du“ oder „Haben Sie“.)
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [cap, Mütze]
-          - [jumper, Pullover]
-          - [shoes, Schuhe (immer Mehrzahl)]
-          - [medium, mittelgroß]
-          - [a pair of, ein Paar (a pair of jeans heißt eine Jeans)]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "cap"
+            source: "Mütze"
+          - target: "jumper"
+            source: "Pullover"
+          - target: "shoes"
+            source: "Schuhe (immer Mehrzahl)"
+          - target: "medium"
+            source: "mittelgroß"
+          - target: "a pair of"
+            source: "ein Paar (a pair of jeans heißt eine Jeans)"
   - type: section
     id: uebung
     title: Übung

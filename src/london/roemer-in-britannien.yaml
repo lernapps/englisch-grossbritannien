@@ -61,16 +61,22 @@ blocks:
           - type: text
             text: |
               Von früher erzählst du im **Past Simple**. Regelmäßige Verben bekommen **-d** oder **-ed**: live → lived. Unregelmäßige Verben musst du lernen: **come → came**, **build → built**, **leave → left**. Zum Beispiel: Amir built a model castle. Ellie left her bag at home. Die Römer sind nicht die Wikinger und nicht die Normannen: Sie kamen viel früher.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [Roman, Römer / römisch]
-          - [fort, Fort (Lager für Soldaten)]
-          - [Britain, Britannien (die Insel Great Britain)]
-          - [baths, Bäder]
-          - [border, Grenze]
-          - [Londinium, römischer Name der Stadt London]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "Roman"
+            source: "Römer / römisch"
+          - target: "fort"
+            source: "Fort (Lager für Soldaten)"
+          - target: "Britain"
+            source: "Britannien (die Insel Great Britain)"
+          - target: "baths"
+            source: "Bäder"
+          - target: "border"
+            source: "Grenze"
+          - target: "Londinium"
+            source: "römischer Name der Stadt London"
   - type: section
     id: uebung
     title: Übung

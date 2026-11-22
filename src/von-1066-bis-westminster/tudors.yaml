@@ -33,19 +33,28 @@ blocks:
     id: lesen
     title: Sophie fragt die Museumsführung
     blocks:
-      - type: table
-        caption: Randglossar
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [marriage, Ehe]
-          - [the Roman Catholic Church, die römisch-katholische Kirche]
-          - [the Church of England, die Kirche von England]
-          - [monarch, "Monarch, Monarchin"]
-          - [longest-ruling, am längsten regierend]
-          - [era, Zeitalter]
-          - [queen, Königin]
-          - [broke (break), brach (brechen)]
-          - [founded (found), gründete]
+      - type: vocabulary
+        caption: "Randglossar"
+        languages: { source: de, target: en }
+        entries:
+          - target: "marriage"
+            source: "Ehe"
+          - target: "the Roman Catholic Church"
+            source: "die römisch-katholische Kirche"
+          - target: "the Church of England"
+            source: "die Kirche von England"
+          - target: "monarch"
+            source: "Monarch, Monarchin"
+          - target: "longest-ruling"
+            source: "am längsten regierend"
+          - target: "era"
+            source: "Zeitalter"
+          - target: "queen"
+            source: "Königin"
+          - target: "broke (break)"
+            source: "brach (brechen)"
+          - target: "founded (found)"
+            source: "gründete"
       - type: text
         text: |
           **Im Museum · ein Gespräch**

@@ -33,19 +33,28 @@ blocks:
     id: lesen
     title: Der Klassenchat und das Gespräch am Schalter
     blocks:
-      - type: table
-        caption: Randglossar
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [platform, Gleis]
-          - [journey, "Reise, Fahrt"]
-          - [the Tube, die Londoner U-Bahn]
-          - [day pass, Tageskarte]
-          - [single ticket, einfache Fahrt]
-          - [return ticket, Hin- und Rückfahrkarte]
-          - [clerk, Angestellter am Schalter]
-          - [group ticket, Gruppenfahrkarte]
-          - [arrive, ankommen]
+      - type: vocabulary
+        caption: "Randglossar"
+        languages: { source: de, target: en }
+        entries:
+          - target: "platform"
+            source: "Gleis"
+          - target: "journey"
+            source: "Reise, Fahrt"
+          - target: "the Tube"
+            source: "die Londoner U-Bahn"
+          - target: "day pass"
+            source: "Tageskarte"
+          - target: "single ticket"
+            source: "einfache Fahrt"
+          - target: "return ticket"
+            source: "Hin- und Rückfahrkarte"
+          - target: "clerk"
+            source: "Angestellter am Schalter"
+          - target: "group ticket"
+            source: "Gruppenfahrkarte"
+          - target: "arrive"
+            source: "ankommen"
       - type: text
         text: |
           **Der Klassenchat**

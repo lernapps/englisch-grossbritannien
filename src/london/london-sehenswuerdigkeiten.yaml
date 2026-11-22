@@ -53,16 +53,22 @@ blocks:
           - type: text
             text: |
               So beschreibst du einen Ort: **It is a** … sagt, was es ist. **It has** … sagt, was es hat. **You can** … sagt, was du dort tun kannst. Vor einem Vokal-Laut steht **an**: an old church, aber a big church. Ein Ort direkt am Fluss liegt **on the river**, in der Nähe heißt **near**. Zum Beispiel: It is a big school in a park. It has a nice garden. You can play football there.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [bridge, Brücke]
-          - [big wheel, Riesenrad]
-          - [tower, Turm]
-          - [castle, Burg]
-          - [palace, Palast]
-          - [Thames, Themse (Fluss in London)]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "bridge"
+            source: "Brücke"
+          - target: "big wheel"
+            source: "Riesenrad"
+          - target: "tower"
+            source: "Turm"
+          - target: "castle"
+            source: "Burg"
+          - target: "palace"
+            source: "Palast"
+          - target: "Thames"
+            source: "Themse (Fluss in London)"
   - type: section
     id: uebung
     title: Übung

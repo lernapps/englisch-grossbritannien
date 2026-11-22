@@ -33,20 +33,30 @@ blocks:
     id: lesen
     title: Westminster, der König und das Parlament
     blocks:
-      - type: table
-        caption: Randglossar
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [monarch, König oder Königin]
-          - [head of state, Staatsoberhaupt]
-          - [constitutional monarchy, "Monarchie, in der der Monarch nach einer Verfassung handelt"]
-          - [parliament, Parlament]
-          - [law, Gesetz]
-          - [government, Regierung]
-          - [Cabinet, "die wichtigsten Ministerinnen und Minister der Regierung"]
-          - [symbol, Zeichen]
-          - [unity, Einheit]
-          - [trust, "Vertrauen; vertrauen"]
+      - type: vocabulary
+        caption: "Randglossar"
+        languages: { source: de, target: en }
+        entries:
+          - target: "monarch"
+            source: "König oder Königin"
+          - target: "head of state"
+            source: "Staatsoberhaupt"
+          - target: "constitutional monarchy"
+            source: "Monarchie, in der der Monarch nach einer Verfassung handelt"
+          - target: "parliament"
+            source: "Parlament"
+          - target: "law"
+            source: "Gesetz"
+          - target: "government"
+            source: "Regierung"
+          - target: "Cabinet"
+            source: "die wichtigsten Ministerinnen und Minister der Regierung"
+          - target: "symbol"
+            source: "Zeichen"
+          - target: "unity"
+            source: "Einheit"
+          - target: "trust"
+            source: "Vertrauen; vertrauen"
       - type: text
         text: |
           1. Westminster is a part of London. The Palace of Westminster stands there, and the Elizabeth Tower belongs to it. A big bell in the tower is called Big Ben.

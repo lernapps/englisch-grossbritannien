@@ -33,27 +33,44 @@ blocks:
     id: lesen
     title: Die Tafel am Tower
     blocks:
-      - type: table
-        caption: Randglossar
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [Anglo-Saxon, angelsächsisch]
-          - [Norman, "normannisch, Normanne"]
-          - [duke, Herzog]
-          - [army, Heer]
-          - [battle, Schlacht]
-          - [decisive, entscheidend]
-          - [victory, Sieg]
-          - [conquest, Eroberung]
-          - [rebellion, Aufstand]
-          - [castle, Burg]
-          - [bank, Ufer]
-          - [influence, Einfluss]
-          - [conqueror, Eroberer]
-          - [fought (fight), kämpfte (kämpfen)]
-          - [founded (found), gründete]
-          - [spoke (speak), sprach (sprechen)]
-          - [Old English, Altenglisch (die Sprache vor 1066)]
+      - type: vocabulary
+        caption: "Randglossar"
+        languages: { source: de, target: en }
+        entries:
+          - target: "Anglo-Saxon"
+            source: "angelsächsisch"
+          - target: "Norman"
+            source: "normannisch, Normanne"
+          - target: "duke"
+            source: "Herzog"
+          - target: "army"
+            source: "Heer"
+          - target: "battle"
+            source: "Schlacht"
+          - target: "decisive"
+            source: "entscheidend"
+          - target: "victory"
+            source: "Sieg"
+          - target: "conquest"
+            source: "Eroberung"
+          - target: "rebellion"
+            source: "Aufstand"
+          - target: "castle"
+            source: "Burg"
+          - target: "bank"
+            source: "Ufer"
+          - target: "influence"
+            source: "Einfluss"
+          - target: "conqueror"
+            source: "Eroberer"
+          - target: "fought (fight)"
+            source: "kämpfte (kämpfen)"
+          - target: "founded (found)"
+            source: "gründete"
+          - target: "spoke (speak)"
+            source: "sprach (sprechen)"
+          - target: "Old English"
+            source: "Altenglisch (die Sprache vor 1066)"
       - type: text
         text: |
           **The year 1066 · Information board, Tower of London**

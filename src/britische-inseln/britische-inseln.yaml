@@ -57,17 +57,24 @@ blocks:
               - **Ireland**: die Insel im Westen und auch der Staat dort. Der Staat heißt auch Republic of Ireland und ist ein eigenes Land.
               - **Northern Ireland**: der Nordosten der Insel Ireland. Er ist ein Teil des UK.
               - **British Isles**: alle Inseln zusammen.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [capital, Hauptstadt]
-          - [United Kingdom (UK), Vereinigtes Königreich]
-          - [Great Britain, die große Insel]
-          - [island, Insel]
-          - [Ireland, Irland (die Insel und der Staat)]
-          - [Republic of Ireland, Republik Irland (der Staat)]
-          - [British Isles, Britische Inseln]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "capital"
+            source: "Hauptstadt"
+          - target: "United Kingdom (UK)"
+            source: "Vereinigtes Königreich"
+          - target: "Great Britain"
+            source: "die große Insel"
+          - target: "island"
+            source: "Insel"
+          - target: "Ireland"
+            source: "Irland (die Insel und der Staat)"
+          - target: "Republic of Ireland"
+            source: "Republik Irland (der Staat)"
+          - target: "British Isles"
+            source: "Britische Inseln"
   - type: section
     id: uebung
     title: Übung

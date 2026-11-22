@@ -47,15 +47,20 @@ blocks:
           - type: text
             text: |
               Mit **live in** sagst du, wo jemand wohnt: My cousin lives in a flat. Mit **come from** sagst du, woher jemand oder die Familie kommt: Her family comes from a village. Nach **many different** und nach **two, three …** steht der Plural: many different animals, three books (nicht: three book). In Fragen mit **does** steht das Verb ohne -s: What does your sister play? Sag **people from many places**.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [grandparents, Großeltern]
-          - [moved, zog um / zogen um (von move)]
-          - [Welsh, Walisisch]
-          - [Scottish Gaelic, schottisches Gälisch]
-          - [Irish, Irisch]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "grandparents"
+            source: "Großeltern"
+          - target: "moved"
+            source: "zog um / zogen um (von move)"
+          - target: "Welsh"
+            source: "Walisisch"
+          - target: "Scottish Gaelic"
+            source: "schottisches Gälisch"
+          - target: "Irish"
+            source: "Irisch"
   - type: section
     id: uebung
     title: Übung
