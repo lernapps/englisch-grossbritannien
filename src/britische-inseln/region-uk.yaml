@@ -1,0 +1,244 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Eine Region vorstellen: Cornwall"
+description: Die Parkers fahren in den Herbstferien nach Cornwall. Du lernst, eine Region wie Cornwall, den Lake District oder Wales vorzustellen.
+competencies: [region-uk]
+scope: "Die Seite stellt Cornwall als Beispiel für eine Region vor (Südwesten Englands, Atlantik, Ärmelkanal, Meer, Strände, Küste). Der Lake District (Nordwesten Englands, Seen und Berge) und Wales (Westen von Great Britain, Hauptstadt Cardiff, Welsh) kommen als kurze Steckbriefe dazu. Gelernt werden die Muster It is in the … of …, You can … und It is famous for …. Typische Fehler sind Cornwall und Wales verwechseln, den Lake District im Süden suchen, in the north und in the south-west vertauschen und You can to … mit to. Nicht hier, weil sie auf späteren Seiten folgen: Vergleiche von Stadt und Land und London."
+blocks:
+  - type: section
+    id: einstieg
+    title: Peter fragt nach Cornwall
+    blocks:
+      - type: figure
+        image: images/szene-cornwall.svg
+        alt: Mrs Parker, Ellie und Peter stehen in der Küche. Daneben stehen zwei Koffer. Über Peter ist eine Sprechblase mit einem Fragezeichen.
+        caption: "Von links: Mrs Parker (roter Dutt, türkise Strickjacke), Ellie (roter Pferdeschwanz) und Peter (gelbe Jacke)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) hat eine Frage an seine Mutter. Mrs Parker holt die Karte."
+      - type: single-choice
+        id: region-start
+        text: "Peter fragt: „Where is Cornwall?“ Was will er wissen?"
+        options:
+          - text: Wo liegt Cornwall?
+            correct: true
+            info: "where heißt „wo“. Peter fragt nach der Lage."
+          - text: Wer fährt nach Cornwall?
+            correct: false
+            info: "„Wer“ heißt who. In Peters Frage steht where."
+          - text: Was ist Cornwall?
+            correct: false
+            info: "„Was“ heißt what. In Peters Frage steht where."
+        explanation: "„Where is Cornwall?“ heißt „Wo liegt Cornwall?“."
+        links:
+          - title: Lernlandkarte Englisch · Eine Region vorstellen
+            url: https://lernapps.net/apps/map/englisch/c/region-uk/
+      - type: text
+        text: "**Das kannst du danach:** Du stellst eine Region vor. Du sagst, wo sie liegt, was man dort tun kann und wofür sie bekannt ist."
+  - type: section
+    id: neu
+    title: Eine Region vorstellen
+    blocks:
+      - type: text
+        text: "Eine **region** ist ein Gebiet in einem Land. **Cornwall** ist eine Region im **south-west** (Südwesten) von England. Im Norden und im Westen liegt der **Atlantic Ocean** (Atlantik), im Süden der **English Channel** (Ärmelkanal). Cornwall ist eine Region an der Küste, mit Meer und Stränden."
+      - type: figure
+        image: images/cornwall-karte.svg
+        alt: Schemakarte der Südwestspitze Englands. Eine lange Landspitze zeigt nach Südwesten. Sie hat eine andere Farbe und einen eigenen Namen. Das Land dahinter ist als England beschriftet. Das Meer ist auf zwei Seiten mit Namen beschriftet. Schemakarte, nicht genau nach Maßstab.
+        caption: Der Südwesten Englands (Schemakarte, nicht genau nach Maßstab). Norden (N) ist oben.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Eine Region stellst du mit drei Mustern vor:
+              - **It is in the … of …** sagt, wo sie liegt.
+              - **You can …** sagt, was man dort tun kann. Nach can steht das Verb ohne to (You can walk, nicht „You can to walk“).
+              - **It is famous for …** sagt, wofür sie bekannt ist.
+
+              Beispiel: The park is in the north of Millbrook. You can play there.
+      - type: example
+        title: Zwei Steckbriefe zum Vergleichen
+        blocks:
+          - type: text
+            text: |
+              **Lake District:** ein Bergland und Nationalpark im Nordwesten Englands, bekannt für Seen und Berge.
+
+              **Wales:** liegt im Westen von Great Britain, die Hauptstadt ist Cardiff. Neben Englisch spricht man dort auch eine eigene Sprache, Welsh.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [region, Gebiet]
+          - [south-west, Südwesten]
+          - [north-west, Nordwesten]
+          - [north / south / east / west, Norden / Süden / Osten / Westen]
+          - [Atlantic Ocean, Atlantik]
+          - [English Channel, Ärmelkanal]
+          - [Welsh, Walisisch]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: region-steckbrief
+        text: Lies den Steckbrief. Welche Region ist gemeint?
+        material:
+          - type: text
+            text: "**Steckbrief:** Many families come here for a holiday. They swim and play on the beach. The region is in the south-west."
+        options:
+          - text: Cornwall
+            correct: true
+            info: Cornwall liegt im Südwesten Englands und hat Küste, Meer und Strände.
+          - text: der Lake District
+            correct: false
+            info: Der Lake District liegt im Nordwesten, nicht im Südwesten. Dort gibt es Berge und Seen.
+          - text: Wales
+            correct: false
+            info: Wales ist ein eigener Teil des UK im Westen von Great Britain und kein Gebiet im Südwesten von England.
+        explanation: Südwesten, Meer und Strand passen zu Cornwall.
+        hint: Achte auf die Richtung und darauf, was die Familien dort machen.
+        links:
+          - title: Lernlandkarte Englisch · Eine Region vorstellen
+            url: https://lernapps.net/apps/map/englisch/c/region-uk/
+      - type: matching
+        id: region-bekannt
+        text: Was kann man dort tun? Ordne zu.
+        pairs:
+          - left: Cornwall
+            right: You can see the English Channel.
+          - left: the Lake District
+            right: You can see many lakes.
+          - left: Wales
+            right: You can hear Welsh.
+        explanation: "In Cornwall liegt im Süden der English Channel. Der Lake District ist bekannt für Seen. In Wales hört man neben Englisch auch Welsh."
+        hint: Denke an das, was nur zu einer Region passt, ein bestimmtes Meer, Seen und eine zweite Sprache.
+        links:
+          - title: Lernlandkarte Englisch · Eine Region vorstellen
+            url: https://lernapps.net/apps/map/englisch/c/region-uk/
+      - type: language-task
+        id: region-karte
+        languages: { source: de, target: en }
+        mode: choice
+        task: Schau auf die Karte von Great Britain und wähle die richtige Richtung.
+        form: { case: hint, punctuation: ok }
+        material:
+          - type: figure
+            image: images/region-karte-buchstaben.svg
+            alt: Schemakarte der Insel Great Britain mit drei markierten Gebieten A, B und C. Im Westen liegt die kleinere Insel Ireland ohne Markierung. Norden ist oben. Schemakarte, nicht genau nach Maßstab.
+            caption: Great Britain mit drei Gebieten (Schemakarte, nicht genau nach Maßstab). Norden ist oben.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - cue: Gebiet A ist Cornwall. Wo liegt es in England?
+            target: A is in the [south] of England.
+            distractors: [[north, east]]
+            mistakes:
+              - answer: A is in the north of England.
+                message: Im Norden liegt der Lake District. A liegt ganz unten, an der Spitze.
+              - answer: A is in the east of England.
+                message: Der Osten liegt auf der rechten Seite der Insel. A liegt unten links.
+          - cue: Gebiet B ist der Lake District. Wo liegt er in England?
+            target: B is in the [north] of England.
+            distractors: [[south, east]]
+            mistakes:
+              - answer: B is in the south of England.
+                message: Im Süden liegt Cornwall. Der Lake District liegt weiter oben.
+              - answer: B is in the east of England.
+                message: B liegt nicht rechts, im Osten, sondern im oberen Teil von England.
+          - cue: Gebiet C ist Wales. Wo liegt es auf Great Britain?
+            target: C is in the [west] of Great Britain.
+            distractors: [[east, north]]
+            mistakes:
+              - answer: C is in the east of Great Britain.
+                message: C liegt auf der Westseite der Insel. Im Osten liegt England.
+              - answer: C is in the north of Great Britain.
+                message: Im Norden liegt Scotland. C liegt im Westen, neben England.
+        hint: Schau, wo das Gebiet auf der Insel liegt, im Norden, Süden, Osten oder Westen. Norden ist oben.
+      - type: ordering
+        id: region-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [You, can, walk, by, the, sea]
+        explanation: Nach You kommt can und danach das Verb ohne to. Der Rest des Satzes steht am Ende.
+        hint: Nach can steht das Verb ohne to.
+        links:
+          - title: Lernlandkarte Englisch · Eine Region vorstellen
+            url: https://lernapps.net/apps/map/englisch/c/region-uk/
+      - type: language-task
+        id: region-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok, hyphen: ok }
+        items:
+          - source: Du kannst die Küste besuchen.
+            target: You can visit the coast.
+            mistakes:
+              - answer: You can to visit the coast.
+                message: Nach can steht das Verb ohne to.
+              - answer: You can visiting the coast.
+                message: Nach can steht die Grundform des Verbs, ohne -ing.
+          - source: Der Lake District liegt im Nordwesten von England.
+            target: The Lake District is in the north-west of England.
+            mistakes:
+              - answer: The Lake District is in the south-west of England.
+                message: Im Südwesten liegt Cornwall. Der Lake District liegt im Nordwesten.
+              - answer: The Lake District is in north-west of England.
+                message: Vor north-west fehlt der Artikel the.
+              - answer: The Lake District is at the north-west of England.
+                message: Für die Lage in einer Region brauchst du in the … of.
+          - source: Cornwall ist bekannt für das Meer.
+            target: Cornwall is famous for the sea.
+            mistakes:
+              - answer: Cornwall is famous of the sea.
+                message: „Bekannt für“ heißt famous for, nicht famous of.
+              - answer: Cornwall is famous the sea.
+                message: Nach famous fehlt das Wort for.
+        hint: Für die Lage brauchst du in the … of …. Nach can steht ein Verb ohne to.
+      - type: language-task
+        id: region-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: we-can-see-the-sea-from-the-hotel.mp3
+            target: We can see the sea from the hotel.
+          - audio: ellie-wants-to-walk-on-the-beach.mp3
+            target: Ellie wants to walk on the beach.
+          - audio: cornwall-is-a-good-place-for-a-holiday.mp3
+            target: Cornwall is a good place for a holiday.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: region-nachsprechen
+        language: en
+        items:
+          - audio: peter-asks-about-cornwall.mp3
+            text: Peter asks about Cornwall.
+          - audio: mrs-parker-has-a-big-map-of-england.mp3
+            text: Mrs Parker has a big map of England.
+          - audio: you-can-visit-a-lovely-village.mp3
+            text: You can visit a lovely village.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Cornwall und village.
+      - type: open-task
+        id: region-vorstellen
+        task: "Ein Gast fragt: „Tell me about Cornwall, the Lake District or Wales.“ Stelle eine der drei Regionen in drei Sätzen auf Englisch vor."
+        points:
+          - text: Ein Satz sagt, wo die Region liegt (It is in the … of …).
+            source: /britische-inseln/region-uk/#neu
+          - text: Ein Satz sagt, was man dort tun kann (You can … ohne to).
+            source: /britische-inseln/region-uk/#neu
+          - text: Ein Satz sagt, wofür die Region bekannt ist (It is famous for …).
+            source: /britische-inseln/region-uk/#neu
+          - text: Es sind drei ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Cornwall is in the south-west of England. You can walk on the coast and swim in the sea. It is famous for the beaches.
+  - type: section
+    id: weiter
+    title: Weiter zu Stadt und Land
+    blocks:
+      - type: text
+        text: Beim Abendessen erzählt Ellie von London. Sie war schon oft dort. Sophie denkt an Millbrook und an Cornwall und fragt sich, wo man gern wohnen würde. Stadt oder Land? Das vergleichst du auf der nächsten Seite.

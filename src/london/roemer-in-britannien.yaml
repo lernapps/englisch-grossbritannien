@@ -1,0 +1,235 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Die Römer in Britannien
+description: Mr Hills Klasse ist einen Tag in London. Du lernst, was die Römer in Britannien zurückließen, und erzählst es im Past Simple.
+competencies: [roemer-in-britannien]
+scope: "Die Seite erzählt von den Römern in Britannien mit einem Zeitstrahl (43, um 50, 122) und drei Dingen, die die Römer zurückließen: Londinium (London), Hadrian’s Wall (Norden Englands) und die Roman Baths in Bath (Aquae Sulis). Das Past Simple kommt nur mit vier Verben vor: lived (regelmäßig), came, built, left (unregelmäßig). Typische Fehler sind comed und builded, die Römer mit Wikingern oder Normannen zu verwechseln und Hadrian’s Wall als Grenze zu Wales. Nicht hier, weil sie auf späteren Seiten folgen: die Sehenswürdigkeiten Londons, die Vielfalt der Menschen und die Zeit nach den Römern."
+blocks:
+  - type: section
+    id: einstieg
+    title: Eine alte Stadt
+    blocks:
+      - type: figure
+        image: images/szene-london-roemer.svg
+        alt: Ein Mann mit grauen Haaren und ein Mädchen stehen vor einer alten Steinmauer unter einem Schild mit dem Wort London.
+        caption: "Von links: Mr Hill (graue Haare) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Ein Tag in London. Mr Hills Klasse steht vor einer alten Mauer. Peter ist heute nicht dabei, Sophie schreibt ihm später eine Nachricht. Mr Hill sagt: „London is almost 2,000 years old.“ Das heißt: London ist fast 2000 Jahre alt. Die ersten, die hier eine Stadt bauten, waren die **Römer**. Sie nannten die Stadt **Londinium**."
+      - type: single-choice
+        id: roemer-start
+        text: "Mr Hill sagt noch: „The Romans came to Britain.“ Was bedeutet das?"
+        options:
+          - text: Die Römer kamen nach Britannien.
+            correct: true
+            info: came ist die Vergangenheit von come. Der Satz erzählt, was früher geschah.
+          - text: Die Römer kommen morgen nach Britannien.
+            correct: false
+            info: Für morgen würdest du come oder will come sagen. came erzählt von früher.
+          - text: Die Römer wohnen heute in Britannien.
+            correct: false
+            info: wohnen heißt live. Der Satz sagt, dass die Römer irgendwohin kamen.
+        explanation: came ist die Vergangenheitsform von come. Mr Hill erzählt, was vor langer Zeit geschah.
+        links:
+          - title: Lernlandkarte Englisch · Die Römer in Britannien
+            url: https://lernapps.net/apps/map/englisch/c/roemer-in-britannien/
+      - type: text
+        text: "**Das kannst du danach:** Du erzählst, was die Römer in Britannien zurückließen, zum Beispiel in London, im Norden Englands und in Bath. Dafür brauchst du vier Verben in der Vergangenheit."
+  - type: section
+    id: neu
+    title: Was die Römer hinterlassen haben
+    blocks:
+      - type: text
+        text: "Die Römer kamen im Jahr 43 nach Britannien. Um das Jahr 50 entstand an der Themse die Stadt **Londinium**, ein wichtiger Hafen und ein Ort für Handel. Im Jahr 122 begann der Bau einer langen Mauer. Der Zeitstrahl zeigt die drei Marken."
+      - type: figure
+        image: images/zeitstrahl-roemer.svg
+        alt: Zeitstrahl von links nach rechts mit drei Marken. Bei jeder Marke stehen eine Zahl und ein kurzes Wort.
+        caption: "Zeitstrahl: Die Römer in Britannien (nicht genau nach Maßstab, die Abstände stimmen nicht mit den Jahren überein)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Drei Orte zeigen, dass die Römer da waren: **Londinium** an der Themse, **Hadrian’s Wall** mit Forts und Türmen und die **Roman Baths** im Südwesten Englands. Die Römer nannten den Ort der Bäder **Aquae Sulis**. Die Karte zeigt, wo die drei Orte liegen."
+      - type: figure
+        image: images/roemer-orte.svg
+        alt: "Schemakarte von England mit Scotland im Norden und Wales im Westen. Eine Linie und zwei Punkte sind beschriftet. Schemakarte, nicht genau nach Maßstab."
+        caption: "Schemakarte, nicht genau nach Maßstab: Orte der Römer in England. Norden ist oben."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Von früher erzählst du im **Past Simple**. Regelmäßige Verben bekommen **-d** oder **-ed**: live → lived. Unregelmäßige Verben musst du lernen: **come → came**, **build → built**, **leave → left**. Zum Beispiel: Amir built a model castle. Ellie left her bag at home. Die Römer sind nicht die Wikinger und nicht die Normannen: Sie kamen viel früher.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [Roman, Römer / römisch]
+          - [fort, Fort (Lager für Soldaten)]
+          - [Britain, Britannien (die Insel Great Britain)]
+          - [baths, Bäder]
+          - [border, Grenze]
+          - [Londinium, römischer Name der Stadt London]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: roemer-zuordnen
+        text: Was ließen die Römer zurück? Ordne zu.
+        pairs:
+          - left: Londinium
+            right: die Stadt, aus der London wurde
+          - left: Hadrian’s Wall
+            right: eine lange Steinmauer im Norden Englands
+          - left: the Roman Baths
+            right: römische Bäder in Bath
+        explanation: Londinium war die römische Stadt, aus der London wurde. Hadrian’s Wall ist eine Steinmauer im Norden Englands. Die Roman Baths sind in Bath.
+        hint: Schau auf die Karte. Zu jedem Namen gehört ein Ort.
+        links:
+          - title: Lernlandkarte Englisch · Die Römer in Britannien
+            url: https://lernapps.net/apps/map/englisch/c/roemer-in-britannien/
+      - type: single-choice
+        id: roemer-zeitstrahl
+        text: Denke an den Zeitstrahl. Was geschah zuerst?
+        options:
+          - text: Die Römer kommen nach Britannien.
+            correct: true
+            info: Die Invasion steht bei 43. Das ist die früheste Marke.
+          - text: Londinium entsteht.
+            correct: false
+            info: Londinium steht bei 50. Das ist später als 43.
+          - text: Der Bau von Hadrian’s Wall beginnt.
+            correct: false
+            info: Die Marke 122 steht ganz rechts. Sie ist die späteste.
+        explanation: Auf einem Zeitstrahl steht das Früheste links und das Späteste rechts. Ganz links steht 43.
+        links:
+          - title: Lernlandkarte Englisch · Die Römer in Britannien
+            url: https://lernapps.net/apps/map/englisch/c/roemer-in-britannien/
+      - type: language-task
+        id: roemer-formen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Amir kam früh zur Schule.
+            target: Amir [came] to school early.
+            distractors: [[comed, come]]
+            mistakes:
+              - answer: Amir comed to school early.
+                message: come ist unregelmäßig. Die Vergangenheit heißt came, nicht comed.
+              - answer: Amir come to school early.
+                message: Für etwas, das früher war, brauchst du came.
+          - cue: Ellie baute einen Turm.
+            target: Ellie [built] a tower.
+            distractors: [[builded, build]]
+            mistakes:
+              - answer: Ellie builded a tower.
+                message: build ist unregelmäßig. Die Vergangenheit heißt built, nicht builded.
+              - answer: Ellie build a tower.
+                message: Für etwas, das früher war, brauchst du built.
+          - cue: Die Römer wohnten in Forts.
+            target: The Romans [lived] in forts.
+            distractors: [[live, living]]
+            mistakes:
+              - answer: The Romans live in forts.
+                message: Die Römer wohnten früher dort. Dafür brauchst du lived (live + d).
+              - answer: The Romans living in forts.
+                message: living ohne is passt nicht. Hier brauchst du lived.
+          - cue: Mr Hill verließ das Klassenzimmer.
+            target: Mr Hill [left] the classroom.
+            distractors: [[leaved, leave]]
+            mistakes:
+              - answer: Mr Hill leaved the classroom.
+                message: leave ist unregelmäßig. Die Vergangenheit heißt left, nicht leaved.
+              - answer: Mr Hill leave the classroom.
+                message: Für etwas, das früher war, brauchst du left.
+        hint: Es ist alles schon passiert. Denke an came, built, lived und left.
+      - type: true-false
+        id: roemer-wales
+        text: "Ellie sagt: „Hadrian’s Wall is the border between England and Wales.“ Stimmt der Satz?"
+        answer: false
+        hint: Wo liegt Wales, und wo liegt die Mauer? Schau auf die Karte. border heißt Grenze.
+        explanation: Hadrian’s Wall liegt im Norden Englands. Wales liegt im Westen und hat mit der Mauer nichts zu tun.
+        links:
+          - title: Lernlandkarte Englisch · Die Römer in Britannien
+            url: https://lernapps.net/apps/map/englisch/c/roemer-in-britannien/
+      - type: language-task
+        id: roemer-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Die Römer bauten Londinium.
+            target: The Romans built Londinium.
+            mistakes:
+              - answer: The Romans builded Londinium.
+                message: build ist unregelmäßig. Die Vergangenheit heißt built.
+              - answer: The Romans build Londinium.
+                message: Du erzählst von früher. Dafür brauchst du built.
+              - answer: The Romans built London.
+                message: Die Römer nannten ihre Stadt Londinium. London heißt sie erst später.
+          - source: Die Römer verließen Britannien.
+            target: The Romans left Britain.
+            mistakes:
+              - answer: The Romans leaved Britain.
+                message: leave ist unregelmäßig. Die Vergangenheit heißt left.
+              - answer: The Romans leave Britain.
+                message: Du erzählst von früher. Dafür brauchst du left.
+          - source: Viele Römer wohnten in Londinium.
+            target: Many Romans lived in Londinium.
+            mistakes:
+              - answer: Many Romans live in Londinium.
+                message: Du erzählst von früher. Dafür brauchst du lived.
+              - answer: Many Romans lifed in Londinium.
+                message: Die Vergangenheit von live ist lived (live + d).
+        hint: Du erzählst von früher. Denke an built, left und lived.
+      - type: language-task
+        id: roemer-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: a-roman-built-a-house-near-the-river.mp3
+            target: A Roman built a house near the river.
+          - audio: many-people-lived-in-that-village.mp3
+            target: Many people lived in that village.
+          - audio: sophie-writes-about-the-romans-to-peter.mp3
+            target: Sophie writes about the Romans to Peter.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: roemer-nachsprechen
+        language: en
+        items:
+          - audio: hadrians-wall-has-forts-and-towers.mp3
+            text: Hadrian’s Wall has forts and towers.
+          - audio: the-roman-baths-are-in-bath.mp3
+            text: The Roman Baths are in Bath.
+          - audio: londinium-is-the-old-name-of-london.mp3
+            text: Londinium is the old name of London.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Hadrian’s, forts und Londinium.
+      - type: open-task
+        id: roemer-erzaehlen
+        task: "Mr Hill fragt die Klasse, was die Römer in Britannien zurückließen. Erzähle es in zwei bis vier Sätzen auf Englisch."
+        points:
+          - text: Du nennst mindestens zwei Dinge, die die Römer zurückließen, zum Beispiel Londinium, Hadrian’s Wall oder die Roman Baths in Bath.
+            source: /london/roemer-in-britannien/#neu
+          - text: Die Orte stimmen (London, Norden Englands, Bath).
+            source: /london/roemer-in-britannien/#neu
+          - text: Die Verben stehen in der Vergangenheit (built, came, lived, left).
+            source: /london/roemer-in-britannien/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          The Romans came to Britain. They built Londinium on the River Thames. They also built Hadrian’s Wall in the north of England. In Bath they built baths, and many Romans lived there.
+  - type: section
+    id: weiter
+    title: Weiter durch London
+    blocks:
+      - type: text
+        text: Nach den Römern geht Mr Hills Klasse weiter durch das London von heute. Mr Hill hat eine Karte mit sechs nummerierten Halten dabei. Was die Klasse dort sieht und wie du es beschreibst, erfährst du auf der nächsten Seite.

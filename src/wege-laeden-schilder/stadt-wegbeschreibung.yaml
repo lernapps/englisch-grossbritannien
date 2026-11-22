@@ -1,0 +1,265 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Den Weg beschreiben: Millbrook auf dem Plan"
+description: Sophie und Ellie gehen mit dem Plan von Millbrook durch die Stadt. Du lernst, Orte zu benennen und einen einfachen Weg zu beschreiben.
+competencies: [stadt-wegbeschreibung]
+scope: "Die Seite führt den Plan von Millbrook ein (library, bakery, post office, park, school, clothes shop, supermarket, station an der High Street, der Church Road und der Mill Lane). Ein Weg ist eine Folge von Befehlen (turn left, go straight on, cross). Das Ziel wird mit on the left, on the right, next to, opposite und between beschrieben. Typische Fehler sind turn to left, You turn right als Befehl und links und rechts verwechselt. Nicht hier, weil sie auf späteren Seiten folgen: Schilder, Fahrpläne und Einkaufen."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie und Ellie mit dem Plan
+    blocks:
+      - type: figure
+        image: images/szene-stadtplan.svg
+        alt: Zwei Mädchen stehen unter einem Schild mit dem Wort Millbrook und halten einen Stadtplan.
+        caption: "Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Es ist Samstag. Mrs Parker setzt Sophie und Ellie vor der Millbrook School ab. Heute gehen die beiden zu Fuß durch die Stadt. Sie haben einen Plan von Millbrook dabei, einen **Schemaplan**: Das ist ein einfacher Plan, der nicht alles genau zeigt und nicht genau nach Maßstab gezeichnet ist. Er zeigt aber alle Straßen und Orte."
+      - type: figure
+        image: images/stadtplan-millbrook.svg
+        alt: Plan von Millbrook mit drei Straßen. Die High Street verläuft von West nach Ost, die Church Road und die Mill Lane verlaufen von Nord nach Süd. Nördlich der High Street liegen vier Orte, südlich vier weitere, mit ihren Namen im Bild. Ein grüner Punkt markiert den Start. Schemaplan, nicht genau nach Maßstab.
+        caption: Der Plan von Millbrook (Schemaplan, nicht genau nach Maßstab). Norden (N) ist oben, Osten rechts, Süden unten und Westen links. Der grüne Punkt ist der Start.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: single-choice
+        id: wege-start
+        text: Sophie steht vor der school und sucht die library. Welcher Ort liegt der school auf der anderen Seite der High Street genau gegenüber?
+        options:
+          - text: die library
+            correct: true
+            info: Die library liegt auf der anderen Seite der High Street, genau auf der Höhe der school.
+          - text: die bakery
+            correct: false
+            info: Die bakery liegt auf derselben Seite wie die library, aber hinter der Church Road. Sie ist nicht auf der Höhe der school.
+          - text: die station
+            correct: false
+            info: Die station liegt im Osten an der Mill Lane. Sie ist weit von der school entfernt.
+        explanation: Auf dem Plan liegen die school und die library an der High Street auf zwei Seiten, genau einander gegenüber.
+        links:
+          - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
+      - type: text
+        text: "**Das kannst du danach:** Du nennst Orte auf dem Plan und beschreibst einen einfachen Weg: abbiegen, geradeaus gehen und sagen, wo das Ziel liegt. Du kennst die Präpositionen des Ortes und den Imperativ schon aus früheren Kapiteln."
+  - type: section
+    id: neu
+    title: Ein Weg besteht aus Pfeilen
+    blocks:
+      - type: text
+        text: "Ein Weg besteht aus einzelnen Schritten, die du dir als **Pfeile** auf dem Plan vorstellen kannst. Für jeden Pfeil gibt es einen Befehl, den **Imperativ**: **turn left** oder **turn right** (abbiegen), **go straight on** (geradeaus weitergehen) und **cross** (überqueren). Am Ziel sagst du, wo es liegt. Auf dem Plan stehen die Namen der Orte auf Englisch, zum Beispiel school und park."
+      - type: figure
+        image: images/stadtplan-beispielweg.svg
+        alt: Plan von Millbrook mit einem orangefarbenen Weg. Er beginnt an einem grünen Punkt bei der Mill Lane, führt auf der Mill Lane nach unten über die High Street und endet mit einem Pfeil neben einem Ort südlich der High Street. Drei Stellen sind mit 1, 2 und 3 markiert. Schemaplan, nicht genau nach Maßstab.
+        caption: Ein Weg in drei Schritten (Schemaplan, nicht genau nach Maßstab). Du verlässt den park nach Westen und stehst auf der Mill Lane. Der grüne Punkt ist der Start.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "So sagst du den Weg: **1** Turn left. **2** Cross the High Street. **3** The supermarket is on the right."
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Nach **turn** steht direkt **left** oder **right**. Mit **to the** geht es auch (turn to the left), aber nicht „turn to left“. Ein Befehl beginnt mit dem Verb und hat kein „you“. Am Ziel sagst du **on the left** oder **on the right**. Stell dir vor, du gehst selbst: Links und rechts hängen davon ab, in welche Richtung du schaust. Wenn du in eine Straße abbiegst, sagst du **into** vor dem Namen der Straße.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [bakery, Bäckerei]
+          - [post office, Post]
+          - [opposite, gegenüber]
+          - [between, zwischen]
+          - [into, in … hinein]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: wege-zuordnen
+        text: Welcher Ort auf dem Plan ist gemeint? Ordne zu.
+        pairs:
+          - left: die Bücherei
+            right: the library
+          - left: der Bahnhof
+            right: the station
+          - left: der Supermarkt
+            right: the supermarket
+          - left: der Kleidungsladen
+            right: the clothes shop
+        explanation: library ist die Bücherei, station der Bahnhof, supermarket der Supermarkt und clothes shop der Kleidungsladen.
+        hint: Suche die Orte auf dem Plan. Die Namen stehen dort.
+        links:
+          - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
+      - type: language-task
+        id: wege-lage
+        languages: { source: de, target: en }
+        mode: choice
+        task: Schau auf den Plan und wähle den richtigen Ort.
+        form: { case: hint, punctuation: ok }
+        material:
+          - type: figure
+            image: images/stadtplan-millbrook.svg
+            alt: Plan von Millbrook mit High Street, Church Road und Mill Lane. Schemaplan, nicht genau nach Maßstab.
+            caption: Der Plan von Millbrook. Norden ist oben, Osten rechts.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - cue: Der Supermarkt liegt zwischen … und der Mill Lane.
+            target: The supermarket is between the [clothes shop] and Mill Lane.
+            distractors: [[post office, school]]
+            mistakes:
+              - answer: The supermarket is between the post office and Mill Lane.
+                message: Die post office liegt auf der anderen Seite der High Street. Der supermarket und der gesuchte Ort liegen beide im Süden.
+              - answer: The supermarket is between the school and Mill Lane.
+                message: Die school liegt ganz im Westen, hinter der Church Road. Zwischen dem supermarket und der Church Road liegt ein anderer Ort.
+          - cue: Der Park liegt gegenüber von …
+            target: The park is opposite the [station].
+            distractors: [[school, library]]
+            mistakes:
+              - answer: The park is opposite the school.
+                message: Die school liegt ganz im Westen. Gegenüber vom park liegt ein Ort an der Mill Lane.
+              - answer: The park is opposite the library.
+                message: Die library liegt ganz im Westen, gegenüber der school. Gegenüber vom park liegt ein Ort an der Mill Lane.
+        hint: Suche zuerst die Orte, die im Satz schon genannt sind, und schau, was zwischen oder gegenüber liegt.
+      - type: language-task
+        id: wege-plan
+        languages: { source: de, target: en }
+        mode: choice
+        task: Du stehst vor der school und willst zur station. Du gehst selbst, Norden ist oben auf dem Plan. Schau auf den Plan und wähle das richtige Wort.
+        form: { case: hint, punctuation: ok }
+        material:
+          - type: figure
+            image: images/stadtplan-millbrook.svg
+            alt: Plan von Millbrook mit High Street, Church Road und Mill Lane. Der grüne Punkt vor der school ist der Start. Schemaplan, nicht genau nach Maßstab.
+            caption: Der Plan von Millbrook. Norden ist oben, Osten rechts. Du gehst selbst und schaust in Gehrichtung.
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+        items:
+          - cue: Du schaust von der school zur High Street, also nach Norden. Du willst nach Osten gehen.
+            target: Turn [right] into the High Street.
+            distractors: [[left]]
+            mistakes:
+              - answer: Turn left into the High Street.
+                message: Du schaust nach Norden. Osten ist dann rechts.
+          - cue: Du gehst nach Osten bis zur Mill Lane. Dort willst du nach Süden gehen.
+            target: Turn [right] into Mill Lane.
+            distractors: [[left]]
+            mistakes:
+              - answer: Turn left into Mill Lane.
+                message: Du schaust nach Osten. Süden liegt dann rechts von dir.
+          - cue: Du gehst in der Mill Lane nach Süden. Die station liegt im Osten.
+            target: The station is on the [left].
+            distractors: [[right]]
+            mistakes:
+              - answer: The station is on the right.
+                message: Du schaust nach Süden. Osten liegt dann links von dir.
+        hint: Drehe den Plan in Gedanken, so dass du in Gehrichtung schaust. Dann siehst du, was links und rechts ist.
+      - type: ordering
+        id: wege-reihenfolge
+        text: Bringe die Wörter in die richtige Reihenfolge, so dass ein Satz entsteht.
+        items: [Turn, left, into, Church, Road]
+        explanation: Der Befehl beginnt mit dem Verb. Danach kommt die Richtung und zuletzt into mit dem Namen der Straße.
+        hint: Ein Befehl beginnt mit dem Verb. Die Richtung steht vor into.
+        links:
+          - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
+      - type: true-false
+        id: wege-gegenueber
+        text: "Peter sagt: „The supermarket is opposite the bakery.“ Stimmt der Satz für den Plan von Millbrook?"
+        answer: false
+        hint: Suche zuerst die bakery auf dem Plan und schau, was auf der anderen Seite der High Street liegt.
+        explanation: Genau gegenüber der bakery liegt der Kleidungsladen (clothes shop). Der supermarket liegt weiter rechts, nur schräg gegenüber.
+        links:
+          - title: Lernlandkarte Englisch · Stadt und Wegbeschreibung
+            url: https://lernapps.net/apps/map/englisch/c/stadt-wegbeschreibung/
+      - type: language-task
+        id: wege-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Biege rechts ab.
+            target: Turn( to the|) right.
+            mistakes:
+              - answer: Turn to right.
+                message: Entweder direkt „turn right“ oder „turn to the right“. „to right“ ohne the gibt es nicht.
+              - answer: You turn right.
+                message: Hier brauchst du einen Befehl, also ohne you.
+          - source: Die Post ist neben der Bäckerei.
+            target: The post office is next to the bakery.
+            mistakes:
+              - answer: The post office is near of the bakery.
+                message: Neben heißt next to. near of gibt es nicht.
+              - answer: The post office is on the bakery.
+                message: on heißt auf. Neben heißt next to.
+          - source: Die Bücherei ist gegenüber von der school.
+            target: The library is opposite( to|) the school.
+            mistakes:
+              - answer: The library is against the school.
+                message: against heißt gegen. Gegenüber heißt opposite.
+        hint: Ein Befehl beginnt mit dem Verb. Für „neben“ brauchst du zwei Wörter.
+      - type: language-task
+        id: wege-befehl
+        languages: { source: de, target: en }
+        task: Mach aus jedem Satz einen Befehl für den Weg.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: You go straight on.
+            target: Go straight( on| ahead|).
+            mistakes:
+              - answer: You go straight on.
+                message: Ein Befehl hat kein you. Er beginnt mit dem Verb.
+          - cue: You cross the street.
+            target: Cross the street.
+            mistakes:
+              - answer: You cross the street.
+                message: Ein Befehl hat kein you. Er beginnt mit dem Verb.
+        hint: Streiche das erste Wort und schreibe den Satz mit großem Anfangsbuchstaben.
+      - type: language-task
+        id: wege-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: peter-waits-at-the-station.mp3
+            target: Peter waits at the station.
+          - audio: amir-is-in-the-park.mp3
+            target: Amir is in the park.
+          - audio: ellie-is-next-to-the-library.mp3
+            target: Ellie is next to the library.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: wege-nachsprechen
+        language: en
+        items:
+          - audio: turn-left-at-the-post-office.mp3
+            text: Turn left at the post office.
+          - audio: turn-right-at-the-supermarket.mp3
+            text: Turn right at the supermarket.
+          - audio: ellie-walks-to-the-supermarket-with-sophie.mp3
+            text: Ellie walks to the supermarket with Sophie.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf left, right und die Namen der Orte.
+      - type: open-task
+        id: wege-park
+        task: "Ein Gast fragt Sophie: „Where is the park?“ Beschreibe den Weg von der school zum park in zwei bis vier Sätzen."
+        points:
+          - text: Die Sätze sind Befehle ohne you.
+            source: /wege-laeden-schilder/stadt-wegbeschreibung/#neu
+          - text: Der Weg führt von der school auf die High Street, nach Osten und dann in die Mill Lane.
+            source: /wege-laeden-schilder/stadt-wegbeschreibung/#neu
+          - text: Am Ziel steht, auf welcher Seite der park liegt (on the left oder on the right).
+            source: /wege-laeden-schilder/stadt-wegbeschreibung/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Turn right into the High Street. Go straight on to Mill Lane. Turn left. The park is on the right.
+  - type: section
+    id: weiter
+    title: Weiter durch Millbrook
+    blocks:
+      - type: text
+        text: Sophie und Ellie sind jetzt auf der High Street unterwegs. An der Tür der Bäckerei hängt ein Schild, und Sophie versteht es nicht. Was steht darauf? Das erfährst du auf der nächsten Seite.

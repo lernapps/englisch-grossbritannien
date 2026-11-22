@@ -1,0 +1,226 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Menschen in Großbritannien
+description: In der Mittagspause erzählen Kinder von ihren Familien. Du lernst zu beschreiben, dass in Großbritannien Menschen mit vielen verschiedenen Herkünften leben, und blickst auf die Kapitel 1 bis 3 zurück.
+competencies: [vielfalt-gb]
+scope: "Die Seite zeigt, dass in Großbritannien Menschen mit vielen verschiedenen Herkünften und Sprachen zusammenleben (Englisch, Welsh, Scottish Gaelic, Irish und viele Sprachen von Menschen, die in das Land gezogen sind). Geübt werden speak, live in, come from und many different mit dem Plural sowie der Unterschied zwischen dem Ort, an dem jemand lebt, und dem, woher die Familie kommt. Familien werden nur allgemein beschrieben, ohne Herkunftsland und ohne Religion. Typische Fehler sind two language statt two languages, come from mit dem falschen Ort und Herkunft und Wohnort gleichzusetzen. Am Ende steht der Rückblick auf die Kapitel 1 bis 3. Nicht hier: Politik, Klischees und die Klassenfahrt."
+blocks:
+  - type: section
+    id: einstieg
+    title: Familien in der Klasse
+    blocks:
+      - type: figure
+        image: images/szene-familien.svg
+        alt: Ein Junge mit Brille und ein Mädchen mit rotem Pferdeschwanz stehen links und rechts neben einem Plakat mit einem Haus und mehreren Personen.
+        caption: "Von links: Amir (Brille, schwarze Locken) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mittagspause in London. Die Kinder sitzen im Park, Peter ist nicht dabei. Mr Hill fragt nach ihren Familien. Ellie hat Familie in Cornwall, Sophie wohnt bei den Parkers, und Amir erzählt, dass bei ihm zu Hause zwei Sprachen gesprochen werden. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders."
+      - type: single-choice
+        id: viel-start
+        text: "Was bedeutet Mr Hills Satz „The grandparents of many children in our class moved to a new town many years ago“?"
+        options:
+          - text: Die Großeltern vieler Kinder sind vor vielen Jahren in eine neue Stadt gezogen.
+            correct: true
+            info: moved ist die Vergangenheit von move (umziehen). many years ago heißt vor vielen Jahren.
+          - text: Die Großeltern vieler Kinder ziehen bald in eine neue Stadt.
+            correct: false
+            info: bald hieße soon. many years ago heißt vor vielen Jahren, also früher.
+          - text: Die Großeltern vieler Kinder besuchen oft eine neue Stadt.
+            correct: false
+            info: besuchen heißt visit. moved to heißt, dass sie dort neu zu wohnen begannen.
+        explanation: moved to heißt umgezogen nach. many years ago sagt, dass es vor vielen Jahren war.
+        links:
+          - title: Lernlandkarte Englisch · Menschen in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/vielfalt-gb/
+      - type: text
+        text: "**Das kannst du danach:** Du beschreibst, dass in Großbritannien Menschen mit vielen verschiedenen Herkünften und Sprachen zusammenleben. Du sagst, wo jemand wohnt und welche Sprachen er spricht, und du sprichst respektvoll."
+  - type: section
+    id: neu
+    title: Viele Menschen, viele Sprachen
+    blocks:
+      - type: text
+        text: "Im Vereinigten Königreich leben Menschen mit vielen verschiedenen Herkünften. Englisch ist die meistgesprochene Sprache. Daneben sprechen Menschen **Welsh**, **Scottish Gaelic** und **Irish**. Dazu kommen viele Sprachen von Menschen, die in das Land gezogen sind oder deren Familien einmal umgezogen sind."
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Mit **live in** sagst du, wo jemand wohnt: My cousin lives in a flat. Mit **come from** sagst du, woher jemand oder die Familie kommt: Her family comes from a village. Nach **many different** und nach **two, three …** steht der Plural: many different animals, three books (nicht: three book). In Fragen mit **does** steht das Verb ohne -s: What does your sister play? Sag **people from many places**.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - [grandparents, Großeltern]
+          - [moved, zog um / zogen um (von move)]
+          - [Welsh, Walisisch]
+          - [Scottish Gaelic, schottisches Gälisch]
+          - [Irish, Irisch]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: viel-wohnen
+        text: "Ein Kind wohnt in einer Stadt. Ellie sagt: „Her grandparents come from this town, too.“ Was stimmt?"
+        options:
+          - text: Das muss nicht stimmen. Die Familie kann von ganz woanders kommen.
+            correct: true
+            info: Wo jemand wohnt, sagt nicht, woher die Familie kommt. Du weißt es nur, wenn das Kind es erzählt.
+          - text: Das stimmt immer. Wer in einer Stadt wohnt, dessen Familie kommt von dort.
+            correct: false
+            info: Das ist ein Fehler. Familien ziehen um, und niemand weiß es allein vom Wohnort.
+          - text: Das stimmt, weil alle in Großbritannien gleich sind.
+            correct: false
+            info: In Großbritannien leben Menschen mit vielen verschiedenen Herkünften. Sie sind nicht alle gleich.
+        explanation: Wohnort und Herkunft der Familie sind zwei verschiedene Fragen. live in sagt, wo jemand wohnt, come from sagt, woher jemand kommt.
+        links:
+          - title: Lernlandkarte Englisch · Menschen in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/vielfalt-gb/
+      - type: true-false
+        id: viel-sprachen
+        text: "Ellie sagt: „In the UK, everybody speaks only English.“ Stimmt der Satz?"
+        answer: false
+        hint: Denke an Welsh, Scottish Gaelic und Irish. Es gibt noch mehr Sprachen.
+        explanation: Englisch ist die meistgesprochene Sprache, aber nicht die einzige. Es gibt auch Welsh, Scottish Gaelic, Irish und viele Sprachen von Menschen, die in das Land gezogen sind.
+        links:
+          - title: Lernlandkarte Englisch · Menschen in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/vielfalt-gb/
+      - type: language-task
+        id: viel-formen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Meine Freundin spricht zwei Sprachen.
+            target: My friend speaks two [languages].
+            distractors: [[language]]
+            mistakes:
+              - answer: My friend speaks two language.
+                message: Nach two steht der Plural, also languages.
+          - cue: Viele verschiedene Menschen leben in London.
+            target: Many different [people] live in London.
+            distractors: [[persons, person]]
+            mistakes:
+              - answer: Many different persons live in London.
+                message: Für Menschen sagst du people. persons klingt hier nicht richtig.
+              - answer: Many different person live in London.
+                message: Nach many steht der Plural. Dafür brauchst du people.
+          - cue: In der Klasse sprechen viele Kinder zwei Sprachen.
+            target: In our class, many children [speak] two languages.
+            distractors: [[speaks, speaking]]
+            mistakes:
+              - answer: In our class, many children speaks two languages.
+                message: Bei many children (Plural) steht speak ohne -s.
+              - answer: In our class, many children speaking two languages.
+                message: Hier brauchst du speak, nicht speaking.
+        hint: Nach many und nach einer Zahl steht der Plural. Bei children steht speak ohne -s.
+      - type: language-task
+        id: viel-fragen
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze die Fragen.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Du fragst, woher die Familie eines Freundes kommt.
+            target: Where does your friend’s family [come] from?
+            mistakes:
+              - answer: Where does your friend’s family comes from?
+                message: Nach does steht das Verb ohne -s, also come.
+              - answer: Where does your friend’s family coming from?
+                message: Nach does steht die Grundform, also come.
+          - cue: Du fragst, wo eine Freundin wohnt.
+            target: Where does your friend [live]?
+            mistakes:
+              - answer: Where does your friend lives?
+                message: Nach does steht das Verb ohne -s, also live.
+        hint: Nach does steht die Grundform des Verbs, ohne -s.
+      - type: language-task
+        id: viel-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Sätze auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Wir sprechen zu Hause zwei Sprachen.
+            target: We speak two languages at home.
+            mistakes:
+              - answer: We speak two language at home.
+                message: Nach two steht der Plural, also languages.
+              - answer: We speaks two languages at home.
+                message: Nach we steht speak ohne -s.
+              - answer: We speak two languages in home.
+                message: Zu Hause heißt at home.
+          - source: Menschen in London kommen von vielen verschiedenen Orten.
+            target: People in London come from many different places.
+            mistakes:
+              - answer: People in London come from many different place.
+                message: Nach many different steht der Plural, also places.
+              - answer: People in London comes from many different places.
+                message: People ist ein Plural. Dazu passt come, nicht comes.
+          - source: Meine Freundin wohnt in einer kleinen Stadt.
+            target: My friend lives in a small town.
+            mistakes:
+              - answer: My friend live in a small town.
+                message: Bei my friend (er oder sie) steht lives mit -s.
+              - answer: My friend lives at a small town.
+                message: Bei einem Ort, in dem man wohnt, sagst du in.
+        hint: Nach two und many steht der Plural. Bei my friend steht lives mit -s.
+      - type: language-task
+        id: viel-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: ok }
+        items:
+          - audio: her-cousins-learn-another-language.mp3
+            target: Her cousins learn another language.
+          - audio: sophie-and-ellie-live-in-millbrook.mp3
+            target: Sophie and Ellie live in Millbrook.
+          - audio: mr-hill-asks-amir-about-his-family.mp3
+            target: Mr Hill asks Amir about his family.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: viel-nachsprechen
+        language: en
+        items:
+          - audio: many-different-people-live-in-this-country.mp3
+            text: Many different people live in this country.
+          - audio: welsh-is-a-language-in-the-united-kingdom.mp3
+            text: Welsh is a language in the United Kingdom.
+          - audio: everyone-is-welcome-in-our-classroom.mp3
+            text: Everyone is welcome in our classroom.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf different, Welsh und welcome.
+      - type: open-task
+        id: viel-vorstellen
+        task: "Stelle dich oder eine erfundene Person in zwei bis vier Sätzen vor: Wo wohnst du, und welche Sprachen sprichst du? Schreibe nur das, was du erzählen möchtest."
+        points:
+          - text: Du sagst, wo du wohnst (I live in …), ohne mehr zu verraten, als du möchtest.
+            source: /london/vielfalt-gb/#neu
+          - text: Du sagst, welche Sprachen du sprichst (I speak …). Nach two oder three steht der Plural languages.
+            source: /london/vielfalt-gb/#neu
+          - text: Du sprichst respektvoll über andere Menschen.
+            source: /london/vielfalt-gb/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Hello! I live in a small town. I speak German and English. My friend speaks three languages at home.
+  - type: section
+    id: weiter
+    title: Rückblick auf die Kapitel 1 bis 3
+    blocks:
+      - type: text
+        text: "Mit dieser Seite endet das Kapitel „London“. Die Mittagspause ist bald vorbei. Schau noch einmal zurück: Das kannst du jetzt aus den Kapiteln 1 bis 3. Die Beispiele in dieser Tabelle stehen in keiner Übung."
+      - type: table
+        caption: Schulkalender · Rückblick Kapitel 1 bis 3
+        header: [Das kannst du jetzt, Ein neuer Beispielsatz]
+        rows:
+          - [einen Weg beschreiben, Walk to the corner and turn left.]
+          - [ein Schild lesen, Please ring the bell.]
+          - [Kleidung kaufen, "Can I try a bigger size please?"]
+          - [die Teile des UK nennen, The UK has four parts.]
+          - [von den Römern erzählen, The Romans came in the year forty-three.]
+          - [einen Ort in London beschreiben, Tower Bridge is a famous bridge.]
+          - [über Vielfalt sprechen, People from many places live here.]
