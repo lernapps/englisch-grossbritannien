@@ -61,7 +61,7 @@ Bild: Vier Kärtchen mit englischen Texten. Das erste ist ein Schild mit zwei Ze
 
 **Merke: Merke**
 
-Ein **Schild** ist kurz und sagt, was man tun soll oder wie es ist. Ein **Fahrplan** ist eine Tabelle mit Uhrzeiten und Zielen. Eine **Speisekarte** zeigt Gerichte mit Preisen. Ein **Flyer** nennt einen Ort, einen Tag und eine Uhrzeit. Eine Uhrzeit hat einen Doppelpunkt (9:30, half past nine), ein Preis hat das Zeichen £. Im Fahrplan ist **leaves** die Abfahrt und **arrives** die Ankunft.
+Ein **Schild** ist kurz und sagt, was man tun soll oder wie es ist. Ein **Fahrplan** ist eine Tabelle mit Uhrzeiten und Zielen. Eine **Speisekarte** zeigt Gerichte mit Preisen. Ein **Flyer** nennt einen Ort, einen Tag und eine Uhrzeit. Eine Uhrzeit hat einen Doppelpunkt (9:30), ein Preis hat das Zeichen £. Im Fahrplan ist **leaves** die Abfahrt und **arrives** die Ankunft.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
@@ -70,7 +70,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - menu | Speisekarte
 - flyer | Flyer (ein Blatt mit Werbung)
 - closed | geschlossen (das Gegenteil von open)
-- half past | halb (half past two = 2:30)
+- half past | nach halb (half past two ist 2:30, nicht 1:30)
 - back at | zurück um
 
 ### Übung

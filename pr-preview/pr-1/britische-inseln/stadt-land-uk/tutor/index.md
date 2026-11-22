@@ -47,7 +47,7 @@ Sophie vergleicht London, Millbrook und Cornwall. Du lernst, das Leben in einer 
 
 Bild: Links eine Straße mit hohen Häusern und zwei Autos, davor ein Mädchen mit rotem Pferdeschwanz. Rechts grüne Hügel, ein Baum und ein kleines Haus, davor ein Mädchen mit blonden Zöpfen. Bildunterschrift: Links Ellie (roter Pferdeschwanz) in der Stadt, rechts Sophie (blonde Zöpfe) auf dem Land.
 
-Auf der Seite davor hat Peter nach Cornwall gefragt. Beim Abendessen erzählt Ellie von London: „London is bigger than Millbrook.“ Sophie denkt nach. Sie kennt den Ort Millbrook und hat von London und von Cornwall gehört. Wo ist mehr los, und wo ist es ruhiger? Sophie vergleicht.
+Auf der Seite davor hat Peter nach Cornwall gefragt. Beim Abendessen erzählt Ellie von London und von Millbrook. Sophie denkt nach. Sie kennt den Ort Millbrook und hat von London und von Cornwall gehört. Wo ist mehr los, und wo ist es ruhiger? Sophie vergleicht.
 
 - Aufgabe `stadt-start` (unten)
 
@@ -104,7 +104,7 @@ Schulkalender · Rückblick Kapitel 2:
 
 ### Aufgabe stadt-start
 
-- Aufgabe: Was sagt Ellie?
+- Aufgabe: Ellie sagt: „London is bigger than Millbrook.“ Was heißt das?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ London ist größer als Millbrook. – bigger than heißt „größer als“. Ellie sagt, dass London größer ist.
@@ -205,7 +205,7 @@ Schulkalender · Rückblick Kapitel 2:
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Audio → A taxi is more expensive than a bicycle.
-2. Audio → Amir is not as tall as Ellie.
+2. Audio → My bike is not as fast as Ellie.
 3. Audio → A big city is busier than a small village.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -217,7 +217,7 @@ Schulkalender · Rückblick Kapitel 2:
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → My town is smaller than your city.
-2. Audio → The city is not as quiet as the countryside.
+2. Audio → Our village is quieter than the city.
 3. Audio → Sophie likes the quiet countryside.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf than und as … as.
 - Link: [../?via=tutor#stadt-nachsprechen](../?via=tutor#stadt-nachsprechen)

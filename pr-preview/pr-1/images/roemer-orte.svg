@@ -50,7 +50,7 @@
     </g>  </defs>
   <rect width="480" height="370" fill="#f4efe2"/>
   <path d="M150 10 L330 10 L330 98 L150 98 Z" fill="#e6e0cf" stroke="#999" stroke-width="2" stroke-dasharray="6 5"/>
-  <text x="240" y="60" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#555">Schottland</text>
+  <text x="240" y="60" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#555">Scotland</text>
   <path d="M120 215 L150 200 L160 255 L150 300 L110 305 L80 285 L95 250 Z" fill="#e6e0cf" stroke="#999" stroke-width="2" stroke-dasharray="6 5"/>
   <text x="70" y="250" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="normal" fill="#555">Wales</text>
   <path d="M150 98 L330 98 L322 150 L345 200 L352 250 L400 275 L390 320 L330 340 L250 352 L170 350 L120 335 L110 305 L150 300 L160 255 L150 200 L170 170 L150 130 Z" fill="#d6e4c8" stroke="#555" stroke-width="3" stroke-linejoin="round"/>

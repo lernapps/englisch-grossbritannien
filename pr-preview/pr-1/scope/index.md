@@ -1,6 +1,6 @@
 # Großbritannien: Stadt, Inseln, London
 
-Die App erklärt Kindern im ersten und zweiten Lernjahr Englisch, wie sie sich in einer britischen Stadt zurechtfinden und Großbritannien vorstellen. Eine Karte zoomt heraus. Zuerst kommt der Plan von Millbrook mit Wegen, Läden und Schildern. Dann folgt die Karte der Britischen Inseln mit England, Schottland, Wales und Nordirland, mit einer Region (Cornwall) und dem Vergleich von Stadt und Land. Zuletzt steht London mit den Römern (Londinium, Hadrian's Wall, Bath), den Sehenswürdigkeiten und der Vielfalt der Menschen. Beispiele stammen aus dem Alltag von Sophie, Ellie, Peter und Amir. Die Karten sind Schemakarten und nicht maßstabsgerecht.
+Die App erklärt Kindern im ersten und zweiten Lernjahr Englisch, wie sie sich in einer britischen Stadt zurechtfinden und Großbritannien vorstellen. Eine Karte zoomt heraus. Zuerst kommt der Plan von Millbrook mit Wegen, Läden und Schildern. Dann folgt die Karte der Britischen Inseln mit England, Schottland, Wales und Nordirland, mit einer Region (Cornwall) und dem Vergleich von Stadt und Land. Zuletzt steht London mit den Römern (Londinium, Hadrian's Wall, Bath), den Sehenswürdigkeiten und der Vielfalt der Menschen. Beispiele stammen aus dem Alltag von Sophie, Ellie, Peter und Amir. Die Karten sind Schemakarten und nicht genau nach Maßstab.
 
 ## Wege, Läden und Schilder
 

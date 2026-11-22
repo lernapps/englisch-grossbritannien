@@ -47,7 +47,7 @@ Mr Hill hängt eine große Karte auf. Du lernst die Teile des Vereinigten König
 
 Bild: Ein Mann mit grauen Haaren steht neben einer großen Karte an der Klassenzimmerwand. Rechts davon stehen drei Kinder. Auf der Karte sind Inseln in verschiedenen Farben, aber ohne Namen. Schemakarte, nicht genau nach Maßstab. Bildunterschrift: Von links: Mr Hill (graue Haare), Amir (Brille), Sophie (blonde Zöpfe), Ellie (roter Pferdeschwanz). Die Karte an der Wand ist eine Schemakarte, nicht genau nach Maßstab.
 
-In der Millbrook School hängt Mr Hill eine große Karte an die Wand. Auf der Seite davor hast du Vergleiche wiederholt. Bisher kennst du nur den Plan von Millbrook, mit Straßen und Läden. Jetzt zoomt der Plan heraus: Millbrook ist nur noch ein kleiner Punkt auf einer **Karte** mit ganzen Ländern und Inseln. Eine Schemakarte zeigt nur das Wichtigste und ist nicht genau nach Maßstab. Mr Hill zeigt darauf und sagt: „Millbrook is in England.“
+In der Millbrook School hängt Mr Hill eine große Karte an die Wand. Auf der Seite davor hast du Vergleiche wiederholt. Bisher kennst du nur den Plan von Millbrook, mit Straßen und Läden. Jetzt zoomt der Plan heraus: Millbrook ist nur noch ein kleiner Punkt auf einer **Karte** mit ganzen Ländern und Inseln. Eine Schemakarte zeigt nur das Wichtigste und ist nicht genau nach Maßstab. Mr Hill zeigt auf den Punkt und erklärt, wo er liegt.
 
 - Aufgabe `inseln-start` (unten)
 
@@ -62,9 +62,9 @@ Bild: Schemakarte der Britischen Inseln. Im Osten liegt eine große Insel mit dr
 **Merke: Merke**
 
 - **UK**: der Staat mit den vier Teilen.
-- **Great Britain**: nur die große Insel im Osten.
-- **Ireland**: die Insel im Westen und auch der Staat dort. Der Staat heißt auch Republic of Ireland und gehört nicht zum UK.
-- **Northern Ireland**: der Nordosten der Insel Ireland. Er gehört zum UK.
+- **Great Britain**: eine Insel, auf der drei Teile des UK liegen.
+- **Ireland**: die Insel im Westen und auch der Staat dort. Der Staat heißt auch Republic of Ireland und ist ein eigenes Land.
+- **Northern Ireland**: der Nordosten der Insel Ireland. Er ist ein Teil des UK.
 - **British Isles**: alle Inseln zusammen.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
@@ -103,7 +103,7 @@ In den Herbstferien fahren die Parkers an die Küste. Peter fragt, wo das eigent
 
 ### Aufgabe inseln-start
 
-- Aufgabe: Was sagt Mr Hill über Millbrook?
+- Aufgabe: Mr Hill sagt: „Millbrook is in England.“ Was bedeutet das?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Millbrook liegt in England. – is in heißt „liegt in“. Mr Hill sagt also, in welchem Teil Millbrook liegt.
@@ -149,11 +149,11 @@ In den Herbstferien fahren die Parkers an die Küste. Peter fragt, wo das eigent
 - Aufgabe: Peter (9) sagt: „Great Britain and the UK are the same.“ Stimmt das?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Nein. Great Britain ist nur die große Insel. Zum UK gehört auch Northern Ireland. – Great Britain ist die Insel mit England, Scotland und Wales. Northern Ireland liegt auf der Nachbarinsel Ireland und gehört trotzdem zum UK.
+  - ✓ Nein. Great Britain ist eine Insel, das UK ein Staat. Der Staat hat einen Teil mehr als die Insel. – Great Britain ist die Insel mit England, Scotland und Wales. Northern Ireland liegt auf der Nachbarinsel Ireland und gehört trotzdem zum UK.
   - ✗ Ja. Great Britain ist ein anderer Name für das UK. – Das ist ein häufiger Fehler. Great Britain ist eine Insel, das UK ist ein Staat mit vier Teilen.
   - ✗ Nein. Great Britain ist nur England. – Great Britain ist größer als England. Auf der Insel liegen auch Scotland und Wales.
   - ✗ Nein. Great Britain ist die Insel im Westen. – Die Insel im Westen heißt Ireland. Great Britain ist die große Insel im Osten.
-- Lösung: Nein. Great Britain ist nur die große Insel. Zum UK gehört auch Northern Ireland.
+- Lösung: Nein. Great Britain ist eine Insel, das UK ein Staat. Der Staat hat einen Teil mehr als die Insel.
 - Erklärung: Das UK ist der Staat mit vier Teilen. Great Britain ist nur die große Insel mit England, Scotland und Wales. Northern Ireland gehört zum UK, liegt aber auf Ireland.
 - Tipp der App: Zähle die Teile des UK und die Teile, die auf der großen Insel liegen.
 - Link: [../?via=tutor#inseln-uk-gb](../?via=tutor#inseln-uk-gb)

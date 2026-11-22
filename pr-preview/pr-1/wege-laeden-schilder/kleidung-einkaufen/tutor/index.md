@@ -55,7 +55,7 @@ Peters Mütze ist alt. Sophie möchte ihm eine neue kaufen. Im clothes shop an d
 
 ### Kleidung, Preise und Größen
 
-Im Laden brauchst du drei Teile: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild. Die Verkäuferin fragt dich oft **Can I help you?** (Kann ich dir helfen?). Wenn etwas nicht passt, sagst du zum Beispiel **too small** (zu klein).
+Im Laden brauchst du drei Teile: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild. Die Verkäuferin fragt dich oft **Can I help you?** (Kann ich dir helfen?). Wenn etwas nicht passt, sagst du zum Beispiel **too small** (zu klein). Weitere Kleidungswörter: **trainers** (Turnschuhe), **jacket** (Jacke), **scarf** (Schal). Eine Tasche heißt **bag**.
 
 Bild: Zwei Regalbretter. Auf dem oberen liegen ein Hemd, eine Jeans und eine Mütze, jeweils mit einem Preisschild und dem englischen Wort. Auf dem unteren liegen drei blaue Hemden in drei Größen mit den Wörtern small, medium und large. Bildunterschrift: Kleidung, Preisschilder und Größen im Laden (eigene Zeichnung).
 
@@ -69,10 +69,6 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - jumper | Pullover
 - shoes | Schuhe (immer Mehrzahl)
 - medium | mittelgroß
-- trainers | Turnschuhe
-- jacket | Jacke
-- scarf | Schal
-- bag | Tasche
 - a pair of | ein Paar (a pair of jeans heißt eine Jeans)
 
 ### Übung
@@ -202,11 +198,11 @@ Schulkalender · Rückblick Kapitel 1:
      - How much are the trainer?: Schuhe kommen als Paar. Es heißt trainers, mit s.
 2. It's five pound. → It's five pounds. (auch richtig: It is five pounds.)
      - It's five pound.: Bei allen Zahlen außer eins heißt es pounds mit s.
-3. My size is big. (Gemeint ist die größte der drei Größen.) → My size is large.
+3. My size is big. → My size is large.
      - My size is big.: Bei Größen sagst du small, medium oder large. Das Wort big benutzt du nicht.
 4. Peter wants a trousers. → Peter wants a pair of trousers. (auch richtig: Peter wants some trousers.; Peter wants trousers.)
      - Peter wants a trousers.: trousers gibt es nur in der Mehrzahl. Du sagst a pair of trousers oder nimmst some oder the.
-- Tipp der App: Prüfe bei jedem Satz die Mehrzahl, das s bei pounds und das Wort für die Größe.
+- Tipp der App: Prüfe bei jedem Satz die Mehrzahl, das s bei pounds und das Wort für die Größe. Bei My size is big ist die größte der drei Größen gemeint.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#kleid-korrigieren](../?via=tutor#kleid-korrigieren)
 
@@ -222,8 +218,8 @@ Schulkalender · Rückblick Kapitel 1:
 2. Haben Sie diese Hose in Größe medium? → Have you got these trousers in size medium? (auch richtig: Have you got these trousers in medium?; Do you have these trousers in size medium?; Do you have these trousers in medium?)
      - Have you got this trousers in medium?: trousers ist die Mehrzahl, also these und nicht this.
 3. Der Pullover ist dreißig Pfund. → The jumper is £30. (auch richtig: The jumper is thirty pounds.; The jumper costs £30.; The jumper costs thirty pounds.)
-     - The skirt is thirty pound.: Bei allen Zahlen außer eins heißt es pounds mit s.
-     - The skirt is thirteen pounds.: thirteen ist 13. Dreißig heißt thirty.
+     - The jumper is thirty pound.: Bei allen Zahlen außer eins heißt es pounds mit s.
+     - The jumper is thirteen pounds.: thirteen ist 13. Dreißig heißt thirty.
 - Tipp der App: Für den Preis brauchst du How much. Beim Preis passt pounds mit s, bei der Hose these.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#kleid-uebersetzen](../?via=tutor#kleid-uebersetzen)

@@ -47,7 +47,7 @@ Die Parkers fahren in den Herbstferien nach Cornwall. Du lernst, eine Region wie
 
 Bild: Mrs Parker, Ellie und Peter stehen in der Küche. Daneben stehen zwei Koffer. Über Peter ist eine Sprechblase mit einem Fragezeichen. Bildunterschrift: Von links: Mrs Parker, Ellie (roter Pferdeschwanz) und Peter (gelbe Jacke).
 
-Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) fragt seine Mutter: „Where is Cornwall?“ Mrs Parker holt die Karte.
+Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) hat eine Frage an seine Mutter. Mrs Parker holt die Karte.
 
 - Aufgabe `region-start` (unten)
 
@@ -110,7 +110,7 @@ Beim Abendessen erzählt Ellie von London. Sie war schon oft dort. Sophie denkt 
 
 ### Aufgabe region-start
 
-- Aufgabe: Was will Peter wissen?
+- Aufgabe: Peter fragt: „Where is Cornwall?“ Was will er wissen?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Wo liegt Cornwall? – where heißt „wo“. Peter fragt nach der Lage.
@@ -137,9 +137,9 @@ Beim Abendessen erzählt Ellie von London. Sie war schon oft dort. Sophie denkt 
 
 - Aufgabe: Was kann man dort tun? Ordne zu.
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: Cornwall – You can swim at the beach.; the Lake District – You can climb a mountain.; Wales – You can hear Welsh.
-- Erklärung: In Cornwall kann man am Strand schwimmen. Im Lake District gibt es Berge. In Wales hört man neben Englisch auch Welsh.
-- Tipp der App: Denke an das, was zu jeder Region gehört, ein Meer, Berge und eine zweite Sprache.
+- Lösung: Cornwall – You can see the English Channel.; the Lake District – You can see many lakes.; Wales – You can hear Welsh.
+- Erklärung: In Cornwall liegt im Süden der English Channel. Der Lake District ist bekannt für Seen. In Wales hört man neben Englisch auch Welsh.
+- Tipp der App: Denke an das, was nur zu einer Region passt, ein bestimmtes Meer, Seen und eine zweite Sprache.
 - Link: [../?via=tutor#region-bekannt](../?via=tutor#region-bekannt)
 
 ### Aufgabe region-karte

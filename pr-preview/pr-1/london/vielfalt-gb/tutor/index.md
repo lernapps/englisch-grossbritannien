@@ -47,7 +47,7 @@ In der Mittagspause erzählen Kinder von ihren Familien. Du lernst zu beschreibe
 
 Bild: Ein Junge mit Brille und ein Mädchen mit rotem Pferdeschwanz stehen links und rechts neben einem Plakat mit einem Haus und mehreren Personen. Bildunterschrift: Von links: Amir (Brille, schwarze Locken) und Ellie (roter Pferdeschwanz).
 
-Mittagspause in London. Die Kinder sitzen im Park, Peter ist nicht dabei. Mr Hill fragt nach ihren Familien. Ellie hat Familie in Cornwall, Sophie wohnt bei den Parkers, und Amir erzählt, dass bei ihm zu Hause zwei Sprachen gesprochen werden. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders. Niemand muss etwas erzählen, was er nicht erzählen möchte.
+Mittagspause in London. Die Kinder sitzen im Park, Peter ist nicht dabei. Mr Hill fragt nach ihren Familien. Ellie hat Familie in Cornwall, Sophie wohnt bei den Parkers, und Amir erzählt, dass bei ihm zu Hause zwei Sprachen gesprochen werden. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders.
 
 - Aufgabe `viel-start` (unten)
 
@@ -59,7 +59,7 @@ Im Vereinigten Königreich leben Menschen mit vielen verschiedenen Herkünften. 
 
 **Merke: Merke**
 
-Mit **live in** sagst du, wo jemand wohnt: My cousin lives in a flat. Mit **come from** sagst du, woher jemand oder die Familie kommt: Her family comes from a village. Nach **many different** und nach **two, three …** steht der Plural: many different animals, three books (nicht: three book). In Fragen mit **does** steht das Verb ohne -s: What does your sister play? Sprich respektvoll: **people from many places**, nicht „foreigners“. Jeder erzählt nur, was er erzählen möchte.
+Mit **live in** sagst du, wo jemand wohnt: My cousin lives in a flat. Mit **come from** sagst du, woher jemand oder die Familie kommt: Her family comes from a village. Nach **many different** und nach **two, three …** steht der Plural: many different animals, three books (nicht: three book). In Fragen mit **does** steht das Verb ohne -s: What does your sister play? Sag **people from many places**.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Ausdruck | Bedeutung
@@ -195,7 +195,7 @@ Schulkalender · Rückblick Kapitel 1 bis 3:
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Audio → Many children in my class speak two languages.
+1. Audio → Her cousins learn another language.
 2. Audio → Sophie and Ellie live in Millbrook.
 3. Audio → Mr Hill asks Amir about his family.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.

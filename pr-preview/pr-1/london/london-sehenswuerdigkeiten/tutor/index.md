@@ -47,7 +47,7 @@ Mr Hills Klasse macht einen Stadtrundgang an der Themse. Du lernst sechs wichtig
 
 Bild: Ein Mann mit grauen Haaren, ein Junge mit Brille und ein Mädchen mit Zöpfen gehen an einem Fluss entlang, hinter ihnen stehen Häuser. Bildunterschrift: Von links: Mr Hill (graue Haare), Amir (Brille, schwarze Locken) und Sophie (blonde Zöpfe).
 
-Heute macht die Klasse einen Stadtrundgang. Mr Hill hat eine **Schemakarte** von London dabei: eine einfache Karte, die nicht maßstabsgerecht ist. Sechs Halte sind nummeriert. Peter ist heute nicht dabei, deshalb schreibt Sophie ihm später eine Postkarte. Mr Hill sagt: „We walk along the River Thames.“
+Heute macht die Klasse einen Stadtrundgang. Mr Hill hat eine **Schemakarte** von London dabei: eine einfache Karte, die nicht genau nach Maßstab ist. Sechs Halte sind nummeriert. Peter ist heute nicht dabei, deshalb schreibt Sophie ihm später eine Postkarte. Mr Hill sagt: „We walk along the River Thames.“
 
 - Aufgabe `lon-start` (unten)
 
@@ -55,7 +55,7 @@ Heute macht die Klasse einen Stadtrundgang. Mr Hill hat eine **Schemakarte** von
 
 ### Sechs Halte an der Karte
 
-Bild: Schemakarte von London. Die Themse verläuft als breites blaues Band von links nach rechts. Sechs nummerierte Halte mit ihren Namen liegen nördlich, südlich und an dem Fluss. Schemakarte, nicht maßstabsgerecht. Bildunterschrift: Schemakarte, nicht maßstabsgerecht. Norden ist oben, Osten rechts. Die Themse fließt von West nach Ost.
+Bild: Schemakarte von London. Die Themse verläuft als breites blaues Band von links nach rechts. Sechs nummerierte Halte mit ihren Namen liegen nördlich, südlich und an dem Fluss. Schemakarte, nicht genau nach Maßstab. Bildunterschrift: Schemakarte, nicht genau nach Maßstab. Norden ist oben, Osten rechts. Die Themse fließt von West nach Ost.
 
 Der **Tower of London** ist eine Burg am Nordufer der Themse. Die **Tower Bridge** ist eine Brücke über die Themse, gleich beim Tower. Sie wurde von 1886 bis 1894 gebaut. Das **London Eye** ist ein Riesenrad am Südufer. **Big Ben** gehört zum Parlament: eine große Glocke (bell) mit einer Uhr (clock). Der **Buckingham Palace** ist der Amtssitz des Königs oder der Königin in London. Das **British Museum** liegt im Stadtteil Bloomsbury und wurde 1753 gegründet.
 
@@ -172,7 +172,7 @@ In der Mittagspause setzen sich die Kinder in einen Park. Dort erzählen sie von
 3. Die Brücke ist in der Nähe der Burg. → The bridge is near the castle.
      - The bridge is on the castle.: on heißt auf oder direkt an. In der Nähe heißt near.
      - The bridge is in the castle.: in heißt in. In der Nähe heißt near.
-4. Das Schloss liegt direkt am Fluss. → The castle is on the River Thames.
+4. Die Burg liegt direkt am Fluss. → The castle is on the River Thames.
      - The castle is in the River Thames.: in the River hieße mitten im Wasser. Direkt am Fluss sagst du on the River.
      - The castle is at the River Thames.: Bei einem Fluss sagst du on the River Thames.
 - Tipp der App: Prüfe den ersten Laut des nächsten Worts für a und an. Für den Ort denke an near und on.
@@ -216,7 +216,7 @@ In der Mittagspause setzen sich die Kinder in einen Park. Dort erzählen sie von
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Big Ben is a famous bell in London.
-2. Audio → Tower Bridge is near the Tower of London.
+2. Audio → Many visitors take photos of the tower.
 3. Audio → Amir likes the British Museum.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf famous, Bridge und museum.
 - Link: [../?via=tutor#lon-nachsprechen](../?via=tutor#lon-nachsprechen)

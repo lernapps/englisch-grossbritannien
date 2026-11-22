@@ -57,11 +57,11 @@ Ein Tag in London. Mr Hills Klasse steht vor einer alten Mauer. Peter ist heute 
 
 Die Römer kamen im Jahr 43 nach Britannien. Um das Jahr 50 entstand an der Themse die Stadt **Londinium**, ein wichtiger Hafen und ein Ort für Handel. Im Jahr 122 begann der Bau einer langen Mauer. Der Zeitstrahl zeigt die drei Marken.
 
-Bild: Zeitstrahl von links nach rechts mit drei Marken. Bei jeder Marke stehen eine Zahl und ein kurzes Wort. Bildunterschrift: Zeitstrahl: Die Römer in Britannien (nicht maßstabsgerecht, die Abstände stimmen nicht mit den Jahren überein).
+Bild: Zeitstrahl von links nach rechts mit drei Marken. Bei jeder Marke stehen eine Zahl und ein kurzes Wort. Bildunterschrift: Zeitstrahl: Die Römer in Britannien (nicht genau nach Maßstab, die Abstände stimmen nicht mit den Jahren überein).
 
 Drei Orte zeigen, dass die Römer da waren: **Londinium** an der Themse, **Hadrian’s Wall** mit Forts und Türmen und die **Roman Baths** im Südwesten Englands. Die Römer nannten den Ort der Bäder **Aquae Sulis**. Die Karte zeigt, wo die drei Orte liegen.
 
-Bild: Schemakarte von England mit Schottland im Norden und Wales im Westen. Eine Linie und zwei Punkte sind beschriftet. Schemakarte, nicht maßstabsgerecht. Bildunterschrift: Schemakarte, nicht maßstabsgerecht: Orte der Römer in England. Norden ist oben.
+Bild: Schemakarte von England mit Scotland im Norden und Wales im Westen. Eine Linie und zwei Punkte sind beschriftet. Schemakarte, nicht genau nach Maßstab. Bildunterschrift: Schemakarte, nicht genau nach Maßstab: Orte der Römer in England. Norden ist oben.
 
 **Merke: Merke**
 

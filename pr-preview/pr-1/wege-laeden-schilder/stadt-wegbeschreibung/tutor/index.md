@@ -135,6 +135,7 @@ Sophie und Ellie sind jetzt auf der High Street unterwegs. An der Tür der Bäck
      - The supermarket is between the school and Mill Lane.: Die school liegt ganz im Westen, hinter der Church Road. Zwischen dem supermarket und der Church Road liegt ein anderer Ort.
 2. Der Park liegt gegenüber von … → The park is opposite the station.
      - The park is opposite the school.: Die school liegt ganz im Westen. Gegenüber vom park liegt ein Ort an der Mill Lane.
+     - The park is opposite the library.: Die library liegt ganz im Westen, gegenüber der school. Gegenüber vom park liegt ein Ort an der Mill Lane.
 - Tipp der App: Suche zuerst die Orte, die im Satz schon genannt sind, und schau, was zwischen oder gegenüber liegt.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wege-lage](../?via=tutor#wege-lage)
