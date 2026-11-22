@@ -203,7 +203,7 @@ Nach den Römern geht Mr Hills Klasse weiter durch das London von heute. Mr Hill
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Hadrian’s Wall has forts and towers.
-2. Audio → People visit the Roman Baths today.
+2. Audio → The Roman Baths are in Bath.
 3. Audio → Londinium is the old name of London.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Hadrian’s, forts und Londinium.
 - Link: [../?via=tutor#roemer-nachsprechen](../?via=tutor#roemer-nachsprechen)
