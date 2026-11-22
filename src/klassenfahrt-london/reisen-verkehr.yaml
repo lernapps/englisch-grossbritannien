@@ -39,7 +39,7 @@ blocks:
 
           1. **Mr Hill:** Good morning, everyone! Please meet at Millbrook station at half past seven. Our train leaves from platform 2 at ten past eight.
           2. **Amir:** Do we need tickets?
-          3. **Mr Hill:** I have the group ticket for the train. In London we use the Tube, the Underground. Each of you needs a day pass, and we buy them at the station there.
+          3. **Mr Hill:** I have the group ticket for the way to London. In London we use the Tube, the Underground. Each of you needs a day pass, and we buy them at the station there.
           4. **Ellie:** How long is the journey?
           5. **Mr Hill:** About two hours. We arrive in London at ten past ten.
           6. **Sophie:** Can I sit by the window?
@@ -55,10 +55,10 @@ blocks:
         text: |
           **Am Schalter in London**
 
-          9. **Sophie:** Excuse me, I'd like two return tickets to Millbrook for tomorrow, please.
-          10. **Clerk:** Return tickets for tomorrow? Which train?
-          11. **Sophie:** The one at a quarter to six, please.
-          12. **Clerk:** That's thirty pounds, please. It leaves from platform 4.
+          9. **Sophie:** Excuse me, I'd like a single ticket to Millbrook for tomorrow, please.
+          10. **Clerk:** Single or return?
+          11. **Sophie:** Single, please. The one at a quarter to six.
+          12. **Clerk:** That's fifteen pounds, please. It leaves from platform 4.
           13. **Sophie:** Thank you!
       - type: table
         caption: Randglossar
@@ -70,6 +70,7 @@ blocks:
           - [day pass, Tageskarte]
           - [single ticket, einfache Fahrt]
           - [return ticket, Hin- und Rückfahrkarte]
+          - [clerk, Angestellter am Schalter]
   - type: section
     id: verstehen
     title: Verstehen, belegen, anwenden
@@ -96,7 +97,7 @@ blocks:
         text: "Die Klasse kauft die Tageskarten für die Tube schon in Millbrook. Stimmt das?"
         answer: false
         hint: Lies noch einmal, was Mr Hill über die Tickets sagt.
-        explanation: Mr Hill hat nur die Gruppenfahrkarte für den Zug. Die Tageskarten kauft die Klasse in London.
+        explanation: Mr Hill hat nur die Gruppenfahrkarte für die Fahrt nach London. Die Tageskarten kauft die Klasse in London.
         links:
           - title: Lernlandkarte Englisch · Reisen und Verkehr
             url: https://lernapps.net/apps/map/englisch/c/reisen-verkehr/
@@ -190,14 +191,14 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - source: Eine einfache Fahrt nach London, bitte.
-            target: "A single (ticket |)to London, please."
+            target: "(A|One|I'd like a|Can I have a) single (ticket |)to London(, please|)."
             mistakes:
               - answer: A simple ticket to London, please.
                 message: simple heißt „einfach“ im Sinn von „leicht“. Eine einfache Fahrt ist ein single ticket.
               - answer: A return ticket to London, please.
                 message: return ist Hin- und Rückfahrt. Für nur eine Richtung steht single.
           - source: Von welchem Gleis fährt der Zug nach London ab?
-            target: "(Which platform does the train to London leave from|From which platform does the train to London leave)?"
+            target: "(Which|What) platform does the (train to|train for|London train) (London |)(leave|go) from?"
             mistakes:
               - answer: Which platform leaves the train to London?
                 message: Die Frage braucht does vor the train. Das Verb leave steht danach in der Grundform.
@@ -233,7 +234,7 @@ blocks:
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung bei ticket und Underground.
       - type: open-task
         id: reisen-dialog
-        task: "Du bist am Bahnhof in Millbrook und willst mit dem Zug nach Oxford. Schreibe ein kurzes Gespräch mit dem Schalter, vier bis sechs Zeilen: Fahrkarte, Gleis und Uhrzeit."
+        task: "Du bist am Bahnhof in Millbrook und willst mit dem Zug nach Oxford. Schreibe ein kurzes Gespräch zwischen dir und der Person am Schalter, vier bis sechs Zeilen: Fahrkarte, Gleis und Uhrzeit."
         points:
           - text: Du bittest höflich um eine Fahrkarte und sagst, ob sie single oder return sein soll.
             source: /klassenfahrt-london/reisen-verkehr/#lesen
@@ -241,7 +242,7 @@ blocks:
             source: /klassenfahrt-london/reisen-verkehr/#lesen
           - text: Eine Uhrzeit steht auf Englisch im Gespräch.
             source: /klassenfahrt-london/reisen-verkehr/#lesen
-          - text: Es sind ganze Sätze, abwechselnd Sprecher und Schalter.
+          - text: Es sind ganze Sätze, abwechselnd du und die Person am Schalter.
             kind: form
         solution: |
           You: Excuse me, a return ticket to Oxford, please.
