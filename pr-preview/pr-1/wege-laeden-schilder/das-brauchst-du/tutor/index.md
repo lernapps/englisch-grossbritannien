@@ -45,7 +45,7 @@ Orte, Befehle und Zahlen noch einmal kurz, bevor Sophie und Ellie durch Millbroo
 
 ### Das solltest du schon können
 
-Sophie (11) kommt aus Deutschland und wohnt bei der Familie Parker in Millbrook. **Ellie Parker** (11) ist ihre Gastschwester. Ellies kleiner Bruder **Peter** ist 9. **Mrs Parker** ist Ellies Mutter und Sophies Gastmutter. **Mr Hill** ist der Englischlehrer, und **Amir** (11) ist ein Freund aus der Klasse. Am Samstag gehen Sophie und Ellie mit einem Stadtplan durch die Stadt. Dafür brauchst du drei Dinge, die du schon kennst. Prüfe in Gedanken, ob du sie kannst.
+Sophie (11) kommt aus Deutschland und wohnt bei der Familie Parker in Millbrook. **Ellie Parker** (11) ist ihre Gastschwester. Ellies kleiner Bruder **Peter** ist 9. **Mrs Parker** ist Ellies Mutter und Sophies Gastmutter. **Mr Hill** ist der Englischlehrer, und **Amir** (11) ist ein Freund aus der Klasse. Am Samstag gehen Sophie und Ellie mit einem Stadtplan durch die Stadt. Dafür brauchst du drei Bausteine, die du schon kennst. Prüfe in Gedanken, ob du sie kannst.
 
 Das sind die drei Bausteine, jeweils mit dem „Ich kann“-Satz:
 

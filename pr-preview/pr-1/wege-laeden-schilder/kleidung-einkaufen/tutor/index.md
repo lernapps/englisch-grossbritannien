@@ -55,7 +55,7 @@ Peters Mütze ist alt. Sophie möchte ihm eine neue kaufen. Im clothes shop an d
 
 ### Kleidung, Preise und Größen
 
-Im Laden brauchst du drei Dinge: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild. Die Verkäuferin fragt dich oft **Can I help you?** (Kann ich dir helfen?). Wenn etwas nicht passt, sagst du zum Beispiel **too small** (zu klein).
+Im Laden brauchst du drei Teile: das Wort für die Kleidung, die Frage nach dem Preis und die Größe. Der Preis steht auf einem Preisschild. Die Verkäuferin fragt dich oft **Can I help you?** (Kann ich dir helfen?). Wenn etwas nicht passt, sagst du zum Beispiel **too small** (zu klein).
 
 Bild: Zwei Regalbretter. Auf dem oberen liegen ein Hemd, eine Jeans und eine Mütze, jeweils mit einem Preisschild und dem englischen Wort. Auf dem unteren liegen drei blaue Hemden in drei Größen mit den Wörtern small, medium und large. Bildunterschrift: Kleidung, Preisschilder und Größen im Laden (eigene Zeichnung).
 
