@@ -105,4 +105,8 @@ Aus den Konventionen Abschnitt 7 und den Vorgängern (#470 bis #476):
 
 ## Hörliste
 
-Sätze, die auf ein einsilbiges (oder unsicher ein- bis zweisilbiges) Wort enden und gezielt angehört werden sollen: „Amir is in the park.“ (`wege-hoeren`), „Ellie wants to walk on the beach.“ (`region-nachsprechen`), „The Roman Baths are in Bath.“ (`roemer-hoeren`), „Hadrian’s Wall has forts and towers.“ (`roemer-nachsprechen`). Alle 54 Sätze hat bisher niemand angehört.
+Alle 54 Sätze sind mit dem `regen_audio.py` der Orchestrierung (Fehllaut-Schnitt `valley_cut`, Stand 2026-11-22) neu erzeugt; niemand hat sie bisher angehört. Das Skript hat 8 Dateien am Ende geschnitten (Satz, entfernte Zeit); die anderen 46 bekamen nur den Schnitt des Ausklingens. **Gezielt anhören:**
+
+- Mit Fehllaut-Schnitt, Schlusswort einsilbig (Risiko: Wortende angeschnitten): „Amir is in the park.“ (65 ms, `wege-hoeren`), „Hadrian’s Wall has forts and towers.“ (75 ms, `roemer-nachsprechen`; towers klingt ein- bis zweisilbig), „Great Britain is a big island.“ (25 ms, Schluss island zweisilbig, `britische-inseln`, Nachsprechen).
+- Mit Fehllaut-Schnitt, Schlusswort zweisilbig oder länger (Risiko: zweite Silbe angeschnitten): „Turn right at the supermarket.“ (55 ms), „The last bus leaves at ten to nine tonight.“ (25 ms), „I would like a pair of trousers.“ (95 ms), „A big city is busier than a small village.“ (65 ms), „Many visitors take photos of the bridges.“ (65 ms).
+- Ohne Schnitt, aber Satz endet auf ein einsilbiges Wort: „Ellie wants to walk on the beach.“ (`region-nachsprechen`), „The Roman Baths are in Bath.“ (`roemer-hoeren`).
