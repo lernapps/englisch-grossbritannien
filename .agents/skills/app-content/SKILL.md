@@ -98,7 +98,7 @@ Aus den Konventionen Abschnitt 7 und den Vorgängern (#470 bis #476):
 - Distraktoren nur echte Lernerfehler, keine Unwörter; jeder Distraktor und jedes Fehlerbild hat eine eigene Meldung. Ein Einstiegs-`single-choice` hat mindestens drei Optionen.
 - Höchstens eine kurze Wörtertabelle je Seite; Seiten mit mehr als etwa 25 Items oder 10 Übungen kürzen.
 - Englische Aufgaben enthalten kein deutsches Wort; der Cue ist englisch. Mit `(a|b)` gleichwertige Antworten zulassen; `punctuation: ok`.
-- Audio: Ausklingen abschneiden; Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
+- Audio: Jeder Hörsatz endet auf ein zweisilbiges Wort, am besten einen zweisilbigen Namen (Sophie, Peter, Ellie, Amir); einsilbige Schlusswörter (map, town, park, class) hatten einen Fehllaut. „Ding“ nur für Gegenstände, nie für Menschen oder Beziehungen. Ausklingen abschneiden; Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir).
 - Bilder: Beschriftungen im `viewBox`; `alt` verrät nie die Lösung; Bildwörter ≠ Aufgabenwörter.
 - Vorlage: `ordering` zeigt Auswahlfelder, `accepted` einer Sprach-Aufgabe wirkt nicht (Gruppen `(a|b)`), im Modus `choice` zeigt die App `mistakes` nicht, `punctuation: hint` meldet bei richtiger Antwort „Achte auf die Satzzeichen“.
 - Kinder in Kapitel 3, besonders `vielfalt-gb`: respektvoll, keine Klischees, keine erfundenen Angaben über Religion oder Herkunft ohne Beleg; Beispiele nennen Sprachen und Feste nur allgemein.

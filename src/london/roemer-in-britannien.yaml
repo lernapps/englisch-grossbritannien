@@ -199,8 +199,8 @@ blocks:
         items:
           - audio: a-roman-built-a-house-near-the-river.mp3
             target: A Roman built a house near the river.
-          - audio: many-people-lived-in-that-town.mp3
-            target: Many people lived in that town.
+          - audio: many-people-lived-in-that-village.mp3
+            target: Many people lived in that village.
           - audio: mr-hill-left-the-museum-with-amir.mp3
             target: Mr Hill left the museum with Amir.
   - type: section
@@ -213,8 +213,8 @@ blocks:
         items:
           - audio: hadrians-wall-has-forts-and-towers.mp3
             text: Hadrian’s Wall has forts and towers.
-          - audio: the-roman-baths-are-in-bath.mp3
-            text: The Roman Baths are in Bath.
+          - audio: people-visit-the-roman-baths-today.mp3
+            text: People visit the Roman Baths today.
           - audio: londinium-is-the-old-name-of-london.mp3
             text: Londinium is the old name of London.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Hadrian’s, forts und Londinium.

@@ -225,8 +225,8 @@ blocks:
             text: Great Britain is a big island.
           - audio: london-is-the-capital-of-the-united-kingdom.mp3
             text: London is the capital of the United Kingdom.
-          - audio: mr-hill-shows-the-class-a-map.mp3
-            text: Mr Hill shows the class a map.
+          - audio: mr-hill-shows-the-class-a-picture.mp3
+            text: Mr Hill shows the class a picture.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf Great Britain und capital.
       - type: open-task
         id: inseln-erklaeren

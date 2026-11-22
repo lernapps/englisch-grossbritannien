@@ -193,8 +193,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: ok }
         items:
-          - audio: a-taxi-is-more-expensive-than-a-bus.mp3
-            target: A taxi is more expensive than a bus.
+          - audio: a-taxi-is-more-expensive-than-a-bicycle.mp3
+            target: A taxi is more expensive than a bicycle.
           - audio: amir-is-not-as-tall-as-ellie.mp3
             target: Amir is not as tall as Ellie.
           - audio: a-big-city-is-busier-than-a-small-village.mp3
@@ -207,8 +207,8 @@ blocks:
         id: stadt-nachsprechen
         language: en
         items:
-          - audio: my-town-is-smaller-than-your-town.mp3
-            text: My town is smaller than your town.
+          - audio: my-town-is-smaller-than-your-city.mp3
+            text: My town is smaller than your city.
           - audio: the-city-is-not-as-quiet-as-the-countryside.mp3
             text: The city is not as quiet as the countryside.
           - audio: sophie-likes-the-quiet-countryside.mp3

@@ -202,8 +202,8 @@ blocks:
         items:
           - audio: we-can-see-the-sea-from-the-hotel.mp3
             target: We can see the sea from the hotel.
-          - audio: ellie-wants-to-walk-on-the-beach.mp3
-            target: Ellie wants to walk on the beach.
+          - audio: ellie-wants-to-walk-on-the-beach-today.mp3
+            target: Ellie wants to walk on the beach today.
           - audio: cornwall-is-a-good-place-for-a-holiday.mp3
             target: Cornwall is a good place for a holiday.
   - type: section
@@ -214,12 +214,12 @@ blocks:
         id: region-nachsprechen
         language: en
         items:
-          - audio: peter-asks-where-cornwall-is.mp3
-            text: Peter asks where Cornwall is.
+          - audio: peter-asks-about-cornwall.mp3
+            text: Peter asks about Cornwall.
           - audio: mrs-parker-has-a-big-map-of-england.mp3
             text: Mrs Parker has a big map of England.
-          - audio: you-can-visit-a-small-village-by-the-sea.mp3
-            text: You can visit a small village by the sea.
+          - audio: you-can-visit-a-lovely-village.mp3
+            text: You can visit a lovely village.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf where und village.
       - type: open-task
         id: region-vorstellen

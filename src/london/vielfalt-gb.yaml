@@ -73,7 +73,7 @@ blocks:
           - text: Das stimmt, weil alle in Großbritannien gleich sind.
             correct: false
             info: In Großbritannien leben Menschen mit vielen verschiedenen Herkünften. Sie sind nicht alle gleich.
-        explanation: Wohnort und Herkunft der Familie sind zwei verschiedene Dinge. live in sagt, wo jemand wohnt, come from sagt, woher jemand kommt.
+        explanation: Wohnort und Herkunft der Familie sind zwei verschiedene Fragen. live in sagt, wo jemand wohnt, come from sagt, woher jemand kommt.
         links:
           - title: Lernlandkarte Englisch · Menschen in Großbritannien
             url: https://lernapps.net/apps/map/englisch/c/vielfalt-gb/
@@ -174,8 +174,8 @@ blocks:
         items:
           - audio: many-children-in-my-class-speak-two-languages.mp3
             target: Many children in my class speak two languages.
-          - audio: sophie-and-ellie-live-in-the-same-town.mp3
-            target: Sophie and Ellie live in the same town.
+          - audio: sophie-and-ellie-live-in-millbrook.mp3
+            target: Sophie and Ellie live in Millbrook.
           - audio: mr-hill-asks-amir-about-his-family.mp3
             target: Mr Hill asks Amir about his family.
   - type: section
@@ -186,12 +186,12 @@ blocks:
         id: viel-nachsprechen
         language: en
         items:
-          - audio: many-different-people-live-in-the-uk.mp3
-            text: Many different people live in the UK.
+          - audio: many-different-people-live-in-this-country.mp3
+            text: Many different people live in this country.
           - audio: people-in-the-uk-speak-english-welsh-and-irish.mp3
             text: People in the UK speak English, Welsh and Irish.
-          - audio: everyone-is-welcome-in-our-class.mp3
-            text: Everyone is welcome in our class.
+          - audio: everyone-is-welcome-in-our-classroom.mp3
+            text: Everyone is welcome in our classroom.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf different, Welsh und welcome.
       - type: open-task
         id: viel-vorstellen

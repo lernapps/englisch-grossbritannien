@@ -220,8 +220,8 @@ blocks:
             target: Mr Hill has a map of London.
           - audio: the-class-walks-along-the-river.mp3
             target: The class walks along the river.
-          - audio: sophie-takes-a-photo-of-the-clock.mp3
-            target: Sophie takes a photo of the clock.
+          - audio: sophie-takes-a-photo-of-the-palace.mp3
+            target: Sophie takes a photo of the palace.
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -234,8 +234,8 @@ blocks:
             text: Big Ben is a famous bell in London.
           - audio: tower-bridge-is-near-the-tower-of-london.mp3
             text: Tower Bridge is near the Tower of London.
-          - audio: the-british-museum-has-many-old-things.mp3
-            text: The British Museum has many old things.
+          - audio: peter-likes-the-british-museum.mp3
+            text: Peter likes the British Museum.
         hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf famous, Bridge und museum.
       - type: open-task
         id: lon-postkarte
