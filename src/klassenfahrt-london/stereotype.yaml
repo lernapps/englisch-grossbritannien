@@ -20,7 +20,7 @@ blocks:
           - text: It is raining in London today.
             correct: false
             info: Das ist eine Beobachtung von heute. Man kann sie am Fenster prüfen.
-          - text: I saw five red buses on the bridge.
+          - text: I saw five red buses in the street.
             correct: false
             info: Das ist eine Beobachtung. I saw sagt, was jemand selbst gesehen hat.
         explanation: Wörter wie all oder always stehen oft in Verallgemeinerungen. Eine Beobachtung sagt, was du selbst gesehen hast.
@@ -42,6 +42,7 @@ blocks:
           - [on time, pünktlich]
           - ["I saw …", "Ich habe … gesehen"]
           - [collect, sammeln]
+          - [heard, "gehört (von hear)"]
           - [wrong, falsch]
       - type: text
         text: |
@@ -110,7 +111,7 @@ blocks:
             right: Beobachtung
           - left: Everybody in a big city is always in a hurry.
             right: Verallgemeinerung
-          - left: I have never tried that café, but I know the cake is bad.
+          - left: I have never been to that café, but I know the cake is bad.
             right: Vorurteil
         explanation: Eine Beobachtung sagt, was du gesehen hast. Eine Verallgemeinerung nennt alle oder immer. Ein Vorurteil urteilt, ohne zu prüfen.
         hint: Frage dich, ob die Person selbst etwas gesehen oder geprüft hat.

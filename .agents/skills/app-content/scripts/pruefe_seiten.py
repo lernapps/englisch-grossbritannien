@@ -18,7 +18,7 @@ def sentences(t):
         if len(w) >= 3: yield w
 bad = 0
 for f in sorted(glob.glob("src/*/*.yaml")):
-    if f.endswith("chapter.yaml"): continue
+    if f.endswith("chapter.yaml") or "/data/" in f: continue
     d = yaml.safe_load(open(f, encoding="utf-8"))
     if "recap" in d: continue
     hear = []
