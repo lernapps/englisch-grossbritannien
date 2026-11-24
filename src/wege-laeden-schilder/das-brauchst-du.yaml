@@ -9,7 +9,7 @@ blocks:
     title: Das solltest du schon können
     blocks:
       - type: text
-        text: "Sophie (11) kommt aus Deutschland und wohnt bei der Familie Parker in Millbrook. **Ellie Parker** (11) ist ihre Gastschwester. Ellies kleiner Bruder **Peter** ist 9. **Mrs Parker** ist Ellies Mutter und Sophies Gastmutter. **Mr Hill** ist der Englischlehrer, und **Amir** (11) ist ein Freund aus der Klasse. Am Samstag gehen Sophie und Ellie mit einem Stadtplan durch die Stadt. Dafür brauchst du drei Bausteine, die du schon kennst. Prüfe in Gedanken, ob du sie kannst."
+        text: "Um dich mit einem Stadtplan zurechtzufinden, brauchst du drei Bausteine, die du schon kennst. Prüfe in Gedanken, ob du sie kannst."
       - type: text
         text: |
           Das sind die drei Bausteine, jeweils mit dem „Ich kann“-Satz:
@@ -28,4 +28,4 @@ blocks:
       - type: text
         text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Präpositionen des Ortes](https://lernapps.net/apps/map/englisch/c/praepositionen-ort/), [Imperativ](https://lernapps.net/apps/map/englisch/c/imperativ/) und [Zahlen und Preise](https://lernapps.net/apps/map/englisch/c/zahlen/)."
       - type: text
-        text: "Gleich gehen Sophie und Ellie los."
+        text: "Gleich geht es los."

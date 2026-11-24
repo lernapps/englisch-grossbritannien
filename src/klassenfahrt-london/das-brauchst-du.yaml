@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Die Uhrzeit noch einmal kurz, bevor die Klasse nach London fährt.
+recap: englisch/uhrzeit
+scope: "Die Seite wiederholt nur die Uhrzeit (half past seven, a quarter to eight) aus einer früheren App. Neue Inhalte und Übungen gibt es nicht."
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Die Klasse fährt für zwei Tage nach London, mit dem Zug und mit der U-Bahn. Auf einem Fahrplan oder an einem Schalter brauchst du die Uhrzeit: **Ich kann die Uhrzeit sagen und nach ihr fragen (half past seven, a quarter to eight).** Das ist der Baustein „Uhrzeit“. Prüfe in Gedanken, ob du ihn kannst."
+      - type: table
+        caption: Klassenzimmer-Poster · Die Uhrzeit
+        header: [Das willst du sagen, Beispiel]
+        rows:
+          - [volle Stunde, It's nine o'clock.]
+          - [halb, It's half past ten.]
+          - [Viertel nach, It's a quarter past two.]
+          - [Viertel vor, It's a quarter to six.]
+          - [zehn nach, It's ten past four.]
+          - [nach der Uhrzeit fragen, "What time is it?"]
+      - type: text
+        text: "Nicht sicher? Wiederhole es auf der [Seite zur Uhrzeit](https://lernapps.net/apps/map/englisch/c/uhrzeit/) der Lernlandkarte."

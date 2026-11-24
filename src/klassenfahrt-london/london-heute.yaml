@@ -1,0 +1,223 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "London heute: Ein Tag in der Großstadt"
+description: Sophie schreibt einen Blogeintrag über ihren ersten Tag in London. Du liest ihn, belegst Aussagen mit Zeilen und beschreibst selbst einen Tag in einer Großstadt.
+competencies: [london-heute]
+scope: "Die Seite hat ein Lesestück (Sophies Blogeintrag, Zeilen 1 bis 9). London wird als Großstadt beschrieben, mit Themse, Tube, Straßen, Sprachen, Museen und Theatern. Büros und Wirtschaft kommen nur als Beobachtungen Sophies vor, ohne Zahlen. Gelernt werden Adjektive und Vergleiche aus Kapitel 2 (busy, noisy, crowded, bigger than, more crowded than) in Beschreibungen. Typische Fehler sind more busy, noisy than und as statt than. Nicht hier, weil sie auf der nächsten Seite folgen: Klischees und Stereotype."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie fängt einen Blog an
+    blocks:
+      - type: text
+        text: "Sophie schreibt abends einen Blog und vergleicht London mit Millbrook."
+      - type: single-choice
+        id: heute-start
+        text: Welcher Satz ist richtig, wenn Sophie sagen will, dass London größer ist als Millbrook?
+        options:
+          - text: London is bigger than Millbrook.
+            correct: true
+            info: Bei kurzen Adjektiven steht -er und danach than.
+          - text: London is more big than Millbrook.
+            correct: false
+            info: "Bei big hängst du -er an: bigger. more steht nur bei langen Adjektiven."
+          - text: London is bigger as Millbrook.
+            correct: false
+            info: Nach dem Vergleich steht than, nicht as.
+        explanation: Kurzes Adjektiv plus -er, danach than.
+        links:
+          - title: Lernlandkarte Englisch · London heute
+            url: https://lernapps.net/apps/map/englisch/c/london-heute/
+      - type: text
+        text: "**Das kannst du danach:** Du liest einen Blogeintrag über London, findest Aussagen mit der Zeilenzahl und beschreibst selbst einen Tag in einer Großstadt."
+  - type: section
+    id: lesen
+    title: Sophies Blog, erster Tag
+    blocks:
+      - type: vocabulary
+        caption: "Randglossar"
+        languages: { source: de, target: en }
+        entries:
+          - target: "pavement"
+            source: "Bürgersteig"
+          - target: "bench"
+            source: "Sitzbank"
+          - target: "wide"
+            source: "breit"
+          - target: "crowded"
+            source: "überfüllt, voll"
+          - target: "noisy"
+            source: "laut"
+          - target: "offices"
+            source: "Büros"
+          - target: "suits"
+            source: "Anzüge"
+          - target: "culture"
+            source: "Kultur"
+          - target: "plays, theatres"
+            source: "Theaterstücke, Theater"
+          - target: "poster"
+            source: "Plakat"
+          - target: "Welsh"
+            source: "Walisisch"
+          - target: "Scottish Gaelic"
+            source: "Schottisch-Gälisch"
+          - target: "Irish"
+            source: "Irisch"
+      - type: text
+        text: |
+          **A day in London**
+
+          1. Day one in London! Our train arrived at ten past ten, and now I am sitting on a bench by the River Thames.
+          2. The river is wide and brown, and it is much wider than I thought.
+          3. From my bench I can see Tower Bridge. In the distance there is the Tower of London. On the other side of the river there is the London Eye.
+          4. The streets are busy and noisy. Red buses and taxis are everywhere, and the pavements are crowded.
+          5. We took the Tube, the Underground, to get here. It was louder than the train and full of people with bags.
+          6. I hear many languages around me. Mr Hill says that people in the UK speak English, Welsh, Scottish Gaelic, Irish and many more languages. I like that.
+          7. I see many offices near the river, and people in suits walk very fast. Maybe many people work there. I don't know how many, because I only write what I see.
+          8. London is also a place for culture. I see posters for plays in front of the theatres, and this afternoon we visit the British Museum.
+          9. Peter, I took a photo of the Tube for you! London is not like Millbrook at all, but I think it is a great place for a class trip.
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, anwenden
+    blocks:
+      - type: single-choice
+        id: heute-haupt
+        text: Was ist die Hauptaussage von Sophies Eintrag?
+        options:
+          - text: Sophie beschreibt, wie London aussieht und klingt, und sie findet die Stadt gut.
+            correct: true
+            info: Sie nennt den Fluss, die Straßen, die Sprachen, Kultur und Büros und schließt mit einem positiven Satz.
+          - text: Sophie erklärt, wie viele Menschen in London arbeiten.
+            correct: false
+            info: In Zeile 7 weiß sie das nicht und schreibt nur auf, was sie sieht.
+          - text: Sophie sagt, dass London ihr zu laut ist und sie nach Hause will.
+            correct: false
+            info: Die Straßen sind laut, aber Sophie schreibt in Zeile 9, dass London ein toller Ort für die Klassenfahrt ist.
+        explanation: Sophie beschreibt ihre Eindrücke und findet London gut.
+        links:
+          - title: Lernlandkarte Englisch · London heute
+            url: https://lernapps.net/apps/map/englisch/c/london-heute/
+      - type: true-false
+        id: heute-buero
+        text: "Sophie schreibt, wie viele Büros es in London gibt. Stimmt das?"
+        answer: false
+        hint: Lies noch einmal, was Sophie über die Büros sagt und was sie nicht weiß.
+        explanation: Sophie sieht viele Büros am Fluss. Eine Zahl kennt sie nicht und nennt sie darum auch nicht.
+        links:
+          - title: Lernlandkarte Englisch · London heute
+            url: https://lernapps.net/apps/map/englisch/c/london-heute/
+      - type: single-choice
+        id: heute-zeile
+        text: In welcher Zeile steht, welche Sprachen man im UK spricht?
+        options:
+          - text: Zeile 4
+            correct: false
+            info: In Zeile 4 geht es um Straßen, Busse und Bürgersteige.
+          - text: Zeile 6
+            correct: true
+            info: In Zeile 6 nennt Mr Hill English, Welsh, Scottish Gaelic und Irish.
+          - text: Zeile 8
+            correct: false
+            info: In Zeile 8 geht es um Theater und das British Museum.
+        explanation: Die Sprachen stehen in Zeile 6.
+        links:
+          - title: Lernlandkarte Englisch · London heute
+            url: https://lernapps.net/apps/map/englisch/c/london-heute/
+      - type: language-task
+        id: heute-belegen
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze die Sätze mit Wörtern aus dem Text.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Zeile 3 – Am anderen Ufer der Themse steht ein Riesenrad.
+            target: On the other side of the river there is the [London Eye].
+            mistakes:
+              - answer: On the other side of the river there is the Big Ben.
+                message: "Big Ben steht nicht in Zeile 3. Dort steht der Name des Riesenrads: London Eye."
+          - cue: Zeile 4 – Die Bürgersteige sind voll.
+            target: The pavements are [crowded].
+            mistakes:
+              - answer: The pavements are crowd.
+                message: crowd ist ein Nomen („Menge“). Das Adjektiv heißt crowded.
+        hint: Die Wörter stehen in der genannten Zeile.
+      - type: language-task
+        id: heute-vergleich
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Die Tube ist voller als der Bus.
+            target: The Tube is [more crowded] than the bus.
+            distractors: [[crowded, most crowded]]
+            mistakes:
+              - answer: The Tube is crowded than the bus.
+                message: Vor than steht die Vergleichsform. Bei einem langen Adjektiv wie crowded gehört more davor.
+              - answer: The Tube is most crowded than the bus.
+                message: most nutzt du für den höchsten Grad (the most …), nicht für den Vergleich zweier Dinge. Hier passt more.
+          - cue: Der Bahnhof ist belebter als die Bibliothek.
+            target: The station is [busier] than the library.
+            distractors: [[more busy, busy]]
+            mistakes:
+              - answer: The station is more busy than the library.
+                message: Bei busy wird y zu i und es kommt -er dazu, also busier.
+              - answer: The station is busy than the library.
+                message: Vor than steht die Vergleichsform busier.
+        hint: Kurze Adjektive bekommen -er, lange Adjektive bekommen more.
+      - type: language-task
+        id: heute-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: ok }
+        items:
+          - source: Der Markt ist lauter als das Museum.
+            target: The market is (noisier|louder) than the museum.
+            mistakes:
+              - answer: The market is more noisy than the museum.
+                message: Bei noisy wird y zu i und es kommt -er dazu, also noisier (oder louder).
+              - answer: The market is more loud than the museum.
+                message: loud ist kurz und bekommt -er, also louder.
+              - answer: The market is noisy than the museum.
+                message: Vor than steht die Vergleichsform, also noisier oder louder.
+              - answer: The market is noisier as the museum.
+                message: Nach der Vergleichsform steht than, nicht as.
+        hint: Vor than steht die Vergleichsform des Adjektivs, nicht das Adjektiv selbst.
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: heute-nachsprechen
+        language: en
+        items:
+          - audio: ellie-takes-a-picture-of-the-river.mp3
+            text: Ellie takes a picture of the river.
+          - audio: amir-shows-us-a-map-of-the-city-centre.mp3
+            text: Amir shows us a map of the city centre.
+          - audio: mr-hill-waits-for-the-class-at-the-station.mp3
+            text: Mr Hill waits for the class at the station.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung bei picture und centre.
+      - type: open-task
+        id: heute-tag
+        task: "Mein Tag in einer Großstadt: Du bist einen Tag in einer großen Stadt, zum Beispiel London. Schreibe drei bis fünf Sätze auf Englisch darüber, was du siehst und hörst."
+        points:
+          - text: Du nennst mindestens zwei Adjektive, zum Beispiel busy, noisy oder crowded.
+            source: /klassenfahrt-london/london-heute/#lesen
+          - text: Du benutzt einen Vergleich mit than.
+            source: /klassenfahrt-london/london-heute/#verstehen
+          - text: Du schreibst nur auf, was du siehst oder hörst, und keine Zahl, die du nicht kennst.
+            source: /klassenfahrt-london/london-heute/#lesen
+          - text: Es sind ganze Sätze mit Punkt.
+            kind: form
+        solution: |
+          I am in a big city today. The streets are busy and the buses are crowded.
+          The station is noisier than the park.
+          I see a bridge and a lot of shops.
+          I hear people speaking different languages, and I like that.
+  - type: section
+    id: weiter
+    title: Und was ist mit Klischees
+    blocks:
+      - type: text
+        text: Sophie hat aufgeschrieben, was sie in London sieht. Am zweiten Tag regnet es, und Mr Hill bittet die Klasse, Ideen über Länder und Menschen zu sammeln, die man so hört. Sophie schaut auf ihren Eintrag und fragt sich, ob solche Sätze stimmen können. Das ist das Thema der nächsten Seite.

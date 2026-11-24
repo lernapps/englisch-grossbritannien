@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-clothes-shop.svg
         alt: Zwei Mädchen stehen in einem Kleidungsgeschäft vor einer Stange mit Pullovern und Hemden. Auf einem Brett liegen zwei Mützen.
-        caption: "Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz) im clothes shop."
+        caption: Sophie und Ellie im clothes shop.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Peters Mütze ist alt. Sophie möchte ihm eine neue kaufen. Im clothes shop an der High Street gibt es viel Kleidung. Sophie nimmt eine Mütze (cap) und geht zur Verkäuferin, die im Laden arbeitet. **How much** heißt „wie viel“."
+        text: "Sophie möchte eine neue Mütze kaufen. Im clothes shop an der High Street gibt es viel Kleidung. Sophie nimmt eine Mütze (cap) und geht zur Verkäuferin, die im Laden arbeitet. **How much** heißt „wie viel“."
       - type: single-choice
         id: kleid-einstieg
         text: Sophie möchte wissen, was die Mütze kostet. Welche Frage stellt sie der Verkäuferin?
@@ -53,15 +53,20 @@ blocks:
           - type: text
             text: |
               Bei einer Sache fragst du **How much is this shirt?** und hörst **It's nine pounds.** Bei mehreren Sachen fragst du **How much are these jeans?** und hörst **They're twenty pounds.** **Jeans**, **trousers** und **shoes** gibt es nur in der Mehrzahl, also these und are. Du kannst auch **a pair of** sagen (a pair of jeans). Ein Preis mit £ heißt pounds, nur bei eins heißt er **one pound**. Die Größen heißen **small**, **medium** und **large**, nicht „big“. Nach einer anderen Farbe fragst du so: **Have you got this in blue?** (Have you got heißt „Hast du“ oder „Haben Sie“.)
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [cap, Mütze]
-          - [jumper, Pullover]
-          - [shoes, Schuhe (immer Mehrzahl)]
-          - [medium, mittelgroß]
-          - [a pair of, ein Paar (a pair of jeans heißt eine Jeans)]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "cap"
+            source: "Mütze"
+          - target: "jumper"
+            source: "Pullover"
+          - target: "shoes"
+            source: "Schuhe (immer Mehrzahl)"
+          - target: "medium"
+            source: "mittelgroß"
+          - target: "a pair of"
+            source: "ein Paar (a pair of jeans heißt eine Jeans)"
   - type: section
     id: uebung
     title: Übung

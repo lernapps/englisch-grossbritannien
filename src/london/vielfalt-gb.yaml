@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-familien.svg
         alt: Ein Junge mit Brille und ein Mädchen mit rotem Pferdeschwanz stehen links und rechts neben einem Plakat mit einem Haus und mehreren Personen.
-        caption: "Von links: Amir (Brille, schwarze Locken) und Ellie (roter Pferdeschwanz)."
+        caption: Amir und Ellie.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Mittagspause in London. Die Kinder sitzen im Park, Peter ist nicht dabei. Mr Hill fragt nach ihren Familien. Ellie hat Familie in Cornwall, Sophie wohnt bei den Parkers, und Amir erzählt, dass bei ihm zu Hause zwei Sprachen gesprochen werden. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders."
+        text: "In der Mittagspause fragt Mr Hill nach den Familien der Kinder. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders."
       - type: single-choice
         id: viel-start
         text: "Was bedeutet Mr Hills Satz „The grandparents of many children in our class moved to a new town many years ago“?"
@@ -47,15 +47,20 @@ blocks:
           - type: text
             text: |
               Mit **live in** sagst du, wo jemand wohnt: My cousin lives in a flat. Mit **come from** sagst du, woher jemand oder die Familie kommt: Her family comes from a village. Nach **many different** und nach **two, three …** steht der Plural: many different animals, three books (nicht: three book). In Fragen mit **does** steht das Verb ohne -s: What does your sister play? Sag **people from many places**.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [grandparents, Großeltern]
-          - [moved, zog um / zogen um (von move)]
-          - [Welsh, Walisisch]
-          - [Scottish Gaelic, schottisches Gälisch]
-          - [Irish, Irisch]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "grandparents"
+            source: "Großeltern"
+          - target: "moved"
+            source: "zog um / zogen um (von move)"
+          - target: "Welsh"
+            source: "Walisisch"
+          - target: "Scottish Gaelic"
+            source: "schottisches Gälisch"
+          - target: "Irish"
+            source: "Irisch"
   - type: section
     id: uebung
     title: Übung

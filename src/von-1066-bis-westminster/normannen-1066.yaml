@@ -1,0 +1,203 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: 1066 und die Normannen
+description: Sophie liest am Tower of London eine Tafel über die Schlacht bei Hastings. Du erfährst, was 1066 geschah, wie die Normannen England veränderten und warum sich die Sprache wandelte.
+competencies: [normannen-1066]
+scope: "Die Seite hat ein Lesestück (eine Tafel am Tower of London) und am Ende die Zeitleiste. Gelernt werden die Schlacht bei Hastings am 14. Oktober 1066, Harold Godwinson und William of Normandy, der Tower of London mit dem White Tower und der Beginn von Middle English unter dem Einfluss von Anglo-Norman French. Typische Fehler sind falsche Past-Simple-Formen (becomed, comed, build statt built) und Jahre als Kardinalzahl gelesen. Nicht hier, weil sie auf späteren Seiten folgen: die Tudors und die heutige Regierung."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie am Tower of London
+    blocks:
+      - type: text
+        text: "Die Klasse steht am Tower of London. Sophie liest eine Informationstafel. Darauf steht eine große Jahreszahl: 1066."
+      - type: single-choice
+        id: nor-start
+        text: Wie liest Sophie die Jahreszahl 1066 auf Englisch?
+        options:
+          - text: ten sixty-six
+            correct: true
+            info: Jahreszahlen sagt man in zwei Teilen, hier ten und sixty-six.
+          - text: one thousand sixty-six
+            correct: false
+            info: So sagt man eine Zahl, aber keine Jahreszahl. Bei Jahren teilt man in zwei Zahlen.
+          - text: ten hundred sixty-six
+            correct: false
+            info: Ein Jahr mit zwei Teilen heißt zum Beispiel ten sixty-six. hundred steht nur bei glatten Jahren wie nineteen hundred.
+        explanation: Jahreszahlen mit vier Ziffern sagt man in zwei Zahlen, zuerst die ersten zwei Ziffern, dann die letzten zwei.
+        links:
+          - title: Lernlandkarte Englisch · 1066 und die Normannen
+            url: https://lernapps.net/apps/map/englisch/c/normannen-1066/
+      - type: text
+        text: "**Das kannst du danach:** Du liest die Tafel, erklärst, was 1066 bei Hastings geschah, und sagst, wie die Normannen die englische Sprache veränderten."
+  - type: section
+    id: lesen
+    title: Die Tafel am Tower
+    blocks:
+      - type: vocabulary
+        caption: "Randglossar"
+        languages: { source: de, target: en }
+        entries:
+          - target: "Anglo-Saxon"
+            source: "angelsächsisch"
+          - target: "duke"
+            source: "Herzog"
+          - target: "conquest"
+            source: "Eroberung"
+          - target: "rebellion"
+            source: "Aufstand"
+          - target: "came (come), became (become)"
+            source: "kam, wurde (Past Simple von come und become)"
+          - target: "founded (found)"
+            source: "gründete"
+          - target: "Old English"
+            source: "Altenglisch (die Sprache vor 1066)"
+          - target: "Anglo-Norman French"
+            source: "das Französisch der Normannen in England"
+      - type: text
+        text: |
+          **The year 1066 · Information board, Tower of London**
+
+          1. After King Edward died, Harold Godwinson was the Anglo-Saxon king of England.
+          2. On 14 October 1066, William, Duke of Normandy, and his army fought Harold's English army.
+          3. The battle was about eleven kilometres north-west of Hastings, near a place called Battle in East Sussex.
+          4. The Normans won. This was the beginning of the Norman Conquest.
+          5. William the Conqueror was the first Norman king of England. He was king from 1066 and defeated rebellions.
+          6. Near the end of 1066, the Normans founded the Tower of London, a castle on the north side of the River Thames.
+          7. The White Tower gives the castle its name. William built it around 1078.
+          8. After 1066, the English language changed. A new language grew out of Old English, under the influence of Anglo-Norman French and other languages. It is called Middle English.
+          9. People spoke Middle English until the late fifteenth century. In different parts of England it was very different.
+  - type: section
+    id: verstehen
+    title: Verstehen, belegen, anwenden
+    blocks:
+      - type: single-choice
+        id: nor-sieger
+        text: Wer gewann die Schlacht bei Hastings?
+        options:
+          - text: das Heer von William, Herzog der Normandie
+            correct: true
+            info: Die Tafel sagt, dass die Normannen gewannen.
+          - text: das englische Heer von Harold Godwinson
+            correct: false
+            info: Harold führte das englische Heer. Er verlor die Schlacht.
+          - text: ein römisches Heer
+            correct: false
+            info: Die Römer kamen viel früher nach Britannien. Bei Hastings kämpften Normannen und Engländer.
+        explanation: Die Normannen siegten bei Hastings. Danach war William der erste normannische König von England.
+        links:
+          - title: Lernlandkarte Englisch · 1066 und die Normannen
+            url: https://lernapps.net/apps/map/englisch/c/normannen-1066/
+      - type: single-choice
+        id: nor-zeile
+        text: In welcher Zeile steht, wo der Tower of London liegt?
+        options:
+          - text: Zeile 3
+            correct: false
+            info: In Zeile 3 steht, wo die Schlacht stattfand.
+          - text: Zeile 5
+            correct: false
+            info: In Zeile 5 geht es um William als König.
+          - text: Zeile 6
+            correct: true
+            info: In Zeile 6 steht, dass die Burg am Nordufer der Themse liegt.
+          - text: Zeile 9
+            correct: false
+            info: In Zeile 9 geht es um die Sprache Middle English.
+        explanation: Zeile 6 nennt die Burg und ihre Lage an der Themse.
+        links:
+          - title: Lernlandkarte Englisch · 1066 und die Normannen
+            url: https://lernapps.net/apps/map/englisch/c/normannen-1066/
+      - type: language-task
+        id: nor-luecke
+        languages: { source: de, target: en }
+        mode: gap
+        task: Schreibe das fehlende Wort oder die fehlenden Wörter. Sie stehen auf der Tafel.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Der White Tower wurde um 1078 gebaut.
+            target: The White Tower was [built] around 1078.
+            mistakes:
+              - answer: The White Tower was build around 1078.
+                message: Nach was steht die dritte Form des Verbs. Von build heißt sie built.
+              - answer: The White Tower was builded around 1078.
+                message: build ist unregelmäßig. Die Form heißt built, nicht builded.
+          - cue: Die neue Sprache heißt Mittelenglisch.
+            target: The new language is called [Middle English].
+            mistakes:
+              - answer: The new language is called Old English.
+                message: Old English ist die Sprache vor 1066. Die neue Sprache heißt Middle English.
+              - answer: The new language is called Modern English.
+                message: Modern English ist die Sprache von heute. Nach 1066 entstand Middle English.
+        hint: Beide Wörter stehen auf der Tafel, in Zeile 7 und Zeile 8.
+      - type: language-task
+        id: nor-past
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Das Heer kam im Oktober an.
+            target: The army [came] in October.
+            distractors: [[comed, come]]
+            mistakes:
+              - answer: The army comed in October.
+                message: come ist unregelmäßig. Die Past-Simple-Form heißt came, nicht comed.
+              - answer: The army come in October.
+                message: Für etwas, das in der Vergangenheit geschah, braucht man das Past Simple, also came.
+          - cue: Harold wurde im Jahr 1066 König.
+            target: Harold [became] king in 1066.
+            distractors: [[becomed, become]]
+            mistakes:
+              - answer: Harold becomed king in 1066.
+                message: become ist unregelmäßig. Die Past-Simple-Form heißt became, nicht becomed.
+              - answer: Harold become king in 1066.
+                message: Für ein Ereignis in der Vergangenheit braucht man became, nicht become.
+        hint: Beide Verben sind unregelmäßig. Das Past Simple endet nicht auf -ed. Die Formen stehen im Randglossar.
+      - type: ordering
+        id: nor-reihenfolge
+        text: Bringe die Ereignisse in die richtige zeitliche Reihenfolge, das früheste zuerst.
+        items:
+          - William's army fought at Hastings.
+          - The Normans founded the Tower of London.
+          - William built the White Tower.
+          - The time of Middle English ended.
+        explanation: Zuerst kam die Schlacht im Oktober 1066, dann gegen Ende von 1066 die Gründung des Tower, um 1078 der White Tower. Middle English wurde bis zum späten fünfzehnten Jahrhundert gesprochen, das Ende kam also zuletzt.
+        hint: Vergleiche die Jahre auf der Tafel. Die Burg wurde nach dem Sieg gegründet.
+        links:
+          - title: Lernlandkarte Englisch · 1066 und die Normannen
+            url: https://lernapps.net/apps/map/englisch/c/normannen-1066/
+  - type: section
+    id: anwenden
+    title: Selbst sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: nor-nachsprechen
+        language: en
+        items:
+          - audio: visitors-can-see-the-white-tower-today.mp3
+            text: Visitors can see the White Tower today.
+          - audio: sophie-takes-a-photo-of-the-old-castle.mp3
+            text: Sophie takes a photo of the old castle.
+          - audio: english-changed-a-lot-over-the-centuries.mp3
+            text: English changed a lot over the centuries.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und achte auf die Betonung bei castle und centuries.
+      - type: open-task
+        id: nor-warum
+        task: "Schreibe drei Sätze auf Englisch: Why is 1066 an important year? Du darfst deine eigene Meinung sagen, es gibt mehrere gute Antworten."
+        points:
+          - text: Du nennst ein Ereignis aus dem Jahr 1066 im Past Simple.
+            source: /von-1066-bis-westminster/normannen-1066/#lesen
+          - text: Du nennst einen Grund, warum es wichtig war, zum Beispiel für den König, den Tower oder die Sprache.
+            source: /von-1066-bis-westminster/normannen-1066/#lesen
+          - text: Du sagst mit I think oder because, was du selbst wichtig findest.
+            kind: form
+        solution: |
+          In 1066, the Normans won the Battle of Hastings. William became the new king of England. I think the year is important because the English language changed after that.
+  - type: section
+    id: weiter
+    title: Und jetzt die Tudors
+    blocks:
+      - type: text
+        text: Sophie macht noch ein Foto vom White Tower. **Die Zeitleiste** zeigt, wo 1066 in der langen Geschichte steht, von den Römern bis heute. Mehr als vierhundert Jahre später beginnt die Zeit, von der die Karte als Nächstes erzählt. Das erfährst du auf der nächsten Seite.
+      - type: timeline
+        data: ereignisse

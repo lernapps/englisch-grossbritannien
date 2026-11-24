@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-baeckerei-schild.svg
         alt: Zwei Mädchen stehen vor einer Bäckerei. An der Tür hängt ein Zettel mit englischem Text. Über einem der Mädchen steht ein Fragezeichen.
-        caption: "Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz) vor der bakery."
+        caption: Sophie und Ellie vor der bakery.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie und Ellie sind auf der High Street. An der Tür der bakery hängt ein kleiner Zettel. Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“"
+        text: "An der Tür der bakery auf der High Street hängt ein kleiner Zettel. Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“"
       - type: single-choice
         id: alltag-einstieg
         text: Woran erkennt Ellie, dass der Zettel ein Schild ist?
@@ -53,17 +53,24 @@ blocks:
           - type: text
             text: |
               Ein **Schild** ist kurz und sagt, was man tun soll oder wie es ist. Ein **Fahrplan** ist eine Tabelle mit Uhrzeiten und Zielen. Eine **Speisekarte** zeigt Gerichte mit Preisen. Ein **Flyer** nennt einen Ort, einen Tag und eine Uhrzeit. Eine Uhrzeit hat einen Doppelpunkt (9:30), ein Preis hat das Zeichen £. Im Fahrplan ist **leaves** die Abfahrt und **arrives** die Ankunft.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [sign, Schild]
-          - [timetable, Fahrplan]
-          - [menu, Speisekarte]
-          - [flyer, Flyer (ein Blatt mit Werbung)]
-          - [closed, geschlossen (das Gegenteil von open)]
-          - [half past, "nach halb (half past two ist 2:30, nicht 1:30)"]
-          - [back at, zurück um]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "sign"
+            source: "Schild"
+          - target: "timetable"
+            source: "Fahrplan"
+          - target: "menu"
+            source: "Speisekarte"
+          - target: "flyer"
+            source: "Flyer (ein Blatt mit Werbung)"
+          - target: "closed"
+            source: "geschlossen (das Gegenteil von open)"
+          - target: "half past"
+            source: "nach halb (half past two ist 2:30, nicht 1:30)"
+          - target: "back at"
+            source: "zurück um"
   - type: section
     id: uebung
     title: Übung

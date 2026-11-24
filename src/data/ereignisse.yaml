@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+# Zeitleiste der Seite „1066 und die Normannen“. Jede Tatsache steht einmal; Quelle: Wikipedia en, geöffnet 2026-11-22 (siehe Inhaltsführer, Sources).
+- date: 43
+  title: The Romans invade Britain
+  text: Römische Truppen unter Kaiser Claudius kommen nach Britannien (Kapitel 3).
+- date: 122
+  title: Hadrian's Wall begins
+  text: Kaiser Hadrian lässt die Mauer im Norden Englands beginnen (Kapitel 3).
+- date: 1066-10-14
+  title: The Battle of Hastings
+  label: 14. Oktober 1066
+  text: Wilhelm, Herzog der Normandie, besiegt König Harold Godwinson bei Hastings.
+- date: 1509
+  title: Henry VIII becomes king
+  text: Henry VIII war König von England von 1509 bis 1547.
+- date: 1558
+  title: Elizabeth I becomes queen
+  text: Elizabeth I war Königin von England und Irland von 1558 bis 1603.
+- date: 2022-09-08
+  title: Charles III becomes king
+  label: 8. September 2022
+  text: Charles III folgt seiner Mutter, Königin Elizabeth II.

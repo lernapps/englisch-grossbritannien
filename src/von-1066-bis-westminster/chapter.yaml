@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Von 1066 bis Westminster
+summary: "Die Karte bekommt eine Zeitleiste. Du liest, was 1066 bei Hastings geschah, was Henry VIII und Elizabeth I für England bedeuteten und wie Großbritannien heute regiert wird: mit König, Parlament und Premierminister."
+pages: [normannen-1066, tudors, politik-uk]
+selfAssessment:
+  pages:
+    - exercises:
+        - /von-1066-bis-westminster/normannen-1066/#nor-past
+        - /von-1066-bis-westminster/normannen-1066/#nor-reihenfolge
+    - exercises:
+        - /von-1066-bis-westminster/tudors/#tud-jahre
+        - /von-1066-bis-westminster/tudors/#tud-reihenfolge
+    - exercises:
+        - /von-1066-bis-westminster/politik-uk/#politik-rollen
+        - /von-1066-bis-westminster/politik-uk/#politik-fragen

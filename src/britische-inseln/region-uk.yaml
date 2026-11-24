@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-cornwall.svg
         alt: Mrs Parker, Ellie und Peter stehen in der Küche. Daneben stehen zwei Koffer. Über Peter ist eine Sprechblase mit einem Fragezeichen.
-        caption: "Von links: Mrs Parker (roter Dutt, türkise Strickjacke), Ellie (roter Pferdeschwanz) und Peter (gelbe Jacke)."
+        caption: Mrs Parker, Ellie und Peter.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) hat eine Frage an seine Mutter. Mrs Parker holt die Karte."
+        text: "In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Peter hat eine Frage. Mrs Parker holt die Karte."
       - type: single-choice
         id: region-start
         text: "Peter fragt: „Where is Cornwall?“ Was will er wissen?"
@@ -66,17 +66,24 @@ blocks:
               **Lake District:** ein Bergland und Nationalpark im Nordwesten Englands, bekannt für Seen und Berge.
 
               **Wales:** liegt im Westen von Great Britain, die Hauptstadt ist Cardiff. Neben Englisch spricht man dort auch eine eigene Sprache, Welsh.
-      - type: table
-        caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Ausdruck, Bedeutung]
-        rows:
-          - [region, Gebiet]
-          - [south-west, Südwesten]
-          - [north-west, Nordwesten]
-          - [north / south / east / west, Norden / Süden / Osten / Westen]
-          - [Atlantic Ocean, Atlantik]
-          - [English Channel, Ärmelkanal]
-          - [Welsh, Walisisch]
+      - type: vocabulary
+        caption: "Klassenzimmer-Poster · Wörter dieser Seite"
+        languages: { source: de, target: en }
+        entries:
+          - target: "region"
+            source: "Gebiet"
+          - target: "south-west"
+            source: "Südwesten"
+          - target: "north-west"
+            source: "Nordwesten"
+          - target: "north / south / east / west"
+            source: "Norden / Süden / Osten / Westen"
+          - target: "Atlantic Ocean"
+            source: "Atlantik"
+          - target: "English Channel"
+            source: "Ärmelkanal"
+          - target: "Welsh"
+            source: "Walisisch"
   - type: section
     id: uebung
     title: Übung

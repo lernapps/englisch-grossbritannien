@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/stadt-land-bild.svg
         alt: Links eine Straße mit hohen Häusern und zwei Autos, davor ein Mädchen mit rotem Pferdeschwanz. Rechts grüne Hügel, ein Baum und ein kleines Haus, davor ein Mädchen mit blonden Zöpfen.
-        caption: Links Ellie (roter Pferdeschwanz) in der Stadt, rechts Sophie (blonde Zöpfe) auf dem Land.
+        caption: Links Ellie in der Stadt, rechts Sophie auf dem Land.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Auf der Seite davor hat Peter nach Cornwall gefragt. Beim Abendessen erzählt Ellie von London und von Millbrook. Sophie denkt nach. Sie kennt den Ort Millbrook und hat von London und von Cornwall gehört. Wo ist mehr los, und wo ist es ruhiger? Sophie vergleicht."
+        text: "Beim Abendessen erzählt Ellie von London und von Millbrook. Wo ist mehr los, und wo ist es ruhiger? Sophie vergleicht."
       - type: single-choice
         id: stadt-start
         text: "Ellie sagt: „London is bigger than Millbrook.“ Was heißt das?"

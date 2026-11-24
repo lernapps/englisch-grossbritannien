@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Klassenfahrt nach London
+summary: Die Klasse fährt mit dem Zug und der U-Bahn nach London. Du liest Chats und Berichte, kaufst Fahrkarten, beschreibst London als Großstadt und prüfst Klischees über Länder und Menschen.
+pages: [das-brauchst-du, reisen-verkehr, london-heute, stereotype]
+selfAssessment:
+  pages:
+    - exercises:
+        - /klassenfahrt-london/reisen-verkehr/#reisen-by
+        - /klassenfahrt-london/reisen-verkehr/#reisen-schalter
+    - exercises:
+        - /klassenfahrt-london/london-heute/#heute-vergleich
+        - /klassenfahrt-london/london-heute/#heute-schreiben
+    - exercises:
+        - /klassenfahrt-london/stereotype/#stereo-mengen
+        - /klassenfahrt-london/stereotype/#stereo-schreiben
