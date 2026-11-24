@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-karte-klasse.svg
         alt: Ein Mann mit grauen Haaren steht neben einer großen Karte an der Klassenzimmerwand. Rechts davon stehen drei Kinder. Auf der Karte sind Inseln in verschiedenen Farben, aber ohne Namen. Schemakarte, nicht genau nach Maßstab.
-        caption: "Von links: Mr Hill (graue Haare), Amir (Brille), Sophie (blonde Zöpfe), Ellie (roter Pferdeschwanz). Die Karte an der Wand ist eine Schemakarte, nicht genau nach Maßstab."
+        caption: "Mr Hill, Amir, Sophie und Ellie. Die Karte an der Wand ist eine Schemakarte, nicht genau nach Maßstab."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "In der Millbrook School hängt Mr Hill eine große Karte an die Wand. Auf der Seite davor hast du Vergleiche wiederholt. Bisher kennst du nur den Plan von Millbrook, mit Straßen und Läden. Jetzt zoomt der Plan heraus: Millbrook ist nur noch ein kleiner Punkt auf einer **Karte** mit ganzen Ländern und Inseln. Eine Schemakarte zeigt nur das Wichtigste und ist nicht genau nach Maßstab. Mr Hill zeigt auf den Punkt und erklärt, wo er liegt."
+        text: "Mr Hill hängt eine große Karte an die Wand. Bisher kennst du nur den Plan von Millbrook, mit Straßen und Läden. Jetzt zoomt der Plan heraus: Millbrook ist nur noch ein kleiner Punkt auf einer **Karte** mit ganzen Ländern und Inseln. Eine Schemakarte zeigt nur das Wichtigste und ist nicht genau nach Maßstab. Mr Hill zeigt auf den Punkt und erklärt, wo er liegt."
       - type: single-choice
         id: inseln-start
         text: "Mr Hill sagt: „Millbrook is in England.“ Was bedeutet das?"
@@ -146,7 +146,7 @@ blocks:
         hint: Suche zuerst die Insel im Westen und die Insel im Osten. Die Punkte sind die Hauptstädte.
       - type: single-choice
         id: inseln-uk-gb
-        text: "Peter (9) sagt: „Great Britain and the UK are the same.“ Stimmt das?"
+        text: "Peter sagt: „Great Britain and the UK are the same.“ Stimmt das?"
         options:
           - text: Nein. Great Britain ist eine Insel, das UK ein Staat. Der Staat hat einen Teil mehr als die Insel.
             correct: true

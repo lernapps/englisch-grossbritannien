@@ -9,7 +9,7 @@ blocks:
     title: Peters Frage aus Millbrook
     blocks:
       - type: text
-        text: "Am letzten Tag in London steht Mr Hills Klasse in Westminster. Sophie schickt Peter, der in Millbrook geblieben ist, ein Foto. Peter schreibt zurück: „Mr Hill said the UK has a monarch. What is that?“"
+        text: "Die Klasse steht in Westminster. Sophie schickt Peter ein Foto. Peter schreibt zurück: „Mr Hill said the UK has a monarch. What is that?“"
       - type: single-choice
         id: politik-start
         text: Was ist ein monarch?

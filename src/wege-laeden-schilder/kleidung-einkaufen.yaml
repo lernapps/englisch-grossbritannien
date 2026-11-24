@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-clothes-shop.svg
         alt: Zwei Mädchen stehen in einem Kleidungsgeschäft vor einer Stange mit Pullovern und Hemden. Auf einem Brett liegen zwei Mützen.
-        caption: "Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz) im clothes shop."
+        caption: Sophie und Ellie im clothes shop.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Peters Mütze ist alt. Sophie möchte ihm eine neue kaufen. Im clothes shop an der High Street gibt es viel Kleidung. Sophie nimmt eine Mütze (cap) und geht zur Verkäuferin, die im Laden arbeitet. **How much** heißt „wie viel“."
+        text: "Sophie möchte eine neue Mütze kaufen. Im clothes shop an der High Street gibt es viel Kleidung. Sophie nimmt eine Mütze (cap) und geht zur Verkäuferin, die im Laden arbeitet. **How much** heißt „wie viel“."
       - type: single-choice
         id: kleid-einstieg
         text: Sophie möchte wissen, was die Mütze kostet. Welche Frage stellt sie der Verkäuferin?

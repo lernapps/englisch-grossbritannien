@@ -9,7 +9,7 @@ blocks:
     title: Sophie am Tower of London
     blocks:
       - type: text
-        text: "Sophie ist 13. Auf der Seite davor ging es um Klischees. Jetzt steht die Klasse am Tower of London, und Sophie liest zum ersten Mal selbst eine Informationstafel. Darauf steht eine große Jahreszahl: 1066."
+        text: "Die Klasse steht am Tower of London. Sophie liest eine Informationstafel. Darauf steht eine große Jahreszahl: 1066."
       - type: single-choice
         id: nor-start
         text: Wie liest Sophie die Jahreszahl 1066 auf Englisch?

@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-cornwall.svg
         alt: Mrs Parker, Ellie und Peter stehen in der Küche. Daneben stehen zwei Koffer. Über Peter ist eine Sprechblase mit einem Fragezeichen.
-        caption: "Von links: Mrs Parker (roter Dutt, türkise Strickjacke), Ellie (roter Pferdeschwanz) und Peter (gelbe Jacke)."
+        caption: Mrs Parker, Ellie und Peter.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) hat eine Frage an seine Mutter. Mrs Parker holt die Karte."
+        text: "In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Peter hat eine Frage. Mrs Parker holt die Karte."
       - type: single-choice
         id: region-start
         text: "Peter fragt: „Where is Cornwall?“ Was will er wissen?"

@@ -11,11 +11,11 @@ blocks:
       - type: figure
         image: images/szene-baeckerei-schild.svg
         alt: Zwei Mädchen stehen vor einer Bäckerei. An der Tür hängt ein Zettel mit englischem Text. Über einem der Mädchen steht ein Fragezeichen.
-        caption: "Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz) vor der bakery."
+        caption: Sophie und Ellie vor der bakery.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie und Ellie sind auf der High Street. An der Tür der bakery hängt ein kleiner Zettel. Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“"
+        text: "An der Tür der bakery auf der High Street hängt ein kleiner Zettel. Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“"
       - type: single-choice
         id: alltag-einstieg
         text: Woran erkennt Ellie, dass der Zettel ein Schild ist?

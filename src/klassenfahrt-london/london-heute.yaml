@@ -9,7 +9,7 @@ blocks:
     title: Sophie fängt einen Blog an
     blocks:
       - type: text
-        text: "Sophie ist in London angekommen. Peter (9) hat sie gebeten, alles aufzuschreiben. Darum beginnt sie abends einen Blog und überlegt, wie sie London und Millbrook vergleicht."
+        text: "Sophie schreibt abends einen Blog und vergleicht London mit Millbrook."
       - type: single-choice
         id: heute-start
         text: Welcher Satz ist richtig, wenn Sophie sagen will, dass London größer ist als Millbrook?

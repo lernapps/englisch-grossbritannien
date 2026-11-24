@@ -9,7 +9,7 @@ blocks:
     title: Sophie schreibt an Peter
     blocks:
       - type: text
-        text: "Sophie ist jetzt 13. Morgen fährt Mr Hills Klasse für zwei Tage nach London. Peter (9) bleibt zu Hause, aber Sophie schreibt ihm schon heute eine Nachricht: „We go to London … train.“"
+        text: "Morgen fährt die Klasse für zwei Tage nach London. Sophie schreibt Peter schon heute eine Nachricht: „We go to London … train.“"
       - type: single-choice
         id: reisen-start
         text: Welches Wort fehlt, wenn Sophie „mit dem Zug“ sagen will?

@@ -9,7 +9,7 @@ blocks:
     title: Eine Liste für Mr Hill
     blocks:
       - type: text
-        text: "Sophie hat auf der letzten Seite über London geschrieben. Heute ist der zweite Tag der Klassenfahrt, und es regnet. Mr Hill hat eine Aufgabe für die Klasse: Alle sammeln Ideen, die man über Länder und Menschen hört."
+        text: "Am zweiten Tag der Klassenfahrt regnet es. Mr Hill hat eine Aufgabe für die Klasse: Alle sammeln Ideen, die man über Länder und Menschen hört."
       - type: single-choice
         id: stereo-start
         text: Welcher Satz ist eine Verallgemeinerung über viele Menschen?
