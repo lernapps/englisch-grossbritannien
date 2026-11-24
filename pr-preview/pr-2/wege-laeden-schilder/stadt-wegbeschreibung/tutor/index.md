@@ -45,9 +45,9 @@ Sophie und Ellie gehen mit dem Plan von Millbrook durch die Stadt. Du lernst, Or
 
 ### Sophie und Ellie mit dem Plan
 
-Bild: Zwei Mädchen stehen unter einem Schild mit dem Wort Millbrook und halten einen Stadtplan. Bildunterschrift: Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz).
+Bild: Zwei Mädchen stehen unter einem Schild mit dem Wort Millbrook und halten einen Stadtplan. Bildunterschrift: Sophie und Ellie mit dem Plan von Millbrook.
 
-Es ist Samstag. Mrs Parker setzt Sophie und Ellie vor der Millbrook School ab. Heute gehen die beiden zu Fuß durch die Stadt. Sie haben einen Plan von Millbrook dabei, einen **Schemaplan**: Das ist ein einfacher Plan, der nicht alles genau zeigt und nicht genau nach Maßstab gezeichnet ist. Er zeigt aber alle Straßen und Orte.
+Sophie und Ellie gehen mit einem Plan von Millbrook durch die Stadt. Es ist ein **Schemaplan**: ein einfacher Plan, der nicht alles genau zeigt und nicht genau nach Maßstab gezeichnet ist. Er zeigt aber alle Straßen und Orte.
 
 Bild: Plan von Millbrook mit drei Straßen. Die High Street verläuft von West nach Ost, die Church Road und die Mill Lane verlaufen von Nord nach Süd. Nördlich der High Street liegen vier Orte, südlich vier weitere, mit ihren Namen im Bild. Ein grüner Punkt markiert den Start. Schemaplan, nicht genau nach Maßstab. Bildunterschrift: Der Plan von Millbrook (Schemaplan, nicht genau nach Maßstab). Norden (N) ist oben, Osten rechts, Süden unten und Westen links. Der grüne Punkt ist der Start.
 

@@ -45,7 +45,7 @@ Die Uhrzeit noch einmal kurz, bevor die Klasse nach London fährt.
 
 ### Das solltest du schon können
 
-Sophie ist jetzt 13. Mr Hills Klasse fährt für zwei Tage nach London, mit dem Zug und mit der U-Bahn. Auf einem Fahrplan oder an einem Schalter brauchst du die Uhrzeit: **Ich kann die Uhrzeit sagen und nach ihr fragen (half past seven, a quarter to eight).** Das ist der Baustein „Uhrzeit“. Prüfe in Gedanken, ob du ihn kannst.
+Die Klasse fährt für zwei Tage nach London, mit dem Zug und mit der U-Bahn. Auf einem Fahrplan oder an einem Schalter brauchst du die Uhrzeit: **Ich kann die Uhrzeit sagen und nach ihr fragen (half past seven, a quarter to eight).** Das ist der Baustein „Uhrzeit“. Prüfe in Gedanken, ob du ihn kannst.
 
 Klassenzimmer-Poster · Die Uhrzeit:
 - Das willst du sagen | Beispiel

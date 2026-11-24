@@ -45,7 +45,7 @@ Sophie schreibt einen Blogeintrag über ihren ersten Tag in London. Du liest ihn
 
 ### Sophie fängt einen Blog an
 
-Sophie ist in London angekommen. Peter (9) hat sie gebeten, alles aufzuschreiben. Darum beginnt sie abends einen Blog und überlegt, wie sie London und Millbrook vergleicht.
+Sophie schreibt abends einen Blog und vergleicht London mit Millbrook.
 
 - Aufgabe `heute-start` (unten)
 

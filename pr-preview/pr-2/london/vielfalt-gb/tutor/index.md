@@ -45,9 +45,9 @@ In der Mittagspause erzählen Kinder von ihren Familien. Du lernst zu beschreibe
 
 ### Familien in der Klasse
 
-Bild: Ein Junge mit Brille und ein Mädchen mit rotem Pferdeschwanz stehen links und rechts neben einem Plakat mit einem Haus und mehreren Personen. Bildunterschrift: Von links: Amir (Brille, schwarze Locken) und Ellie (roter Pferdeschwanz).
+Bild: Ein Junge mit Brille und ein Mädchen mit rotem Pferdeschwanz stehen links und rechts neben einem Plakat mit einem Haus und mehreren Personen. Bildunterschrift: Amir und Ellie.
 
-Mittagspause in London. Die Kinder sitzen im Park, Peter ist nicht dabei. Mr Hill fragt nach ihren Familien. Ellie hat Familie in Cornwall, Sophie wohnt bei den Parkers, und Amir erzählt, dass bei ihm zu Hause zwei Sprachen gesprochen werden. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders.
+In der Mittagspause fragt Mr Hill nach den Familien der Kinder. Mr Hill sagt: „The grandparents of many children in our class moved to a new town many years ago.“ In jeder Familie ist es anders.
 
 - Aufgabe `viel-start` (unten)
 

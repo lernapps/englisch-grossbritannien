@@ -45,7 +45,7 @@ Sophie liest am Tower of London eine Tafel über die Schlacht bei Hastings. Du e
 
 ### Sophie am Tower of London
 
-Sophie ist 13. Auf der Seite davor ging es um Klischees. Jetzt steht die Klasse am Tower of London, und Sophie liest zum ersten Mal selbst eine Informationstafel. Darauf steht eine große Jahreszahl: 1066.
+Die Klasse steht am Tower of London. Sophie liest eine Informationstafel. Darauf steht eine große Jahreszahl: 1066.
 
 - Aufgabe `nor-start` (unten)
 

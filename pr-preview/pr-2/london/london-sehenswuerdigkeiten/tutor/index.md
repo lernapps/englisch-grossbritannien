@@ -45,9 +45,9 @@ Mr Hills Klasse macht einen Stadtrundgang an der Themse. Du lernst sechs wichtig
 
 ### Der Stadtrundgang
 
-Bild: Ein Mann mit grauen Haaren, ein Junge mit Brille und ein Mädchen mit Zöpfen gehen an einem Fluss entlang, hinter ihnen stehen Häuser. Bildunterschrift: Von links: Mr Hill (graue Haare), Amir (Brille, schwarze Locken) und Sophie (blonde Zöpfe).
+Bild: Ein Mann mit grauen Haaren, ein Junge mit Brille und ein Mädchen mit Zöpfen gehen an einem Fluss entlang, hinter ihnen stehen Häuser. Bildunterschrift: Mr Hill, Amir und Sophie.
 
-Heute macht die Klasse einen Stadtrundgang. Mr Hill hat eine **Schemakarte** von London dabei: eine einfache Karte, die nicht genau nach Maßstab ist. Sechs Halte sind nummeriert. Peter ist heute nicht dabei, deshalb schreibt Sophie ihm später eine Postkarte. Mr Hill sagt: „We walk along the River Thames.“
+Die Klasse macht einen Stadtrundgang. Mr Hill hat eine **Schemakarte** von London dabei: eine einfache Karte, die nicht genau nach Maßstab ist. Sechs Halte sind nummeriert. Mr Hill sagt: „We walk along the River Thames.“
 
 - Aufgabe `lon-start` (unten)
 

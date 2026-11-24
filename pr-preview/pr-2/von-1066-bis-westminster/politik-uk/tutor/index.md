@@ -45,7 +45,7 @@ Die Klasse steht in Westminster. Du liest einen kurzen Sachtext über die konsti
 
 ### Peters Frage aus Millbrook
 
-Am letzten Tag in London steht Mr Hills Klasse in Westminster. Sophie schickt Peter, der in Millbrook geblieben ist, ein Foto. Peter schreibt zurück: „Mr Hill said the UK has a monarch. What is that?“
+Die Klasse steht in Westminster. Sophie schickt Peter ein Foto. Peter schreibt zurück: „Mr Hill said the UK has a monarch. What is that?“
 
 - Aufgabe `politik-start` (unten)
 

@@ -45,9 +45,9 @@ Sophie und Ellie stehen vor der Bäckerei und lesen Schilder, Fahrpläne, Speise
 
 ### Ein Schild an der Tür
 
-Bild: Zwei Mädchen stehen vor einer Bäckerei. An der Tür hängt ein Zettel mit englischem Text. Über einem der Mädchen steht ein Fragezeichen. Bildunterschrift: Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz) vor der bakery.
+Bild: Zwei Mädchen stehen vor einer Bäckerei. An der Tür hängt ein Zettel mit englischem Text. Über einem der Mädchen steht ein Fragezeichen. Bildunterschrift: Sophie und Ellie vor der bakery.
 
-Sophie und Ellie sind auf der High Street. An der Tür der bakery hängt ein kleiner Zettel. Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“
+An der Tür der bakery auf der High Street hängt ein kleiner Zettel. Sophie ist unsicher, ob sie alles versteht. Ellie sagt: „Du musst nicht jedes Wort verstehen. Schau erst, was für ein Text das ist.“
 
 - Aufgabe `alltag-einstieg` (unten)
 

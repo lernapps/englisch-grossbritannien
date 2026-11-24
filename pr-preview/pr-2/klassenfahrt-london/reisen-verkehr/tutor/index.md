@@ -45,7 +45,7 @@ Die Klasse fährt nach London. Du liest den Klassenchat und ein Gespräch am Sch
 
 ### Sophie schreibt an Peter
 
-Sophie ist jetzt 13. Morgen fährt Mr Hills Klasse für zwei Tage nach London. Peter (9) bleibt zu Hause, aber Sophie schreibt ihm schon heute eine Nachricht: „We go to London … train.“
+Morgen fährt die Klasse für zwei Tage nach London. Sophie schreibt Peter schon heute eine Nachricht: „We go to London … train.“
 
 - Aufgabe `reisen-start` (unten)
 

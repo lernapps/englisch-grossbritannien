@@ -45,9 +45,9 @@ Sophie kauft im clothes shop eine Mütze für Peter. Du lernst Kleidung zu benen
 
 ### Im clothes shop
 
-Bild: Zwei Mädchen stehen in einem Kleidungsgeschäft vor einer Stange mit Pullovern und Hemden. Auf einem Brett liegen zwei Mützen. Bildunterschrift: Von links: Sophie (blonde Zöpfe) und Ellie (roter Pferdeschwanz) im clothes shop.
+Bild: Zwei Mädchen stehen in einem Kleidungsgeschäft vor einer Stange mit Pullovern und Hemden. Auf einem Brett liegen zwei Mützen. Bildunterschrift: Sophie und Ellie im clothes shop.
 
-Peters Mütze ist alt. Sophie möchte ihm eine neue kaufen. Im clothes shop an der High Street gibt es viel Kleidung. Sophie nimmt eine Mütze (cap) und geht zur Verkäuferin, die im Laden arbeitet. **How much** heißt „wie viel“.
+Sophie möchte eine neue Mütze kaufen. Im clothes shop an der High Street gibt es viel Kleidung. Sophie nimmt eine Mütze (cap) und geht zur Verkäuferin, die im Laden arbeitet. **How much** heißt „wie viel“.
 
 - Aufgabe `kleid-einstieg` (unten)
 

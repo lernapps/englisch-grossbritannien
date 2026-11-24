@@ -45,9 +45,9 @@ Die Parkers fahren in den Herbstferien nach Cornwall. Du lernst, eine Region wie
 
 ### Peter fragt nach Cornwall
 
-Bild: Mrs Parker, Ellie und Peter stehen in der Küche. Daneben stehen zwei Koffer. Über Peter ist eine Sprechblase mit einem Fragezeichen. Bildunterschrift: Von links: Mrs Parker (roter Dutt, türkise Strickjacke), Ellie (roter Pferdeschwanz) und Peter (gelbe Jacke).
+Bild: Mrs Parker, Ellie und Peter stehen in der Küche. Daneben stehen zwei Koffer. Über Peter ist eine Sprechblase mit einem Fragezeichen. Bildunterschrift: Mrs Parker, Ellie und Peter.
 
-Auf der Seite davor hast du die Karte der Britischen Inseln gesehen. In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Ellie ist Peters Schwester. Peter (9) hat eine Frage an seine Mutter. Mrs Parker holt die Karte.
+In den Herbstferien fahren die Parkers nach Cornwall. Die Koffer stehen schon bereit. Peter hat eine Frage. Mrs Parker holt die Karte.
 
 - Aufgabe `region-start` (unten)
 

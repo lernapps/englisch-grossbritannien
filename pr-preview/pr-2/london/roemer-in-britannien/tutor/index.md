@@ -45,9 +45,9 @@ Mr Hills Klasse ist einen Tag in London. Du lernst, was die Römer in Britannien
 
 ### Eine alte Stadt
 
-Bild: Ein Mann mit grauen Haaren und ein Mädchen stehen vor einer alten Steinmauer unter einem Schild mit dem Wort London. Bildunterschrift: Von links: Mr Hill (graue Haare) und Ellie (roter Pferdeschwanz).
+Bild: Ein Mann mit grauen Haaren und ein Mädchen stehen vor einer alten Steinmauer unter einem Schild mit dem Wort London. Bildunterschrift: Mr Hill und Ellie.
 
-Ein Tag in London. Mr Hills Klasse steht vor einer alten Mauer. Peter ist heute nicht dabei, Sophie schreibt ihm später eine Nachricht. Mr Hill sagt: „London is almost 2,000 years old.“ Das heißt: London ist fast 2000 Jahre alt. Die ersten, die hier eine Stadt bauten, waren die **Römer**. Sie nannten die Stadt **Londinium**.
+Die Klasse steht in London vor einer alten Mauer. Mr Hill sagt: „London is almost 2,000 years old.“ Das heißt: London ist fast 2000 Jahre alt. Die ersten, die hier eine Stadt bauten, waren die **Römer**. Sie nannten die Stadt **Londinium**.
 
 - Aufgabe `roemer-start` (unten)
 

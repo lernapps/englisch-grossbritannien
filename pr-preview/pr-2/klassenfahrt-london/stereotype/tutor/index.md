@@ -45,7 +45,7 @@ Die Klasse sammelt Klischees über Briten und Deutsche und prüft sie an dem, wa
 
 ### Eine Liste für Mr Hill
 
-Sophie hat auf der letzten Seite über London geschrieben. Heute ist der zweite Tag der Klassenfahrt, und es regnet. Mr Hill hat eine Aufgabe für die Klasse: Alle sammeln Ideen, die man über Länder und Menschen hört.
+Am zweiten Tag der Klassenfahrt regnet es. Mr Hill hat eine Aufgabe für die Klasse: Alle sammeln Ideen, die man über Länder und Menschen hört.
 
 - Aufgabe `stereo-start` (unten)
 
